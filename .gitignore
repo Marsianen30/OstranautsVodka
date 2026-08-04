@@ -10,3 +10,6 @@ BepInExPlugin/lib/*.dll
 # python bytecode cache (belt-and-suspenders, script/ above already covers this)
 __pycache__/
 *.pyc
+
+# Steam guide draft — published manually on Steam, not part of the repo's docs
+STEAM_GUIDE.md
