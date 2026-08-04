@@ -2,7 +2,7 @@
 
 Русская локализация [Ostranauts](https://bluebottlegames.com/games/ostranauts) в двух частях:
 
-1. **`ostranautsRuNss/`** — мод в нативном формате загрузчика модов Ostranauts: переведённые JSON-файлы игровых данных (условия, взаимодействия, диалоги, описания кораблей, справочники, интерфейс и т.д.).
+1. **`OstranautsRu/`** — мод в нативном формате загрузчика модов Ostranauts: переведённые JSON-файлы игровых данных (условия, взаимодействия, диалоги, описания кораблей, справочники, интерфейс и т.д.).
 2. **`BepInExPlugin/`** — плагин BepInEx/Harmony, который на лету обрабатывает то, что нельзя перевести статичным JSON: спряжение русских глаголов, склонение местоимений/токенов (`[them-subj]`, `[us-obj]` и т.п.) и перевод встроенных обучающих целей `TutorialBeat`.
 
 Обе части independent, но рассчитаны на совместную установку: JSON-мод даёт переведённый текст, плагин — грамматически верно его склоняет и подставляет в динамические фразы.
@@ -11,7 +11,7 @@
 
 ## Текущая версия
 
-- Мод данных: **ostranautsRuNss 3.2.0**, под игру **Ostranauts 0.15.1.20**
+- Мод данных: **OstranautsRu 3.2.0**, под игру **Ostranauts 0.15.1.20**
 - Плагин: **OstranautsRuTranslationNss 3.0.0**
 - Загрузчик плагина: **BepInEx 5.4.23.5 + Harmony**, `netstandard2.1`, x64
 
@@ -30,8 +30,8 @@
 
 ### 1. Мод данных (обязательно)
 
-1. Скопируйте папку `ostranautsRuNss/` в `Ostranauts_Data/Mods/` (путь показывает экран игры **Options → Files**, либо **Главное меню → MODS → Open Mod Folder**).
-2. Откройте `Ostranauts_Data/Mods/loading_order.json` и добавьте `"ostranautsRuNss"` в список `aLoadOrder` **после** `"core"`:
+1. Скопируйте папку `OstranautsRu/` в `Ostranauts_Data/Mods/` (путь показывает экран игры **Options → Files**, либо **Главное меню → MODS → Open Mod Folder**).
+2. Откройте `Ostranauts_Data/Mods/loading_order.json` и добавьте `"OstranautsRu"` в список `aLoadOrder` **после** `"core"`:
 
 ```json
 [
@@ -39,7 +39,7 @@
     "strName": "Mod Loading Order",
     "aLoadOrder": [
       "core",
-      "ostranautsRuNss"
+      "OstranautsRu"
     ],
     "CORE_MOD_NAME": "core"
   }
@@ -123,7 +123,7 @@ JSON загружается через встроенный `LitJson`.
 
 ### Русская грамматика
 
-`ostranautsRuNss/data/tokens/grammar.json` содержит категории:
+`OstranautsRu/data/tokens/grammar.json` содержит категории:
 
 - `subj` — субъектная форма;
 - `pos` — притяжательная форма;

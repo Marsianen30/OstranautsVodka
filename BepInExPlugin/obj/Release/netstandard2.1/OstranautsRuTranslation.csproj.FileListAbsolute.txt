@@ -11,3 +11,13 @@
 /tmp/ru-build/OstranautsRuTranslationNss.deps.json
 /tmp/ru-build/OstranautsRuTranslationNss.dll
 /tmp/ru-build/OstranautsRuTranslationNss.pdb
+D:\Wello\OstranautsVodka\BepInExPlugin\bin\Release\netstandard2.1\OstranautsRuTranslationNss.deps.json
+D:\Wello\OstranautsVodka\BepInExPlugin\bin\Release\netstandard2.1\OstranautsRuTranslationNss.dll
+D:\Wello\OstranautsVodka\BepInExPlugin\bin\Release\netstandard2.1\OstranautsRuTranslationNss.pdb
+D:\Wello\OstranautsVodka\BepInExPlugin\obj\Release\netstandard2.1\OstranautsRuTranslation.csproj.AssemblyReference.cache
+D:\Wello\OstranautsVodka\BepInExPlugin\obj\Release\netstandard2.1\OstranautsRuTranslation.GeneratedMSBuildEditorConfig.editorconfig
+D:\Wello\OstranautsVodka\BepInExPlugin\obj\Release\netstandard2.1\OstranautsRuTranslation.AssemblyInfoInputs.cache
+D:\Wello\OstranautsVodka\BepInExPlugin\obj\Release\netstandard2.1\OstranautsRuTranslation.AssemblyInfo.cs
+D:\Wello\OstranautsVodka\BepInExPlugin\obj\Release\netstandard2.1\OstranautsRuTranslation.csproj.CoreCompileInputs.cache
+D:\Wello\OstranautsVodka\BepInExPlugin\obj\Release\netstandard2.1\OstranautsRuTranslationNss.dll
+D:\Wello\OstranautsVodka\BepInExPlugin\obj\Release\netstandard2.1\OstranautsRuTranslationNss.pdb

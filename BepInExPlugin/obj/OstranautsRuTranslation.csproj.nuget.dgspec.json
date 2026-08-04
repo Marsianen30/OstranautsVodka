@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/user/wspace/v0.15.1.13/BepInExPlugin/OstranautsRuTranslation.csproj": {}
+    "D:\\Wello\\OstranautsVodka\\BepInExPlugin\\OstranautsRuTranslation.csproj": {}
   },
   "projects": {
-    "/home/user/wspace/v0.15.1.13/BepInExPlugin/OstranautsRuTranslation.csproj": {
+    "D:\\Wello\\OstranautsVodka\\BepInExPlugin\\OstranautsRuTranslation.csproj": {
       "version": "3.0.0",
       "restore": {
-        "projectUniqueName": "/home/user/wspace/v0.15.1.13/BepInExPlugin/OstranautsRuTranslation.csproj",
+        "projectUniqueName": "D:\\Wello\\OstranautsVodka\\BepInExPlugin\\OstranautsRuTranslation.csproj",
         "projectName": "OstranautsRuTranslationNss",
-        "projectPath": "/home/user/wspace/v0.15.1.13/BepInExPlugin/OstranautsRuTranslation.csproj",
-        "packagesPath": "/home/user/.nuget/packages/",
-        "outputPath": "/home/user/wspace/v0.15.1.13/BepInExPlugin/obj/",
+        "projectPath": "D:\\Wello\\OstranautsVodka\\BepInExPlugin\\OstranautsRuTranslation.csproj",
+        "packagesPath": "C:\\Users\\Mattui\\.nuget\\packages\\",
+        "outputPath": "D:\\Wello\\OstranautsVodka\\BepInExPlugin\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/user/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Mattui\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -24,6 +24,7 @@
         },
         "frameworks": {
           "netstandard2.1": {
+            "framework": "netstandard2.1",
             "targetAlias": "netstandard2.1",
             "projectReferences": {}
           }
@@ -37,10 +38,12 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "netstandard2.1": {
+          "framework": "netstandard2.1",
           "targetAlias": "netstandard2.1",
           "dependencies": {
             "Microsoft.NETFramework.ReferenceAssemblies": {
@@ -60,12 +63,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "NETStandard.Library.Ref",
+              "version": "[2.1.0, 2.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "NETStandard.Library": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/user/.dotnet/sdk/8.0.423/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

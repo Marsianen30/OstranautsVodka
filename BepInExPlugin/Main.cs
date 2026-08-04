@@ -639,7 +639,7 @@ namespace OstranautsRuTranslation
 
             if (!string.IsNullOrEmpty(DataHandler.strModFolder))
             {
-                string root = Path.Combine(DataHandler.strModFolder, "ostranautsRuNss");
+                string root = Path.Combine(DataHandler.strModFolder, "OstranautsRu");
                 if (seen.Add(root)) roots.Add(root);
             }
 
@@ -652,7 +652,7 @@ namespace OstranautsRuTranslation
                     DirectoryInfo dataRoot = streaming.Parent;
                     if (dataRoot != null)
                     {
-                        string root = Path.Combine(dataRoot.FullName, "Mods", "ostranautsRuNss");
+                        string root = Path.Combine(dataRoot.FullName, "Mods", "OstranautsRu");
                         if (seen.Add(root)) roots.Add(root);
                     }
                 }

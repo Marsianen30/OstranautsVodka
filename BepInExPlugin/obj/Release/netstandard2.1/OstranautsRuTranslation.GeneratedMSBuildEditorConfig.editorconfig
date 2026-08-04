@@ -1,5 +1,8 @@
 is_global = true
 build_property.RootNamespace = OstranautsRuTranslation
-build_property.ProjectDir = /home/user/wspace/v0.15.1.13/BepInExPlugin/
+build_property.ProjectDir = D:\Wello\OstranautsVodka\BepInExPlugin\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 
