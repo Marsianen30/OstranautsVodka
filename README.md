@@ -29,7 +29,7 @@
 
 | Компонент | Версия |
 |---|---|
-| Игра | Ostranauts 0.15.1.20 |
+| Игра | Ostranauts 1.0 |
 | Мод данных | OstranautsRu 3.2.0 |
 | Плагин | OstranautsRuTranslationNss 3.0.0 |
 | Загрузчик | BepInEx 5.4.23.5 + Harmony, netstandard2.1, x64 |
