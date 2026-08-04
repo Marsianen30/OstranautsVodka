@@ -93,11 +93,54 @@ tutorial_translations.json
 
 ## Сборка плагина
 
+### Что нужно
+
+- .NET SDK (6.0 или новее) — команда `dotnet` должна быть доступна в терминале.
+- Установленная копия Ostranauts (нужна как источник референс-сборок).
+- Установленный в игру BepInEx 5.4.x (нужен как источник `BepInEx.dll` и `0Harmony.dll`).
+
+### 1. Собрать референс-сборки в `lib/`
+
+Сборка идёт не против полного SDK игры, а против DLL-заглушек ("референс-сборок") — их компилятору достаточно, чтобы знать сигнатуры типов, а не полный код. Папка `BepInExPlugin/lib/` в репозитории уже содержит нужный набор, но если её нужно пересобрать с нуля (например, после обновления игры или BepInEx), скопируйте туда следующие файлы:
+
+Из `Ostranauts_Data/Managed/` (папка с managed-сборками игры, лежит рядом с `Ostranauts.exe`):
+
+```text
+Assembly-CSharp.dll
+UnityEngine.dll
+UnityEngine.CoreModule.dll
+UnityEngine.UI.dll
+Unity.TextMeshPro.dll
+```
+
+Из корня игры, `BepInEx/core/` (появляется после установки BepInEx):
+
+```text
+BepInEx.dll
+0Harmony.dll
+```
+
+Итого в `BepInExPlugin/lib/` должны лежать все 7 DLL. Ссылки на них уже прописаны в `OstranautsRuTranslation.csproj` (`<HintPath>lib\...</HintPath>`) — добавлять новые файлы в `.csproj` не нужно, пока набор не меняется.
+
+### 2. Собрать сам плагин
+
 ```bash
 dotnet build BepInExPlugin/OstranautsRuTranslation.csproj -c Release
 ```
 
-Собирается под `netstandard2.1`/x64 против референс-сборок в `BepInExPlugin/lib/` (сняты с установленной копии игры и BepInEx).
+Собирается под `netstandard2.1`/x64. Результат появится в `BepInExPlugin/bin/Release/netstandard2.1/OstranautsRuTranslationNss.dll`.
+
+### 3. Установить собранный плагин в игру
+
+Скопируйте в `Ostranauts/BepInEx/plugins/` (создайте папку `plugins`, если её нет) три файла:
+
+```text
+BepInExPlugin/bin/Release/netstandard2.1/OstranautsRuTranslationNss.dll  →  BepInEx/plugins/
+BepInExPlugin/verb_conjugations.json                                     →  BepInEx/plugins/
+BepInExPlugin/tutorial_translations.json                                 →  BepInEx/plugins/
+```
+
+Два `.json`-файла плагин читает по относительному пути рядом со своей DLL — если их не скопировать, спряжение глаголов и перевод обучения не заработают (лог покажет `0 conjugations`/`0 translations` вместо чисел, см. проверку в разделе выше).
 
 ## Что делает плагин и почему это не просто DLL-замена
 

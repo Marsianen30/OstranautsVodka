@@ -1,1 +1,12 @@
 script/
+
+# build artifacts
+BepInExPlugin/bin/
+BepInExPlugin/obj/
+
+# third-party/game reference assemblies (copied locally from the installed game, not ours to ship)
+BepInExPlugin/lib/*.dll
+
+# python bytecode cache (belt-and-suspenders, script/ above already covers this)
+__pycache__/
+*.pyc
