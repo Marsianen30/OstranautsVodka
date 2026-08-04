@@ -1,0 +1,120 @@
+Plot_Whodunnit_ReportToKinCloseReplyReply
+  EN_TITLE: 'Investigation Payment Shim'
+  EN_DESC: '[them] [pays] [us].'
+  RU_TITLE_CURRENT: 'Оплата за расследование (Shim)'
+
+Plot_Whodunnit_ReportToKinEnemyReplyShim
+  EN_TITLE: 'Investigation Payment Shim'
+  EN_DESC: '[them] [pays] [us].'
+  RU_TITLE_CURRENT: 'Оплата за расследование (Shim)'
+
+Plot_Whodunnit_ReportMurderToOKLGLEOConfessionReplyShim
+  EN_TITLE: 'Investigation Payment Shim'
+  EN_DESC: '[them] [pays] [us].'
+  RU_TITLE_CURRENT: 'Оплата за расследование (Shim)'
+
+Plot_Whodunnit_ReportMurderToOKLGLEODeadShipbreakerShim
+  EN_TITLE: 'Files Incident Report Shim'
+  EN_DESC: '[them] [pays] [us].'
+  RU_TITLE_CURRENT: 'Оформляет протокол о происшествии (Shim)'
+
+Plot_Whodunnit_ReportMurderToOKLGLEODeadLEOShim
+  EN_TITLE: 'Files Incident Report Shim'
+  EN_DESC: '[them] [pays] [us].'
+  RU_TITLE_CURRENT: 'Оформляет протокол о происшествии (Shim)'
+
+Plot_Whodunnit_ReportMurderToOKLGLEODeadManagerShim
+  EN_TITLE: 'Files Incident Report Shim'
+  EN_DESC: '[them] [pays] [us].'
+  RU_TITLE_CURRENT: 'Оформляет протокол о происшествии (Shim)'
+
+Plot_Whodunnit_ReportMurderToOKLGLEODeadCriminalShim
+  EN_TITLE: 'Files Incident Report Shim'
+  EN_DESC: '[them] [pays] [us].'
+  RU_TITLE_CURRENT: 'Оформляет протокол о происшествии (Shim)'
+
+Plot_Whodunnit_ReportMurderToOKLGLEODeadPirateShim
+  EN_TITLE: 'Files Incident Report Shim'
+  EN_DESC: '[them] [pays] [us].'
+  RU_TITLE_CURRENT: 'Оформляет протокол о происшествии (Shim)'
+
+Plot_Whodunnit_ReportMurderToOKLGLEODeadBartenderShim
+  EN_TITLE: 'Files Incident Report Shim'
+  EN_DESC: '[them] [pays] [us].'
+  RU_TITLE_CURRENT: 'Оформляет протокол о происшествии (Shim)'
+
+Plot_Whodunnit_ReportMurderToOKLGLEODeadOtherShim
+  EN_TITLE: 'Files Incident Report Shim'
+  EN_DESC: '[them] [pays] [us].'
+  RU_TITLE_CURRENT: 'Оформляет протокол о происшествии (Shim)'
+
+Plot_Whodunnit_ReportToFactionOKLGLEODeadShipbreakerShim
+  EN_TITLE: 'Investigation Payment Shim'
+  EN_DESC: '[them] [pays] [us].'
+  RU_TITLE_CURRENT: 'Оплата за расследование (Shim)'
+
+Plot_Whodunnit_ReportToFactionOKLGLEODeadLEOShim
+  EN_TITLE: 'Investigation Payment Shim'
+  EN_DESC: '[them] [pays] [us].'
+  RU_TITLE_CURRENT: 'Оплата за расследование (Shim)'
+
+Plot_Whodunnit_ReportToFactionOKLGLEODeadManagerShim
+  EN_TITLE: 'Investigation Payment Shim'
+  EN_DESC: '[them] [pays] [us].'
+  RU_TITLE_CURRENT: 'Оплата за расследование (Shim)'
+
+Plot_Whodunnit_ReportToFactionOKLGLEODeadCriminalShim
+  EN_TITLE: 'Investigation Payment Shim'
+  EN_DESC: '[them] [pays] [us].'
+  RU_TITLE_CURRENT: 'Оплата за расследование (Shim)'
+
+Plot_Whodunnit_ReportToFactionOKLGLEODeadPirateShim
+  EN_TITLE: 'Investigation Payment Shim'
+  EN_DESC: '[them] [pays] [us].'
+  RU_TITLE_CURRENT: 'Оплата за расследование (Shim)'
+
+Plot_Whodunnit_ReportToFactionOKLGLEODeadBartenderShim
+  EN_TITLE: 'Investigation Payment Shim'
+  EN_DESC: '[them] [pays] [us].'
+  RU_TITLE_CURRENT: 'Оплата за расследование (Shim)'
+
+Plot_Whodunnit_ReportToFactionOKLGManagerDeadShipbreakerShim
+  EN_TITLE: 'Investigation Payment Shim'
+  EN_DESC: '[them] [pays] [us].'
+  RU_TITLE_CURRENT: 'Оплата за расследование (Shim)'
+
+Plot_Whodunnit_ReportToFactionOKLGManagerDeadBartenderShim
+  EN_TITLE: 'Investigation Payment Shim'
+  EN_DESC: '[them] [pays] [us].'
+  RU_TITLE_CURRENT: 'Оплата за расследование (Shim)'
+
+Plot_Whodunnit_ReportToFactionOKLGManagerDeadManagerShim
+  EN_TITLE: 'Investigation Payment Shim'
+  EN_DESC: '[them] [pays] [us].'
+  RU_TITLE_CURRENT: 'Оплата за расследование (Shim)'
+
+Plot_Whodunnit_ReportToFactionOKLGCriminalDeadLEOStreetEtiquetteShim
+  EN_TITLE: 'Investigation Payment Shim'
+  EN_DESC: '[them] [pays] [us].'
+  RU_TITLE_CURRENT: 'Оплата за расследование (Shim)'
+
+Plot_Whodunnit_ReportToFactionOKLGCriminalDeadLEOShim
+  EN_TITLE: 'Investigation Payment Shim'
+  EN_DESC: '[them] [pays] [us].'
+  RU_TITLE_CURRENT: 'Оплата за расследование (Shim)'
+
+Plot_Whodunnit_ReportToFactionOKLGCriminalDeadCriminalStreetEtiquetteShim
+  EN_TITLE: 'Investigation Payment Shim'
+  EN_DESC: '[them] [pays] [us].'
+  RU_TITLE_CURRENT: 'Оплата за расследование (Shim)'
+
+Plot_Whodunnit_ReportToFactionOKLGCriminalDeadCriminalShim
+  EN_TITLE: 'Investigation Payment Shim'
+  EN_DESC: '[them] [pays] [us].'
+  RU_TITLE_CURRENT: 'Оплата за расследование (Shim)'
+
+Plot_Whodunnit_ReportToFactionOKLGBartenderDeadBartenderShim
+  EN_TITLE: 'Investigation Payment Shim'
+  EN_DESC: '[them] [pays] [us].'
+  RU_TITLE_CURRENT: 'Оплата за расследование (Shim)'
+

@@ -1,0 +1,375 @@
+[
+  {
+    "strName": "ItmKioskEmbassy01BCER",
+    "strNameShort": "Киоск: посольство GalCon",
+    "strNameFriendly": "Посольские услуги: Галилейская Конфедерация, Церера",
+    "strCOBase": "ItmKioskEmbassy01VENC",
+    "strCondLoot": "CNDOLKioskEmbassyBCER",
+    "aInteractionsReplace": [
+      "ENCEmbassyServicesVENCKiosk",
+      "ENCEmbassyServicesBCERKiosk",
+      "ENCEmbassyServicesVENCKioskTut",
+      "ENCEmbassyServicesBCERKioskTut"
+    ]
+  },
+  {
+    "strName": "ItmKioskEmbassy01BCRS",
+    "strNameShort": "Киоск: посольство CCRE",
+    "strNameFriendly": "Посольские услуги: CCRE, Церера",
+    "strCOBase": "ItmKioskEmbassy01VENC",
+    "strCondLoot": "CNDOLKioskEmbassyBCRS",
+    "aInteractionsReplace": [
+      "ENCEmbassyServicesVENCKiosk",
+      "ENCEmbassyServicesBCRSKiosk",
+      "ENCEmbassyServicesVENCKioskTut",
+      "ENCEmbassyServicesBCRSKioskTut"
+    ]
+  },
+  {
+    "strName": "ItmKioskEmbassy01VNCA",
+    "strNameShort": "Киоск: посольство Newcal",
+    "strNameFriendly": "Посольские услуги: Newcal, Венера",
+    "strCOBase": "ItmKioskEmbassy01VENC",
+    "strCondLoot": "CNDOLKioskEmbassyVNCA",
+    "aInteractionsReplace": [
+      "ENCEmbassyServicesVENCKiosk",
+      "ENCEmbassyServicesVNCAKiosk",
+      "ENCEmbassyServicesVENCKioskTut",
+      "ENCEmbassyServicesVNCAKioskTut"
+    ]
+  },
+  {
+    "strName": "ItmKioskEmbassy01OKLG",
+    "strNameShort": "Киоск: посольство K-Leg",
+    "strNameFriendly": "Посольские услуги: K-Leg, 1036-Ганимед",
+    "strCOBase": "ItmKioskEmbassy01VENC",
+    "strCondLoot": "CNDOLKioskEmbassyOKLG",
+    "aInteractionsReplace": [
+      "ENCEmbassyServicesVENCKiosk",
+      "ENCEmbassyServicesOKLGKiosk",
+      "ENCEmbassyServicesVENCKioskTut",
+      "ENCEmbassyServicesOKLGKioskTut"
+    ]
+  },
+  {
+    "strName": "ItmKioskResBroker01BCER",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск недвижимости (BCER)",
+    "strCOBase": "ItmKioskResBroker01VENC",
+    "strCondLoot": "CNDOLKioskHousing01",
+    "mapGUIPropMaps": [
+      "Panel A",
+      "ResBroker",
+      "Trader",
+      "TraderResBrokerBCER"
+    ]
+  },
+  {
+    "strName": "ItmKioskResBroker01BCRS",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск недвижимости (BCRS)",
+    "strCOBase": "ItmKioskResBroker01VENC",
+    "strCondLoot": "CNDOLKioskHousing01",
+    "mapGUIPropMaps": [
+      "Panel A",
+      "ResBroker",
+      "Trader",
+      "TraderResBrokerBCRS"
+    ]
+  },
+  {
+    "strName": "ItmKioskResBroker01OKLG",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск недвижимости (OKLG)",
+    "strCOBase": "ItmKioskResBroker01VENC",
+    "strCondLoot": "CNDOLKioskHousing01",
+    "mapGUIPropMaps": [
+      "Panel A",
+      "ResBroker",
+      "Trader",
+      "TraderResBrokerOKLG"
+    ]
+  },
+  {
+    "strName": "ItmKioskResBroker01VNCA",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск недвижимости (VNCA)",
+    "strCOBase": "ItmKioskResBroker01VENC",
+    "strCondLoot": "CNDOLKioskHousing01",
+    "mapGUIPropMaps": [
+      "Panel A",
+      "ResBroker",
+      "Trader",
+      "TraderResBrokerVNCA"
+    ]
+  },
+  {
+    "strName": "ItmKioskBCERShipBroker01",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск судового брокера (BCER)",
+    "strCOBase": "ItmKioskOKLGShipBroker01",
+    "strCondLoot": "CNDOLKioskShipBroker01",
+    "mapGUIPropMaps": [
+      "Panel A",
+      "ShipBroker",
+      "Panel Right",
+      "ShipXPDRBroker",
+      "Panel Left",
+      "OgisoShipRating",
+      "Trader",
+      "TraderBCERShipBroker"
+    ]
+  },
+  {
+    "strName": "ItmKioskBCRSShipBroker01",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск судового брокера (BCRS)",
+    "strCOBase": "ItmKioskOKLGShipBroker01",
+    "strCondLoot": "CNDOLKioskShipBroker01",
+    "mapGUIPropMaps": [
+      "Panel A",
+      "ShipBroker",
+      "Panel Right",
+      "ShipXPDRBroker",
+      "Panel Left",
+      "OgisoShipRating",
+      "Trader",
+      "TraderBCRSShipBroker"
+    ]
+  },
+  {
+    "strName": "ItmKioskVENCShipBroker01",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск судового брокера (VENC)",
+    "strCOBase": "ItmKioskOKLGShipBroker01",
+    "strCondLoot": "CNDOLKioskShipBroker01",
+    "mapGUIPropMaps": [
+      "Panel A",
+      "ShipBroker",
+      "Panel Right",
+      "ShipXPDRBroker",
+      "Panel Left",
+      "OgisoShipRating",
+      "Trader",
+      "TraderVENCShipBroker"
+    ]
+  },
+  {
+    "strName": "ItmKioskVNCAShipBroker01",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск судового брокера (VNCA)",
+    "strCOBase": "ItmKioskOKLGShipBroker01",
+    "strCondLoot": "CNDOLKioskShipBroker01",
+    "mapGUIPropMaps": [
+      "Panel A",
+      "ShipBroker",
+      "Panel Right",
+      "ShipXPDRBroker",
+      "Panel Left",
+      "OgisoShipRating",
+      "Trader",
+      "TraderVNCAShipBroker"
+    ]
+  },
+  {
+    "strName": "ItmKioskVORBShipBroker01",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск судового брокера (VORB)",
+    "strCOBase": "ItmKioskOKLGShipBroker01",
+    "strCondLoot": "CNDOLKioskShipBroker01",
+    "mapGUIPropMaps": [
+      "Panel A",
+      "ShipBroker",
+      "Panel Right",
+      "ShipXPDRBroker",
+      "Panel Left",
+      "OgisoShipRating",
+      "Trader",
+      "TraderVORBShipBroker"
+    ]
+  },
+  {
+    "strName": "ItmKioskTestudo01",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Киоск Testudo (VNCA)",
+    "strDesc": "Киоск компании Testudo Corp., предлагающий головокружительный ассортимент потребительских товаров — от фирменной продукции до предложений вездесущей мегакорпорации.",
+    "strImg": "ItmKioskTestudo01",
+    "strPortraitImg": "ItmKioskTestudo01",
+    "strImgNorm": "ItmKioskHealth01n",
+    "strCOBase": "ItmKioskSupplies01",
+    "strCondLoot": "CNDOLKioskTestudo01",
+    "mapGUIPropMaps": [
+      "Panel A",
+      "Trade",
+      "Trade",
+      "Trade",
+      "Trader",
+      "TraderSanDiegoTSDO"
+    ]
+  },
+  {
+    "strName": "ItmKioskBCRSMed01",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Медицинский киоск (BCRS)",
+    "strCOBase": "ItmKioskHealth01",
+    "strCondLoot": "CNDOLKioskBCRSMed01",
+    "mapGUIPropMaps": [
+      "Panel A",
+      "Trade",
+      "Trade",
+      "Trade",
+      "Trader",
+      "TraderSanDiegoMed"
+    ]
+  },
+  {
+    "strName": "ItmKioskSanDiegoMed01",
+    "strNameShort": "Киоск",
+    "strNameFriendly": "Медицинский киоск (VNCA)",
+    "strCOBase": "ItmKioskHealth01",
+    "strCondLoot": "CNDOLKioskSanDiegoMed01",
+    "mapGUIPropMaps": [
+      "Panel A",
+      "Trade",
+      "Trade",
+      "Trade",
+      "Trader",
+      "TraderSanDiegoMed"
+    ]
+  },
+  {
+    "strName": "ReservedTerminalSanDiegoBingham",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Терминал (Bingham)",
+    "strCOBase": "ReservedTerminalOKLGPortAuthority",
+    "strCondLoot": "CNDOLReservedTerminalSanDiegoBingham",
+    "mapModeSwitches": []
+  },
+  {
+    "strName": "ReservedTerminalSanDiegoPolaris",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Терминал (Polaris)",
+    "strCOBase": "ReservedTerminalOKLGPortAuthority",
+    "strCondLoot": "CNDOLReservedTerminalSanDiegoPolaris"
+  },
+  {
+    "strName": "ReservedTerminalSanDiegoRenbao",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Терминал (Renbao)",
+    "strCOBase": "ReservedTerminalOKLGPortAuthority",
+    "strCondLoot": "CNDOLReservedTerminalSanDiegoRenbao",
+    "mapModeSwitches": []
+  },
+  {
+    "strName": "ReservedTerminalSanDiegoGEC",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Терминал (GEC)",
+    "strCOBase": "ReservedTerminalOKLGPortAuthority",
+    "strCondLoot": "CNDOLReservedTerminalSanDiegoGEC",
+    "mapModeSwitches": []
+  },
+  {
+    "strName": "ReservedTerminalSanDiegoClothes",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Терминал (Clothes)",
+    "strCOBase": "ReservedTerminalOKLGPortAuthority",
+    "strCondLoot": "CNDOLReservedTerminalSanDiegoClothes",
+    "mapModeSwitches": []
+  },
+  {
+    "strName": "ReservedTerminalSanDiegoShoes",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Терминал (Shoes)",
+    "strCOBase": "ReservedTerminalOKLGPortAuthority",
+    "strCondLoot": "CNDOLReservedTerminalSanDiegoShoes",
+    "mapModeSwitches": []
+  },
+  {
+    "strName": "ReservedTerminalSanDiegoCollectiveElectric",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Терминал (CollectiveElectric)",
+    "strCOBase": "ReservedTerminalOKLGPortAuthority",
+    "strCondLoot": "CNDOLReservedTerminalSanDiegoCollectiveElectric",
+    "mapModeSwitches": []
+  },
+  {
+    "strName": "ReservedTerminalSanDiegoMiura",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Терминал (Miura)",
+    "strCOBase": "ReservedTerminalOKLGPortAuthority",
+    "strCondLoot": "CNDOLReservedTerminalSanDiegoMiura",
+    "mapModeSwitches": []
+  },
+  {
+    "strName": "ReservedTerminalSanDiegoRakow",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Терминал (Rakow)",
+    "strCOBase": "ReservedTerminalOKLGPortAuthority",
+    "strCondLoot": "CNDOLReservedTerminalSanDiegoRakow",
+    "mapModeSwitches": []
+  },
+  {
+    "strName": "ReservedTerminalSanDiegoKang",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Терминал (Kang)",
+    "strCOBase": "ReservedTerminalOKLGPortAuthority",
+    "strCondLoot": "CNDOLReservedTerminalSanDiegoKang",
+    "mapModeSwitches": []
+  },
+  {
+    "strName": "ReservedTerminalSanDiegoSulaiman",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Терминал (Sulaiman)",
+    "strCOBase": "ReservedTerminalOKLGPortAuthority",
+    "strCondLoot": "CNDOLReservedTerminalSanDiegoSulaiman",
+    "mapModeSwitches": []
+  },
+  {
+    "strName": "ReservedTerminalSanDiegoWeber",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Терминал (Weber)",
+    "strCOBase": "ReservedTerminalOKLGPortAuthority",
+    "strCondLoot": "CNDOLReservedTerminalSanDiegoWeber",
+    "mapModeSwitches": []
+  },
+  {
+    "strName": "ReservedTerminalSanDiegoHorang",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Терминал (Horang)",
+    "strCOBase": "ReservedTerminalOKLGPortAuthority",
+    "strCondLoot": "CNDOLReservedTerminalSanDiegoHorang",
+    "mapModeSwitches": []
+  },
+  {
+    "strName": "ReservedTerminalSanDiegoHalvorson",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Терминал (Halvorson)",
+    "strCOBase": "ReservedTerminalOKLGPortAuthority",
+    "strCondLoot": "CNDOLReservedTerminalSanDiegoHalvorson",
+    "mapModeSwitches": []
+  },
+  {
+    "strName": "ReservedTerminalSanDiegoBlackWing",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Терминал (BlackWing)",
+    "strCOBase": "ReservedTerminalOKLGPortAuthority",
+    "strCondLoot": "CNDOLReservedTerminalSanDiegoBlackWing",
+    "mapModeSwitches": []
+  },
+  {
+    "strName": "ReservedTerminalSanDiegoFutureFoods",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Терминал (FutureFoods)",
+    "strCOBase": "ReservedTerminalOKLGPortAuthority",
+    "strCondLoot": "CNDOLReservedTerminalSanDiegoFutureFoods",
+    "mapModeSwitches": []
+  },
+  {
+    "strName": "ReservedTerminalSanDiegoGott",
+    "strNameShort": "Терминал",
+    "strNameFriendly": "Терминал (Gott)",
+    "strCOBase": "ReservedTerminalOKLGPortAuthority",
+    "strCondLoot": "CNDOLReservedTerminalSanDiegoGott",
+    "mapModeSwitches": []
+  }
+]

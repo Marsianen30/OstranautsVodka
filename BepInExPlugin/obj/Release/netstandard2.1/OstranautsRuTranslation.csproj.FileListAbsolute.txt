@@ -1,0 +1,13 @@
+/home/user/wspace/v0.15.1.13/BepInExPlugin/obj/Release/netstandard2.1/OstranautsRuTranslation.csproj.AssemblyReference.cache
+/home/user/wspace/v0.15.1.13/BepInExPlugin/obj/Release/netstandard2.1/OstranautsRuTranslation.GeneratedMSBuildEditorConfig.editorconfig
+/home/user/wspace/v0.15.1.13/BepInExPlugin/obj/Release/netstandard2.1/OstranautsRuTranslation.AssemblyInfoInputs.cache
+/home/user/wspace/v0.15.1.13/BepInExPlugin/obj/Release/netstandard2.1/OstranautsRuTranslation.AssemblyInfo.cs
+/home/user/wspace/v0.15.1.13/BepInExPlugin/obj/Release/netstandard2.1/OstranautsRuTranslation.csproj.CoreCompileInputs.cache
+/home/user/wspace/v0.15.1.13/BepInExPlugin/obj/Release/netstandard2.1/OstranautsRuTranslationNss.dll
+/home/user/wspace/v0.15.1.13/BepInExPlugin/obj/Release/netstandard2.1/OstranautsRuTranslationNss.pdb
+/home/user/wspace/v0.15.1.13/OstranautsRuTranslationNss.deps.json
+/home/user/wspace/v0.15.1.13/OstranautsRuTranslationNss.dll
+/home/user/wspace/v0.15.1.13/OstranautsRuTranslationNss.pdb
+/tmp/ru-build/OstranautsRuTranslationNss.deps.json
+/tmp/ru-build/OstranautsRuTranslationNss.dll
+/tmp/ru-build/OstranautsRuTranslationNss.pdb

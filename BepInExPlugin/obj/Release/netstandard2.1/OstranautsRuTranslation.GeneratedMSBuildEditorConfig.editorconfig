@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = OstranautsRuTranslation
+build_property.ProjectDir = /home/user/wspace/v0.15.1.13/BepInExPlugin/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

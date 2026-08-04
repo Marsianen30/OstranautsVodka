@@ -1,0 +1,18 @@
+{
+  "strName": "PLOT_Merga_WhispersFound01Reply3",
+  "strTitle": "Watch the Biography of Miss M",
+  "strDesc": "According to the broadcast, Camellia Middlemist was born in 2049 on NewCal, the year of the aerostat's establishment. Although there is ample evidence disputing this fact, many consider her to be the first person born to Venus, and for that reason she grew up as a child star in the system.\n\nAfter acting in various feature films for the Xinhua media conglomerate Peacock Pictures, Middlemist abandoned the film industry and struggled with addiction in her teenage years. She fell into obscurity for almost a decade before emerging, somewhat suddenly, on the Encantado aerostat in 2076, where she began a singing residency at the Sol Vermelho Lounge, a bar overlooking the Encantado Grand Prix. \n\nBecause the Vermelho is owned by imprisoned crime boss Helio Hora and is the primary haunt for the Briar Rose piracy syndicate, it is rumored that organized crime is at least somewhat responsible for Middlemist's return. \n\nHer reemergence created an immediate media sensation, a redemption story that has captivated the hyperactive Venusian tabloid press for years and created a loyal and sometimes ravenous fanbase. In 2078, a year before her disappearance,  she began a very public relationship leading to a whirlwind marriage to champion Encantado Grand Prix racer Rex Korin. \n\nAs Weihan closes his segment, he sends the broadcast back to Banks, who offers a heartfelt plea to anyone watching with information on Miss M to please contact authorities as soon as possible. \n\nEnraptured by the program, you look around to find that most of the spacers are still standing with you. A preview of the next program flashes on the screen: \"Spotlight: Blood on the Rose, a History of Helio Hora\"\n",
+  "fForcedChance": 1,
+  "strColor": "Dialogue",
+  "aInverse": [
+    "PLOT_Merga_WhispersFound01Reply4"
+  ],
+  "strActionGroup": "Use",
+  "strThemType": "Self",
+  "strRaiseUI": "SocialCombat",
+  "strSubUI": "Landscape01",
+  "strImage": "encounters/ENCPlanetSunrise",
+  "bPause": true,
+  "bIgnoreFeelings": true,
+  "bRecheckThisPlot": true
+}

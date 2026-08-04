@@ -1,0 +1,435 @@
+[
+    {
+		"strName" : "BoopTarget",
+		"strTemplateIA" : "PLOTSnapPhotoTarget",
+		"strFind" : "SnapPhoto",
+		"strReplace" : "Boop",
+        "aOverrideValues" : [
+			"strTitle|Буп", 
+			"strDesc|[us] [бупает] [them-obj] для [3rd-obj]."
+		]
+	},
+    {
+		"strName" : "BoopTurnIn",
+		"strTemplateIA" : "PLOTSnapPhotoTurnIn",
+		"strFind" : "SnapPhoto",
+		"strReplace" : "Boop",
+        "aOverrideValues" : [
+			"strTitle|Сдать буп", 
+			"strDesc|[us] [сдаёт] буп по [them-obj] для [3rd-obj]."
+		]
+	},
+
+
+	{
+		"strName" : "PLOTAyoCorpSnitchTarget",
+		"strTemplateIA" : "PLOTSnapPhotoTarget",
+		"strFind" : "SnapPhoto",
+		"strReplace" : "AyoCorpSnitch",
+        "aOverrideValues" : [
+			"strTitle|Спросить о вызове", 
+			"strDesc|[us] [mentions] вызов по громкой связи, который побудил [us-obj] связаться с [them-obj].",
+			"strActionGroup|Talk",
+			"strTargetPoint|talk",
+			"fTargetPointRange|2.0",
+			"strColor|Dialogue",
+			"LootCondsThem|CONDGreeted"
+		]
+	},
+    {
+		"strName" : "PLOTAyoCorpSnitchTurnIn",
+		"strTemplateIA" : "PLOTSnapPhotoTurnIn",
+		"strFind" : "SnapPhoto",
+		"strReplace" : "AyoCorpSnitch",
+        "aOverrideValues" : [
+			"strTitle|Незаметно подбросить устройство", 
+			"strDesc|[us] [feigns] почти столкновение с [them-obj]. Пара извинений и несколько сердитых жестов спустя — и [3rd-pos] просьба выполнена.",
+			"strActionGroup|Use"
+		]
+	},
+	
+	
+	{
+		"strName" : "PLOTWrongfullyAccusedBreakerBEGTarget",
+		"strTemplateIA" : "PLOTAyoCorpSnitchTarget",
+		"strFind" : "AyoCorpSnitch",
+		"strReplace" : "WrongfullyAccusedBreakerBEG",
+        "aOverrideValues" : [
+			"strTitle|Спросить о вызове", 
+			"strDesc|[us] [asks] [them], что так напугало [them-obj].",
+			"strActionGroup|Talk",
+			"strTargetPoint|talk",
+			"fTargetPointRange|2.0"
+		]
+	},
+    {
+		"strName" : "PLOTWrongfullyAccusedBreakerBEGTurnIn",
+		"strTemplateIA" : "PLOTAyoCorpSnitchTurnIn",
+		"strFind" : "AyoCorpSnitch",
+		"strReplace" : "WrongfullyAccusedBreakerBEG",
+        "aOverrideValues" : [
+			"strTitle|Убедить отступить", 
+			"strDesc|[us] [uses] все доступные [us-pos] приёмы общения, чтобы убедить [3rd-obj] на время оставить [them-obj] в покое.",
+			"strActionGroup|Use"
+		]
+	},
+
+	{
+		"strName" : "PLOTWrongfullyAccusedManagerBEGTarget",
+		"strTemplateIA" : "PLOTAyoCorpSnitchTarget",
+		"strFind" : "AyoCorpSnitch",
+		"strReplace" : "WrongfullyAccusedManagerBEG",
+        "aOverrideValues" : [
+			"strTitle|Спросить о вызове", 
+			"strDesc|[us] [asks] [them], что так напугало [them-obj].",
+			"strActionGroup|Talk",
+			"strTargetPoint|talk",
+			"fTargetPointRange|2.0"
+		]
+	},
+    {
+		"strName" : "PLOTWrongfullyAccusedManagerBEGTurnIn",
+		"strTemplateIA" : "PLOTAyoCorpSnitchTurnIn",
+		"strFind" : "AyoCorpSnitch",
+		"strReplace" : "WrongfullyAccusedManagerBEG",
+        "aOverrideValues" : [
+			"strTitle|Передать угрозу", 
+			"strDesc|[us] [uses] все доступные [us-pos] приёмы общения, чтобы убедить [3rd-obj] оставить [them-obj] в покое.",
+			"strActionGroup|Use",
+			"strLootRELChangeThemSeesUs|RELFriendLossJob"
+		]
+	},
+
+	{
+		"strName" : "PLOTWrongfullyAccusedLEOBEGTarget",
+		"strTemplateIA" : "PLOTAyoCorpSnitchTarget",
+		"strFind" : "AyoCorpSnitch",
+		"strReplace" : "WrongfullyAccusedLEOBEG",
+        "aOverrideValues" : [
+			"strTitle|Спросить о вызове", 
+			"strDesc|[us] [asks] [them], почему [them-subj] [seems] таким расстроенным.",
+			"strActionGroup|Talk",
+			"strTargetPoint|talk",
+			"fTargetPointRange|2.0"
+		]
+	},
+    {
+		"strName" : "PLOTWrongfullyAccusedLEOBEGTurnIn",
+		"strTemplateIA" : "PLOTAyoCorpSnitchTurnIn",
+		"strFind" : "AyoCorpSnitch",
+		"strReplace" : "WrongfullyAccusedLEOBEG",
+        "aOverrideValues" : [
+			"strTitle|Запугать, чтобы отступил", 
+			"strDesc|[us] [tells] [them] отступить, иначе будет только хуже.",
+			"strActionGroup|Use",
+			"CTTestThem|TIsTargetInPain0203",
+			"strLootRELChangeThemSeesUs|RELEnemyJob"
+		]
+	},
+
+	{
+		"strName" : "PLOTWrongfullyAccusedCrimBEGTarget",
+		"strTemplateIA" : "PLOTAyoCorpSnitchTarget",
+		"strFind" : "AyoCorpSnitch",
+		"strReplace" : "WrongfullyAccusedCrimBEG",
+        "aOverrideValues" : [
+			"strTitle|Спросить о вызове", 
+			"strDesc|[us] [asks] [them], почему [them-subj] звонил.",
+			"strActionGroup|Talk",
+			"strTargetPoint|talk",
+			"fTargetPointRange|2.0"
+		]
+	},
+    {
+		"strName" : "PLOTWrongfullyAccusedCrimBEGTurnIn",
+		"strTemplateIA" : "PLOTAyoCorpSnitchTurnIn",
+		"strFind" : "AyoCorpSnitch",
+		"strReplace" : "WrongfullyAccusedCrimBEG",
+        "aOverrideValues" : [
+			"strTitle|Запугать, чтобы отступил", 
+			"strDesc|[us] [tells] [them] похоронить отчёт о страховом мошенничестве, иначе пожалеет.",
+			"strActionGroup|Use",
+			"strLootRELChangeThemSeesUs|RELEnemyJob"
+		]
+	},
+
+	{
+		"strName" : "PLOTWrongfullyAccusedCrimMIDTarget",
+		"strTemplateIA" : "PLOTAyoCorpSnitchTarget",
+		"strFind" : "AyoCorpSnitch",
+		"strReplace" : "WrongfullyAccusedCrimMID",
+        "aOverrideValues" : [
+			"strTitle|Спросить о вызове", 
+			"strDesc|[us] [asks] [them], почему [them-subj] звонил.",
+			"PSpecTest3rd|TargetDead",
+			"strActionGroup|Talk",
+			"strTargetPoint|talk",
+			"fTargetPointRange|2.0"
+		]
+	},
+    {
+		"strName" : "PLOTWrongfullyAccusedCrimMIDTurnIn",
+		"strTemplateIA" : "PLOTAyoCorpSnitchTurnIn",
+		"strFind" : "AyoCorpSnitch",
+		"strReplace" : "WrongfullyAccusedCrimMID",
+        "aOverrideValues" : [
+			"strTitle|Осмотреть труп", 
+			"strDesc|[us] [recognizes] в теле [them-pos] того, с кем [3rd-subj] когда-то проводил время. Бывший любовник или, по крайней мере, очень близкий друг.",
+			"strActionGroup|Use",
+			"strLootRELChange3rdSeesUs|RELFriendJob"
+		]
+	},
+
+	{
+		"strName" : "PLOTWrongfullyAccusedPrisonerCellmateBEGTarget",
+		"strTemplateIA" : "PLOTAyoCorpSnitchTarget",
+		"strFind" : "AyoCorpSnitch",
+		"strReplace" : "WrongfullyAccusedPrisonerCellmateBEG",
+        "aOverrideValues" : [
+			"strTitle|Посоветоваться с бывшим сокамерником", 
+			"strDesc|[us] [asks] [them], почему [them-subj] объявился спустя столько времени.",
+			"strActionGroup|Talk",
+			"strTargetPoint|talk",
+			"fTargetPointRange|2.0"
+		]
+	},
+    {
+		"strName" : "PLOTWrongfullyAccusedPrisonerCellmateBEGTurnIn",
+		"strTemplateIA" : "PLOTAyoCorpSnitchTurnIn",
+		"strFind" : "AyoCorpSnitch",
+		"strReplace" : "WrongfullyAccusedPrisonerCellmateBEG",
+        "aOverrideValues" : [
+			"strTitle|Запугать, чтобы отступил", 
+			"strDesc|[us] [tells] [3rd] прекратить преследовать [them-obj], иначе пожалеет.",
+			"strActionGroup|Use",
+			"strLootRELChange3rdSeesUs|RELFriendLossJob"
+		]
+	},
+
+
+
+	{
+		"strName" : "PLOTChoiceXYZ01a",
+		"strTemplateIA" : "PLOTChoicesDialogue01",
+		"strFind" : "ChoicesDialogue01",
+		"strReplace" : "ChoiceXYZ01a",
+        "aOverrideValues" : [
+			"strTitle|Вариант А", 
+			"strDesc|[us] [says] [them]: «Я выбираю вариант А».",
+			"strTooltip|Этот текст поясняет данный выбор более подробно, чтобы игроки понимали, на что идут."
+		]
+	},
+	{
+		"strName" : "PLOTChoiceXYZ01b",
+		"strTemplateIA" : "PLOTChoicesDialogue01",
+		"strFind" : "ChoicesDialogue01",
+		"strReplace" : "ChoiceXYZ01b",
+        "aOverrideValues" : [
+			"strTitle|Вариант Б", 
+			"strDesc|[us] [says] [them]: «Я выбираю вариант Б».",
+			"strTooltip|Этот текст поясняет данный выбор более подробно, чтобы игроки понимали, на что идут.",
+			"LootCondsThem|null"
+		]
+	},
+	{
+		"strName" : "PLOTChoiceXYZ02a",
+		"strTemplateIA" : "PLOTChoicesDialogue01",
+		"strFind" : "ChoicesDialogue01",
+		"strReplace" : "ChoiceXYZ02a",
+        "aOverrideValues" : [
+			"strTitle|Вариант 2А", 
+			"strDesc|[us] [says] [them]: «Я выбираю вариант А».",
+			"strTooltip|Этот текст поясняет данный выбор более подробно, чтобы игроки понимали, на что идут.",
+			"LootCondsThem|null"
+		]
+	},
+	{
+		"strName" : "PLOTChoiceXYZ02b",
+		"strTemplateIA" : "PLOTChoicesDialogue01",
+		"strFind" : "ChoicesDialogue01",
+		"strReplace" : "ChoiceXYZ02b",
+        "aOverrideValues" : [
+			"strTitle|Вариант 2Б", 
+			"strDesc|[us] [says] [them]: «Я выбираю вариант Б».",
+			"strTooltip|Этот текст поясняет данный выбор более подробно, чтобы игроки понимали, на что идут.",
+			"LootCondsThem|null"
+		]
+	},
+	{
+		"strName" : "PLOTChoiceXYZ03a",
+		"strTemplateIA" : "PLOTChoicesDialogue01",
+		"strFind" : "ChoicesDialogue01",
+		"strReplace" : "ChoiceXYZ03a",
+        "aOverrideValues" : [
+			"strTitle|Финальный вариант А", 
+			"strDesc|[us] [says] [them]: «Я выбираю вариант А».",
+			"strTooltip|Этот текст поясняет данный выбор более подробно, чтобы игроки понимали, на что идут.",
+			"LootCondsThem|null"
+		]
+	},
+	{
+		"strName" : "PLOTChoiceXYZ03b",
+		"strTemplateIA" : "PLOTChoicesDialogue01",
+		"strFind" : "ChoicesDialogue01",
+		"strReplace" : "ChoiceXYZ03b",
+        "aOverrideValues" : [
+			"strTitle|Финальный вариант Б", 
+			"strDesc|[us] [says] [them]: «Я выбираю вариант Б».",
+			"strTooltip|Этот текст поясняет данный выбор более подробно, чтобы игроки понимали, на что идут.",
+			"LootCondsThem|null"
+		]
+	},
+
+		
+	{
+		"strName" : "PLOTChoiceFanBreakoutTeam01",
+		"strTemplateIA" : "PLOTChoicesDialogue01",
+		"strFind" : "ChoicesDialogue01",
+		"strReplace" : "ChoiceFanBreakoutTeam01",
+        "aOverrideValues" : [
+			"strTitle|Поболтать о спорте", 
+			"strDesc|[us] [smiles] [them-obj] и [us-welcomes] разговор о спорте.",
+			"LootCondsThem|null",
+			"aInverse|PLOTChoiceFanBreakoutTeam01Reply",
+			"bInterrupt|true"
+		]
+	},
+	{
+		"strName" : "PLOTChoiceFanBreakoutTeam01Reply",
+		"strTemplateIA" : "PLOTChoicesDialogue01Reply",
+		"strFind" : "ChoicesDialogue01",
+		"strReplace" : "ChoiceFanBreakoutTeam01",
+        "aOverrideValues" : [
+			"strTitle|Обсудить команды Breakout", 
+			"strDesc|[us] горит желанием обсудить с [them-obj] команды Breakout, игроков и последние события. Разумеется, только Внешнюю лигу."
+		]
+	},
+	{
+		"strName" : "PLOTChoiceFanBreakoutTeam02a",
+		"strTemplateIA" : "PLOTChoicesDialogue01",
+		"strFind" : "ChoicesDialogue01",
+		"strReplace" : "ChoiceFanBreakoutTeam02a",
+        "aOverrideValues" : [
+			"strTitle|Восхвалять Ganymede Warriors", 
+			"strDesc|[us] [says] [them]: «Warriors несмотря ни на что». Эта команда несёт надежды всех, кто жаждет второго шанса.",
+			"strTooltip|Выразить предпочтение команде Ganymede Warriors.\nКоманда несгибаемого духа и стойкости, вернувшаяся в статусе чемпионов после допинговых скандалов.",
+			"LootCondsThem|null",
+			"LootCTsUs|CTPLOTFanBreakoutWarriors",
+			"aInverse|PLOTChoiceFanBreakoutTeam02aReply",
+			"LootReveals|FanBreakoutTeam"
+		]
+	},
+	{
+		"strName" : "PLOTChoiceFanBreakoutTeam02b",
+		"strTemplateIA" : "PLOTChoicesDialogue01",
+		"strFind" : "ChoicesDialogue01",
+		"strReplace" : "ChoiceFanBreakoutTeam02b",
+        "aOverrideValues" : [
+			"strTitle|Восхвалять Ceres Shooters", 
+			"strDesc|[us] [says] [them]: «Shooters — первые и лучшие». Эта команда пробуждает ностальгию по временам, когда десятилетия назад придумали этот спорт.",
+			"strTooltip|Выразить предпочтение команде Ceres Shooters.\nБезопасный выбор: старая гвардия, возводящая свою родословную к основателям спорта.",
+			"LootCondsThem|null",
+			"LootCTsUs|CTPLOTFanBreakoutShooters",
+			"aInverse|PLOTChoiceFanBreakoutTeam02bReply",
+			"LootReveals|FanBreakoutTeam"
+		]
+	},
+	{
+		"strName" : "PLOTChoiceFanBreakoutTeam02c",
+		"strTemplateIA" : "PLOTChoicesDialogue01",
+		"strFind" : "ChoicesDialogue01",
+		"strReplace" : "ChoiceFanBreakoutTeam02c",
+        "aOverrideValues" : [
+			"strTitle|Восхвалять Ceres Rioters", 
+			"strDesc|[us] [says] [them]: «Rioters или ничего». Эта команда поднимает дух аутсайдеров Системы и смелых, готовых на риск людей всех слоёв общества.",
+			"strTooltip|Выразить предпочтение команде Ceres Rioters.\nКультовые любимцы-аутсайдеры, кошмар Shooters, ставка на сенсацию, выбор против истеблишмента.",
+			"LootCondsThem|null",
+			"LootCTsUs|CTPLOTFanBreakoutRioters",
+			"aInverse|PLOTChoiceFanBreakoutTeam02cReply",
+			"LootReveals|FanBreakoutTeam"
+		]
+	},
+	{
+		"strName" : "PLOTChoiceFanBreakoutTeam02d",
+		"strTemplateIA" : "PLOTChoicesDialogue01",
+		"strFind" : "ChoicesDialogue01",
+		"strReplace" : "ChoiceFanBreakoutTeam02d",
+        "aOverrideValues" : [
+			"strTitle|Восхвалять 3FC вместо этого", 
+			"strDesc|[us] [opines], что Breakout — детская забава по сравнению с настоящим спортом вроде Freefall Fighting Championship.",
+			"strTooltip|Выразить неприязнь к Breakout в целом в пользу другого главного спорта Системы — Freefall Fighting Championship (3FC).",
+			"LootCondsThem|null",
+			"LootCTsUs|CTPLOTFan3FC",
+			"CTTestUs|TIsFan3FC",
+			"aInverse|PLOTChoiceFanBreakoutTeam02dReply"
+		]
+	},
+
+	{
+		"strName" : "PLOTChoiceFanSmokes01",
+		"strTemplateIA" : "PLOTChoicesDialogue01",
+		"strFind" : "ChoicesDialogue01",
+		"strReplace" : "ChoiceFanSmokes01",
+        "aOverrideValues" : [
+			"strTitle|Поболтать о куреве", 
+			"strDesc|[us] [gives] [them] [us-pos] внимание и [us-welcomes] разговор о марках сигарет.",
+			"LootCondsThem|null",
+			"aInverse|PLOTChoiceFanSmokes01Reply",
+			"bInterrupt|true"
+		]
+	},
+	{
+		"strName" : "PLOTChoiceFanSmokes01Reply",
+		"strTemplateIA" : "PLOTChoicesDialogue01Reply",
+		"strFind" : "ChoicesDialogue01",
+		"strReplace" : "ChoiceFanSmokes01",
+        "aOverrideValues" : [
+			"strTitle|Обсудить марки сигарет", 
+			"strDesc|[us] [raises] извечный спор космачей о лучшей марке курева: Viceroys или Damask Rose?"
+		]
+	},
+	{
+		"strName" : "PLOTChoiceFanSmokes02a",
+		"strTemplateIA" : "PLOTChoicesDialogue01",
+		"strFind" : "ChoicesDialogue01",
+		"strReplace" : "ChoiceFanSmokes02a",
+        "aOverrideValues" : [
+			"strTitle|Предпочесть Sungura Viceroys", 
+			"strDesc|[us] [extols] [them-obj] достоинства Viceroys: «Приказ Viceroy's. Слаще кислорода».",
+			"strTooltip|Выразить предпочтение сигаретам Sungura Viceroy's.\n\nКлассический выбор: Viceroy's без фильтра — незаменимый спутник работяг-космачей по всей Системе.",
+			"LootCondsThem|null",
+			"LootCTsUs|CTPLOTFanViceroys",
+			"aInverse|PLOTChoiceFanSmokes02aReply",
+			"LootReveals|FanSmokes"
+		]
+	},
+	{
+		"strName" : "PLOTChoiceFanSmokes02b",
+		"strTemplateIA" : "PLOTChoicesDialogue01",
+		"strFind" : "ChoicesDialogue01",
+		"strReplace" : "ChoiceFanSmokes02b",
+        "aOverrideValues" : [
+			"strTitle|Предпочесть Damask Rose", 
+			"strDesc|[us] [extols] [them-obj] достоинства Damask Rose: «Закури розу. Уплыви».",
+			"strTooltip|Выразить предпочтение сигаретам Damask Rose.\n\nТы знаешь, что тебе по вкусу: самая популярная марка каннабиса в Системе, флагманский продукт Green Energy Company.",
+			"LootCondsThem|null",
+			"LootCTsUs|CTPLOTFanDamaskRose",
+			"aInverse|PLOTChoiceFanSmokes02bReply",
+			"LootReveals|FanSmokes"
+		]
+	},
+	{
+		"strName" : "PLOTChoiceFanSmokes02c",
+		"strTemplateIA" : "PLOTChoicesDialogue01",
+		"strFind" : "ChoicesDialogue01",
+		"strReplace" : "ChoiceFanSmokes02c",
+        "aOverrideValues" : [
+			"strTitle|«Я не курю».", 
+			"strDesc|[us] [says] [them]: «Курение — не совсем моё».",
+			"strTooltip|Выразить предпочтение не курить.",
+			"LootCondsThem|null",
+			"CTTestUs|TIsNotSmoker",
+			"aInverse|PLOTChoiceFanSmokes02cReply"
+		]
+	}
+]

@@ -1,0 +1,18 @@
+{
+  "strName": "PLOT_Merga_WhispersFound01Reply4",
+  "strTitle": "Watch \"Spotlight: Blood on the Rose\"",
+  "strDesc": "OWNG \"Spotlight\" is the network's premier interview program, featuring trenchant conversation between host Pierce Wilcox and an array of fascinating guests. This week, Wilcox has managed to pull a former member of the Briar Rose criminal syndicate: Breno Oscar Vaz.  \n\nIt's a rare get. Most syndicate members die in service to family, and those who manage to escape it are rarely brave enough to talk.\n\nThis one, however, seems compelled by the disappearance of Miss M to speak out. He is an aged man, nearly 50, with fading face tattoos and sunken eyes. His shirt is too large for him, and it looks like the first time he's ever worn a tie. The entire ensemble makes the neckpiece look like an inverted noose.\n\nVaz presents himself as an authority on Helio Hora, a former friend and associate. During the back and forth between himself and host Wilcox, you glean insight on Hora's background.\n\nThe now imprisoned crime boss was born in 2023 in São Paulo on Earth. Details of his early life are mostly unknown. In the early days of Venusian aerostat development, Hora worked in contracting and eventually materials acquisition, and was thus vital in the construction of both NewCal and Encantado.\n\nUsing resources and relationships cultivated in the construction of the latter, Hora began the Encantado Grand Prix and eventually established the nearby Sol Vermelho Lounge, where Miss M would eventually perform in residence. \n\nAccording to the case built against him by law enforcement, at the time of his arrest Hora's criminal empire included race fixing, labor bribery, contract embezzlement, intimidation, piracy, and contract killing. As part of the terms of his arrest, most of Hora's assets were turned over to a still active Venusian business mogul, including ownership of the Sol Vermelho Lounge. \n\nThe current owner of the famed lounge was in close contact with Miss M up until her disappearance.\n",
+  "fForcedChance": 1,
+  "strColor": "Dialogue",
+  "aInverse": [
+    "ENCFinish"
+  ],
+  "strActionGroup": "Use",
+  "strThemType": "Self",
+  "strRaiseUI": "SocialCombat",
+  "strSubUI": "Landscape01",
+  "strImage": "encounters/ENCPlanetSunrise",
+  "bPause": true,
+  "bIgnoreFeelings": true,
+  "bRecheckThisPlot": true
+}

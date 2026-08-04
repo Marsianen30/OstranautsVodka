@@ -1,0 +1,1514 @@
+### conditions/conditions_pda.json | PDAToggleFOV | strDesc
+Включает переключатель поля зрения PDA.
+---
+### conditions/conditions_pda.json | PDAToggleLights | strDesc
+Включает переключатель освещения PDA.
+---
+### conditions/conditions_pda.json | PDAToggleExteriors | strDesc
+Включает переключатель внешних видов PDA.
+---
+### conditions/conditions_pda.json | PDAToggleCeiling | strDesc
+Включает переключатель потолочного режима PDA.
+---
+### conditions/conditions_pda.json | PDATogglePower | strDesc
+Включает переключатель питания PDA.
+---
+### conditions/conditions_pda.json | PDATogglePlaceholders | strDesc
+Включает переключатель заглушек PDA.
+---
+### conditions/conditions_pda.json | PDAToggleTasks | strDesc
+Включает переключатель задач PDA.
+---
+### conditions/conditions_pda.json | PDAToggleLogScale | strDesc
+Включает переключатель логарифмической шкалы PDA.
+---
+### conditions/conditions_pda.json | PDAToggleContours | strDesc
+Включает переключатель контуров PDA.
+---
+### conditions/conditions_pda.json | PDAToggleRealTime | strDesc
+Включает переключатель реального времени PDA.
+---
+### conditions/conditions_pda.json | PDAVariableAny | strDesc
+Разрешает пользователю вводить собственные переменные.
+---
+### conditions/conditions_pda.json | PDAVariable_Power | strDesc
+Содержит специальное оборудование для измерения и отображения энергии на корабле.
+---
+### conditions/conditions_pda.json | PDAVariable_Damage | strDesc
+Содержит специальное оборудование для измерения и отображения повреждений на корабле.
+---
+### conditions/conditions_pda.json | PDAVariable_Mass | strDesc
+Содержит специальное оборудование для измерения и отображения массы на корабле.
+---
+### conditions/conditions_pda.json | PDAVariable_Price | strDesc
+Содержит специальное оборудование для обнаружения и отображения ценностей на корабле.
+---
+### conditions/conditions_pda.json | PDAVariable_Heat | strDesc
+Содержит специальное оборудование для измерения и отображения тепла на корабле.
+---
+### conditions/conditions_pda.json | PDAVariable_Pressure | strDesc
+Содержит специальное оборудование для измерения и отображения давления на корабле.
+---
+### conditions/conditions_pda.json | PDAGradient01 | strDesc
+Включает использование визуального фильтра _____.
+---
+### conditions/conditions_pda.json | PDAGradient02 | strDesc
+Включает использование чёрно-белого визуального фильтра.
+---
+### conditions/conditions_pda.json | PDAGradient03 | strDesc
+Включает использование сине-бело-красного визуального фильтра.
+---
+### conditions/conditions_pda.json | PDAGradient04 | strDesc
+Включает использование радужного визуального фильтра.
+---
+### conditions/conditions_pda.json | PDAGradient05 | strDesc
+Включает использование бело-красного визуального фильтра.
+---
+### conditions/conditions_pda.json | PDAGradient06 | strDesc
+Включает использование фильтра непрозрачности.
+---
+### conditions/conditions_pda.json | PDAGradient07 | strDesc
+Включает использование чёрно-жёлтого визуального фильтра.
+---
+### conditions/conditions_pda.json | PDAGradient08 | strDesc
+Включает использование полноспектрального визуального фильтра.
+---
+### conditions/conditions_pda.json | PDAGradient09 | strDesc
+Включает использование тепловой карты.
+---
+### conditions/conditions_pda.json | PDAGradient10 | strDesc
+Включает слегка глитчевый визуальный фильтр.
+---
+### conditions/conditions_pda.json | PDAGradient11 | strDesc
+Превращает ваш корабль в дискотеку!
+---
+### conditions/conditions_pda.json | PDAShowInputGradient | strDesc
+Включает ввод градиента.
+---
+### conditions/conditions_pda.json | PDAShowInputGradient | strNameFriendly
+(PDA) Показать ввод: градиент
+---
+### conditions/conditions_pda.json | PDAShowInputMinMax | strDesc
+Включает ввод MinMax.
+---
+### conditions/conditions_pda.json | PDAShowInputMinMax | strNameFriendly
+(PDA) Показать ввод: MinMax
+---
+### conditions/conditions_pda.json | PDAShowInputOpacity | strDesc
+Включает ввод непрозрачности.
+---
+### conditions/conditions_pda.json | PDAShowInputOpacity | strNameFriendly
+(PDA) Показать ввод: непрозрачность
+---
+### conditions/conditions_pda.json | PDAShowInputValue | strDesc
+Включает ввод значения.
+---
+### conditions/conditions_pda.json | PDAShowInputValue | strNameFriendly
+(PDA) Показать ввод: значение
+---
+### conditions/conditions_pda.json | IsPDACartridge | strDesc
+[us] можно вставить в PDA, чтобы получить дополнительные функции.
+---
+### conditions/conditions_pda.json | IsDusty | strDesc
+Работа [us] ограничена пылью.
+---
+### conditions/conditions_pda.json | IsDusty | strNameFriendly
+Запылённый
+---
+### condowners/condowners.json | RegolithEuropa | strNameFriendly
+Реголит
+---
+### condowners/condowners.json | RegolithEuropa02 | strNameFriendly
+Реголит
+---
+### condowners/condowners.json | ItmAlarmSmokeOff | strDesc
+Массовый датчик дыма и пожарная сигнализация Halvorson. Роскошь для космонавтов, предпочитающих дышать в среде, свободной от подгоревших соседей. Только не забудь отключить вручную перед перекуром.
+---
+### condowners/condowners.json | ItmAlarmSmokeOff | strNameFriendly
+Дымовая сигнализация (выкл.)
+---
+### condowners/condowners.json | ItmAlarmSmokeOffLoose | strDesc
+Массовый датчик дыма и пожарная сигнализация Halvorson. Роскошь для космонавтов, предпочитающих дышать в среде, свободной от подгоревших соседей. Только не забудь отключить вручную перед перекуром.
+---
+### condowners/condowners.json | ItmAlarmSmokeOffLoose | strNameFriendly
+Дымовая сигнализация (откреплена)
+---
+### condowners/condowners.json | ItmAlarmSmokeDmg | strDesc
+Массовый датчик дыма и пожарная сигнализация Halvorson. Роскошь для космонавтов, предпочитающих дышать в среде, свободной от подгоревших соседей. Только не забудь отключить вручную перед перекуром.
+---
+### condowners/condowners.json | ItmAlarmSmokeDmg | strNameFriendly
+Дымовая сигнализация (повреждена)
+---
+### condowners/condowners.json | ItmAlarmSmokeDmgLoose | strDesc
+Массовый датчик дыма и пожарная сигнализация Halvorson. Роскошь для космонавтов, предпочитающих дышать в среде, свободной от подгоревших соседей. Только не забудь отключить вручную перед перекуром.
+---
+### condowners/condowners.json | ItmAlarmSmokeDmgLoose | strNameFriendly
+Дымовая сигнализация (повреждена, откреплена)
+---
+### condowners/condowners.json | ItmAlarmSmokeOnG | strDesc
+Массовый датчик дыма и пожарная сигнализация Halvorson. Роскошь для космонавтов, предпочитающих дышать в среде, свободной от подгоревших соседей. Только не забудь отключить вручную перед перекуром.
+---
+### condowners/condowners.json | ItmAlarmSmokeOnG | strNameFriendly
+Дымовая сигнализация
+---
+### condowners/condowners.json | ItmAlarmSmokeOnR | strDesc
+Массовый датчик дыма и пожарная сигнализация Halvorson. Роскошь для космонавтов, предпочитающих дышать в среде, свободной от подгоревших соседей. Только не забудь отключить вручную перед перекуром.
+---
+### condowners/condowners.json | ItmAlarmSmokeOnR | strNameFriendly
+Дымовая сигнализация (тревога)
+---
+### condowners/condowners.json | ItmAntiHypoVPen01 | strDesc
+Этот экспериментальный инъектор от Brave New World снимает симптомы микрогравитационной гиповолемии примерно на 72 часа, а после 5 доз — навсегда. Доставляется одноразовым подкожным шприцем-ручкой, пробивающим одежду и тонкие скафандры. Улучшает циркуляцию крови и функции почек/селезёнки за счёт стимуляции роста клеток сосудов и органов.
+---
+### condowners/condowners.json | ItmAntiHypoVPen01 | strNameFriendly
+Шприц-инъектор AntiHypo-V: Сангвифил
+---
+### condowners/condowners.json | ItmChairCube01b | strDesc
+Спроектировано для второй Кольцевой Станции CCRE в сотрудничестве с самим архитектором Гидеоном Прюиттом. Этот великолепно модульный стул для корпоративных лобби принёс Testudo целое состояние.
+---
+### condowners/condowners.json | ItmChairCube01b | strNameFriendly
+Сиденье: Testudo «Concourse Series 1-B»
+---
+### condowners/condowners.json | ItmChairCube01bLoose | strDesc
+Спроектировано для второй Кольцевой Станции CCRE в сотрудничестве с самим архитектором Гидеоном Прюиттом. Этот великолепно модульный стул для корпоративных лобби принёс Testudo целое состояние.
+---
+### condowners/condowners.json | ItmChairCube01bLoose | strNameFriendly
+Сиденье: Testudo «Concourse Series 1-B» (откреплено)
+---
+### condowners/condowners.json | ItmChairCube01bDmg | strDesc
+Спроектировано для второй Кольцевой Станции CCRE в сотрудничестве с самим архитектором Гидеоном Прюиттом. Этот великолепно модульный стул для корпоративных лобби принёс Testudo целое состояние.
+---
+### condowners/condowners.json | ItmChairCube01bDmg | strNameFriendly
+Сиденье: Testudo «Concourse Series 1-B» (повреждено)
+---
+### condowners/condowners.json | ItmChairCube01bDmgLoose | strDesc
+Спроектировано для второй Кольцевой Станции CCRE в сотрудничестве с самим архитектором Гидеоном Прюиттом. Этот великолепно модульный стул для корпоративных лобби принёс Testudo целое состояние.
+---
+### condowners/condowners.json | ItmChairCube01bDmgLoose | strNameFriendly
+Сиденье: Testudo «Concourse Series 1-B» (повреждено, откреплено)
+---
+### condowners/condowners.json | ItmDockSys03Closed | strDesc
+Шлюз производства Bieler, спроектирован с прецизионной точностью. Герметичен и удерживает газы в условиях космического вакуума.
+
+Предупреждение: давление и температура по обе стороны шлюза могут сильно различаться.
+---
+### condowners/condowners.json | ItmDockSys03Closed | strNameFriendly
+Вторичный внешний шлюз (закрыт)
+---
+### condowners/condowners.json | ItmDockSys03Open | strDesc
+Шлюз производства Bieler, спроектирован с прецизионной точностью. Герметичен и удерживает газы в условиях космического вакуума.
+
+Предупреждение: давление и температура по обе стороны шлюза могут сильно различаться.
+---
+### condowners/condowners.json | ItmDockSys03Open | strNameFriendly
+Вторичный внешний шлюз (открыт)
+---
+### condowners/condowners.json | ItmDockSys03ClosedLoose | strDesc
+Шлюз производства Bieler, спроектирован с прецизионной точностью. Герметичен и удерживает газы в условиях космического вакуума.
+
+Предупреждение: давление и температура по обе стороны шлюза могут сильно различаться.
+---
+### condowners/condowners.json | ItmDockSys03ClosedLoose | strNameFriendly
+Вторичный внешний шлюз (откреплён)
+---
+### condowners/condowners.json | ItmDockSys03ClosedDmg | strDesc
+Шлюз производства Bieler, спроектирован с прецизионной точностью. Герметичен и удерживает газы в условиях космического вакуума.
+
+Предупреждение: давление и температура по обе стороны шлюза могут сильно различаться.
+---
+### condowners/condowners.json | ItmDockSys03ClosedDmg | strNameFriendly
+Вторичный внешний шлюз (повреждён)
+---
+### condowners/condowners.json | ItmDockSys03ClosedDmgLoose | strDesc
+Шлюз производства Bieler, спроектирован с прецизионной точностью. Герметичен и удерживает газы в условиях космического вакуума.
+
+Предупреждение: давление и температура по обе стороны шлюза могут сильно различаться.
+---
+### condowners/condowners.json | ItmDockSys03ClosedDmgLoose | strNameFriendly
+Вторичный внешний шлюз (повреждён, откреплён)
+---
+### condowners/condowners.json | ItmSignalBeacon01 | strDesc
+Микроспутниковый маяк SB-03a — третье поколение стационарных буйков Aphrodite Satellite Corp., используемых для трансляции данных о периметре и навигации в условиях микрогравитации. Маяк состоит из двух модулей — силового и передающего, — содержащих всё необходимое для длительной автономной работы.
+
+Для повышения общей надёжности системы в обоих основных подсистемах реализовано резервирование.
+---
+### condowners/condowners.json | ItmSignalBeacon01 | strNameFriendly
+ASC «SB-03a» микроспутниковый маяк
+---
+### condowners/condowners.json | ItmSignalBeacon01Dmg | strDesc
+Микроспутниковый маяк SB-03a — третье поколение стационарных буйков Aphrodite Satellite Corp., используемых для трансляции данных о периметре и навигации в условиях микрогравитации. Маяк состоит из двух модулей — силового и передающего, — содержащих всё необходимое для длительной автономной работы.
+
+Для повышения общей надёжности системы в обоих основных подсистемах реализовано резервирование.
+---
+### condowners/condowners.json | ItmSignalBeacon01Dmg | strNameFriendly
+ASC «SB-03a» микроспутниковый маяк (повреждён)
+---
+### condowners/condowners.json | ItmSignalBeacon01Loose | strDesc
+Микроспутниковый маяк SB-03a — третье поколение стационарных буйков Aphrodite Satellite Corp., используемых для трансляции данных о периметре и навигации в условиях микрогравитации. Маяк состоит из двух модулей — силового и передающего, — содержащих всё необходимое для длительной автономной работы.
+
+Для повышения общей надёжности системы в обоих основных подсистемах реализовано резервирование.
+---
+### condowners/condowners.json | ItmSignalBeacon01Loose | strNameFriendly
+ASC «SB-03a» микроспутниковый маяк (откреплён)
+---
+### condowners/condowners.json | ItmSignalBeacon01DmgLoose | strDesc
+Микроспутниковый маяк SB-03a — третье поколение стационарных буйков Aphrodite Satellite Corp., используемых для трансляции данных о периметре и навигации в условиях микрогравитации. Маяк состоит из двух модулей — силового и передающего, — содержащих всё необходимое для длительной автономной работы.
+
+Для повышения общей надёжности системы в обоих основных подсистемах реализовано резервирование.
+---
+### condowners/condowners.json | ItmSignalBeacon01DmgLoose | strNameFriendly
+ASC «SB-03a» микроспутниковый маяк (повреждён, откреплён)
+---
+### condowners/condowners.json | ItmFloorLabelBloom | strNameFriendly
+Эмблема: Цветок
+---
+### condowners/condowners.json | ItmFloorLabelDynastyCoin | strNameFriendly
+Эмблема: Монета династии
+---
+### condowners/condowners.json | ItmFloorLabelEagle | strNameFriendly
+Эмблема: Орёл
+---
+### condowners/condowners.json | ItmFloorLabelStarsAndStripes | strNameFriendly
+Эмблема: Звёзды и полосы
+---
+### condowners/condowners.json | ItmKioskGovt01 | strDesc
+Киоск, управляемый местными корпорациями, предлагающий широкий ассортимент мелких товаров первой необходимости для поддержания производительности работников, космонавтов и заезжих торговцев. В наличии инструменты для обслуживания, провиант, грузовые тележки, запасные скафандры, заплаты для корпуса, одежда и прочие основы работы и выживания.
+---
+### condowners/condowners.json | ItmKioskGovt01 | strNameFriendly
+Фракционный снабженческий киоск
+---
+### condowners/condowners.json | ItmLitCeiling1x1White | strNameFriendly
+Потолочный светильник: белый
+---
+### condowners/condowners.json | ItmLitCeiling1x1WhiteOff | strNameFriendly
+Потолочный светильник: белый (выкл.)
+---
+### condowners/condowners.json | ItmLitCeiling1x1WhiteOffLoose | strNameFriendly
+Потолочный светильник: белый (откреплён)
+---
+### condowners/condowners.json | ItmLitCeiling1x1 | strNameFriendly
+Потолочный светильник: синий
+---
+### condowners/condowners.json | ItmLitCeiling1x1Off | strNameFriendly
+Потолочный светильник: синий (выкл.)
+---
+### condowners/condowners.json | ItmLitCeiling1x1OffLoose | strNameFriendly
+Потолочный светильник: синий (откреплён)
+---
+### condowners/condowners.json | ItmLitCeiling1x1Orange | strNameFriendly
+Потолочный светильник: оранжевый
+---
+### condowners/condowners.json | ItmLitCeiling1x1OrangeOff | strNameFriendly
+Потолочный светильник: оранжевый (выкл.)
+---
+### condowners/condowners.json | ItmLitCeiling1x1OrangeOffLoose | strNameFriendly
+Потолочный светильник: оранжевый (откреплён)
+---
+### condowners/condowners.json | ItmLitCeiling1x1VibrantGreen | strNameFriendly
+Потолочный светильник: зелёный
+---
+### condowners/condowners.json | ItmLitCeiling1x1VibrantGreenOff | strNameFriendly
+Потолочный светильник: зелёный (выкл.)
+---
+### condowners/condowners.json | ItmLitCeiling1x1VibrantGreenOffLoose | strNameFriendly
+Потолочный светильник: зелёный (откреплён)
+---
+### condowners/condowners.json | ItmLitCeiling1x1VibrantPurple | strNameFriendly
+Потолочный светильник: фиолетовый
+---
+### condowners/condowners.json | ItmLitCeiling1x1VibrantPurpleOff | strNameFriendly
+Потолочный светильник: фиолетовый (выкл.)
+---
+### condowners/condowners.json | ItmLitCeiling1x1VibrantPurpleOffLoose | strNameFriendly
+Потолочный светильник: фиолетовый (откреплён)
+---
+### condowners/condowners.json | ItmLitCeiling1x1VibrantRed | strNameFriendly
+Потолочный светильник: красный
+---
+### condowners/condowners.json | ItmLitCeiling1x1VibrantRedOff | strNameFriendly
+Потолочный светильник: красный (выкл.)
+---
+### condowners/condowners.json | ItmLitCeiling1x1VibrantRedOffLoose | strNameFriendly
+Потолочный светильник: красный (откреплён)
+---
+### condowners/condowners.json | ItmLitCeiling1x1Custom | strNameFriendly
+Потолочный светильник: синяя настройка
+---
+### condowners/condowners.json | ItmLitCeiling1x1OffCustom | strNameFriendly
+Потолочный светильник: синяя настройка (выкл.)
+---
+### condowners/condowners.json | ItmLitCeiling1x1OffLooseCustom | strNameFriendly
+Потолочный светильник: синяя настройка (откреплён)
+---
+### condowners/condowners.json | ItmLitCeiling1x1OrangeCustom | strNameFriendly
+Потолочный светильник: оранжевая настройка
+---
+### condowners/condowners.json | ItmLitCeiling1x1OrangeOffCustom | strNameFriendly
+Потолочный светильник: оранжевая настройка (выкл.)
+---
+### condowners/condowners.json | ItmLitCeiling1x1OrangeOffLooseCustom | strNameFriendly
+Потолочный светильник: оранжевая настройка (откреплён)
+---
+### condowners/condowners.json | ItmLitCeiling1x1VibrantRedCustom | strNameFriendly
+Потолочный светильник: красная настройка
+---
+### condowners/condowners.json | ItmLitCeiling1x1VibrantRedOffCustom | strNameFriendly
+Потолочный светильник: красная настройка (выкл.)
+---
+### condowners/condowners.json | ItmLitCeiling1x1VibrantRedOffLooseCustom | strNameFriendly
+Потолочный светильник: красная настройка (откреплён)
+---
+### condowners/condowners.json | ItmLitCeiling1x1VibrantPurpleCustom | strNameFriendly
+Потолочный светильник: фиолетовая настройка
+---
+### condowners/condowners.json | ItmLitCeiling1x1VibrantPurpleOffCustom | strNameFriendly
+Потолочный светильник: фиолетовая настройка (выкл.)
+---
+### condowners/condowners.json | ItmLitCeiling1x1VibrantPurpleOffLooseCustom | strNameFriendly
+Потолочный светильник: фиолетовая настройка (откреплён)
+---
+### condowners/condowners.json | ItmLitCeiling1x1VibrantGreenCustom | strNameFriendly
+Потолочный светильник: зелёная настройка
+---
+### condowners/condowners.json | ItmLitCeiling1x1VibrantGreenOffCustom | strNameFriendly
+Потолочный светильник: зелёная настройка (выкл.)
+---
+### condowners/condowners.json | ItmLitCeiling1x1VibrantGreenOffLooseCustom | strNameFriendly
+Потолочный светильник: зелёная настройка (откреплён)
+---
+### condowners/condowners.json | ItmLitCeiling1x1WhiteCustom | strNameFriendly
+Потолочный светильник: белая настройка
+---
+### condowners/condowners.json | ItmLitCeiling1x1WhiteOffCustom | strNameFriendly
+Потолочный светильник: белая настройка (выкл.)
+---
+### condowners/condowners.json | ItmLitCeiling1x1WhiteOffLooseCustom | strNameFriendly
+Потолочный светильник: белая настройка (откреплён)
+---
+### condowners/condowners.json | ItmLitWall1x0White | strNameFriendly
+Настенный светильник: белый
+---
+### condowners/condowners.json | ItmLitWall1x0WhiteOff | strNameFriendly
+Настенный светильник: белый (выкл.)
+---
+### condowners/condowners.json | ItmLitWall1x0WhiteOffLoose | strNameFriendly
+Настенный светильник: белый (откреплён)
+---
+### condowners/condowners.json | ItmLitWall1x0WhiteCustom | strNameFriendly
+Настенный светильник: белая настройка
+---
+### condowners/condowners.json | ItmLitWall1x0WhiteOffCustom | strNameFriendly
+Настенный светильник: белая настройка (выкл.)
+---
+### condowners/condowners.json | ItmLitWall1x0WhiteOffLooseCustom | strNameFriendly
+Настенный светильник: белая настройка (откреплён)
+---
+### condowners/condowners.json | ItmPlanter1x101 | strNameFriendly
+Горшок с суккулентом
+---
+### condowners/condowners.json | ItmPlanter2x101 | strNameFriendly
+Горшок с бонсаем
+---
+### condowners/condowners.json | ItmPlanter2x201 | strNameFriendly
+Горшок с агавой
+---
+### condowners/condowners.json | ItmPlanter2x202 | strNameFriendly
+Горшок с монстерой
+---
+### condowners/condowners.json | ItmPlanter3x101 | strNameFriendly
+Горшок с живой изгородью
+---
+### condowners/condowners.json | ItmReactorIC02IgnitionMini | strNameFriendly
+Силовой канал: станция
+---
+### condowners/condowners.json | ItmToothbrush01 | strNameFriendly
+Testudo «AstroBristle Classic»
+---
+### condowners/condowners.json | ItmTV01 | strNameFriendly
+Renbao «Smart» телевизор
+---
+### condowners/condowners.json | ItmWallAero1x1 | strDesc
+Аэродинамический фюзеляж с формами, снижающими сопротивление и обеспечивающими подъёмную силу и управляемость в атмосфере. Может принимать формы крыла, киля, руля высоты или руля направления.
+---
+### condowners/condowners.json | ItmWallAero1x1Loose | strDesc
+Аэродинамический фюзеляж с формами, снижающими сопротивление и обеспечивающими подъёмную силу и управляемость в атмосфере. Может принимать формы крыла, киля, руля высоты или руля направления.
+---
+### condowners/condowners.json | ItmWallAero1x1Sq | strDesc
+Аэродинамический фюзеляж с формами, снижающими сопротивление и обеспечивающими подъёмную силу и управляемость в атмосфере. Может принимать формы крыла, киля, руля высоты или руля направления.
+---
+### condowners/condowners.json | ItmWallAero1x1SqLoose | strDesc
+Аэродинамический фюзеляж с формами, снижающими сопротивление и обеспечивающими подъёмную силу и управляемость в атмосфере. Может принимать формы крыла, киля, руля высоты или руля направления.
+---
+### condowners/condowners.json | ItmWallWindow1x1 | strDesc
+Прозрачная алюминиевая стеновая панель. Оксинитрид алюминия (ALON) — поликристаллическая керамика, изготавливаемая из прессованного термообработанного порошка, отполированная до оптического качества. Прочный материал, устойчивый к окислению, коррозии и радиации.
+---
+### condowners/condowners.json | ItmWallWindow1x1Loose | strDesc
+Прозрачная алюминиевая стеновая панель. Оксинитрид алюминия — поликристаллическая керамика, изготавливаемая из прессованного термообработанного порошка, отполированная до оптического качества. Довольно прочный материал, устойчивый к окислению и радиации.
+---
+### condowners/condowners.json | ItmWallWindow1x1Dmg | strDesc
+Прозрачная алюминиевая стеновая панель. Оксинитрид алюминия (ALON) — поликристаллическая керамика, изготавливаемая из прессованного термообработанного порошка, отполированная до оптического качества. Прочный материал, устойчивый к окислению, коррозии и радиации.
+---
+### condowners/condowners.json | ItmWallWindow1x1Sq | strDesc
+Прозрачная алюминиевая стеновая панель. Оксинитрид алюминия (ALON) — поликристаллическая керамика, изготавливаемая из прессованного термообработанного порошка, отполированная до оптического качества. Прочный материал, устойчивый к окислению, коррозии и радиации.
+---
+### condowners/condowners.json | ItmWallWindow1x1SqLoose | strDesc
+Прозрачная алюминиевая стеновая панель. Оксинитрид алюминия (ALON) — поликристаллическая керамика, изготавливаемая из прессованного термообработанного порошка, отполированная до оптического качества. Прочный материал, устойчивый к окислению, коррозии и радиации.
+---
+### condowners/condowners.json | ItmWallWindow1x1SqDmg | strDesc
+Прозрачная алюминиевая стеновая панель. Оксинитрид алюминия (ALON) — поликристаллическая керамика, изготавливаемая из прессованного термообработанного порошка, отполированная до оптического качества. Прочный материал, устойчивый к окислению, коррозии и радиации.
+---
+### condowners/condowners.json | Compartment | strDesc
+Любая комната или наружное пространство в мире считается Отсеком, и в каждом отслеживается собственное давление и температура газа.
+
+Любой Отсек с выходом наружу корабля постепенно выравнивает температуру и давление с наружными.
+---
+### condowners/condowners.json | SysFire | strDesc
+Огонь.
+
+Один из древнейших и самых мощных инструментов человечества.
+
+Как правило, на космическом корабле этого лучше не видеть.
+---
+### condowners/condowners.json | SysFire | strNameFriendly
+Огонь
+---
+### condowners/condowners_combat.json | ItmAmmo12Gauge | strDesc
+Когда-то повсеместный рабочий боеприпас Старой Земли, по сей день имеющий множество приверженцев в глубоком космосе. Стреляет россыпью мелких шариков, увеличивая шансы попасть и ранить движущуюся цель.
+---
+### condowners/condowners_combat.json | ItmAmmo12GaugeHG | strDesc
+«Менее летальный» вариант обычного патрона для дробовика, разработанный для контроля толпы в герметичных отсеках. Использует технологию полого геля, который при попадании распыляет шарики силикагеля, минимизируя риск разгерметизации.
+---
+### condowners/condowners_combat.json | ItmAmmo12GaugeHG | strNameFriendly
+Боеприпасы: 12-калибр HG дробовой
+---
+### condowners/condowners_combat.json | ItmAmmo556 | strDesc
+Винтовочный патрон, унаследованный от стрелкового оружия НАТО Старой Земли. За пределами военного применения в космосе встречается довольно редко.
+---
+### condowners/condowners_combat.json | ItmAmmo55602 | strDesc
+Особый!
+---
+### condowners/condowners_combat.json | ItmAmmo556HG | strDesc
+«Менее летальный» вариант классического патрона 5,56 мм, типичный для гражданских правоохранительных органов и флотов. Использует технологию полого геля, который при попадании распыляет шарики силикагеля, минимизируя риск разгерметизации.
+---
+### condowners/condowners_combat.json | ItmAmmo556HG | strNameFriendly
+Боеприпасы: HG 5,56 мм
+---
+### condowners/condowners_combat.json | ItmAmmo58 | strDesc
+Винтовочный патрон с гильзой бутылочной формы, разработанный военными Синьхуа для использования силовыми структурами.
+---
+### condowners/condowners_combat.json | ItmAmmo58 | strNameFriendly
+Боеприпасы: 5,8 мм
+---
+### condowners/condowners_combat.json | ItmWeaponRifle02 | strDesc
+Высокотехнологичный абордажный карабин Titan под патрон 5,56 мм. Может заряжаться HG-патронами для «безопасного» использования в герметичных отсеках.
+---
+### condowners/condowners_combat.json | ItmWeaponRifle02 | strNameFriendly
+Smartlink «Helix» карабин
+---
+### condowners/condowners_combat.json | ItmWeaponShotgun02 | strDesc
+Лёгкий дробовик с полимерным корпусом и увеличенным патронником.
+
+Реже, чем его пистолетные или винтовочные собратья, это длинноствольное оружие тем не менее популярно у стрелков, которым важнее попасть в цель, чем избежать побочного ущерба.
+---
+### condowners/condowners_combat.json | ItmWeaponShotgun02 | strNameFriendly
+Smartlink «Prophet» дробовик
+---
+### condowners/condowners_smoking.json | ItmCigViceroyBox01 | strNameFriendly
+Пачка сигарет Viceroy
+---
+### condowners/condowners_smoking.json | ItmCigViceroy01 | strDesc
+Сигарета марки Viceroy.
+
+Без фильтра, грубая — любимая марка тех, кто хочет сырого вкуса после тяжёлой смены.
+
+«Слаще кислорода.»
+---
+### condowners/condowners_smoking.json | ItmCigViceroy01Lit | strDesc
+Сигарета марки Viceroy.
+
+Без фильтра, грубая — любимая марка тех, кто хочет сырого вкуса после тяжёлой смены.
+
+«Слаще кислорода.»
+---
+### condowners/condowners_smoking.json | ItmCigViceroy01Lit | strNameFriendly
+Сигарета Viceroy (тлеет)
+---
+### condowners/condowners_smoking.json | ItmCigViceroyBox02 | strDesc
+Пачка ментоловых сигарет Viceroy, 20 штук, для более чистого горения.
+
+На лицевой стороне — фирменный красный кролик в классической позе салюта, которым космонавты сигналят о перекуре.
+
+«Слаще кислорода.»
+---
+### condowners/condowners_smoking.json | ItmCigViceroyBox02 | strNameFriendly
+Пачка ментоловых сигарет Viceroy
+---
+### condowners/condowners_smoking.json | ItmCigViceroy02 | strDesc
+Ментоловая сигарета Viceroy, для более чистого горения.
+
+Слегка отфильтрованный и смягчённый вариант любимой марки тех, кто хочет сырого вкуса после тяжёлой смены.
+
+«Вдвое меньше копоти, вдвое больше салюта.»
+---
+### condowners/condowners_smoking.json | ItmCigViceroy02 | strNameFriendly
+Ментоловая сигарета Viceroy
+---
+### condowners/condowners_smoking.json | ItmCigViceroy02Lit | strDesc
+Ментоловая сигарета Viceroy, для более чистого горения.
+
+Слегка отфильтрованный и смягчённый вариант любимой марки тех, кто хочет сырого вкуса после тяжёлой смены.
+
+«Слаще кислорода.»
+---
+### condowners/condowners_smoking.json | ItmCigViceroy02Lit | strNameFriendly
+Ментоловая сигарета Viceroy (тлеет)
+---
+### condowners/condowners_smoking.json | ItmCigDamaskRoseBox01 | strDesc
+Пачка сигарет Damask Rose, 10 штук, от The Green Energy Company из Rosebud на Tharsis Landing.
+
+На лицевой стороне — знаменитый психоделический розово-аквамариновый цветочный дизайн ведущего сативного продукта системы.
+
+«Выкури розу.»
+---
+### condowners/condowners_smoking.json | ItmCigDamaskRoseBox01 | strNameFriendly
+Пачка сигарет Damask Rose
+---
+### condowners/condowners_smoking.json | ItmCigDamaskRose01 | strDesc
+Сигарета Damask Rose.
+
+Ведущий бренд марихуаны за пределами Земли благодаря истории, качеству и доступности. Чистая сатива, выведенная для неблагоприятных условий выращивания.
+
+«Цветок оазиса.»
+---
+### condowners/condowners_smoking.json | ItmCigDamaskRose01 | strNameFriendly
+Сигарета Damask Rose
+---
+### condowners/condowners_smoking.json | ItmCigDamaskRose01Lit | strDesc
+Сигарета Damask Rose.
+
+Ведущий бренд марихуаны за пределами Земли благодаря истории, качеству и доступности. Чистая сатива, выведенная для неблагоприятных условий выращивания.
+
+«Унесись прочь.»
+---
+### condowners/condowners_smoking.json | ItmCigDamaskRose01Lit | strNameFriendly
+Сигарета Damask Rose (тлеет)
+---
+### condowners/condowners_smoking.json | ItmCigUnicornDreamBox01 | strDesc
+Пачка сигарет Unicorn Dream, 10 штук, от The Green Energy Company из Rosebud на Tharsis Landing.
+
+Более приземлённая интерпретация знаменитого цветочного дизайна Damask Rose — с более пухлой листвой, намекающей на индику внутри.
+
+«Мифический дрейф.»
+---
+### condowners/condowners_smoking.json | ItmCigUnicornDreamBox01 | strNameFriendly
+Пачка сигарет Unicorn Dream
+---
+### condowners/condowners_smoking.json | ItmCigUnicornDream01 | strDesc
+Сигарета Unicorn Dream.
+
+Сестринский сорт ведущего бренда марихуаны за пределами Земли благодаря истории, качеству и доступности. Чистая индика, выведенная для неблагоприятных условий выращивания.
+
+«Лист мечты.»
+---
+### condowners/condowners_smoking.json | ItmCigUnicornDream01 | strNameFriendly
+Сигарета Unicorn Dream
+---
+### condowners/condowners_smoking.json | ItmCigUnicornDream01Lit | strDesc
+Сигарета Unicorn Dream.
+
+Сестринский сорт ведущего бренда марихуаны за пределами Земли благодаря истории, качеству и доступности. Чистая индика, выведенная для неблагоприятных условий выращивания.
+
+«Преследуй мечту.»
+---
+### condowners/condowners_smoking.json | ItmCigUnicornDream01Lit | strNameFriendly
+Сигарета Unicorn Dream (тлеет)
+---
+### condowners/condowners_smoking.json | ItmCigStub | strDesc
+Сигаретный окурок. Пепел и пожелтевшая бумага.
+---
+### condowners/condowners_smoking.json | ItmCigStub | strNameFriendly
+Сигаретный окурок
+---
+### condowners/condowners_smoking.json | Plot_Whodunnit_VictimDNA | strDesc
+Образцы волос, кожи и других биоматериалов с тела жертвы.
+---
+### condowners/condowners_smoking.json | Plot_Whodunnit_VictimDNA | strNameFriendly
+Биологические образцы жертвы
+---
+### condowners/condowners_smoking.json | ItmHygieneWipes01 | strDesc
+Персональный гигиенический набор, стандартный расходник с принадлежностями для чистоты и ухода на флоте.
+
+Помимо универсальных влажных салфеток, в набор обычно входят мыло, бритвенные принадлежности, дезодорант, а упаковка сгодится и как одноразовая расчёска/щётка для волос. В люксовые наборы также кладут зубную нить, бальзам для губ, крем для кожи, кусачки для ногтей, маску для сна и беруши.
+
+Космонавты часто пополняют запасы предпочитаемыми или доступными брендами.
+---
+### condowners/condowners_smoking.json | ItmHygieneWipes01 | strNameFriendly
+Гигиенический набор
+---
+### cooverlays/cooverlays.json | ItmAirPump01Dmg | strDesc
+Газовый насос Sokol серии T, часто встречается на кораблях как часть системы жизнеобеспечения. Забирает газ из любого закрытого контейнера или помещения и перекачивает его в целевую зону. Может подключаться к соответствующим сигнализациям для поддержания безопасного давления в отсеке.
+---
+### cooverlays/cooverlays.json | ItmAirPump01Dmg | strNameFriendly
+Турбовоздушный насос (повреждён)
+---
+### cooverlays/cooverlays.json | ItmAirPump01DmgLoose | strDesc
+Газовый насос Sokol серии T, часто встречается на кораблях как часть системы жизнеобеспечения. Забирает газ из любого закрытого контейнера или помещения и перекачивает его в целевую зону. Может подключаться к соответствующим сигнализациям для поддержания безопасного давления в отсеке.
+---
+### cooverlays/cooverlays.json | ItmAirPump01DmgLoose | strNameFriendly
+Турбовоздушный насос (повреждён, откреплён)
+---
+### cooverlays/cooverlays.json | ItmAirPump01Off | strDesc
+Газовый насос Sokol серии T, часто встречается на кораблях как часть системы жизнеобеспечения. Забирает газ из любого закрытого контейнера или помещения и перекачивает его в целевую зону. Может подключаться к соответствующим сигнализациям для поддержания безопасного давления в отсеке.
+---
+### cooverlays/cooverlays.json | ItmAirPump01Off | strNameFriendly
+Турбовоздушный насос (выкл.)
+---
+### cooverlays/cooverlays.json | ItmAirPump01OffLoose | strDesc
+Газовый насос Sokol серии T, часто встречается на кораблях как часть системы жизнеобеспечения. Забирает газ из любого закрытого контейнера или помещения и перекачивает его в целевую зону. Может подключаться к соответствующим сигнализациям для поддержания безопасного давления в отсеке.
+---
+### cooverlays/cooverlays.json | ItmAirPump01OffLoose | strNameFriendly
+Турбовоздушный насос (откреплён)
+---
+### cooverlays/cooverlays.json | ItmAirPump01OnG | strDesc
+Газовый насос Sokol серии T, часто встречается на кораблях как часть системы жизнеобеспечения. Забирает газ из любого закрытого контейнера или помещения и перекачивает его в целевую зону. Может подключаться к соответствующим сигнализациям для поддержания безопасного давления в отсеке.
+---
+### cooverlays/cooverlays.json | ItmAirPump01OnG | strNameFriendly
+Турбовоздушный насос (OnG)
+---
+### cooverlays/cooverlays.json | ItmAirPump03Dmg | strNameFriendly
+Воздушный насос (повреждён)
+---
+### cooverlays/cooverlays.json | ItmAirPump03DmgLoose | strNameFriendly
+Воздушный насос (повреждён, откреплён)
+---
+### cooverlays/cooverlays.json | ItmAirPump03Off | strNameFriendly
+Воздушный насос (выкл.)
+---
+### cooverlays/cooverlays.json | ItmAirPump03OffLoose | strNameFriendly
+Воздушный насос (откреплён)
+---
+### cooverlays/cooverlays.json | ItmAirPump03OnG | strNameFriendly
+Воздушный насос (OnG)
+---
+### cooverlays/cooverlays.json | ItmBattery02LowPower | strNameFriendly
+Стартерная батарея
+---
+### cooverlays/cooverlays.json | ItmBattery02LowPowerLoose | strNameFriendly
+Стартерная батарея (откреплена)
+---
+### cooverlays/cooverlays.json | ItmBattery02bLowPower | strNameFriendly
+Стартерная батарея
+---
+### cooverlays/cooverlays.json | ItmBattery02bLowPowerLoose | strNameFriendly
+Стартерная батарея (откреплена)
+---
+### cooverlays/cooverlays.json | ItmBattery02cLowPower | strNameFriendly
+Стартерная батарея
+---
+### cooverlays/cooverlays.json | ItmBattery02cLowPowerLoose | strNameFriendly
+Стартерная батарея (откреплена)
+---
+### cooverlays/cooverlays.json | ItmBookStudyAdmin01 | strDesc
+Интерактивный учебник, помогающий читателю освоить навыки в области управления бизнесом.
+
+БОНУС ПРИ УСКОРЕНИИ: изучение управления бизнесом.
+---
+### cooverlays/cooverlays.json | ItmBookStudyAdmin01 | strNameFriendly
+Учебник: управление бизнесом
+---
+### cooverlays/cooverlays.json | ItmBookStudyEngConstruction01 | strDesc
+Интерактивный учебник, помогающий читателю освоить навыки в области строительной инженерии.
+
+БОНУС ПРИ УСКОРЕНИИ: изучение строительной инженерии.
+---
+### cooverlays/cooverlays.json | ItmBookStudyEngConstruction01 | strNameFriendly
+Учебник: строительная инженерия
+---
+### cooverlays/cooverlays.json | ItmBookStudyEngCivil01 | strDesc
+Интерактивный учебник, помогающий читателю освоить навыки в области гражданской инженерии.
+
+БОНУС ПРИ УСКОРЕНИИ: изучение гражданской инженерии.
+---
+### cooverlays/cooverlays.json | ItmBookStudyEngCivil01 | strNameFriendly
+Учебник: гражданская инженерия
+---
+### cooverlays/cooverlays.json | ItmBookStudyEngCombat01 | strDesc
+Интерактивный учебник, изданный Brave New World, помогающий читателю освоить навыки в области военной инженерии.
+
+БОНУС ПРИ УСКОРЕНИИ: изучение военной инженерии.
+---
+### cooverlays/cooverlays.json | ItmBookStudyEngCombat01 | strNameFriendly
+Учебник: военная инженерия
+---
+### cooverlays/cooverlays.json | ItmBookStudyEngExcavation01 | strDesc
+Интерактивный учебник, изданный Brave New World, помогающий читателю освоить навыки в области земляных и горнодобывающих работ.
+
+БОНУС ПРИ УСКОРЕНИИ: изучение земляных работ.
+---
+### cooverlays/cooverlays.json | ItmBookStudyEngExcavation01 | strNameFriendly
+Учебник: земляные работы
+---
+### cooverlays/cooverlays.json | ItmBookStudyEngMechanical01 | strDesc
+Интерактивный учебник, помогающий читателю освоить навыки в области механической инженерии.
+
+БОНУС ПРИ УСКОРЕНИИ: изучение механической инженерии.
+---
+### cooverlays/cooverlays.json | ItmBookStudyEngMechanical01 | strNameFriendly
+Учебник: механическая инженерия
+---
+### cooverlays/cooverlays.json | ItmBookStudyEngRobotics01 | strDesc
+Интерактивный учебник, помогающий читателю освоить навыки в области робототехники.
+
+БОНУС ПРИ УСКОРЕНИИ: изучение робототехники.
+---
+### cooverlays/cooverlays.json | ItmBookStudyEngRobotics01 | strNameFriendly
+Учебник: робототехника
+---
+### cooverlays/cooverlays.json | ItmBookStudyEngSoftware01 | strDesc
+Интерактивный учебник, помогающий читателю освоить навыки в области программной инженерии.
+
+БОНУС ПРИ УСКОРЕНИИ: изучение программной инженерии.
+---
+### cooverlays/cooverlays.json | ItmBookStudyEngSoftware01 | strNameFriendly
+Учебник: программная инженерия
+---
+### cooverlays/cooverlays.json | ItmBookStudyEngSpaceship01 | strDesc
+Интерактивный учебник, помогающий читателю освоить навыки в области космической инженерии.
+
+БОНУС ПРИ УСКОРЕНИИ: изучение космической инженерии.
+---
+### cooverlays/cooverlays.json | ItmBookStudyEngSpaceship01 | strNameFriendly
+Учебник: космическая инженерия
+---
+### cooverlays/cooverlays.json | ItmBookStudyHacking01 | strDesc
+Интерактивный учебник, помогающий читателю освоить навыки в области компьютерного взлома и методов эксплуатации.
+
+БОНУС ПРИ УСКОРЕНИИ: изучение хакерства.
+---
+### cooverlays/cooverlays.json | ItmBookStudyHacking01 | strNameFriendly
+Учебник: хакерство
+---
+### cooverlays/cooverlays.json | ItmConduit01 | strNameFriendly
+Кабель-канал: Collective Electric «Albrite» EMT
+---
+### cooverlays/cooverlays.json | ItmConduit01Dmg | strNameFriendly
+Кабель-канал (повреждён): Collective Electric «Albrite» EMT
+---
+### cooverlays/cooverlays.json | ItmConduit01Loose | strNameFriendly
+Кабель-канал (откреплён): Collective Electric «Albrite» EMT
+---
+### cooverlays/cooverlays.json | ItmConduit01DmgLoose | strNameFriendly
+Кабель-канал (откреплён, повреждён): Collective Electric «Albrite» EMT
+---
+### cooverlays/cooverlays.json | ItmConduit04 | strNameFriendly
+Кабель-канал: аварийный кабель Jumper-Jack
+---
+### cooverlays/cooverlays.json | ItmConduit04Dmg | strNameFriendly
+Кабель-канал (повреждён): аварийный кабель Jumper-Jack
+---
+### cooverlays/cooverlays.json | ItmConduit04Loose | strNameFriendly
+Кабель-канал (откреплён): аварийный кабель Jumper-Jack
+---
+### cooverlays/cooverlays.json | ItmConduit04DmgLoose | strNameFriendly
+Кабель-канал (откреплён): аварийный кабель Jumper-Jack
+---
+### cooverlays/cooverlays.json | ItmDecorPoster02 | strDesc
+Туристический плакат PASS для Tharsis Landing на Марсе.
+---
+### cooverlays/cooverlays.json | ItmDecorPoster02 | strNameFriendly
+Плакат: Путешествуй в Tharsis Landing
+---
+### cooverlays/cooverlays.json | ItmDecorPoster02Loose | strDesc
+Туристический плакат PASS для Tharsis Landing на Марсе.
+---
+### cooverlays/cooverlays.json | ItmDecorPoster02Loose | strNameFriendly
+Плакат: Путешествуй в Tharsis Landing (откреплён)
+---
+### cooverlays/cooverlays.json | ItmDecorPoster03 | strDesc
+Туристический плакат PASS для Атлантиды на Европе, Юпитер.
+---
+### cooverlays/cooverlays.json | ItmDecorPoster03 | strNameFriendly
+Плакат: Путешествуй в Атлантиду
+---
+### cooverlays/cooverlays.json | ItmDecorPoster03Loose | strDesc
+Туристический плакат PASS для Атлантиды на Европе, Юпитер.
+---
+### cooverlays/cooverlays.json | ItmDecorPoster03Loose | strNameFriendly
+Плакат: Путешествуй в Атлантиду (откреплён)
+---
+### cooverlays/cooverlays.json | ItmDecorPoster04 | strDesc
+Рекламный плакат с фирменным красным кроликом — талисманом сигарет Sungura Viceroys.
+«Перекур! Приказ вице-короля.»
+---
+### cooverlays/cooverlays.json | ItmDecorPoster04 | strNameFriendly
+Плакат: реклама Viceroy
+---
+### cooverlays/cooverlays.json | ItmDecorPoster04Loose | strDesc
+Рекламный плакат с фирменным красным кроликом — талисманом сигарет Sungura Viceroys.
+«Перекур! Приказ вице-короля.»
+---
+### cooverlays/cooverlays.json | ItmDecorPoster04Loose | strNameFriendly
+Плакат: реклама Viceroy (откреплён)
+---
+### cooverlays/cooverlays.json | ItmDecorPoster05 | strDesc
+Социальный плакат Ayotimiwa с любимцем всеми Лаки Луской: на нём аббревиатура шагов реагирования на разгерметизацию атмосферы корабля.
+---
+### cooverlays/cooverlays.json | ItmDecorPoster05 | strNameFriendly
+Плакат: Лаки говорит PANIC
+---
+### cooverlays/cooverlays.json | ItmDecorPoster05Loose | strDesc
+Социальный плакат Ayotimiwa с любимцем всеми Лаки Луской: на нём аббревиатура шагов реагирования на разгерметизацию атмосферы корабля.
+---
+### cooverlays/cooverlays.json | ItmDecorPoster05Loose | strNameFriendly
+Плакат: Лаки говорит PANIC (откреплён)
+---
+### cooverlays/cooverlays.json | ItmDecorPoster06 | strDesc
+Социальный плакат Ayotimiwa с любимцем всеми Лаки Луской: на нём аббревиатура советов по пилотированию в воздушном пространстве K-Leg.
+---
+### cooverlays/cooverlays.json | ItmDecorPoster06 | strNameFriendly
+Плакат: Лаки говорит YIELD
+---
+### cooverlays/cooverlays.json | ItmDecorPoster06Loose | strDesc
+Социальный плакат Ayotimiwa с любимцем всеми Лаки Луской: на нём аббревиатура советов по пилотированию в воздушном пространстве K-Leg.
+---
+### cooverlays/cooverlays.json | ItmDecorPoster06Loose | strNameFriendly
+Плакат: Лаки говорит YIELD (откреплён)
+---
+### cooverlays/cooverlays.json | ItmDecorPoster09 | strDesc
+Рекламный плакат с агрессивной энергией единственного в системе 100% Kapeng Barako, с выраженным крепким копчёным вкусом и цветочным ароматом филиппинских зёрен Liberica. «Удар чёрного быка поднимёт тебя в воздух.»
+---
+### cooverlays/cooverlays.json | ItmDecorPoster09 | strNameFriendly
+Плакат: Black Bull Kape
+---
+### cooverlays/cooverlays.json | ItmDecorPoster09Loose | strDesc
+Рекламный плакат с агрессивной энергией единственного в системе 100% Kapeng Barako, с выраженным крепким копчёным вкусом и цветочным ароматом филиппинских зёрен Liberica. «Удар чёрного быка поднимет тебя в воздух.»
+---
+### cooverlays/cooverlays.json | ItmDecorPoster09Loose | strNameFriendly
+Плакат: Black Bull Kape (откреплён)
+---
+### cooverlays/cooverlays.json | ItmDecorPoster10 | strDesc
+Рекламный плакат самого знаменитого продукта Green Energy Company по всей системе — чистая сатива с эффектом, столь же необычным, как её маркетинговый дизайн.
+---
+### cooverlays/cooverlays.json | ItmDecorPoster10 | strNameFriendly
+Плакат: Damask Rose
+---
+### cooverlays/cooverlays.json | ItmDecorPoster10Loose | strDesc
+Рекламный плакат самого знаменитого продукта Green Energy Company по всей системе — чистая сатива с эффектом, столь же необычным, как её маркетинговый дизайн.
+---
+### cooverlays/cooverlays.json | ItmDecorPoster10Loose | strNameFriendly
+Плакат: Damask Rose (откреплён)
+---
+### cooverlays/cooverlays.json | ItmDecorPoster11 | strDesc
+Рекламный плакат с классическим черепом на фоне восхода, символизирующим любимый напиток космонавтов от нефтяной компании Soyuzneft. За вкус, что бессмертен, доверьтесь Bismertnaya.
+---
+### cooverlays/cooverlays.json | ItmDecorPoster11 | strNameFriendly
+Плакат: Bismertnaya Vodka Classic
+---
+### cooverlays/cooverlays.json | ItmDecorPoster11Loose | strDesc
+Рекламный плакат с классическим черепом на фоне восхода, символизирующим любимый напиток космонавтов от нефтяной компании Soyuzneft. За вкус, что бессмертен, доверьтесь Bismertnaya.
+---
+### cooverlays/cooverlays.json | ItmDecorPoster11Loose | strNameFriendly
+Плакат: Bismertnaya Vodka Classic (откреплён)
+---
+### cooverlays/cooverlays.json | ItmDecorPoster12 | strDesc
+Рекламный плакат с лимитированным дизайном «Psyche Sunset», посвящённый нефтяной компанией Soyuzneft предполагаемому железному гиганту астероидов — символ стойкого, пьющего человечества по всей системе.
+
+«На каждый бессмертный, незапомненный момент есть Bismertnaya.»
+---
+### cooverlays/cooverlays.json | ItmDecorPoster12 | strNameFriendly
+Плакат: Bismertnaya Vodka Psyche
+---
+### cooverlays/cooverlays.json | ItmDecorPoster12Loose | strDesc
+Рекламный плакат с лимитированным дизайном «Psyche Sunset», посвящённый нефтяной компанией Soyuzneft предполагаемому железному гиганту астероидов — символ стойкого, пьющего человечества по всей системе.
+
+«На каждый бессмертный, незапомненный момент есть Bismertnaya.»
+---
+### cooverlays/cooverlays.json | ItmDecorPoster12Loose | strNameFriendly
+Плакат: Bismertnaya Vodka Psyche (откреплён)
+---
+### cooverlays/cooverlays.json | ItmDocumentPermitOKLG01Used | strNameFriendly
+Разрешение: жёлтый айотимива-разрешение на утилизацию
+---
+### cooverlays/cooverlays.json | ItmDocumentPermitOKLG01bUsed | strNameFriendly
+Разрешение: красный айотимива-разрешение на утилизацию
+---
+### cooverlays/cooverlays.json | ItmDocumentPermitOKLG01cUsed | strNameFriendly
+Разрешение: синий айотимива-разрешение на утилизацию
+---
+### cooverlays/cooverlays.json | ItmDocumentPermitOKLG01dUsed | strNameFriendly
+Разрешение: серебряный айотимива-разрешение на утилизацию
+---
+### cooverlays/cooverlays.json | ItmDocumentPermitOKLG01eUsed | strNameFriendly
+Разрешение: чёрный айотимива-разрешение на утилизацию
+---
+### cooverlays/cooverlays.json | ItmHeater02Dmg | strNameFriendly
+Обогреватель модели B (повреждён)
+---
+### cooverlays/cooverlays.json | ItmHeater02DmgLoose | strNameFriendly
+Обогреватель модели B (откреплён, повреждён)
+---
+### cooverlays/cooverlays.json | ItmHeater02Off | strNameFriendly
+Обогреватель модели B (выкл.)
+---
+### cooverlays/cooverlays.json | ItmHeater02OffLoose | strNameFriendly
+Обогреватель модели B (откреплён)
+---
+### cooverlays/cooverlays.json | ItmHeater02 | strNameFriendly
+Обогреватель модели B
+---
+### cooverlays/cooverlays.json | ItmShipWeaponPDC01Firing | strNameFriendly
+Smartlink «Charybdis» PDC (стрельба)
+---
+### cooverlays/cooverlays.json | ItmPDACartPwrViz | strDesc
+Картридж PwrViz для PDA-дополнения от Renbao. Содержит специальное оборудование для отображения дополненной реальности с подсветкой потоков энергии.
+---
+### cooverlays/cooverlays.json | ItmPDACartPwrViz | strNameFriendly
+Картридж Renbao PwrViz
+---
+### cooverlays/cooverlays.json | ItmPDACartDmgViz | strDesc
+Картридж DmgViz для PDA-дополнения от Renbao. Содержит специальное оборудование для отображения дополненной реальности с подсветкой повреждённого оборудования.
+---
+### cooverlays/cooverlays.json | ItmPDACartDmgViz | strNameFriendly
+Картридж Renbao DmgViz
+---
+### cooverlays/cooverlays.json | ItmPDACartPriceViz | strDesc
+Картридж PriceViz для PDA-дополнения от Renbao. Содержит специальное оборудование для отображения дополненной реальности с подсветкой рекомендованной розничной цены предметов.
+---
+### cooverlays/cooverlays.json | ItmPDACartPriceViz | strNameFriendly
+Картридж Renbao PriceViz
+---
+### cooverlays/cooverlays.json | ItmPDACartMassViz | strDesc
+Картридж MassViz для PDA-дополнения от Renbao. Содержит специальное оборудование для отображения дополненной реальности с подсветкой массы предметов.
+---
+### cooverlays/cooverlays.json | ItmPDACartMassViz | strNameFriendly
+Картридж Renbao MassViz
+---
+### cooverlays/cooverlays.json | ItmPDACartHeatViz | strDesc
+Картридж HeatViz для PDA-дополнения от Renbao. Содержит специальное оборудование для отображения дополненной реальности с подсветкой тепловой энергии.
+---
+### cooverlays/cooverlays.json | ItmPDACartHeatViz | strNameFriendly
+Картридж Renbao HeatViz
+---
+### cooverlays/cooverlays.json | ItmPDACartKpaViz | strDesc
+Картридж KpaViz для PDA-дополнения от Renbao. Содержит специальное оборудование для отображения дополненной реальности с подсветкой давления газа.
+---
+### cooverlays/cooverlays.json | ItmPDACartKpaViz | strNameFriendly
+Картридж Renbao KpaViz
+---
+### cooverlays/cooverlays.json | ItmPDACart01 | strDesc
+Картридж 1-го уровня для PDA-дополнения от Renbao. Содержит специальное оборудование для расширения функциональности PDA. Этот картридж имеет aftermarket-модификации.
+---
+### cooverlays/cooverlays.json | ItmPDACart01 | strNameFriendly
+Картридж Renbao R101 (модифицированный)
+---
+### cooverlays/cooverlays.json | ItmPDACart02 | strDesc
+Картридж 2-го уровня для PDA-дополнения от Renbao. Содержит специальное оборудование для расширения функциональности PDA. Этот картридж имеет aftermarket-модификации.
+---
+### cooverlays/cooverlays.json | ItmPDACart02 | strNameFriendly
+Картридж Renbao R102 (модифицированный)
+---
+### cooverlays/cooverlays.json | ItmPDACart03 | strDesc
+Картридж 3-го уровня для PDA-дополнения от Renbao. Содержит специальное оборудование для расширения функциональности PDA. Этот картридж имеет aftermarket-модификации.
+---
+### cooverlays/cooverlays.json | ItmPDACart03 | strNameFriendly
+Картридж Renbao R103 (модифицированный)
+---
+### cooverlays/cooverlays.json | ItmPDACart04 | strDesc
+Картридж 4-го уровня для PDA-дополнения от Renbao. Содержит специальное оборудование для расширения функциональности PDA. Этот картридж имеет aftermarket-модификации.
+---
+### cooverlays/cooverlays.json | ItmPDACart04 | strNameFriendly
+Картридж Renbao R104 (модифицированный)
+---
+### cooverlays/cooverlays.json | ItmPDACart05 | strDesc
+Картридж 5-го уровня для PDA-дополнения от Renbao. Содержит специальное оборудование для расширения функциональности PDA. Этот картридж имеет aftermarket-модификации.
+---
+### cooverlays/cooverlays.json | ItmPDACart05 | strNameFriendly
+Картридж Renbao R105 (модифицированный)
+---
+### cooverlays/cooverlays.json | ItmToothbrush02 | strDesc
+Testudo AstroBristle UltraSoft: «Бережный уход для чувствительных зубов и дёсен»
+
+Щётка с нежной успокаивающей цветовой палитрой и в десять раз большим числом щетинок на квадратный миллиметр.
+---
+### cooverlays/cooverlays.json | ItmToothbrush02 | strNameFriendly
+Testudo «AstroBristle UltraSoft»
+---
+### cooverlays/cooverlays.json | ItmToothbrush03 | strDesc
+Testudo AstroBristle MaxClean: «Глубокая чистка для межзвёздной свежести»
+
+Прямолинейный дизайн с продвинутой щетинной технологией для превосходного удаления налёта.
+---
+### cooverlays/cooverlays.json | ItmToothbrush03 | strNameFriendly
+Testudo «AstroBristle MaxClean»
+---
+### cooverlays/cooverlays.json | ItmToothbrush04 | strDesc
+Testudo AstroBristle Photon: «Осветлите улыбку силой света»
+
+Сияющая жёлтая зубная щётка с продвинутыми отбеливающими щетинками.
+---
+### cooverlays/cooverlays.json | ItmToothbrush04 | strNameFriendly
+Testudo «AstroBristle Photon»
+---
+### cooverlays/cooverlays.json | ItmToothbrush05 | strDesc
+Testudo AstroBristle Active: «С фортифицированным фтором — для активного образа жизни на флоте»
+
+Спортивная, яркая зубная щётка с конкурентно текстурированной эргономичной рукояткой.
+---
+### cooverlays/cooverlays.json | ItmToothbrush05 | strNameFriendly
+Testudo «AstroBristle Active»
+---
+### cooverlays/cooverlays.json | ItmToothbrush06 | strDesc
+Testudo AstroBristle Kids: «Галактическое веселье для маленьких космоисследователей»
+
+Массивная щётка для маленьких рук, с игривым дизайном и щетинками, подходящими для детей.
+---
+### cooverlays/cooverlays.json | ItmToothbrush06 | strNameFriendly
+Testudo «AstroBristle Kids»
+---
+### cooverlays/cooverlays.json | ItmSink01Station | strNameFriendly
+Станционная раковина
+---
+### cooverlays/cooverlays.json | ItmSwitch01OffTutorial | strNameFriendly
+Выключатель: кубрик (выкл.)
+---
+### cooverlays/cooverlays.json | ItmTable01Reserved | strNameFriendly
+Барный столик (зарезервирован)
+---
+### cooverlays/cooverlays.json | LiquidBloodMeat | strDesc
+Кровь с розовыми сгустками, более тёмной вязкой текстурой и торчащими волосками. Когда она рядом, почти чувствуется привкус меди.
+---
+### cooverlays/cooverlays.json | LiquidBloodMeat | strNameFriendly
+Кровь с кусками
+---
+### cooverlays/cooverlays.json | SysLootSpawnerProvisions | strNameFriendly
+Спавнер лута: провиант
+---
+### cooverlays/cooverlays.json | SysLootSpawnerCrewPersonal  | strNameFriendly
+Спавнер лута: личные вещи экипажа
+---
+### cooverlays/cooverlays.json | SysLootSpawnerCrewRec | strNameFriendly
+Спавнер лута: набор экипажа
+---
+### cooverlays/cooverlays.json | SysLootSpawnerJunk | strNameFriendly
+Спавнер лута: хлам
+---
+### cooverlays/cooverlays.json | SysLootSpawnerMedical | strNameFriendly
+Спавнер лута: медицина
+---
+### cooverlays/cooverlays.json | SysLootSpawnerEngineering | strNameFriendly
+Спавнер лута: инженерное
+---
+### cooverlays/cooverlays.json | SysLootSpawnerAmmoMassThrower01 | strNameFriendly
+Спавнер лута: боеприпасы MassThrower01
+---
+### cooverlays/cooverlays.json | SysLootSpawnerAmmoMassThrower02 | strNameFriendly
+Спавнер лута: боеприпасы MassThrower02
+---
+### cooverlays/cooverlays.json | SysLootSpawnerAmmoMassThrower03 | strNameFriendly
+Спавнер лута: боеприпасы MassThrower03
+---
+### cooverlays/cooverlays.json | SysLootSpawnerAmmoMissileLauncher01 | strNameFriendly
+Спавнер лута: боеприпасы MissileLauncher01
+---
+### cooverlays/cooverlays.json | SysLootSpawnerAmmoMissileLauncher02 | strNameFriendly
+Спавнер лута: боеприпасы MissileLauncher02
+---
+### cooverlays/cooverlays.json | SysLootSpawnerAmmoMissileLauncher03 | strNameFriendly
+Спавнер лута: боеприпасы MissileLauncher03
+---
+### cooverlays/cooverlays.json | SysLootSpawnerAmmoPDC | strNameFriendly
+Спавнер лута: боеприпасы PDC
+---
+### cooverlays/cooverlays.json | SysLootSpawnerAirlock | strNameFriendly
+Спавнер лута: шлюз
+---
+### cooverlays/cooverlays.json | SysLootSpawnerBulkCargo | strNameFriendly
+Спавнер лута: насыпной груз
+---
+### cooverlays/cooverlays.json | SysLootSpawnerRandomFloor | strNameFriendly
+Спавнер лута: случайный пол
+---
+### cooverlays/cooverlays.json | SysLootSpawnerRandomWall | strNameFriendly
+Спавнер лута: случайная стена
+---
+### cooverlays/cooverlays.json | SysLootSpawnerRandomPartsScrap | strNameFriendly
+Спавнер лута: случайный лом запчастей
+---
+### cooverlays/cooverlays.json | SysLootSpawnerBoarding | strNameFriendly
+Спавнер лута: абордаж
+---
+### cooverlays/cooverlays.json | SysLootSpawnerNotBoarding | strNameFriendly
+Спавнер лута: не абордаж
+---
+### interactions/interactions_combat.json | ACTSurrenderDemandAllowPlayer | strDesc
+[us] СДАЁТСЯ [them].
+---
+### interactions/interactions_encounters.json | ENCEmbassyServicesOKLGKioskTut | strDesc
+[us] СПРАШИВАЕТ о визах для K-Leg, 1036-Ганимед.
+---
+### interactions/interactions_encounters.json | ENCEmbassyServicesOKLGKioskTut | strTooltip
+Просмотр и покупка материалов для подачи заявления на визу для станции Nnamdi Azikiwe / K-Leg, 1036-Ганимед.
+---
+### interactions/interactions_encounters.json | ENCFirstDockOKLG | strTitle
+K-Leg
+---
+### interactions/interactions_encounters.json | ENCFirstDockOKLG_MES | strTitle
+K-Leg
+---
+### interactions/interactions_encounters.json | ENCFirstDockMHNG | strTitle
+Ханчжоуская орбитальная
+---
+### interactions/interactions_encounters.json | ENCFirstDockMSUZ | strTitle
+Сучжоуская орбитальная
+---
+### interactions/interactions_encounters.json | GUIRacingKioskInfo | strDesc
+[us] просматривает информацию о [them].
+---
+### interactions/interactions_encounters.json | GUIRacingKioskInfo | strTitle
+Инфо: начать гонку!
+---
+### interactions/interactions_encounters.json | ENCLANavigateLBto00Allow | strDesc
+[us] ПЕРЕМЕЩАЕТСЯ в Строительный район Лос-Анджелеса.
+---
+### interactions/interactions_encounters.json | ENCLANavigateLBto00Allow | strTitle
+Транзитный мост в Строительный район Лос-Анджелеса
+---
+### interactions/interactions_encounters.json | ENCLANavigate00toLB | strDesc
+[us] ПЕРЕМЕЩАЕТСЯ к терминалу Лонг-Бич.
+---
+### interactions/interactions_encounters.json | ENCLANavigate00toLB | strTitle
+Вернуться к терминалу Лонг-Бич
+---
+### interactions/interactions_encounters.json | ENCLANavigate00toLBAllow | strDesc
+[us] ПЕРЕМЕЩАЕТСЯ к терминалу Лонг-Бич.
+---
+### interactions/interactions_encounters.json | ENCLANavigate00toLBAllow | strTitle
+Вернуться к терминалу Лонг-Бич
+---
+### interactions/interactions_encounters.json | ENCLANavigate00to01 | strDesc
+[us] ПЕРЕМЕЩАЕТСЯ в Строительную зону Лос-Анджелеса 01.
+---
+### interactions/interactions_encounters.json | ENCLANavigate00to01 | strTitle
+Транзит в LA Зону 01
+---
+### interactions/interactions_encounters.json | ENCLANavigate00to01Allow | strDesc
+[us] ПЕРЕМЕЩАЕТСЯ в Строительную зону Лос-Анджелеса 01.
+---
+### interactions/interactions_encounters.json | ENCLANavigate00to01Allow | strTitle
+Транзит в LA Зону 01
+---
+### interactions/interactions_encounters.json | ENCLANavigate01to00 | strDesc
+[us] ПЕРЕМЕЩАЕТСЯ к мосту Строительной зоны Лос-Анджелеса.
+---
+### interactions/interactions_encounters.json | ENCLANavigate01to00 | strTitle
+Вернуться к мосту LA
+---
+### interactions/interactions_encounters.json | ENCLANavigate01to00Allow | strDesc
+[us] ПЕРЕМЕЩАЕТСЯ к мосту Строительной зоны Лос-Анджелеса.
+---
+### interactions/interactions_encounters.json | ENCLANavigate01to00Allow | strTitle
+Вернуться к мосту LA
+---
+### interactions/interactions_encounters.json | ENCLANavigate01to02 | strDesc
+[us] ПЕРЕМЕЩАЕТСЯ в Строительную зону Лос-Анджелеса 02.
+---
+### interactions/interactions_encounters.json | ENCLANavigate01to02 | strTitle
+Транзит в LA Зону 02
+---
+### interactions/interactions_encounters.json | ENCLANavigate01to02Allow | strDesc
+[us] ПЕРЕМЕЩАЕТСЯ в Строительную зону Лос-Анджелеса 02.
+---
+### interactions/interactions_encounters.json | ENCLANavigate01to02Allow | strTitle
+Транзит в LA Зону 02
+---
+### interactions/interactions_encounters.json | ENCLANavigate02to01 | strDesc
+[us] ПЕРЕМЕЩАЕТСЯ в Строительную зону Лос-Анджелеса 01.
+---
+### interactions/interactions_encounters.json | ENCLANavigate02to01 | strTitle
+Вернуться в LA Зону 01
+---
+### interactions/interactions_encounters.json | ENCLANavigate02to01Allow | strDesc
+[us] ПЕРЕМЕЩАЕТСЯ в Строительную зону Лос-Анджелеса 01.
+---
+### interactions/interactions_encounters.json | ENCLANavigate02to01Allow | strTitle
+Вернуться в LA Зону 01
+---
+### interactions/interactions_encounters.json | ENCLANavigate02to03 | strDesc
+[us] ПЕРЕМЕЩАЕТСЯ в Строительную зону Лос-Анджелеса 03.
+---
+### interactions/interactions_encounters.json | ENCLANavigate02to03 | strTitle
+Транзит в LA Зону 03
+---
+### interactions/interactions_encounters.json | ENCLANavigate02to03Allow | strDesc
+[us] ПЕРЕМЕЩАЕТСЯ в Строительную зону Лос-Анджелеса 03.
+---
+### interactions/interactions_encounters.json | ENCLANavigate02to03Allow | strTitle
+Транзит в LA Зону 03
+---
+### interactions/interactions_encounters.json | ENCLANavigate03to02 | strDesc
+[us] ПЕРЕМЕЩАЕТСЯ в Строительную зону Лос-Анджелеса 02.
+---
+### interactions/interactions_encounters.json | ENCLANavigate03to02 | strTitle
+Вернуться в LA Зону 02
+---
+### interactions/interactions_encounters.json | ENCLANavigate03to02Allow | strDesc
+[us] ПЕРЕМЕЩАЕТСЯ в Строительную зону Лос-Анджелеса 02.
+---
+### interactions/interactions_encounters.json | ENCLANavigate03to02Allow | strTitle
+Вернуться в LA Зону 02
+---
+### interactions/interactions_encounters.json | ENCLANavigate03to04 | strDesc
+[us] ПЕРЕМЕЩАЕТСЯ в Строительную зону Лос-Анджелеса 04.
+---
+### interactions/interactions_encounters.json | ENCLANavigate03to04 | strTitle
+Транзит в LA Зону 04
+---
+### interactions/interactions_encounters.json | ENCLANavigate03to04Allow | strDesc
+[us] ПЕРЕМЕЩАЕТСЯ в Строительную зону Лос-Анджелеса 04.
+---
+### interactions/interactions_encounters.json | ENCLANavigate03to04Allow | strTitle
+Транзит в LA Зону 04
+---
+### interactions/interactions_encounters.json | ENCLANavigate04to03 | strDesc
+[us] ПЕРЕМЕЩАЕТСЯ в Строительную зону Лос-Анджелеса 03.
+---
+### interactions/interactions_encounters.json | ENCLANavigate04to03 | strTitle
+Вернуться в LA Зону 03
+---
+### interactions/interactions_encounters.json | ENCLANavigate04to03Allow | strDesc
+[us] ПЕРЕМЕЩАЕТСЯ в Строительную зону Лос-Анджелеса 03.
+---
+### interactions/interactions_encounters.json | ENCLANavigate04to03Allow | strTitle
+Вернуться в LA Зону 03
+---
+### interactions/interactions_encounters.json | ENCLANavigate04to05 | strDesc
+[us] ПЕРЕМЕЩАЕТСЯ в Строительную зону Лос-Анджелеса 05.
+---
+### interactions/interactions_encounters.json | ENCLANavigate04to05 | strTitle
+Транзит в LA Зону 05
+---
+### interactions/interactions_encounters.json | ENCLANavigate04to05Allow | strDesc
+[us] ПЕРЕМЕЩАЕТСЯ в Строительную зону Лос-Анджелеса 05.
+---
+### interactions/interactions_encounters.json | ENCLANavigate04to05Allow | strTitle
+Транзит в LA Зону 05
+---
+### interactions/interactions_encounters.json | ENCLANavigate05to04 | strDesc
+[us] ПЕРЕМЕЩАЕТСЯ в Строительную зону Лос-Анджелеса 04.
+---
+### interactions/interactions_encounters.json | ENCLANavigate05to04 | strTitle
+Вернуться в LA Зону 04
+---
+### interactions/interactions_encounters.json | ENCLANavigate05to04Allow | strDesc
+[us] ПЕРЕМЕЩАЕТСЯ в Строительную зону Лос-Анджелеса 04.
+---
+### interactions/interactions_encounters.json | ENCLANavigate05to04Allow | strTitle
+Вернуться в LA Зону 04
+---
+### interactions/interactions_encounters.json | ENCLANavigate01to05 | strDesc
+[us] ПЕРЕМЕЩАЕТСЯ в Строительную зону Лос-Анджелеса 05.
+---
+### interactions/interactions_encounters.json | ENCLANavigate01to05 | strTitle
+Транзит в LA Зону 05
+---
+### interactions/interactions_encounters.json | ENCLANavigate01to05Allow | strDesc
+[us] ПЕРЕМЕЩАЕТСЯ в Строительную зону Лос-Анджелеса 05.
+---
+### interactions/interactions_encounters.json | ENCLANavigate01to05Allow | strTitle
+Транзит в LA Зону 05
+---
+### interactions/interactions_encounters.json | ENCLANavigateExpressDeny | strDesc
+[us] не может сейчас совершить этот транзит.
+---
+### interactions/interactions_encounters.json | ENCLANavigateExpressDeny | strTitle
+Транзит невозможен
+---
+### interactions/interactions_encounters.json | ENCLANavigate05to01 | strDesc
+[us] ПЕРЕМЕЩАЕТСЯ в Строительную зону Лос-Анджелеса 01.
+---
+### interactions/interactions_encounters.json | ENCLANavigate05to01 | strTitle
+Вернуться в LA Зону 01
+---
+### interactions/interactions_encounters.json | ENCLANavigate05to01Allow | strDesc
+[us] ПЕРЕМЕЩАЕТСЯ в Строительную зону Лос-Анджелеса 01.
+---
+### interactions/interactions_encounters.json | ENCLANavigate05to01Allow | strTitle
+Вернуться в LA Зону 01
+---
+### interactions/interactions_encounters.json | ENCVLAUnlock01 | strDesc
+[us] ОТПИРАЕТ экспресс-транзит в Зону 01.
+---
+### interactions/interactions_encounters.json | ENCVLAUnlock01 | strTitle
+Открыть экспресс-доступ в LA Зону 01
+---
+### interactions/interactions_encounters.json | ENCVLAUnlock01Allow | strDesc
+[them] теперь может воспользоваться экспресс-транзитом в эту локацию.
+---
+### interactions/interactions_encounters.json | ENCVLAUnlock01Allow | strTitle
+Открыть экспресс-доступ в LA Зону 01
+---
+### interactions/interactions_mining.json | ACTMineAllow | strDesc
+[us] ДОБЫВАЕТ [them].
+---
+### interactions/interactions_mining.json | ACTMineDrill02Allow | strDesc
+[us] ДОБЫВАЕТ [them].
+---
+### interactions/interactions_modeswitch.json | MSAirPump02OnAllow | strDesc
+[us] ПИТАЕТ.
+---
+### interactions/interactions_modeswitch.json | MSAtmoScrubber01OnAllow | strDesc
+[us] ПИТАЕТ.
+---
+### interactions/interactions_modeswitch.json | MSAtmoScrubber02OnAllow | strDesc
+[us] ПИТАЕТ.
+---
+### interactions/interactions_modeswitch.json | MSBed01OnAllow | strDesc
+[us] ПИТАЕТ.
+---
+### interactions/interactions_modeswitch.json | MSBedMedical01OnAllow | strDesc
+[us] ПИТАЕТ.
+---
+### interactions/interactions_modeswitch.json | MSCooler01OnAllow | strDesc
+[us] ПИТАЕТ.
+---
+### interactions/interactions_modeswitch.json | MSCrate01LockAllow | strDesc
+[us] ЗАПИРАЕТ.
+---
+### interactions/interactions_modeswitch.json | MSCrate01UnlockAllow | strDesc
+[us] ОТПИРАЕТ.
+---
+### interactions/interactions_modeswitch.json | MSDestroyMeatEvolveEye | strDesc
+[us] эволюционирует.
+---
+### interactions/interactions_modeswitch.json | MSDestroyMeatEvolveHoof | strDesc
+[us] эволюционирует.
+---
+### interactions/interactions_modeswitch.json | MSDestroyMeatEvolveHorn | strDesc
+[us] эволюционирует.
+---
+### interactions/interactions_modeswitch.json | MSDockSysCloseAllow | strDesc
+[us] ЗАКРЫВАЕТ.
+---
+### interactions/interactions_modeswitch.json | MSDockSysCloseAllowAddAuto | strDesc
+[us] ЗАКРЫВАЕТ.
+---
+### interactions/interactions_modeswitch.json | MSDockSysOpenAllow | strDesc
+[us] ОТКРЫВАЕТ.
+---
+### interactions/interactions_modeswitch.json | MSDockSysOpenAllowRemoveAuto | strDesc
+[us] ОТКРЫВАЕТ.
+---
+### interactions/interactions_modeswitch.json | MSDockSys03CloseAllow | strDesc
+[us] ЗАКРЫВАЕТ.
+---
+### interactions/interactions_modeswitch.json | MSDockSys03CloseAllowAddAuto | strDesc
+[us] ЗАКРЫВАЕТ.
+---
+### interactions/interactions_modeswitch.json | MSDockSys03OpenAllow | strDesc
+[us] ОТКРЫВАЕТ.
+---
+### interactions/interactions_modeswitch.json | MSDockSys03OpenAllowRemoveAuto | strDesc
+[us] ОТКРЫВАЕТ.
+---
+### interactions/interactions_modeswitch.json | MSDoor01ClosedOnOpenAllow | strDesc
+[us] ОТКРЫВАЕТ.
+---
+### interactions/interactions_modeswitch.json | MSDoor01ClosedOnOpenAllowRemoveAuto | strDesc
+[us] ОТКРЫВАЕТ.
+---
+### interactions/interactions_modeswitch.json | MSDoor01ClosedOpenAllow | strDesc
+[us] ОТКРЫВАЕТ.
+---
+### interactions/interactions_modeswitch.json | MSDoor01ClosedOpenDeny | strDesc
+[us] НЕЕСТЬ питания.
+---
+### interactions/interactions_modeswitch.json | MSDoor01ClosedPowerupAllow | strDesc
+[us] ПИТАЕТ.
+---
+### interactions/interactions_modeswitch.json | MSDoor01OpenLockedPowerupAllow | strDesc
+[us] ПИТАЕТ.
+---
+### interactions/interactions_modeswitch.json | MSDoor01OpenOnCloseAllow | strDesc
+[us] ЗАКРЫВАЕТ.
+---
+### interactions/interactions_modeswitch.json | MSDoor01OpenOnCloseAllowAddAuto | strDesc
+[us] ЗАКРЫВАЕТ.
+---
+### interactions/interactions_modeswitch.json | MSDoor01OpenedCloseDeny | strDesc
+[us] НЕЕСТЬ питания.
+---
+### interactions/interactions_modeswitch.json | MSDoor01OpenPowerupAllow | strDesc
+[us] ПИТАЕТ.
+---
+### interactions/interactions_modeswitch.json | MSCrate01LockAllowSelf | strDesc
+[us] ЗАПИРАЕТ.
+---
+### interactions/interactions_modeswitch.json | MSCrate01UnlockAllowSelf | strDesc
+[us] ОТПИРАЕТ.
+---
+### interactions/interactions_modeswitch.json | MSDoor01ClosedLockAllow | strDesc
+[us] ЗАПИРАЕТ.
+---
+### interactions/interactions_modeswitch.json | MSDoor01ClosedUnlockAllow | strDesc
+[us] ОТПИРАЕТ.
+---
+### interactions/interactions_modeswitch.json | MSDoor01OpenLockAllow | strDesc
+[us] ЗАПИРАЕТ.
+---
+### interactions/interactions_modeswitch.json | MSDoor01OpenUnlockAllow | strDesc
+[us] ОТПИРАЕТ.
+---
+### interactions/interactions_modeswitch.json | MSSwitchSwitchOnAllowTut | strTitle
+Туториал-версия OKLG Chargen
+---
+### interactions/interactions_modeswitch.json | MSTreadmill01OnAllow | strDesc
+[us] ПИТАЕТ.
+---
+### interactions/interactions_modeswitch.json | MSTV01SwitchOnAllow | strDesc
+[us] ПИТАЕТ.
+---
+### interactions/interactions_modeswitch.json | MSVent01CloseAllow | strDesc
+[us] ЗАКРЫВАЕТ.
+---
+### interactions/interactions_modeswitch.json | MSVent01OpenAllow | strDesc
+[us] ОТКРЫВАЕТ.
+---
+### interactions/interactions_modeswitch.json | MSVent02CloseAllow | strDesc
+[us] ЗАКРЫВАЕТ.
+---
+### interactions/interactions_modeswitch.json | MSVent02CloseO2Allow | strDesc
+[us] ЗАКРЫВАЕТ.
+---
+### interactions/interactions_modeswitch.json | MSVent02OpenAllow | strDesc
+[us] ОТКРЫВАЕТ.
+---
+### interactions/interactions_modeswitch.json | MSVent02OpenO2Allow | strDesc
+[us] ОТКРЫВАЕТ.
+---
+### interactions/interactions_modeswitch.json | MSVent02OnAllow | strDesc
+[us] ПИТАЕТ.
+---
+### interactions/interactions_social_core.json | ShowSocialCore | strDesc
+[us] ОЩУЩАЕТ себя нормально, говоря неловкую болтовню.
+---
+### interactions/interactions_social_core.json | ShowSocialCore | strTitle
+Неловкая болтовня
+---
+### interactions/interactions_social_core.json | ShowSocialCore | strTooltip
+Показывает варианты неловкой болтовни. То есть то, что любой может сказать независимо от навыков/черт/отношений, но что имеет малое влияние.
+---
+### interactions/interactions_social_core.json | HideSocialCore | strDesc
+[us] НЕ ОЩУЩАЕТ себя нормально, говоря неловкую болтовню.
+---
+### interactions/interactions_social_core.json | HideSocialCore | strTitle
+Скрыть неловкую болтовню
+---
+### interactions/interactions_social_core.json | HideSocialCore | strTooltip
+Скрывает варианты неловкой болтовни.
+---
+### interactions/interactions_social_core.json | SOCTeleportThemTest | strDesc
+[us] АРЕСТОВЫВАЕТ [them] и ОТПРАВЛЯЕТ [them-obj] в тюрьму.
+---
+### interactions/interactions_social_core.json | SOCTeleportThemTest | strTitle
+Арест
+---

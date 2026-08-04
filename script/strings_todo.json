@@ -1,0 +1,492 @@
+[
+ [
+  "EXIST",
+  "AI_PATHFIND_FORBIDDENZONE_BLOCK",
+  " could not find a path. Forbidden Zone might be in the way."
+ ],
+ [
+  "EXIST",
+  "AI_PATHFIND_GET_SUIT",
+  " getting a space suit and helmet before using airlock."
+ ],
+ [
+  "EXIST",
+  "AI_PATHFIND_NO_AIRLOCK_PERM",
+  " airlock opening denied, per ROSTER permissions."
+ ],
+ [
+  "EXIST",
+  "AI_PATHFIND_NO_DISEMBARK",
+  " shore leave denied, per ROSTER permissions."
+ ],
+ [
+  "EXIST",
+  "AI_PATHFIND_NO_EVA_GRAV",
+  " cannot EVA to this point while accelerating/in gravity."
+ ],
+ [
+  "EXIST",
+  "AI_PATHFIND_NO_GENERAL",
+  "Cannot reach that location."
+ ],
+ [
+  "EXIST",
+  "AI_PATHFIND_NO_HELMET",
+  " cannot open airlock without space helmet."
+ ],
+ [
+  "EXIST",
+  "AI_PATHFIND_NO_SUIT",
+  " cannot open airlock without space suit."
+ ],
+ [
+  "EXIST",
+  "AI_REL_SWITCH",
+  "Switching attention to "
+ ],
+ [
+  "EXIST",
+  "Bounty_TXT_10",
+  "Multiple accounts of murder"
+ ],
+ [
+  "EXIST",
+  "Bounty_TXT_12",
+  "Black market trading"
+ ],
+ [
+  "EXIST",
+  "Bounty_TXT_14",
+  "Armed robbery"
+ ],
+ [
+  "EXIST",
+  "Bounty_TXT_15",
+  "Weapons trafficking"
+ ],
+ [
+  "EXIST",
+  "Bounty_TXT_16",
+  "Hacking secure networks"
+ ],
+ [
+  "EXIST",
+  "Bounty_TXT_17",
+  "Spaceship theft"
+ ],
+ [
+  "EXIST",
+  "Bounty_TXT_18",
+  "Station bombings"
+ ],
+ [
+  "EXIST",
+  "Bounty_TXT_19",
+  "Destruction of public property"
+ ],
+ [
+  "EXIST",
+  "Bounty_TXT_2",
+  "Smuggling restricted tech"
+ ],
+ [
+  "EXIST",
+  "Bounty_TXT_20",
+  "Tampering with signal beacons"
+ ],
+ [
+  "EXIST",
+  "Bounty_TXT_3",
+  "Assaulting security forces"
+ ],
+ [
+  "EXIST",
+  "Bounty_TXT_4",
+  "Raiding cargo freighters"
+ ],
+ [
+  "EXIST",
+  "Bounty_TXT_5",
+  "Raiding civilian ships"
+ ],
+ [
+  "EXIST",
+  "Bounty_TXT_6",
+  "Attacking patrols"
+ ],
+ [
+  "EXIST",
+  "Bounty_TXT_7",
+  "Sabotage of corporate infrastructure"
+ ],
+ [
+  "EXIST",
+  "GUI_CREW_BAR_PHYSIO_STATUSUNAVAILABLE",
+  "Status is not available"
+ ],
+ [
+  "EXIST",
+  "GUI_JOBS_LEDGER_COLLATERAL_PREFIX",
+  "Collateral for Gig: "
+ ],
+ [
+  "EXIST",
+  "GUI_JOBS_MAIN_ERROR_INSUFFICIENTFUNDS",
+  "Insufficient Funds for Contract Fee"
+ ],
+ [
+  "EXIST",
+  "GUI_JOBS_MAIN_ERROR_INV_FULL",
+  "Locker must be empty to take this gig."
+ ],
+ [
+  "EXIST",
+  "GUI_JOBS_MAIN_ERROR_INV_MISSING",
+  "Locker is missing following items:\n"
+ ],
+ [
+  "EXIST",
+  "GUI_JOBS_MAIN_ERROR_WRONG_DEST",
+  "Wrong drop-off kiosk."
+ ],
+ [
+  "EXIST",
+  "GUI_JOBS_MAIN_ERROR_WRONG_ORIGIN",
+  "Wrong pick-up kiosk."
+ ],
+ [
+  "EXIST",
+  "GUI_JOBSPDA_ROW_EMPTY1",
+  "<b>No gigs taken.</b>\n\nFind gigs at your nearest Gig Nexus today!\n\n"
+ ],
+ [
+  "EXIST",
+  "GUI_JOBSPDA_ROW_EMPTY2",
+  "<b>Are you a Gig Pro?</b>\n\nReady to start taking and turning in gigs on the go? Subscribe* to ProGig status to unlock gig management tools in the palm of your hand!\n\n<size=60%>*Offer valid in select locations. Offers and offer elements including, but not limited to, participating locations and eligible gigs, are subject to availability, network capacity, station closures and additional restrictions and exclusions, may change or be canceled without notice, and are not guaranteed. Must purchase a valid Gig Nexus Pro subscription for full access to special features. Pro management features may not be available for certain gigs and at certain locations including kiosks that are not owned or operated by Gig Nexus. Not valid in combination with other offers, discounts, promotions or with any previous purchase. Minimum subscription term and/or separate upgrades may be required. Offers are for personal use only and may not be transferred or resold."
+ ],
+ [
+  "EXIST",
+  "GUI_OPTIONS_CONTROL_SETTINGS_NOTE",
+  "Left click key to begin adding new combo and right click to remove last combo."
+ ],
+ [
+  "EXIST",
+  "GUI_OPTIONS_VIDEO_KEY_NOTE",
+  "To work Custom Parameters must be formatted correctly as Key Value pairs separated by a colon. For example:\n\nKey:Value\nKey2:Value2"
+ ],
+ [
+  "EXIST",
+  "GUI_PDA_BUTTON_GIGS",
+  "View your current accepted gig details"
+ ],
+ [
+  "EXIST",
+  "GUI_PDA_FERRY_NOTE",
+  "NOTE: Pacific Airlines Space Service policy prohibits passengers who are recently involved in combat from boarding PASS vessels."
+ ],
+ [
+  "EXIST",
+  "GUI_PDA_FILES_ERROR",
+  "ERROR: PDA not found. Cannot open FILES app."
+ ],
+ [
+  "EXIST",
+  "GUI_REACTOR_ALERT_CORELINER",
+  "blative Core Liner between Field Coils and the ship depletes when reaction temperature is too high. Depleted CORE LINER increases risk of damage to Core, nearby parts, possible meltdown, and X-Ray radiation to crew."
+ ],
+ [
+  "EXIST",
+  "GUI_REACTOR_ALERT_LASCAP",
+  "Laser Capacitor is fully charged and ready for ignition"
+ ],
+ [
+  "EXIST",
+  "GUI_REACTOR_ALERT_XRAY",
+  "Dangerous X-Ray radiation is detected outside reactor core (possibly due to damaged Ablative Core Liner or Reactor Core)"
+ ],
+ [
+  "EXIST",
+  "GUI_REACTOR_CAPCHARGE",
+  "Before ignition, capacitor(s) must reach full charge to successfully activate lasers for fuel pellet ignition"
+ ],
+ [
+  "EXIST",
+  "GUI_REACTOR_COREPRESSURE",
+  "Core Pressure: Before ignition, core must be in vacuum. Previous ignition or flying in atmosphere may fill the core, requiring CORE PURGE (which requires functioning Core Pump attached to the core)"
+ ],
+ [
+  "EXIST",
+  "GUI_REACTOR_COREPRESSURE_TITLE",
+  "Core Pressure: Before ignition, core must be in vacuum. Previous ignition or flying in atmosphere may fill the core, requiring CORE PURGE (which requires functioning Core Pump attached to the core)"
+ ],
+ [
+  "EXIST",
+  "GUI_REACTOR_CORETEMP",
+  "High temperature is dangerous; low temperature may stop the reactor"
+ ],
+ [
+  "EXIST",
+  "GUI_REACTOR_CRYO",
+  "Toggle cooling on/off to keep core from overheating (requries functioning cryo pump attached to core and a Cryo Reservoir installed anywhere on the ship. Wear on cryo pumps reduces cryo effectiveness)"
+ ],
+ [
+  "EXIST",
+  "GUI_REACTOR_CYCLE",
+  "Increase Cycle to open rear drive aperture to vent reaction plasma through Rear Field Coil as thrust. More open CYCLE increases thrust acceleration (Gs) and reduces Core Temperature. (Thrust must be toggled to Active or Cycle does nothing.)"
+ ],
+ [
+  "EXIST",
+  "GUI_REACTOR_FIELDCOIL_FWD",
+  "Activates the forward field coil: Magnetic fields separating the ship from the reaction plasma"
+ ],
+ [
+  "EXIST",
+  "GUI_REACTOR_FIELDCOIL_REAR",
+  "Activates the rear field coil: Magnetic fields guiding reaction plasma heat away from the ship as torch drive thrust (when CYCLE is open)"
+ ],
+ [
+  "EXIST",
+  "GUI_REACTOR_LASALIGN",
+  "Toggle on/off laser alignment to properly target fuel pellets. Required prior to ignition"
+ ],
+ [
+  "EXIST",
+  "GUI_REACTOR_PELLFEED",
+  "Toggle on/off pellet feed of fuel pellets into the core. Required prior to ignition."
+ ],
+ [
+  "EXIST",
+  "GUI_REACTOR_PWRBUS",
+  "Set reactor's relationship with attached batteries: OFF: Reactor has no interaction with connected batteries/nBATT: Reactor drains connected batteries as starter power used during ignition/nCHRG: Reactor charges connected batteries, as long as reactor is running with a functioning MHD is attached and MHD toggle is on"
+ ],
+ [
+  "EXIST",
+  "GUI_REACTOR_THRUST",
+  "Toggles on/off torch drive function of reactor (allowing open cycle to vent plasma to produce thrust). Active Thrust is prohibited within no-wake zones near station"
+ ],
+ [
+  "EXIST",
+  "GUI_REACTOR_THRUST_ALERT_PROX",
+  "Ship is too near a station to activate torch thrust (in a no-wake zone)"
+ ],
+ [
+  "EXIST",
+  "GUI_SAVE_NOT_DOWNLOADED_TITLE",
+  "ZIP is not present locally"
+ ],
+ [
+  "EXIST",
+  "GUI_SAVE_NOT_DOWNLOADED_BODY",
+  "The game will try to download it from the cloud when loaded"
+ ],
+ [
+  "EXIST",
+  "GUI_TRADE_WINDOW_COLUMN_ITEM",
+  "Item (* means item is equipped)"
+ ],
+ [
+  "EXIST",
+  "GUI_TRADE_ZONELABEL",
+  "Send items to barter zone"
+ ],
+ [
+  "EXIST",
+  "Bounty_TXT_2",
+  "Smuggling restricted tech"
+ ],
+ [
+  "EXIST",
+  "Bounty_TXT_3",
+  "Assaulting security forces"
+ ],
+ [
+  "EXIST",
+  "Bounty_TXT_4",
+  "Raiding cargo freighters"
+ ],
+ [
+  "EXIST",
+  "Bounty_TXT_5",
+  "Raiding civilian ships"
+ ],
+ [
+  "EXIST",
+  "Bounty_TXT_6",
+  "Attacking patrols"
+ ],
+ [
+  "EXIST",
+  "Bounty_TXT_7",
+  "Sabotage of corporate infrastructure"
+ ],
+ [
+  "EXIST",
+  "Bounty_TXT_10",
+  "Multiple accounts of murder"
+ ],
+ [
+  "EXIST",
+  "Bounty_TXT_12",
+  "Black market trading"
+ ],
+ [
+  "EXIST",
+  "Bounty_TXT_14",
+  "Armed robbery"
+ ],
+ [
+  "EXIST",
+  "Bounty_TXT_15",
+  "Weapons trafficking"
+ ],
+ [
+  "EXIST",
+  "Bounty_TXT_16",
+  "Hacking secure networks"
+ ],
+ [
+  "EXIST",
+  "Bounty_TXT_17",
+  "Spaceship theft"
+ ],
+ [
+  "EXIST",
+  "Bounty_TXT_18",
+  "Station bombings"
+ ],
+ [
+  "EXIST",
+  "Bounty_TXT_19",
+  "Destruction of public property"
+ ],
+ [
+  "EXIST",
+  "Bounty_TXT_20",
+  "Tampering with signal beacons"
+ ],
+ [
+  "EXIST",
+  "JOB_RECON_TXT1_09",
+  "is rumored to be in a romantic entanglement with the lead Breakout player for the The Tharsis Timberwolves, Anna \"The Freeze\" Gostava."
+ ],
+ [
+  "EXIST",
+  "NAV_BOARDING_LEO",
+  "Local Authority boarding!"
+ ],
+ [
+  "EXIST",
+  "NAV_LOG_CREW_TRANSFER_IN",
+  " transferred from "
+ ],
+ [
+  "EXIST",
+  "OBJV_LOW_PRESSURE_DESC",
+  "Warning: Sensor has detected pressure below safe levels."
+ ],
+ [
+  "EXIST",
+  "OBJV_LOW_PRESSURE_TITLE",
+  "Low pressure alert"
+ ],
+ [
+  "EXIST",
+  "TOOLTIP_SOCIAL_TOGGLE",
+  "Shows/Hides a subgroup of additional moves."
+ ],
+ [
+  "MISS",
+  "GUI_CONTROLS_LOCK_GLYPHS",
+  "Force UI to Show Inputs For:"
+ ],
+ [
+  "MISS",
+  "GUI_CREW_BAR_PHYSIO_BONUS_DcAchievement05",
+  "\n\n<size=85%><color=yellow>Improve by successfully completing work and productivity tasks</color></size>"
+ ],
+ [
+  "MISS",
+  "GUI_CREW_BAR_PHYSIO_BONUS_DcAltruism05",
+  "\n\n<size=85%><color=yellow>Improve by being kind to others, or having other be unkind to you</color></size>"
+ ],
+ [
+  "MISS",
+  "GUI_CREW_BAR_PHYSIO_BONUS_DcAutonomy05",
+  "\n\n<size=85%><color=yellow>Improve by asserting your independence, and being on AUTOTASK</color></size>"
+ ],
+ [
+  "MISS",
+  "GUI_CREW_BAR_PHYSIO_BONUS_DcContact05",
+  "\n\n<size=85%><color=yellow>Improve by socializing with others</color></size>"
+ ],
+ [
+  "MISS",
+  "GUI_CREW_BAR_PHYSIO_BONUS_DcEsteem05",
+  "\n\n<size=85%><color=yellow>Improve by impressive or respectable activity</color></size>"
+ ],
+ [
+  "MISS",
+  "GUI_CREW_BAR_PHYSIO_BONUS_DcFamily05",
+  "\n\n<size=85%><color=yellow>Improve by experiencing belonging with others</color></size>"
+ ],
+ [
+  "MISS",
+  "GUI_CREW_BAR_PHYSIO_BONUS_DcIntimacy05",
+  "\n\n<size=85%><color=yellow>Improve by spending quality time with NPCs</color></size>"
+ ],
+ [
+  "MISS",
+  "GUI_CREW_BAR_PHYSIO_BONUS_DcMeaning05",
+  "\n\n<size=85%><color=yellow>Improve by experiencing beauty and moments of joy and purpose</color></size>"
+ ],
+ [
+  "MISS",
+  "GUI_CREW_BAR_PHYSIO_BONUS_DcPrivacy05",
+  "\n\n<size=85%><color=yellow>Improve by spending time away from social interactions</color></size>"
+ ],
+ [
+  "MISS",
+  "GUI_CREW_BAR_PHYSIO_BONUS_DcSecurity05",
+  "\n\n<size=85%><color=yellow>Improve by avoiding danger, sitting and sleeping, wielding weapons, and succeeding in aggressive activity</color></size>"
+ ],
+ [
+  "MISS",
+  "GUI_CREW_BAR_PHYSIO_BONUS_DcSelfRespect05",
+  "\n\n<size=85%><color=yellow>Improve by self-care and standing up for yourself</color></size>"
+ ],
+ [
+  "MISS",
+  "GUI_PDA_PASS_REQUEST_DEAD_ETA",
+  "NO SERVICE"
+ ],
+ [
+  "MISS",
+  "GUI_PDA_SOCIAL_MISSING",
+  "Missing"
+ ],
+ [
+  "MISS",
+  "TOOLTIP_EMERGENCY_REASON_CO2",
+  "Emergency Override: High CO2"
+ ],
+ [
+  "MISS",
+  "TOOLTIP_EMERGENCY_REASON_FIRE",
+  "Emergency Override: Fire-Fighting"
+ ],
+ [
+  "MISS",
+  "TOOLTIP_EMERGENCY_REASON_FIRE_FLEE",
+  "Emergency Override: Fleeing Fire"
+ ],
+ [
+  "MISS",
+  "TOOLTIP_EMERGENCY_REASON_O2",
+  "Emergency Override: Low Oxygen"
+ ],
+ [
+  "MISS",
+  "TOOLTIP_EMERGENCY_REASON_UNKNOWN",
+  "Emergency Override: Unknown Emergency"
+ ]
+]
