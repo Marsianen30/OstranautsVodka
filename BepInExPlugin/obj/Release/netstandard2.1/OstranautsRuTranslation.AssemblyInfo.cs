@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Russian translation and grammar support for Ostranauts.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("3.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("3.0+8976fce6e4149daff2f0a07be501758fcf305479")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("3.0+3d1fd39fe919c50743d0997aefd6baba74f6db4b")]
 [assembly: System.Reflection.AssemblyProductAttribute("OstranautsRuTranslationNss")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OstranautsRuTranslationNss")]
 [assembly: System.Reflection.AssemblyVersionAttribute("3.0.0.0")]

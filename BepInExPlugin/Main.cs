@@ -11,6 +11,7 @@ using System.Reflection;
 using System.Text;
 using Ostranauts.Core.Tutorials;
 using Ostranauts.Objectives;
+using TMPro;
 using UnityEngine;
 
 namespace OstranautsRuTranslation
@@ -550,6 +551,76 @@ namespace OstranautsRuTranslation
                     title.GetType().GetProperty("text")?.SetValue(title, RuTranslation.FormatTutorialText(tr.Name), null);
                 if (descField?.GetValue(__instance) is object desc && tr.Desc != null)
                     desc.GetType().GetProperty("text")?.SetValue(desc, RuTranslation.FormatTutorialText(tr.Desc), null);
+            }
+            catch { }
+        }
+    }
+
+    // The escape/pause menu (scene hierarchy "Canvas Quit/GUIQuit/...") has its button
+    // and label text baked directly into TextMeshProUGUI components in resources.assets,
+    // set once by CrewSim.Awake via transform.Find(...) — it never goes through
+    // DataHandler.GetString(), so it can only be overridden after Awake runs.
+    [HarmonyPatch(typeof(CrewSim), "Awake")]
+    public static class Patch_CrewSim_Awake
+    {
+        static readonly (string path, string text)[] QuitMenuLabels = new[]
+        {
+            ("GUIQuit/pnlBG/pnlMain/btnOptions/Text", "НАСТРОЙКИ"),
+            ("GUIQuit/pnlBG/pnlMain/btnSave/Text", "СОХРАНИТЬ"),
+            ("GUIQuit/pnlBG/pnlMain/btnLoad/Text", "ЗАГРУЗИТЬ"),
+            ("GUIQuit/pnlBG/pnlMain/btnQuit/Text", "ГЛАВНОЕ МЕНЮ"),
+            ("GUIQuit/pnlBG/pnlMain/btnShipEdit/Text", "РЕДАКТОР КОРАБЛЯ"),
+            ("GUIQuit/pnlBG/pnlMain/btnClose/Text", "ВЫЙТИ ИЗ ИГРЫ"),
+            ("GUIQuit/pnlBG/btnCancel/txt", "X"),
+            ("GUIQuit/pnlBG/pnlLinks/btnGuide/txt", "СТИМ\nГАЙД"),
+            ("GUIQuit/pnlBG/pnlLinks/pnlPDFs/txt", "PDF версии"),
+            ("GUIQuit/pnlBG/pnlLinks/pnlSteam/txt", "ФОРУМЫ STEAM"),
+            ("GUIQuit/pnlBG/pnlLinks/pnlDiscord/txt", "DISCORD"),
+            ("GUIQuit/pnlBG/pnlInfo/pnlBottom/txtSaveTime", "Сохранять при выходе?"),
+        };
+
+        static void Postfix(CrewSim __instance)
+        {
+            try
+            {
+                var quit = CrewSim.CanvasManager?.goCanvasQuit;
+                if (quit == null) return;
+                foreach (var (path, text) in QuitMenuLabels)
+                {
+                    var tr = quit.transform.Find(path);
+                    var tmp = tr?.GetComponent<TMP_Text>();
+                    if (tmp != null) tmp.text = text;
+                }
+            }
+            catch { }
+        }
+    }
+
+    // GUISaveIndicator overwrites its label text at runtime (on save/load events),
+    // after Patch_CrewSim_Awake has already run once, so it needs its own patch.
+    [HarmonyPatch(typeof(GUISaveIndicator), "EstablishSave")]
+    public static class Patch_GUISaveIndicator_EstablishSave
+    {
+        static void Postfix(GUISaveIndicator __instance)
+        {
+            try
+            {
+                var tmp = __instance._SaveTime;
+                if (tmp != null && tmp.text.StartsWith("Last Save:"))
+                    tmp.text = tmp.text.Replace("Last Save:", "Последнее сохранение:");
+            }
+            catch { }
+        }
+    }
+
+    [HarmonyPatch(typeof(GUISaveIndicator), "Reset")]
+    public static class Patch_GUISaveIndicator_Reset
+    {
+        static void Postfix(GUISaveIndicator __instance)
+        {
+            try
+            {
+                if (__instance._SaveTime != null) __instance._SaveTime.text = "Нет сохранения";
             }
             catch { }
         }
