@@ -31,7 +31,9 @@ namespace OstranautsRuTranslation
         // Russian verb conjugations: key=infinitive, value=[1sg, 2sg, 3sg, 1pl, 2pl, 3pl]
         // Also keyed by 3sg form for backward compat with verbs.json that lists 3sg singulars.
         internal static Dictionary<string, string[]> VerbConjugations = new Dictionary<string, string[]>(StringComparer.OrdinalIgnoreCase);
-        internal static Dictionary<string, string[]> PastTenseStubs = new Dictionary<string, string[]>(StringComparer.OrdinalIgnoreCase);
+        // key=infinitive (и 3sg-форма), value=[masc, fem, neut, plur] — для глаголов,
+        // где перевод обязан различать род (например "was"/"were" -> был/была/было/были)
+        internal static Dictionary<string, string[]> GenderVerbForms = new Dictionary<string, string[]>(StringComparer.OrdinalIgnoreCase);
         internal static Dictionary<string, TutorialTranslation> TutorialTranslations = new Dictionary<string, TutorialTranslation>(StringComparer.OrdinalIgnoreCase);
 
         internal sealed class TutorialTranslation
@@ -101,6 +103,19 @@ namespace OstranautsRuTranslation
                     string sg3 = forms[2];
                     if (!string.IsNullOrEmpty(sg3) && !VerbConjugations.ContainsKey(sg3))
                         VerbConjugations[sg3] = forms;
+
+                    if (item.Keys.Contains("genderForms"))
+                    {
+                        var g = (JsonData)item["genderForms"];
+                        string[] gf = new string[4];
+                        gf[0] = g.Keys.Contains("masc") ? (string)g["masc"] : forms[2];
+                        gf[1] = g.Keys.Contains("fem") ? (string)g["fem"] : forms[2];
+                        gf[2] = g.Keys.Contains("neut") ? (string)g["neut"] : forms[2];
+                        gf[3] = g.Keys.Contains("plur") ? (string)g["plur"] : forms[5];
+                        GenderVerbForms[inf] = gf;
+                        if (!string.IsNullOrEmpty(sg3) && !GenderVerbForms.ContainsKey(sg3))
+                            GenderVerbForms[sg3] = gf;
+                    }
                     count++;
                 }
                 Log?.LogInfo($"[RU] Loaded {count} verb conjugations from {path}");
@@ -109,10 +124,6 @@ namespace OstranautsRuTranslation
             {
                 Log?.LogError($"[RU] Failed to load verb_conjugations.json: {ex}");
             }
-
-            // Hard-coded past-tense stubs (not very common, kept minimal)
-            string[] pst(int n) { return new string[6] { n == 0 ? "был" : n == 1 ? "был" : n == 2 ? "был" : n == 3 ? "были" : n == 4 ? "были" : "были", "был", "был", "были", "были", "были" }; }
-            // The real past-tense data lives in a separate JSON if needed; default to a generic stub
         }
 
         private static void LoadTutorialTranslations()
@@ -374,13 +385,16 @@ namespace OstranautsRuTranslation
                 if (RuTranslation.VerbConjugations == null || RuTranslation.VerbConjugations.Count == 0) return true;
 
                 string[] conjugations = null;
-                if (tokenData.verbForms.Length > 0)
+                string matchedKey = null;
+                if (tokenData.verbForms.Length > 0 &&
+                    RuTranslation.VerbConjugations.TryGetValue(tokenData.verbForms[0], out conjugations))
                 {
-                    RuTranslation.VerbConjugations.TryGetValue(tokenData.verbForms[0], out conjugations);
+                    matchedKey = tokenData.verbForms[0];
                 }
-                if (conjugations == null && tokenData.verbForms.Length > 1)
+                if (conjugations == null && tokenData.verbForms.Length > 1 &&
+                    RuTranslation.VerbConjugations.TryGetValue(tokenData.verbForms[1], out conjugations))
                 {
-                    RuTranslation.VerbConjugations.TryGetValue(tokenData.verbForms[1], out conjugations);
+                    matchedKey = tokenData.verbForms[1];
                 }
                 if (conjugations == null)
                 {
@@ -389,7 +403,10 @@ namespace OstranautsRuTranslation
                     {
                         string inf = RuTranslation.TryGetInfinitive(vf);
                         if (inf != null && RuTranslation.VerbConjugations.TryGetValue(inf, out conjugations))
+                        {
+                            matchedKey = inf;
                             break;
+                        }
                         conjugations = null;
                     }
                 }
@@ -405,6 +422,15 @@ namespace OstranautsRuTranslation
 
                 if (formIdx >= conjugations.Length) formIdx = 2;
                 string ruForm = conjugations[formIdx];
+
+                if (matchedKey != null &&
+                    RuTranslation.GenderVerbForms.TryGetValue(matchedKey, out var genderForms))
+                {
+                    if (inflectionIdx == 2) ruForm = genderForms[0];      // Masculine
+                    else if (inflectionIdx == 3) ruForm = genderForms[1]; // Feminine
+                    else if (inflectionIdx == 5) ruForm = genderForms[2]; // ThirdNeuterNonHuman
+                    else if (inflectionIdx == 4) ruForm = genderForms[3]; // они/3pl
+                }
 
                 if (GrammarUtils.Capitalise())
                 {

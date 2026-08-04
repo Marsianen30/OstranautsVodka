@@ -21,3 +21,4 @@ D:\Wello\OstranautsVodka\BepInExPlugin\obj\Release\netstandard2.1\OstranautsRuTr
 D:\Wello\OstranautsVodka\BepInExPlugin\obj\Release\netstandard2.1\OstranautsRuTranslation.csproj.CoreCompileInputs.cache
 D:\Wello\OstranautsVodka\BepInExPlugin\obj\Release\netstandard2.1\OstranautsRuTranslationNss.dll
 D:\Wello\OstranautsVodka\BepInExPlugin\obj\Release\netstandard2.1\OstranautsRuTranslationNss.pdb
+D:\Wello\OstranautsVodka\BepInExPlugin\obj\Release\netstandard2.1\OstranautsRuTranslation.sourcelink.json
