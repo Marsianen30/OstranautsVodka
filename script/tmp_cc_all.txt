@@ -1,0 +1,63 @@
+==== EJDR 6
+StatCrimeEJDRArrestWarning | EJDR Arrest Warning Count | [us] [has] been warned of arrest this many times.
+CrimeEJDRArrest | EJDR Arrest Warrant | [us] [has] an outstanding arrest warrant in Jade Rabbit.
+CrimeEJDRThreat | EJDR Public Enemy | [us] [is] wanted dead or alive by Jade Rabbit LAs, and [is] considered a Public Enemy.
+CrimeEJDRTrespass | EJDR Trespass Warrant | [us] [has] an outstanding trespass warrant with Jade Rabbit.
+CrimeEJDRStolenShip | EJDR Arrest Warrant for Stolen Ship | [us] [has] an outstanding arrest warrant with Jade Rabbit for Stealing a Ship
+CrimeEJDRNoUndock | EJDR Arrest Warrant for Failure to Undock | [us] [has] an outstanding arrest warrant in Jade Rabbit for Failure to Undock During Officer Inspection
+==== HQCH 6
+StatCrimeHQCHArrestWarning | HQCH Arrest Warning Count | [us] [has] been warned of arrest this many times.
+CrimeHQCHArrest | HQCH Arrest Warrant | [us] [has] an outstanding arrest warrant in Qincheng.
+CrimeHQCHThreat | HQCH Public Enemy | [us] [is] wanted dead or alive by Qincheng LAs, and [is] considered a Public Enemy.
+CrimeHQCHTrespass | HQCH Trespass Warrant | [us] [has] an outstanding trespass warrant with Qincheng.
+CrimeHQCHStolenShip | HQCH Arrest Warrant for Stolen Ship | [us] [has] an outstanding arrest warrant with Qincheng for Stealing a Ship
+CrimeHQCHNoUndock | HQCH Arrest Warrant for Failure to Undock | [us] [has] an outstanding arrest warrant in Qincheng for Failure to Undock During Officer Inspection
+==== JATL 6
+StatCrimeJATLArrestWarning | JATL Arrest Warning Count | [us] [has] been warned of arrest this many times.
+CrimeJATLArrest | JATL Arrest Warrant | [us] [has] an outstanding arrest warrant in Atlantis.
+CrimeJATLThreat | JATL Public Enemy | [us] [is] wanted dead or alive by Atlantis LAs, and [is] considered a Public Enemy.
+CrimeJATLTrespass | JATL Trespass Warrant | [us] [has] an outstanding trespass warrant with Atlantis.
+CrimeJATLStolenShip | JATL Arrest Warrant for Stolen Ship | [us] [has] an outstanding arrest warrant with Atlantis for Stealing a Ship
+CrimeJATLNoUndock | JATL Arrest Warrant for Failure to Undock | [us] [has] an outstanding arrest warrant in Atlantis for Failure to Undock During Officer Inspection
+==== JFTS 6
+StatCrimeJFTSArrestWarning | JFTS Arrest Warning Count | [us] [has] been warned of arrest this many times.
+CrimeJFTSArrest | JFTS Arrest Warrant | [us] [has] an outstanding arrest warrant in Fort Simpson.
+CrimeJFTSThreat | JFTS Public Enemy | [us] [is] wanted dead or alive by Fort Simpson LAs, and [is] considered a Public Enemy.
+CrimeJFTSTrespass | JFTS Trespass Warrant | [us] [has] an outstanding trespass warrant with Fort Simpson.
+CrimeJFTSStolenShip | JFTS Arrest Warrant for Stolen Ship | [us] [has] an outstanding arrest warrant with Fort Simpson for Stealing a Ship
+CrimeJFTSNoUndock | JFTS Arrest Warrant for Failure to Undock | [us] [has] an outstanding arrest warrant in Fort Simpson for Failure to Undock During Officer Inspection
+==== MHNG 6
+StatCrimeMHNGArrestWarning | MHNG Arrest Warning Count | [us] [has] been warned of arrest this many times.
+CrimeMHNGArrest | MHNG Arrest Warrant | [us] [has] an outstanding arrest warrant in Hangzhou.
+CrimeMHNGThreat | MHNG Public Enemy | [us] [is] wanted dead or alive by Hangzhou LAs, and [is] considered a Public Enemy.
+CrimeMHNGTrespass | MHNG Trespass Warrant | [us] [has] an outstanding trespass warrant with Hangzhou.
+CrimeMHNGStolenShip | MHNG Arrest Warrant for Stolen Ship | [us] [has] an outstanding arrest warrant with Hangzhou for Stealing a Ship
+CrimeMHNGNoUndock | MHNG Arrest Warrant for Failure to Undock | [us] [has] an outstanding arrest warrant in Hangzhou for Failure to Undock During Officer Inspection
+==== MSUZ 6
+StatCrimeMSUZArrestWarning | MSUZ Arrest Warning Count | [us] [has] been warned of arrest this many times.
+CrimeMSUZArrest | MSUZ Arrest Warrant | [us] [has] an outstanding arrest warrant in Suzhou.
+CrimeMSUZThreat | MSUZ Public Enemy | [us] [is] wanted dead or alive by Suzhou LAs, and [is] considered a Public Enemy.
+CrimeMSUZTrespass | MSUZ Trespass Warrant | [us] [has] an outstanding trespass warrant with Suzhou.
+CrimeMSUZStolenShip | MSUZ Arrest Warrant for Stolen Ship | [us] [has] an outstanding arrest warrant with Suzhou for Stealing a Ship
+CrimeMSUZNoUndock | MSUZ Arrest Warrant for Failure to Undock | [us] [has] an outstanding arrest warrant in Suzhou for Failure to Undock During Officer Inspection
+==== MTRS 6
+StatCrimeMTRSArrestWarning | MTRS Arrest Warning Count | [us] [has] been warned of arrest this many times.
+CrimeMTRSArrest | MTRS Arrest Warrant | [us] [has] an outstanding arrest warrant in Tharsis Landing.
+CrimeMTRSThreat | MTRS Public Enemy | [us] [is] wanted dead or alive by Tharsis Landing LAs, and [is] considered a Public Enemy.
+CrimeMTRSTrespass | MTRS Trespass Warrant | [us] [has] an outstanding trespass warrant with Tharsis Landing.
+CrimeMTRSStolenShip | MTRS Arrest Warrant for Stolen Ship | [us] [has] an outstanding arrest warrant with Tharsis Landing for Stealing a Ship
+CrimeMTRSNoUndock | MTRS Arrest Warrant for Failure to Undock | [us] [has] an outstanding arrest warrant in Tharsis Landing for Failure to Undock During Officer Inspection
+==== MVOL 6
+StatCrimeMVOLArrestWarning | MVOL Arrest Warning Count | [us] [has] been warned of arrest this many times.
+CrimeMVOLArrest | MVOL Arrest Warrant | [us] [has] an outstanding arrest warrant in Voltaire, Deimos.
+CrimeMVOLThreat | MVOL Public Enemy | [us] [is] wanted dead or alive by Voltaire LAs, and [is] considered a Public Enemy.
+CrimeMVOLTrespass | MVOL Trespass Warrant | [us] [has] an outstanding trespass warrant with Voltaire, Deimos.
+CrimeMVOLStolenShip | MVOL Arrest Warrant for Stolen Ship | [us] [has] an outstanding arrest warrant with Voltaire for Stealing a Ship
+CrimeMVOLNoUndock | MVOL Arrest Warrant for Failure to Undock | [us] [has] an outstanding arrest warrant in Voltaire for Failure to Undock During Officer Inspection
+==== SVIR 6
+StatCrimeSVIRArrestWarning | SVIR Arrest Warning Count | [us] [has] been warned of arrest this many times.
+CrimeSVIRArrest | SVIR Arrest Warrant | [us] [has] an outstanding arrest warrant in Virginia, Titan.
+CrimeSVIRThreat | SVIR Public Enemy | [us] [is] wanted dead or alive by Virginia, Titan LAs, and [is] considered a Public Enemy.
+CrimeSVIRTrespass | SVIR Trespass Warrant | [us] [has] an outstanding trespass warrant with Virginia, Titan.
+CrimeSVIRStolenShip | SVIR Arrest Warrant for Stolen Ship | [us] [has] an outstanding arrest warrant with Virginia, Titan for Stealing a Ship
+CrimeSVIRNoUndock | SVIR Arrest Warrant for Failure to Undock | [us] [has] an outstanding arrest warrant in Virginia, Titan for Failure to Undock During Officer Inspection

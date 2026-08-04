@@ -1,0 +1,67 @@
+[
+  {
+    "strName": "StatCrimeEJDRArrestWarning",
+    "strNameFriendly": "Количество предупреждений об аресте от EJDR",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] столько предупреждений об аресте от EJDR.",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  },
+  {
+    "strName": "CrimeEJDRArrest",
+    "strNameFriendly": "Ордер EJDR на арест",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] действующий ордер на арест в Джейд Рэббит.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true,
+    "bInvert": true
+  },
+  {
+    "strName": "CrimeEJDRThreat",
+    "strNameFriendly": "Враг общества по версии EJDR",
+    "strColor": "Bad",
+    "strDesc": "[us] разыскивается живым или мёртвым местными властями Джейд Рэббит и считается врагом общества.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true,
+    "bInvert": true
+  },
+  {
+    "strName": "CrimeEJDRTrespass",
+    "strNameFriendly": "Ордер EJDR за нарушение границ",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] действующий ордер за проникновение на частную территорию в Джейд Рэббит.",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 1e-05,
+    "bRemoveAll": true,
+    "aNext": [
+      "TUpCrimeEJDRTrespassNext"
+    ]
+  },
+  {
+    "strName": "CrimeEJDRStolenShip",
+    "strNameFriendly": "Ордер EJDR за угон корабля",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] действующий ордер на арест в Джейд Рэббит за угон корабля.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  },
+  {
+    "strName": "CrimeEJDRNoUndock",
+    "strNameFriendly": "Ордер EJDR за отказ отстыковаться",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] действующий ордер на арест в Джейд Рэббит за отказ отстыковаться во время инспекции офицера.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  }
+]

@@ -1,0 +1,1449 @@
+[
+  {
+    "strName": "BCER",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strTargetRegID": "BCER_ROOF",
+        "ctKioskOrigin": "TIsTransitLift",
+        "ctKioskDestination": "TIsTransitLift"
+      },
+      {
+        "strTargetRegID": "BCER"
+      },
+      {
+        "strLabelNameOptional": "Частная резиденция",
+        "ctUserOptional": "TIsHomeownerBCER",
+        "strTargetRegID": "BCER|",
+        "ctKioskOrigin": "TIsTransitLift",
+        "ctKioskDestination": "TIsTransitLift"
+      }
+    ]
+  },
+  {
+    "strName": "BCER_ROOF",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strTargetRegID": "BCER_ROOF"
+      },
+      {
+        "strTargetRegID": "BCER",
+        "ctKioskOrigin": "TIsTransitLift",
+        "ctKioskDestination": "TIsTransitLift"
+      },
+      {
+        "strLabelNameOptional": "Частная резиденция",
+        "ctUserOptional": "TIsHomeownerBCER",
+        "strTargetRegID": "BCER|",
+        "ctKioskOrigin": "TIsTransitLift",
+        "ctKioskDestination": "TIsTransitLift"
+      }
+    ]
+  },
+  {
+    "strName": "BCER|",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strTargetRegID": "BCER_ROOF",
+        "ctKioskOrigin": "TIsTransitLift",
+        "ctKioskDestination": "TIsTransitLift"
+      },
+      {
+        "strTargetRegID": "BCER",
+        "ctKioskOrigin": "TIsTransitLift",
+        "ctKioskDestination": "TIsTransitLift"
+      },
+      {
+        "strLabelNameOptional": "Частная резиденция",
+        "strTargetRegID": "BCER|"
+      }
+    ]
+  },
+  {
+    "strName": "BCRS",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strTargetRegID": "BCRS_OFF",
+        "ctKioskOrigin": "TIsTransitNotLift",
+        "ctKioskDestination": "TIsTransitNotLift"
+      },
+      {
+        "strTargetRegID": "BCRS"
+      },
+      {
+        "strTargetRegID": "BCRS_RES",
+        "ctKioskOrigin": "TIsTransitNotLift",
+        "ctKioskDestination": "TIsTransitNotLift"
+      },
+      {
+        "strLabelNameOptional": "Частная резиденция",
+        "ctUserOptional": "TIsHomeownerBCRS",
+        "strTargetRegID": "BCRS|",
+        "ctKioskOrigin": "TIsTransitNotLift",
+        "ctKioskDestination": "TIsTransitLift"
+      },
+      {
+        "strTargetRegID": "BCRS_OLD",
+        "ctKioskOrigin": "TIsTransitLiftUp",
+        "ctKioskDestination": "TIsTransitLiftDown"
+      }
+    ]
+  },
+  {
+    "strName": "BCRS_OLD",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strTargetRegID": "BCRS",
+        "ctKioskOrigin": "TIsTransitLiftDown",
+        "ctKioskDestination": "TIsTransitLiftUp"
+      },
+      {
+        "strTargetRegID": "BCRS_OLD"
+      }
+    ]
+  },
+  {
+    "strName": "BCRS_OFF",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strTargetRegID": "BCRS_OFF"
+      },
+      {
+        "strTargetRegID": "BCRS",
+        "ctKioskOrigin": "TIsTransitNotLift",
+        "ctKioskDestination": "TIsTransitNotLift"
+      },
+      {
+        "strTargetRegID": "BCRS_RES",
+        "ctKioskOrigin": "TIsTransitNotLift",
+        "ctKioskDestination": "TIsTransitNotLift"
+      },
+      {
+        "strLabelNameOptional": "Частная резиденция",
+        "ctUserOptional": "TIsHomeownerBCRS",
+        "strTargetRegID": "BCRS|",
+        "ctKioskOrigin": "TIsTransitNotLift",
+        "ctKioskDestination": "TIsTransitLift"
+      }
+    ]
+  },
+  {
+    "strName": "BCRS_RES",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strTargetRegID": "BCRS_OFF",
+        "ctKioskOrigin": "TIsTransitNotLift",
+        "ctKioskDestination": "TIsTransitNotLift"
+      },
+      {
+        "strTargetRegID": "BCRS",
+        "ctKioskOrigin": "TIsTransitNotLift",
+        "ctKioskDestination": "TIsTransitNotLift"
+      },
+      {
+        "strTargetRegID": "BCRS_RES"
+      },
+      {
+        "strLabelNameOptional": "Частная резиденция",
+        "ctUserOptional": "TIsHomeownerBCRS",
+        "strTargetRegID": "BCRS|",
+        "ctKioskOrigin": "TIsTransitNotLift",
+        "ctKioskDestination": "TIsTransitLift"
+      }
+    ]
+  },
+  {
+    "strName": "BCRS|",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strTargetRegID": "BCRS_OFF",
+        "ctKioskOrigin": "TIsTransitLift",
+        "ctKioskDestination": "TIsTransitNotLift"
+      },
+      {
+        "strTargetRegID": "BCRS",
+        "ctKioskOrigin": "TIsTransitLift",
+        "ctKioskDestination": "TIsTransitNotLift"
+      },
+      {
+        "strTargetRegID": "BCRS_RES",
+        "ctKioskOrigin": "TIsTransitLift",
+        "ctKioskDestination": "TIsTransitNotLift"
+      },
+      {
+        "strLabelNameOptional": "Частная резиденция",
+        "ctUserOptional": "TIsHomeownerBCRS",
+        "strTargetRegID": "BCRS|",
+        "ctKioskOrigin": "TIsTransitLift",
+        "ctKioskDestination": "TIsTransitLift"
+      }
+    ]
+  },
+  {
+    "strName": "EJDR",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strTargetRegID": "EJDR_GEO",
+        "ctKioskOrigin": "TIsTransitLift",
+        "ctKioskDestination": "TIsTransitLift"
+      },
+      {
+        "strTargetRegID": "EJDR"
+      }
+    ]
+  },
+  {
+    "strName": "EJDR_GEO",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strTargetRegID": "EJDR_GEO"
+      },
+      {
+        "strTargetRegID": "EJDR",
+        "ctKioskOrigin": "TIsTransitLift",
+        "ctKioskDestination": "TIsTransitLift"
+      }
+    ]
+  },
+  {
+    "strName": "HQCH",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strTargetRegID": "HQCH"
+      },
+      {
+        "strTargetRegID": "HQCH_DET",
+        "strLabelNameOptional": "Офисы безопасности",
+        "ctUserOptional": "TIsNotPlayerOrPlayerCrewOrSubdued"
+      },
+      {
+        "strTargetRegID": "HQCH_DET",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit",
+        "ctUserOptional": "TIsNotPlayerOrPlayerCrewOrSubdued"
+      }
+    ]
+  },
+  {
+    "strName": "HQCH_DET",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strTargetRegID": "HQCH",
+        "ctKioskOrigin": "TIsTransitNotLift",
+        "ctKioskDestination": "TIsTransitNotLift",
+        "ctUserOptional": "TIsNotPlayerOrPlayerCrewOrSubdued"
+      },
+      {
+        "strTargetRegID": "HQCH_DET",
+        "strLabelNameOptional": "Офисы безопасности",
+        "ctUserOptional": "TIsNotPlayerOrPlayerCrewOrSubdued"
+      },
+      {
+        "strTargetRegID": "HQCH_DET",
+        "ctUserOptional": "TIsNotPlayerOrPlayerCrewOrSubdued"
+      }
+    ]
+  },
+  {
+    "strName": "JATL",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strLabelNameOptional": "Терминал «Порто-Нуэво»",
+        "strTargetRegID": "JPTN",
+        "ctKioskOrigin": "TIsTransitLiftUp",
+        "ctKioskDestination": "TIsTransitLiftDown"
+      },
+      {
+        "strTargetRegID": "JATL"
+      },
+      {
+        "strLabelNameOptional": "Терминал «Лемурия»",
+        "strTargetRegID": "JATL_SUB",
+        "ctKioskOrigin": "TIsTransitLiftDown",
+        "ctKioskDestination": "TIsTransitLiftUp"
+      }
+    ]
+  },
+  {
+    "strName": "JATL_SUB",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strLabelNameOptional": "Посадочная зона Атлантис",
+        "strTargetRegID": "JATL",
+        "ctKioskOrigin": "TIsTransitLiftUp",
+        "ctKioskDestination": "TIsTransitLiftDown"
+      },
+      {
+        "strTargetRegID": "JATL_SUB"
+      }
+    ]
+  },
+  {
+    "strName": "JFTS",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strTargetRegID": "JFTS"
+      },
+      {
+        "strTargetRegID": "JFTS_CTR",
+        "ctKioskOrigin": "TIsTransitNotLift",
+        "ctKioskDestination": "TIsTransitNotLift",
+        "ctUserOptional": "TIsNotPlayerOrPlayerCrewOrSubdued"
+      }
+    ]
+  },
+  {
+    "strName": "JFTS_CTR",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strTargetRegID": "JFTS",
+        "ctKioskOrigin": "TIsTransitNotLift",
+        "ctKioskDestination": "TIsTransitNotLift"
+      },
+      {
+        "strTargetRegID": "JFTS_CTR",
+        "ctUserOptional": "TIsNotPlayerOrPlayerCrewOrSubdued"
+      }
+    ]
+  },
+  {
+    "strName": "JPTN",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strTargetRegID": "JPTN"
+      },
+      {
+        "strLabelNameOptional": "Посадочная зона Атлантис",
+        "strTargetRegID": "JATL",
+        "ctKioskOrigin": "TIsTransitLiftDown",
+        "ctKioskDestination": "TIsTransitLiftUp"
+      }
+    ]
+  },
+  {
+    "strName": "MHNG",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strLabelNameOptional": "Порт: Цяньтанмэнь 钱塘门",
+        "strTargetRegID": "MHNG"
+      },
+      {
+        "strLabelNameOptional": "Лаунж «Дуаньцяо» 断桥酒廊",
+        "strTargetRegID": "MHNG_BBL",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      },
+      {
+        "strLabelNameOptional": "Таможня и иммиграция (только по приглашению)",
+        "strTargetRegID": "OKLG_UNK",
+        "ctUserOptional": "TNever"
+      },
+      {
+        "strLabelNameOptional": "Выход на поверхность (только для легальных резидентов)",
+        "strTargetRegID": "OKLG_UNK",
+        "ctUserOptional": "TNever"
+      }
+    ]
+  },
+  {
+    "strName": "MHNG_BBL",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strLabelNameOptional": "Порт: Цяньтанмэнь 钱塘门",
+        "strTargetRegID": "MHNG",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      },
+      {
+        "strLabelNameOptional": "Лаунж «Дуаньцяо» 断桥酒廊",
+        "strTargetRegID": "MHNG_BBL"
+      },
+      {
+        "strLabelNameOptional": "Таможня и иммиграция (только по приглашению)",
+        "strTargetRegID": "OKLG_UNK",
+        "ctUserOptional": "TNever"
+      },
+      {
+        "strLabelNameOptional": "Выход на поверхность (только для легальных резидентов)",
+        "strTargetRegID": "OKLG_UNK",
+        "ctUserOptional": "TNever"
+      }
+    ]
+  },
+  {
+    "strName": "MSUZ",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strTargetRegID": "MSUZ",
+        "strLabelNameOptional": "Порт: Паньмэнь 盘门"
+      },
+      {
+        "strTargetRegID": "MSUZ_RB",
+        "strLabelNameOptional": "Павильон Жэньбао, номер семь 仁宝七号馆",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      },
+      {
+        "strLabelNameOptional": "Резиденции",
+        "ctUserOptional": "TIsHomeownerMSUZ",
+        "strTargetRegID": "MSUZ|",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      }
+    ]
+  },
+  {
+    "strName": "MSUZ_RB",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strTargetRegID": "MSUZ",
+        "strLabelNameOptional": "Порт: Паньмэнь 盘门",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      },
+      {
+        "strTargetRegID": "MSUZ_RB",
+        "strLabelNameOptional": "Павильон Жэньбао, номер семь 仁宝七号馆"
+      },
+      {
+        "strLabelNameOptional": "Резиденции",
+        "strTargetRegID": "MSUZ|",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      }
+    ]
+  },
+  {
+    "strName": "MSUZ|",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strTargetRegID": "MSUZ",
+        "strLabelNameOptional": "Порт: Паньмэнь 盘门",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      },
+      {
+        "strTargetRegID": "MSUZ_RB",
+        "strLabelNameOptional": "Павильон Жэньбао, номер семь 仁宝七号馆",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      },
+      {
+        "strLabelNameOptional": "Резиденции",
+        "strTargetRegID": "MSUZ|",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      }
+    ]
+  },
+  {
+    "strName": "MLAB",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strLabelNameOptional": "Посадочная зона Арсия Монс",
+        "strTargetRegID": "MTAM_LZ",
+        "ctKioskOrigin": "TIsTransitNotLift",
+        "ctKioskDestination": "TIsTransitNotLift"
+      },
+      {
+        "strLabelNameOptional": "Тарсис-Лэндинг",
+        "strTargetRegID": "MTRS",
+        "ctUserOptional": "CTPlot_Not_Titan_Win",
+        "ctKioskOrigin": "TIsTransitNotLift",
+        "ctKioskDestination": "TIsTransitNotLift"
+      },
+      {
+        "strLabelNameOptional": "Лабиринт",
+        "strTargetRegID": "MLAB"
+      }
+    ]
+  },
+  {
+    "strName": "MTAM",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strLabelNameOptional": "Космический лифт Арсия Монс",
+        "strTargetRegID": "MTAM"
+      },
+      {
+        "strLabelNameOptional": "Посадочная зона Арсия Монс",
+        "strTargetRegID": "MTAM_LZ",
+        "ctKioskOrigin": "TIsTransitLift",
+        "ctKioskDestination": "TIsTransitLift"
+      }
+    ]
+  },
+  {
+    "strName": "MTAM_LZ",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strLabelNameOptional": "Космический лифт Арсия Монс",
+        "strTargetRegID": "MTAM",
+        "ctKioskOrigin": "TIsTransitLift",
+        "ctKioskDestination": "TIsTransitLift"
+      },
+      {
+        "strLabelNameOptional": "Посадочная зона Арсия Монс",
+        "strTargetRegID": "MTAM_LZ"
+      },
+      {
+        "strLabelNameOptional": "Тарсис-Лэндинг",
+        "strTargetRegID": "MTRS",
+        "ctUserOptional": "CTPlot_Not_Titan_Win",
+        "ctKioskOrigin": "TIsTransitNotLift",
+        "ctKioskDestination": "TIsTransitNotLift"
+      },
+      {
+        "strLabelNameOptional": "Региональный обрабатывающий комплекс «Ноктис»",
+        "strTargetRegID": "MLAB",
+        "ctKioskOrigin": "TIsTransitNotLift",
+        "ctKioskDestination": "TIsTransitNotLift"
+      }
+    ]
+  },
+  {
+    "strName": "MTRS",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strLabelNameOptional": "Посадочная зона Арсия Монс",
+        "strTargetRegID": "MTAM_LZ",
+        "ctKioskOrigin": "TIsTransitNotLift",
+        "ctKioskDestination": "TIsTransitNotLift"
+      },
+      {
+        "strLabelNameOptional": "Тарсис-Лэндинг",
+        "strTargetRegID": "MTRS"
+      },
+      {
+        "strLabelNameOptional": "Район Хэйфэй",
+        "strTargetRegID": "MTRS_SUB",
+        "ctKioskOrigin": "TIsTransitLift",
+        "ctKioskDestination": "TIsTransitLift"
+      },
+      {
+        "strLabelNameOptional": "Региональный обрабатывающий комплекс «Ноктис»",
+        "strTargetRegID": "MLAB",
+        "ctKioskOrigin": "TIsTransitNotLift",
+        "ctKioskDestination": "TIsTransitNotLift"
+      }
+    ]
+  },
+  {
+    "strName": "MTRS_SUB",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strLabelNameOptional": "Тарсис-Лэндинг",
+        "strTargetRegID": "MTRS",
+        "ctKioskOrigin": "TIsTransitLift",
+        "ctKioskDestination": "TIsTransitLift"
+      },
+      {
+        "strLabelNameOptional": "Район Хэйфэй",
+        "strTargetRegID": "MTRS_SUB"
+      }
+    ]
+  },
+  {
+    "strName": "OKLG",
+    "strCustomPrefabPathOptional": "GUITransitOKLG",
+    "aConnections": [
+      {
+        "strLabelNameOptional": "Портовая станция Азикиве",
+        "ctUserOptional": null,
+        "strTargetRegID": "OKLG",
+        "ctKioskOrigin": "TIsTransitNotLift",
+        "ctKioskDestination": "TIsTransit"
+      },
+      {
+        "strLabelNameOptional": "Коммерческая станция Азикиве",
+        "ctUserOptional": null,
+        "strTargetRegID": "OKLG_BIZ",
+        "ctKioskOrigin": "TIsTransitNotLift",
+        "ctKioskDestination": "TIsTransit"
+      },
+      {
+        "ctUserOptional": null,
+        "strLabelNameOptional": "Станция «Старый Эмпориум»",
+        "strTargetRegID": "OKLG_MES",
+        "ctKioskOrigin": "TIsTransitNotLift",
+        "ctKioskDestination": "TIsTransit"
+      },
+      {
+        "strLabelNameOptional": "Пересадочная станция «Азикиве Эстейтс»",
+        "ctUserOptional": null,
+        "strTargetRegID": "OKLG_RES",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      },
+      {
+        "ctUserOptional": "TIsDead",
+        "strLabelNameOptional": "Служба безопасности OKLG",
+        "strTargetRegID": "OKLG_UNK",
+        "bHide": true,
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      }
+    ]
+  },
+  {
+    "strName": "OKLG_RES",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strLabelNameOptional": "Частная резиденция",
+        "ctUserOptional": "TIsHomeownerOKLG",
+        "strTargetRegID": "OKLG|",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      },
+      {
+        "strLabelNameOptional": "Пересадочная станция «Азикиве Эстейтс»",
+        "ctUserOptional": null,
+        "strTargetRegID": "OKLG_RES",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      },
+      {
+        "strLabelNameOptional": "Портовая станция Азикиве",
+        "ctUserOptional": null,
+        "strTargetRegID": "OKLG",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      },
+      {
+        "ctUserOptional": "TIsDead",
+        "strLabelNameOptional": "Служба безопасности OKLG",
+        "strTargetRegID": "OKLG_UNK",
+        "bHide": true,
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      }
+    ]
+  },
+  {
+    "strName": "OKLG|",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strLabelNameOptional": "Частная резиденция",
+        "strTargetRegID": "OKLG|",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      },
+      {
+        "strLabelNameOptional": "Пересадочная станция «Азикиве Эстейтс»",
+        "strTargetRegID": "OKLG_RES",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      },
+      {
+        "strLabelNameOptional": "Портовая станция Азикиве",
+        "ctUserOptional": null,
+        "strTargetRegID": "OKLG",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      },
+      {
+        "ctUserOptional": "TIsDead",
+        "strLabelNameOptional": "Служба безопасности OKLG",
+        "strTargetRegID": "OKLG_UNK",
+        "bHide": true,
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      }
+    ]
+  },
+  {
+    "strName": "OKLG_BIZ",
+    "strCustomPrefabPathOptional": "GUITransitOKLG",
+    "aConnections": [
+      {
+        "strLabelNameOptional": "Портовая станция Азикиве",
+        "ctUserOptional": null,
+        "strTargetRegID": "OKLG",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      },
+      {
+        "strLabelNameOptional": "Пересадочная станция «Азикиве Эстейтс»",
+        "ctUserOptional": null,
+        "strTargetRegID": "OKLG_RES",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      },
+      {
+        "strLabelNameOptional": "Коммерческая станция Азикиве",
+        "ctUserOptional": null,
+        "strTargetRegID": "OKLG_BIZ",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      },
+      {
+        "strLabelNameOptional": "Станция «Старый Эмпориум»",
+        "ctUserOptional": null,
+        "strTargetRegID": "OKLG_MES",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      },
+      {
+        "ctUserOptional": "TIsDead",
+        "strLabelNameOptional": "Служба безопасности OKLG",
+        "strTargetRegID": "OKLG_UNK",
+        "bHide": true,
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      }
+    ]
+  },
+  {
+    "strName": "OKLG_MES",
+    "strCustomPrefabPathOptional": "GUITransitOKLG",
+    "aConnections": [
+      {
+        "strLabelNameOptional": "Портовая станция Азикиве",
+        "ctUserOptional": null,
+        "strTargetRegID": "OKLG",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      },
+      {
+        "strLabelNameOptional": "Пересадочная станция «Азикиве Эстейтс»",
+        "ctUserOptional": null,
+        "strTargetRegID": "OKLG_RES",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      },
+      {
+        "strLabelNameOptional": "Коммерческая станция Азикиве",
+        "ctUserOptional": null,
+        "strTargetRegID": "OKLG_BIZ",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      },
+      {
+        "ctUserOptional": null,
+        "strLabelNameOptional": "Станция «Старый Эмпориум»",
+        "strTargetRegID": "OKLG_MES",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      },
+      {
+        "ctUserOptional": "TIsDead",
+        "strLabelNameOptional": "Служба безопасности OKLG",
+        "strTargetRegID": "OKLG_UNK",
+        "bHide": true,
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      }
+    ]
+  },
+  {
+    "strName": "VCBR",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strLabelNameOptional": "Уровень данных и командования",
+        "strTargetRegID": "VCBR_SCI",
+        "ctUserOptional": "TIsNotPlayerOrPlayerCrewOrSubdued",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      },
+      {
+        "strLabelNameOptional": "Жилой уровень",
+        "strTargetRegID": "VCBR_SCI",
+        "ctUserOptional": "TIsNotPlayerOrPlayerCrewOrSubdued",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      },
+      {
+        "strTargetRegID": "VCBR",
+        "strLabelNameOptional": "Портовый уровень Клаудбрейка"
+      },
+      {
+        "strLabelNameOptional": "Технический доступ",
+        "strTargetRegID": "VCBR_SCI",
+        "ctUserOptional": "TIsNotPlayerOrPlayerCrewOrSubdued",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      }
+    ]
+  },
+  {
+    "strName": "VCBR_SCI",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strLabelNameOptional": "Уровень данных и командования",
+        "strTargetRegID": "VCBR_SCI",
+        "ctUserOptional": "TIsNotPlayerOrPlayerCrewOrSubdued",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      },
+      {
+        "strLabelNameOptional": "Жилой уровень",
+        "strTargetRegID": "VCBR_SCI",
+        "ctUserOptional": "TIsNotPlayerOrPlayerCrewOrSubdued",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      },
+      {
+        "strTargetRegID": "VCBR",
+        "strLabelNameOptional": "Портовый уровень Клаудбрейка",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      },
+      {
+        "strLabelNameOptional": "Технический доступ",
+        "strTargetRegID": "VCBR_SCI",
+        "ctUserOptional": "TIsNotPlayerOrPlayerCrewOrSubdued",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      }
+    ]
+  },
+  {
+    "strName": "VENC",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strTargetRegID": "VENC_SVL",
+        "strLabelNameOptional": "Лаунж «Sol Vermelho»",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransitLiftUp"
+      },
+      {
+        "strTargetRegID": "VENC"
+      },
+      {
+        "strLabelNameOptional": "Резиденции",
+        "ctUserOptional": "TIsHomeownerVENC",
+        "strTargetRegID": "VENC|",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      },
+      {
+        "ctUserOptional": "TIsDead",
+        "strLabelNameOptional": "Служба безопасности OKLG",
+        "strTargetRegID": "OKLG_UNK",
+        "bHide": true,
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      }
+    ]
+  },
+  {
+    "strName": "VENC|",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strTargetRegID": "VENC_SVL",
+        "strLabelNameOptional": "Лаунж «Sol Vermelho»",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransitLiftUp"
+      },
+      {
+        "strTargetRegID": "VENC",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      },
+      {
+        "strLabelNameOptional": "Резиденции",
+        "strTargetRegID": "VENC|",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      },
+      {
+        "ctUserOptional": "TIsDead",
+        "strLabelNameOptional": "Служба безопасности OKLG",
+        "strTargetRegID": "OKLG_UNK",
+        "bHide": true,
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      }
+    ]
+  },
+  {
+    "strName": "VENC_SVL",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strTargetRegID": "VENC_SVL",
+        "strLabelNameOptional": "Лаунж «Sol Vermelho»"
+      },
+      {
+        "strTargetRegID": "VENC",
+        "strLabelNameOptional": "Порто-ду-Энкантаду",
+        "ctKioskOrigin": "TIsTransitLiftUp",
+        "ctKioskDestination": "TIsTransit"
+      },
+      {
+        "strTargetRegID": "VENC_GRN",
+        "strLabelNameOptional": "Sol Vermelho: Зелёная комната",
+        "ctKioskOrigin": "TIsTransitLiftDown",
+        "ctKioskDestination": "TIsTransit"
+      },
+      {
+        "strLabelNameOptional": "Резиденции",
+        "ctUserOptional": "TIsHomeownerVENC",
+        "strTargetRegID": "VENC|",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      },
+      {
+        "ctUserOptional": "TIsDead",
+        "strLabelNameOptional": "Служба безопасности OKLG",
+        "strTargetRegID": "OKLG_UNK",
+        "bHide": true,
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      }
+    ]
+  },
+  {
+    "strName": "VENC_GRN",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strTargetRegID": "VENC_SVL",
+        "strLabelNameOptional": "Лаунж «Sol Vermelho»",
+        "ctKioskOrigin": "TIsTransit`",
+        "ctKioskDestination": "TIsTransitLiftDown"
+      },
+      {
+        "strTargetRegID": "VENC_GRN",
+        "strLabelNameOptional": "Лаунж «Sol Vermelho»"
+      },
+      {
+        "ctUserOptional": "TIsDead",
+        "strLabelNameOptional": "Служба безопасности OKLG",
+        "strTargetRegID": "OKLG_UNK",
+        "bHide": true,
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      }
+    ]
+  },
+  {
+    "strName": "VNCA",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strTargetRegID": "VNCA"
+      },
+      {
+        "strLabelNameOptional": "Торговый центр Сан-Диего",
+        "strTargetRegID": "VNCA_SD",
+        "ctKioskOrigin": "TIsTransitLiftDown",
+        "ctKioskDestination": "TIsTransit"
+      },
+      {
+        "strLabelNameOptional": "Резиденции",
+        "ctUserOptional": "TIsHomeownerVNCA",
+        "strTargetRegID": "VNCA|",
+        "ctKioskOrigin": "TIsTransitLiftDown",
+        "ctKioskDestination": "TIsTransit"
+      },
+      {
+        "strTargetRegID": "VLA00",
+        "ctUserOptional": "TIsLATransitUser",
+        "ctKioskOrigin": "TIsTransitLiftDown",
+        "ctKioskDestination": "TIsTransitLiftUp"
+      },
+      {
+        "ctUserOptional": "TIsDead",
+        "strLabelNameOptional": "Служба безопасности OKLG",
+        "strTargetRegID": "OKLG_UNK",
+        "bHide": true,
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      }
+    ]
+  },
+  {
+    "strName": "VNCA_SD",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strTargetRegID": "VNCA",
+        "strLabelNameOptional": "Терминал «Лонг-Бич»",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransitLiftDown"
+      },
+      {
+        "strTargetRegID": "VNCA_SD",
+        "strLabelNameOptional": "Торговый центр Сан-Диего"
+      },
+      {
+        "strLabelNameOptional": "Резиденции",
+        "ctUserOptional": "TIsHomeownerVNCA",
+        "strTargetRegID": "VNCA|",
+        "ctKioskOrigin": "TIsTransitLiftDown",
+        "ctKioskDestination": "TIsTransit"
+      },
+      {
+        "strTargetRegID": "VLA00",
+        "ctUserOptional": "TIsLATransitUser",
+        "ctKioskOrigin": "TIsTransitLiftDown",
+        "ctKioskDestination": "TIsTransitLiftUp"
+      },
+      {
+        "ctUserOptional": "TIsDead",
+        "strLabelNameOptional": "Служба безопасности OKLG",
+        "strTargetRegID": "OKLG_UNK",
+        "bHide": true,
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      }
+    ]
+  },
+  {
+    "strName": "VNCA|",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strTargetRegID": "VNCA",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransitLiftDown"
+      },
+      {
+        "strLabelNameOptional": "Торговый центр Сан-Диего",
+        "strTargetRegID": "VNCA_SD",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      },
+      {
+        "strLabelNameOptional": "Резиденции",
+        "strTargetRegID": "VNCA|",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransitLiftDown"
+      },
+      {
+        "ctUserOptional": "TIsDead",
+        "strLabelNameOptional": "Служба безопасности OKLG",
+        "strTargetRegID": "OKLG_UNK",
+        "bHide": true,
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      }
+    ]
+  },
+  {
+    "strName": "VLA00",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strTargetRegID": "VNCA",
+        "ctKioskOrigin": "TIsTransitLiftUp",
+        "ctKioskDestination": "TIsTransitLiftDown"
+      },
+      {
+        "strTargetRegID": "VLA00",
+        "ctKioskOrigin": null
+      },
+      {
+        "strTargetRegID": "VLA01",
+        "ctKioskOrigin": "TIsTransitLiftDown",
+        "ctKioskDestination": "TIsTransitLiftUp"
+      },
+      {
+        "ctUserOptional": "TIsDead",
+        "strLabelNameOptional": "Служба безопасности OKLG",
+        "strTargetRegID": "OKLG_UNK",
+        "bHide": true,
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      }
+    ]
+  },
+  {
+    "strName": "VLA01",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strTargetRegID": "VLA00",
+        "ctKioskOrigin": "TIsTransitLiftUp",
+        "ctKioskDestination": "TIsTransitLiftDown"
+      },
+      {
+        "ctUserOptional": null,
+        "strTargetRegID": "VLA01"
+      },
+      {
+        "strTargetRegID": "VLA02",
+        "ctKioskOrigin": "TIsTransitLiftDown",
+        "ctKioskDestination": "TIsTransitLiftUp"
+      },
+      {
+        "ctUserOptional": "TCanNavigateVLA05",
+        "strTargetRegID": "VLA05",
+        "ctKioskOrigin": "TIsTransitLiftExpress",
+        "ctKioskDestination": "TIsTransitLiftExpress"
+      },
+      {
+        "ctUserOptional": "TIsDead",
+        "strLabelNameOptional": "Служба безопасности OKLG",
+        "strTargetRegID": "OKLG_UNK",
+        "bHide": true,
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      }
+    ]
+  },
+  {
+    "strName": "VLA02",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strTargetRegID": "VLA01",
+        "ctKioskOrigin": "TIsTransitLiftUp",
+        "ctKioskDestination": "TIsTransitLiftDown"
+      },
+      {
+        "strTargetRegID": "VLA02",
+        "ctKioskOrigin": null
+      },
+      {
+        "strTargetRegID": "VLA03",
+        "ctKioskOrigin": "TIsTransitLiftDown",
+        "ctKioskDestination": "TIsTransitLiftUp"
+      },
+      {
+        "ctUserOptional": "TIsDead",
+        "strLabelNameOptional": "Служба безопасности OKLG",
+        "strTargetRegID": "OKLG_UNK",
+        "bHide": true,
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      }
+    ]
+  },
+  {
+    "strName": "VLA03",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strTargetRegID": "VLA02",
+        "ctKioskOrigin": "TIsTransitLiftUp",
+        "ctKioskDestination": "TIsTransitLiftDown"
+      },
+      {
+        "strTargetRegID": "VLA03",
+        "ctKioskOrigin": null
+      },
+      {
+        "strTargetRegID": "VLA04",
+        "ctKioskOrigin": "TIsTransitLiftDown",
+        "ctKioskDestination": "TIsTransitLiftUp"
+      },
+      {
+        "ctUserOptional": "TIsDead",
+        "strLabelNameOptional": "Служба безопасности OKLG",
+        "strTargetRegID": "OKLG_UNK",
+        "bHide": true,
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      }
+    ]
+  },
+  {
+    "strName": "VLA04",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strTargetRegID": "VLA03",
+        "ctKioskOrigin": "TIsTransitLiftUp",
+        "ctKioskDestination": "TIsTransitLiftDown"
+      },
+      {
+        "strTargetRegID": "VLA04",
+        "ctKioskOrigin": null
+      },
+      {
+        "strTargetRegID": "VLA05",
+        "ctKioskOrigin": "TIsTransitLiftDown",
+        "ctKioskDestination": "TIsTransitLiftUp"
+      },
+      {
+        "ctUserOptional": "TIsDead",
+        "strLabelNameOptional": "Служба безопасности OKLG",
+        "strTargetRegID": "OKLG_UNK",
+        "bHide": true,
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      }
+    ]
+  },
+  {
+    "strName": "VLA05",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strTargetRegID": "VLA04",
+        "ctKioskOrigin": "TIsTransitLiftUp",
+        "ctKioskDestination": "TIsTransitLiftDown"
+      },
+      {
+        "ctUserOptional": "TCanNavigateVLA01",
+        "strTargetRegID": "VLA01",
+        "ctKioskOrigin": "TIsTransitLiftExpress",
+        "ctKioskDestination": "TIsTransitLiftExpress"
+      },
+      {
+        "strTargetRegID": "VLA05",
+        "ctKioskOrigin": null
+      },
+      {
+        "ctUserOptional": "TIsDead",
+        "strLabelNameOptional": "Служба безопасности OKLG",
+        "strTargetRegID": "OKLG_UNK",
+        "bHide": true,
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      }
+    ]
+  },
+  {
+    "strName": "VORB",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strTargetRegID": "VORB_HAB",
+        "strLabelNameOptional": "Венерианская орбитальная станция: жилой модуль",
+        "ctKioskOrigin": "TIsTransitLift",
+        "ctKioskDestination": "TIsTransitLift"
+      },
+      {
+        "strTargetRegID": "VORB|",
+        "strLabelNameOptional": "Венерианская орбитальная станция: вспомогательный модуль",
+        "ctKioskOrigin": "TIsTransitLift",
+        "ctKioskDestination": "TIsTransitLift"
+      },
+      {
+        "strTargetRegID": "VORB",
+        "strLabelNameOptional": "Венерианская орбитальная станция: порт и грузовой модуль"
+      },
+      {
+        "ctUserOptional": "TIsDead",
+        "strLabelNameOptional": "Служба безопасности OKLG",
+        "strTargetRegID": "OKLG_UNK",
+        "bHide": true,
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      }
+    ]
+  },
+  {
+    "strName": "VORB_HAB",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strTargetRegID": "VORB_HAB",
+        "strLabelNameOptional": "Венерианская орбитальная станция: жилой модуль"
+      },
+      {
+        "strTargetRegID": "VORB|",
+        "strLabelNameOptional": "Венерианская орбитальная станция: вспомогательный модуль",
+        "ctKioskOrigin": "TIsTransitLift",
+        "ctKioskDestination": "TIsTransitLift"
+      },
+      {
+        "strTargetRegID": "VORB",
+        "strLabelNameOptional": "Венерианская орбитальная станция: порт и грузовой модуль",
+        "ctKioskOrigin": "TIsTransitLift",
+        "ctKioskDestination": "TIsTransitLift"
+      },
+      {
+        "ctUserOptional": "TIsDead",
+        "strLabelNameOptional": "Служба безопасности OKLG",
+        "strTargetRegID": "OKLG_UNK",
+        "bHide": true,
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      }
+    ]
+  },
+  {
+    "strName": "VORB|",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strTargetRegID": "VORB_HAB",
+        "strLabelNameOptional": "Венерианская орбитальная станция: жилой модуль",
+        "ctKioskOrigin": "TIsTransitLift",
+        "ctKioskDestination": "TIsTransitLift"
+      },
+      {
+        "strTargetRegID": "VORB|",
+        "strLabelNameOptional": "Венерианская орбитальная станция: вспомогательный модуль"
+      },
+      {
+        "strTargetRegID": "VORB",
+        "strLabelNameOptional": "Венерианская орбитальная станция: порт и грузовой модуль",
+        "ctKioskOrigin": "TIsTransitLift",
+        "ctKioskDestination": "TIsTransitLift"
+      },
+      {
+        "ctUserOptional": "TIsDead",
+        "strLabelNameOptional": "Служба безопасности OKLG",
+        "strTargetRegID": "OKLG_UNK",
+        "bHide": true,
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      }
+    ]
+  },
+  {
+    "strName": "MVOL",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strTargetRegID": "MVOL"
+      },
+      {
+        "strTargetRegID": "MVOL_Med",
+        "ctKioskOrigin": "TIsTransitLiftExpress",
+        "ctKioskDestination": "TIsTransitLiftExpress"
+      },
+      {
+        "strTargetRegID": "MVOL_Lab",
+        "ctKioskOrigin": "TIsTransitLiftExpress",
+        "ctKioskDestination": "TIsTransitLiftExpress"
+      }
+    ]
+  },
+  {
+    "strName": "MVOL_Med",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strTargetRegID": "MVOL",
+        "ctKioskOrigin": "TIsTransitLiftExpress",
+        "ctKioskDestination": "TIsTransitLiftExpress"
+      },
+      {
+        "strTargetRegID": "MVOL_Med"
+      },
+      {
+        "strTargetRegID": "MVOL_Lab",
+        "ctKioskOrigin": "TIsTransitLiftExpress",
+        "ctKioskDestination": "TIsTransitLiftExpress"
+      }
+    ]
+  },
+  {
+    "strName": "MVOL_Lab",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strTargetRegID": "MVOL",
+        "ctKioskOrigin": "TIsTransitLiftExpress",
+        "ctKioskDestination": "TIsTransitLiftExpress"
+      },
+      {
+        "strTargetRegID": "MVOL_Med",
+        "ctKioskOrigin": "TIsTransitLiftExpress",
+        "ctKioskDestination": "TIsTransitLiftExpress"
+      },
+      {
+        "strLabelNameOptional": "MVOL_Lab"
+      }
+    ]
+  },
+  {
+    "strName": "SVIR",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strTargetRegID": "SVIR",
+        "strLabelNameOptional": "Капитолийский район"
+      },
+      {
+        "strTargetRegID": "SVIR_Shipyard",
+        "strLabelNameOptional": "Верфи Титана",
+        "ctKioskOrigin": "TIsTransitLiftDown",
+        "ctKioskDestination": "TIsTransitLiftUp"
+      },
+      {
+        "strLabelNameOptional": "Частная резиденция",
+        "ctUserOptional": "TIsHomeownerSVIR",
+        "strTargetRegID": "SVIR|",
+        "ctKioskOrigin": "TIsTransitLiftDown",
+        "ctKioskDestination": "TIsTransitLift"
+      }
+    ]
+  },
+  {
+    "strName": "SVIR_Shipyard",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strTargetRegID": "SVIR",
+        "strLabelNameOptional": "Капитолийский район",
+        "ctKioskOrigin": "TIsTransitLiftUp",
+        "ctKioskDestination": "TIsTransitLiftDown"
+      },
+      {
+        "strTargetRegID": "SVIR_Shipyard",
+        "strLabelNameOptional": "Верфи Титана"
+      },
+      {
+        "strLabelNameOptional": "Частная резиденция",
+        "ctUserOptional": "TIsHomeownerSVIR",
+        "strTargetRegID": "SVIR|",
+        "ctKioskOrigin": "TIsTransitLiftUp",
+        "ctKioskDestination": "TIsTransitLift"
+      }
+    ]
+  },
+  {
+    "strName": "SVIR|",
+    "strCustomPrefabPathOptional": null,
+    "aConnections": [
+      {
+        "strTargetRegID": "SVIR",
+        "strLabelNameOptional": "Капитолийский район",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransitLiftDown"
+      },
+      {
+        "strTargetRegID": "SVIR_Shipyard",
+        "strLabelNameOptional": "Верфи Титана",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransitLiftUp"
+      },
+      {
+        "strLabelNameOptional": "Частная резиденция",
+        "ctUserOptional": "TIsHomeownerSVIR",
+        "strTargetRegID": "SVIR|",
+        "ctKioskOrigin": "TIsTransit",
+        "ctKioskDestination": "TIsTransit"
+      }
+    ]
+  }
+]

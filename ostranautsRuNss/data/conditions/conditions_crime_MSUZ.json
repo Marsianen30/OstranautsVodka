@@ -1,0 +1,67 @@
+[
+  {
+    "strName": "StatCrimeMSUZArrestWarning",
+    "strNameFriendly": "Количество предупреждений об аресте от MSUZ",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] столько предупреждений об аресте от MSUZ.",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  },
+  {
+    "strName": "CrimeMSUZArrest",
+    "strNameFriendly": "Ордер MSUZ на арест",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] действующий ордер на арест в Сучжоу.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true,
+    "bInvert": true
+  },
+  {
+    "strName": "CrimeMSUZThreat",
+    "strNameFriendly": "Враг общества по версии MSUZ",
+    "strColor": "Bad",
+    "strDesc": "[us] разыскивается живым или мёртвым местными властями Сучжоу и считается врагом общества.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true,
+    "bInvert": true
+  },
+  {
+    "strName": "CrimeMSUZTrespass",
+    "strNameFriendly": "Ордер MSUZ за нарушение границ",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] действующий ордер за проникновение на частную территорию в Сучжоу.",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 1e-05,
+    "bRemoveAll": true,
+    "aNext": [
+      "TUpCrimeMSUZTrespassNext"
+    ]
+  },
+  {
+    "strName": "CrimeMSUZStolenShip",
+    "strNameFriendly": "Ордер MSUZ за угон корабля",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] действующий ордер на арест в Сучжоу за угон корабля.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  },
+  {
+    "strName": "CrimeMSUZNoUndock",
+    "strNameFriendly": "Ордер MSUZ за отказ отстыковаться",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] действующий ордер на арест в Сучжоу за отказ отстыковаться во время инспекции офицера.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "strName": "StatCrimeSVIRArrestWarning",
+    "strNameFriendly": "Количество предупреждений об аресте от SVIR",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] столько предупреждений об аресте от SVIR.",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  },
+  {
+    "strName": "CrimeSVIRArrest",
+    "strNameFriendly": "Ордер SVIR на арест",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] действующий ордер на арест в Вирджинии, Титан.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true,
+    "bInvert": true
+  },
+  {
+    "strName": "CrimeSVIRThreat",
+    "strNameFriendly": "Враг общества по версии SVIR",
+    "strColor": "Bad",
+    "strDesc": "[us] разыскивается живым или мёртвым местными властями Вирджинии, Титан и считается врагом общества.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true,
+    "bInvert": true
+  },
+  {
+    "strName": "CrimeSVIRTrespass",
+    "strNameFriendly": "Ордер SVIR за нарушение границ",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] действующий ордер за проникновение на частную территорию в Вирджинии, Титан.",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 1e-05,
+    "bRemoveAll": true,
+    "aNext": [
+      "TUpCrimeSVIRTrespassNext"
+    ]
+  },
+  {
+    "strName": "CrimeSVIRStolenShip",
+    "strNameFriendly": "Ордер SVIR за угон корабля",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] действующий ордер на арест в Вирджинии, Титан за угон корабля.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  },
+  {
+    "strName": "CrimeSVIRNoUndock",
+    "strNameFriendly": "Ордер SVIR за отказ отстыковаться",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] действующий ордер на арест в Вирджинии, Титан за отказ отстыковаться во время инспекции офицера.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  }
+]
