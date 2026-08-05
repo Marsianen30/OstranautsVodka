@@ -648,6 +648,40 @@ namespace OstranautsRuTranslation
         }
     }
 
+    // The career kiosk ("Build-a-Resume Center" / OKLG Labor Department) has its
+    // step-tracker labels, sidebar title, and lamp captions baked directly into
+    // TextMeshPro components on the prefab, same as the Sink Mirror screen above.
+    [HarmonyPatch(typeof(GUIChargenCareer), "Awake")]
+    public static class Patch_GUIChargenCareer_Awake
+    {
+        static readonly (string path, string text)[] ChargenCareerLabels = new[]
+        {
+            ("lblStart", "СТАРТ"),
+            ("lblSubtitle", "Центр составления резюме"),
+            ("lblDocCareers", "ОФОРМЛЕНИЕ\nКАРЬЕРЫ"),
+            ("lblVessel", "РЕГИСТРАЦИЯ СУДНА"),
+            ("lblFinish", "ФИНИШ"),
+            ("lblSidebarTitle", "Сводка по карьере"),
+            ("bmpWarn/lbl", "НЕ\nГОТОВО"),
+            ("bmpResume/lbl", "РЕЗЮМЕ\nГОТОВО"),
+            ("btnReview/Text", "ОТПРАВИТЬ"),
+        };
+
+        static void Postfix(GUIChargenCareer __instance)
+        {
+            try
+            {
+                foreach (var (path, text) in ChargenCareerLabels)
+                {
+                    var tr = __instance.transform.Find(path);
+                    var tmp = tr?.GetComponent<TMP_Text>();
+                    if (tmp != null) tmp.text = text;
+                }
+            }
+            catch { }
+        }
+    }
+
     // GUISaveIndicator overwrites its label text at runtime (on save/load events),
     // after Patch_CrewSim_Awake has already run once, so it needs its own patch.
     [HarmonyPatch(typeof(GUISaveIndicator), "EstablishSave")]
