@@ -16,7 +16,7 @@ using UnityEngine;
 
 namespace OstranautsRuTranslation
 {
-    [BepInPlugin("ru.nss.ostranautsrutranslation", "OstranautsRuTranslationNss", "3.0.0")]
+    [BepInPlugin("ru.nss.ostranautsrutranslation", "OstranautsRuTranslation", "3.0.0")]
     public class RuTranslation : BaseUnityPlugin
     {
         internal static ManualLogSource Log;
@@ -736,7 +736,7 @@ namespace OstranautsRuTranslation
 
             if (!string.IsNullOrEmpty(DataHandler.strModFolder))
             {
-                string root = Path.Combine(DataHandler.strModFolder, "OstranautsRu");
+                string root = Path.Combine(DataHandler.strModFolder, "OstranautsVodkaEdition");
                 if (seen.Add(root)) roots.Add(root);
             }
 
@@ -749,7 +749,7 @@ namespace OstranautsRuTranslation
                     DirectoryInfo dataRoot = streaming.Parent;
                     if (dataRoot != null)
                     {
-                        string root = Path.Combine(dataRoot.FullName, "Mods", "OstranautsRu");
+                        string root = Path.Combine(dataRoot.FullName, "Mods", "OstranautsVodkaEdition");
                         if (seen.Add(root)) roots.Add(root);
                     }
                 }

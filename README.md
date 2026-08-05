@@ -1,4 +1,4 @@
-# OstranautsRu
+# Ostranauts Vodka Edition
 
 Русификация [Ostranauts](https://bluebottlegames.com/games/ostranauts) — космического симулятора выживания с текстовым движком диалогов и процедурной грамматикой. Именно вторая часть — процедурная грамматика — главная сложность: игра не просто вставляет строки по ID, а склоняет глаголы и местоимения на лету, поэтому голого перевода JSON недостаточно.
 
@@ -6,7 +6,7 @@
 
 | Папка | Роль |
 |---|---|
-| `OstranautsRu/` | Мод в формате нативного загрузчика игры — переведённые данные: диалоги, состояния, описания кораблей, интерфейс. |
+| `OstranautsVodkaEdition/` | Мод в формате нативного загрузчика игры — переведённые данные: диалоги, состояния, описания кораблей, интерфейс. |
 | `BepInExPlugin/` | Harmony-патч поверх `Assembly-CSharp.dll`, который на лету спрягает глаголы, склоняет токены-местоимения (`[them-subj]`, `[us-obj]`) и подставляет перевод во встроенное обучение (`TutorialBeat`). |
 
 Первую часть можно поставить саму по себе — текст будет переведён. Вторая часть добавляет грамматическую связность там, где движок собирает фразы динамически.
@@ -18,8 +18,8 @@
 ## Быстрый старт
 
 ```text
-1. OstranautsRu/  →  Ostranauts_Data/Mods/
-2. добавить "OstranautsRu" в aLoadOrder (loading_order.json)
+1. OstranautsVodkaEdition/  →  Ostranauts_Data/Mods/
+2. добавить "OstranautsVodkaEdition" в aLoadOrder (loading_order.json)
 3. запустить игру
 ```
 
@@ -30,8 +30,8 @@
 | Компонент | Версия |
 |---|---|
 | Игра | Ostranauts 1.0 |
-| Мод данных | OstranautsRu 3.2.0 |
-| Плагин | OstranautsRuTranslationNss 3.0.0 |
+| Мод данных | Ostranauts Vodka Edition 3.2.0 |
+| Плагин | OstranautsRuTranslation 3.0.0 |
 | Загрузчик | BepInEx 5.4.23.5 + Harmony, netstandard2.1, x64 |
 
 ## Объём перевода
@@ -50,14 +50,14 @@
 ### Часть 1 — данные (обязательно)
 
 1. Найдите папку модов: **Главное меню → MODS → Open Mod Folder** (или **Options → Files**).
-2. Скопируйте туда `OstranautsRu/` целиком.
+2. Скопируйте туда `OstranautsVodkaEdition/` целиком.
 3. В `Ostranauts_Data/Mods/loading_order.json` добавьте мод в `aLoadOrder` **после** `"core"`:
 
 ```json
 [
   {
     "strName": "Mod Loading Order",
-    "aLoadOrder": ["core", "OstranautsRu"],
+    "aLoadOrder": ["core", "OstranautsVodkaEdition"],
     "CORE_MOD_NAME": "core"
   }
 ]
@@ -72,7 +72,7 @@
 Положите в `Ostranauts/BepInEx/plugins/`:
 
 ```text
-OstranautsRuTranslationNss.dll
+OstranautsRuTranslation.dll
 verb_conjugations.json
 tutorial_translations.json
 ```
@@ -128,14 +128,14 @@ BepInEx.dll
 dotnet build BepInExPlugin/OstranautsRuTranslation.csproj -c Release
 ```
 
-Собирается под `netstandard2.1`/x64. Результат появится в `BepInExPlugin/bin/Release/netstandard2.1/OstranautsRuTranslationNss.dll`.
+Собирается под `netstandard2.1`/x64. Результат появится в `BepInExPlugin/bin/Release/netstandard2.1/OstranautsRuTranslation.dll`.
 
 ### 3. Установить собранный плагин в игру
 
 Скопируйте в `Ostranauts/BepInEx/plugins/` (создайте папку `plugins`, если её нет) три файла:
 
 ```text
-BepInExPlugin/bin/Release/netstandard2.1/OstranautsRuTranslationNss.dll  →  BepInEx/plugins/
+BepInExPlugin/bin/Release/netstandard2.1/OstranautsRuTranslation.dll  →  BepInEx/plugins/
 BepInExPlugin/verb_conjugations.json                                     →  BepInEx/plugins/
 BepInExPlugin/tutorial_translations.json                                 →  BepInEx/plugins/
 ```
@@ -158,7 +158,7 @@ BepInExPlugin/tutorial_translations.json                                 →  Be
 
 **Регистрация плейсхолдеров.** Игра дёргает обработчик глагола только для ключей, уже известных `dictVerbs` — иначе получаются необработанные токены типа `[сидит]`. Плагин заранее регистрирует и английские, и русские alias-ключи, перехватывает `DataHandler.PrepareToken` при перезагрузке токен-таблиц и выбирает форму по `SentenceEntity.InflectionIndex`.
 
-**Местоимения и падежи.** Не глаголы — обрабатываются отдельно через `OstranautsRu/data/tokens/grammar.json` (категории `subj`, `pos`, `obj`, `reflexive`, стяжения `contractIs/Has/Will/Would`):
+**Местоимения и падежи.** Не глаголы — обрабатываются отдельно через `OstranautsVodkaEdition/data/tokens/grammar.json` (категории `subj`, `pos`, `obj`, `reflexive`, стяжения `contractIs/Has/Will/Would`):
 
 ```text
 [them-subj] → он / она / они / оно

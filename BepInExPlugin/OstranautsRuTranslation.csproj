@@ -7,14 +7,14 @@
     <RootNamespace>OstranautsRuTranslation</RootNamespace>
     <Platforms>AnyCPU</Platforms>
     <PlatformTarget>x64</PlatformTarget>
-    <AssemblyName>OstranautsRuTranslationNss</AssemblyName>
+    <AssemblyName>OstranautsRuTranslation</AssemblyName>
     <Version>3.0.0</Version>
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
     <FileVersion>3.0.0.0</FileVersion>
     <InformationalVersion>3.0</InformationalVersion>
     <Authors>NicRoss512</Authors>
     <Company>NicRoss512</Company>
-    <Product>OstranautsRuTranslationNss</Product>
+    <Product>OstranautsRuTranslation</Product>
     <Description>Russian translation and grammar support for Ostranauts.</Description>
   </PropertyGroup>
 
