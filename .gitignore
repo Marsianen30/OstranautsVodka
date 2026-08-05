@@ -11,5 +11,6 @@ BepInExPlugin/lib/*.dll
 __pycache__/
 *.pyc
 
-# Steam guide draft — published manually on Steam, not part of the repo's docs
+# Steam guide/workshop drafts — published manually on Steam, not part of the repo's docs
 STEAM_GUIDE.md
+WORKSHOP_DESCRIPTION.md
