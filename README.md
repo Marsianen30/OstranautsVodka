@@ -13,6 +13,8 @@
 
 За основу взят [SerJo2/OstranautsRu](https://github.com/SerJo2/OstranautsRu).
 
+Отдельная благодарность [NicRoss512/OstranautsRuNss](https://github.com/NicRoss512/OstranautsRuNss) за решение, которое помогло с переводом.
+
 ---
 
 ## Быстрый старт
