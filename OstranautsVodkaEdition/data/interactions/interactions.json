@@ -17994,8 +17994,8 @@
   {
     "strName": "SeekHygieneWater",
     "strTitle": "Освежиться Водой",
-    "strDesc": "[us] [decides] освежиться, используяg [them].",
-    "strTooltip": "[us] [smokes] [them].",
+    "strDesc": "[us] [decides] освежиться, используя [them].",
+    "strTooltip": "Улучшает гигиену за счёт расхода воды.",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
     "fTargetPointRange": 1,
