@@ -596,6 +596,58 @@ namespace OstranautsRuTranslation
         }
     }
 
+    // The character-appearance editor ("Sink Mirror" / Rin-lambda dating app screen)
+    // has its labels baked directly into TextMeshPro components on the prefab in
+    // resources.assets, not routed through DataHandler.GetString(), so they can
+    // only be translated after the panel's own Awake has wired everything up.
+    [HarmonyPatch(typeof(GUIChargenBody), "Awake")]
+    public static class Patch_GUIChargenBody_Awake
+    {
+        static readonly (string path, string text)[] ChargenBodyLabels = new[]
+        {
+            ("bmpPDABG/lblSubtitle", "ПЕРВОЕ МЕЖСИСТЕМНОЕ ПРИЛОЖЕНИЕ ДЛЯ ЗНАКОМСТВ!"),
+            ("bmpPDABG/lblPronoun", "МЕСТОИМЕНИЕ"),
+            ("bmpPDABG/lblSeeking", "ФЛИРТУЕТ С"),
+            ("bmpPDABG/lblName", "ИМЯ"),
+            ("bmpPDABG/btnDone/lbl", "ГОТОВО!"),
+            ("bmpPDABG/btnRandName/lbl", "СЛУЧАЙНО"),
+            ("bmpPDABG/btnAppearance/lbl", "СЛУЧАЙНО"),
+            ("bmpPDABG/chkHe/Label", "ОН\nЕГО"),
+            ("bmpPDABG/chkShe/Label", "ОНА\nЕЁ"),
+            ("bmpPDABG/chkThey/Label", "ОНИ\nИХ"),
+            ("bmpPDABG/chkSeekingHe/Label", "ОН\nЕГО"),
+            ("bmpPDABG/chkSeekingShe/Label", "ОНА\nЕЁ"),
+            ("bmpPDABG/chkSeekingThey/Label", "ОНИ\nИХ"),
+            ("pnlFaceBtns/btnSkin/txt", "КОЖА"),
+            ("pnlFaceBtns/btnHair/txt", "ВОЛОСЫ"),
+            ("pnlFaceBtns/btnScar/txt", "ШРАМ"),
+            ("pnlFaceBtns/btnGlasses/txt", "ОЧКИ"),
+            ("pnlFaceBtns/btnBeard/txt", "БОРОДА"),
+            ("pnlFaceBtns/btnPupils/txt", "ЗРАЧКИ"),
+            ("pnlFaceBtns/btnEyes/txt", "ГЛАЗА"),
+            ("pnlFaceBtns/btnNose/txt", "НОС"),
+            ("pnlFaceBtns/btnTeeth/txt", "ЗУБЫ"),
+            ("pnlFaceBtns/btnLips/txt", "ГУБЫ"),
+            ("pnlFaceBtns/btnNeck/txt", "ШЕЯ"),
+            ("pnlFaceBtns/btnHead/txt", "ГОЛОВА"),
+            ("pnlFaceBtns/btnBody/txt", "ТЕЛО"),
+        };
+
+        static void Postfix(GUIChargenBody __instance)
+        {
+            try
+            {
+                foreach (var (path, text) in ChargenBodyLabels)
+                {
+                    var tr = __instance.transform.Find(path);
+                    var tmp = tr?.GetComponent<TMP_Text>();
+                    if (tmp != null) tmp.text = text;
+                }
+            }
+            catch { }
+        }
+    }
+
     // GUISaveIndicator overwrites its label text at runtime (on save/load events),
     // after Patch_CrewSim_Awake has already run once, so it needs its own patch.
     [HarmonyPatch(typeof(GUISaveIndicator), "EstablishSave")]
