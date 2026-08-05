@@ -1,11 +1,11 @@
 [
   {
     "strName": "OstranautsRu",
-    "strAuthor": "NicRoss512",
-    "strModURL": "https://github.com/NicRoss512/OstranautsRuNss",
-    "strGameVersion": "0.15.1.20",
+    "strAuthor": "Marsianen30",
+    "strModURL": "https://github.com/Marsianen30/OstranautsVodka",
+    "strGameVersion": "1.0.0.7",
     "strModVersion": "3.2.0",
-    "strNotes": "Ru Translation",
-    "strWorkshopID": "3744128583"
+    "strNotes": "Русская локализация Ostranauts: переведённые диалоги, состояния персонажей, описания кораблей и интерфейс.",
+    "strWorkshopID": ""
   }
 ]
