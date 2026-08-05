@@ -12934,9 +12934,9 @@
   },
   {
     "strName": "IsFailedFixer",
-    "strNameFriendly": "Переговоры с посредником: перезарядка",
+    "strNameFriendly": "Переговоры с фиксером: перезарядка",
     "strColor": "Neutral",
-    "strDesc": "[us] пытался договориться с посредником OKLG и пока не может повторить попытку.",
+    "strDesc": "[us] пытался договориться с фиксером OKLG и пока не может повторить попытку.",
     "bResetTimer": true,
     "nDisplaySelf": 0,
     "nDisplayOther": 0,

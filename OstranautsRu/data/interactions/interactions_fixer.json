@@ -155,7 +155,7 @@
   },
   {
     "strName": "SOCTradeFixerConvoIntimidate",
-    "strTitle": "Угроза Fixes-посреднику насилием",
+    "strTitle": "Угроза фиксеру насилием",
     "strDesc": "[us] [says], что правый хук [us-pos] может поручиться за [us-obj], и [cracks] костяшками [us-pos].",
     "strActionGroup": "Talk",
     "strTargetPoint": "use",
@@ -260,7 +260,7 @@
   },
   {
     "strName": "SOCTradeFixerConvoCharm",
-    "strTitle": "Попытка очаровать Fixes-посредника",
+    "strTitle": "Попытка очаровать фиксера",
     "strDesc": "[us] [touches] [them] за руку и [says], что [them-subj] не похож на того, кто соблюдает правила и регламенты",
     "strActionGroup": "Talk",
     "strTargetPoint": "use",
