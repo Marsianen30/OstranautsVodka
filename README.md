@@ -32,8 +32,8 @@
 | Компонент | Версия |
 |---|---|
 | Игра | Ostranauts 1.0 |
-| Мод данных | Ostranauts Vodka Edition 3.2.0 |
-| Плагин | OstranautsRuTranslation 3.0.0 |
+| Мод данных | Ostranauts Vodka Edition 3.2.1 |
+| Плагин | OstranautsRuTranslation 3.2.1 |
 | Загрузчик | BepInEx 5.4.23.5 + Harmony, netstandard2.1, x64 |
 
 ## Объём перевода
