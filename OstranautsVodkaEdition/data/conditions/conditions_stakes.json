@@ -1,0 +1,32 @@
+[
+  {
+    "strName": "IsSTKTemplate_Fail_Cooldown",
+    "strNameFriendly": "Откат неудачи STKTemplate",
+    "strColor": "Neutral",
+    "strDesc": "[us] попытался выполнить STKTemplate и пока не может попробовать снова.",
+    "bResetTimer": true,
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 0.1
+  },
+  {
+    "strName": "IsSTKTemplate_Fail_Avoid",
+    "strNameFriendly": "Мягкая неудача STKTemplate",
+    "strColor": "Neutral",
+    "strDesc": "[us] использовал мягкую неудачу (soft fail) в STKTemplate, чтобы избежать критической неудачи, и пока не может применить её снова.",
+    "bResetTimer": true,
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 0.1
+  },
+  {
+    "strName": "IsSTKTemplate_Chitchat_Trait_Used",
+    "strNameFriendly": "Применена беседа по черте STKTemplate",
+    "strColor": "Neutral",
+    "strDesc": "[us] использовал приём светской беседы по черте характера в STKTemplate и пока не может применить его снова.",
+    "bResetTimer": true,
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 0.1
+  }
+]

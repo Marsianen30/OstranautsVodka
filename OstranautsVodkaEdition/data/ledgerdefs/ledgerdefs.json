@@ -1,0 +1,1222 @@
+[
+  {
+    "strName": "ENCHeatAyoSecFinePublicDisorder",
+    "strDesc": "Штраф AyoSec (нарушение общественного порядка)",
+    "fAmount": 15000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCHeatAyoSecFinePublicDisorderDebt",
+    "strDesc": "Штраф AyoSec (нарушение общественного порядка)",
+    "fAmount": 15000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "Mortgage",
+    "bPaid": false,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCHeatCCREFinePublicDisorder",
+    "strDesc": "Штраф CCRE (нарушение общественного порядка)",
+    "fAmount": 15000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCHeatCCREFinePublicDisorderDebt",
+    "strDesc": "Штраф CCRE (нарушение общественного порядка)",
+    "fAmount": 15000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "Mortgage",
+    "bPaid": false,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCHeatVenusFinePublicDisorder",
+    "strDesc": "Штраф Venus (нарушение общественного порядка)",
+    "fAmount": 15000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCHeatVenusFinePublicDisorderDebt",
+    "strDesc": "Штраф Venus (нарушение общественного порядка)",
+    "fAmount": 15000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "Mortgage",
+    "bPaid": false,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCEmbassyServicesBCERVisaInvestor",
+    "strDesc": "Посольство GalCon: Подача заявления на получение инвесторской визы",
+    "fAmount": 5000000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCEmbassyServicesBCERVisaSkilledLabor",
+    "strDesc": "Посольство GalCon: Подача заявления на визу для квалифицированных специалистов",
+    "fAmount": 750000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCEmbassyServicesBCERVisaSkilledLaborIllicit",
+    "strDesc": "Посольство GalCon: Подача заявления на визу для \"квалифицированных специалистов\"",
+    "fAmount": 1000000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCEmbassyServicesBCERVisaFactionSponsored",
+    "strDesc": "Посольство GalCon: Подача заявления на получение визы для прохождения национальной службы",
+    "fAmount": 250000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCEmbassyServicesBCERVisaLocalSponsored",
+    "strDesc": "Посольство GalCon: Подача заявления на визу местного спонсора",
+    "fAmount": 500000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCEmbassyServicesBCRSVisaInvestor",
+    "strDesc": "Посольство CCRE: Подача заявления на получение инвесторской визы",
+    "fAmount": 5000000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCEmbassyServicesBCRSVisaSkilledLabor",
+    "strDesc": "Посольство CCRE: Подача заявления на визу для квалифицированных работников",
+    "fAmount": 750000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCEmbassyServicesBCRSVisaSkilledLaborIllicit",
+    "strDesc": " Посольство CCRE: Подача заявления на визу для \"квалифицированных работников\"",
+    "fAmount": 1000000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCEmbassyServicesBCRSVisaFactionSponsored",
+    "strDesc": "Посольство CCRE: Подача заявления на получение визы для прохождения национальной службы",
+    "fAmount": 250000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCEmbassyServicesBCRSVisaLocalSponsored",
+    "strDesc": "Посольство CCRE: Подача заявления на визу местного спонсора",
+    "fAmount": 500000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCEmbassyServicesOKLGVisaInvestor",
+    "strDesc": "Посольство OKLG: Подача заявления на получение инвесторской визы",
+    "fAmount": 5000000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCEmbassyServicesOKLGVisaSkilledLabor",
+    "strDesc": "Посольство OKLG: Подача заявления на визу для квалифицированных работников",
+    "fAmount": 750000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCEmbassyServicesOKLGVisaSkilledLaborIllicit",
+    "strDesc": "Посольство OKLG: Подача заявления на визу для \"квалифицированных работников\"",
+    "fAmount": 1000000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCEmbassyServicesVENCVisaInvestor",
+    "strDesc": "Посольство VENC: Подача заявления на получение инвесторской визы",
+    "fAmount": 5000000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCEmbassyServicesVENCVisaSkilledLabor",
+    "strDesc": "Посольство VENC: Подача заявления на визу для квалифицированных работников",
+    "fAmount": 750000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCEmbassyServicesVENCVisaSkilledLaborIllicit",
+    "strDesc": "Посольство VENC: Подача заявления на визу для \"квалифицированных работников\"",
+    "fAmount": 1000000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCEmbassyServicesVENCVisaAuthoritySponsored",
+    "strDesc": "Посольство VENC: заявка на визу по спонсорству властей",
+    "fAmount": 1000000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCEmbassyServicesVENCVisaLocalSponsored",
+    "strDesc": "Посольство VENC: заявка на визу по местному спонсорству",
+    "fAmount": 500000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCEmbassyServicesVNCAVisaInvestor",
+    "strDesc": "Посольство VNCA: заявка на визу инвестора",
+    "fAmount": 5000000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCEmbassyServicesVNCAVisaSkilledLabor",
+    "strDesc": "Посольство VNCA: заявка на визу квалифицированного рабочего",
+    "fAmount": 750000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCEmbassyServicesVNCAVisaSkilledLaborIllicit",
+    "strDesc": "Посольство VNCA: заявка на визу «квалифицированный рабочий»",
+    "fAmount": 1000000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": "OKLGFixerFind"
+  },
+  {
+    "strName": "ENCEmbassyServicesVNCAVisaAuthoritySponsored",
+    "strDesc": "Посольство VNCA: заявка на визу по спонсорству властей",
+    "fAmount": 1000000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCEmbassyServicesVNCAVisaLocalSponsored",
+    "strDesc": "Посольство VNCA: заявка на визу по местному спонсорству",
+    "fAmount": 500000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCOKLGMedServiceNanoFirstAid",
+    "strDesc": "Медицинская услуга: нанороботизированная первая помощь",
+    "fAmount": 2500,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": "TIsHealthKiosk"
+  },
+  {
+    "strName": "ENCOKLGMedServiceAntiMeat",
+    "strDesc": "Медицинская услуга: экспериментальное вирусное лечение",
+    "fAmount": 500,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": "TIsHealthKiosk"
+  },
+  {
+    "strName": "ENCOKLGMedServiceAnalyzeBlood",
+    "strDesc": "Медицинская услуга: лабораторный анализ крови",
+    "fAmount": 750,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCOKLGMedServiceAnalyzeDNA",
+    "strDesc": "Медицинская услуга: лабораторный анализ ДНК",
+    "fAmount": 2000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCOKLGMedServiceRemoveChronic",
+    "strDesc": "Медицинская услуга: лечение шрамов или хронических заболеваний",
+    "fAmount": 250000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": "TIsHealthKiosk"
+  },
+  {
+    "strName": "ENCPoliceShakedown",
+    "strDesc": "Оплата за «оказанные услуги».",
+    "fAmount": 103.5,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": false,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCPoliceShakedownFineOgiso",
+    "strDesc": "Штраф полиции (плакат Огисо)",
+    "fAmount": 1500,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": false,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCPoliceShakedownFineHull",
+    "strDesc": "Штраф полиции (повреждённый корпус)",
+    "fAmount": 1000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": false,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCPoliceShakedownFineIllegalSalvage",
+    "strDesc": "Штраф полиции (нелегальный утильсбор)",
+    "fAmount": 15000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": false,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCPoliceShakedownFineNoUndock",
+    "strDesc": "Штраф полиции (непредоставление доступа офицеру на борт)",
+    "fAmount": 5000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": false,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCPoliceShakedownFineIllegalBullshitBeacon",
+    "strDesc": "Штраф полиции",
+    "fAmount": 28000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": false,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ENCRobbedMedium",
+    "strDesc": "Анонимный вывод средств",
+    "fAmount": 20000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "CGSaveMoneyMid",
+    "strDesc": "Среднегодовые сбережения",
+    "fAmount": -200,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "OKLGSalvagePermit",
+    "strDesc": "Лицензия на утилизацию Аётимиwa",
+    "fAmount": 5000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "OKLGSalvagePermitb",
+    "strDesc": "Лицензия на утилизацию Аётимиwa",
+    "fAmount": 13500,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "OKLGSalvagePermitc",
+    "strDesc": "Лицензия на утилизацию Аётимиwa",
+    "fAmount": 30000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "OKLGSalvagePermitd",
+    "strDesc": "Лицензия на утилизацию Аётимиwa",
+    "fAmount": 120000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "OKLGSalvagePermite",
+    "strDesc": "Лицензия на утилизацию Аётимиwa",
+    "fAmount": 1000000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "Donation250",
+    "strDesc": "Пожертвование",
+    "fAmount": 250,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "PLOTMessenger_PayLow",
+    "strDesc": "Оплата за «оказанные услуги».",
+    "fAmount": -300,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "PLOTMessenger_PayMed",
+    "strDesc": "Оплата за «оказанные услуги».",
+    "fAmount": -2000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "PLOTMessenger_PayHigh",
+    "strDesc": "Оплата за «оказанные услуги».",
+    "fAmount": -10000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "PLOTProspectorFetchGold_PayGold",
+    "strDesc": "Оплата за доставку золота.",
+    "fAmount": -25000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": "OKLGProspector"
+  },
+  {
+    "strName": "PLOTProspectorFetchGold_PayDrillMining02",
+    "strDesc": "Оплата за доставку горнодобывающего лазера Halvorson.",
+    "fAmount": -25000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": "OKLGProspector"
+  },
+  {
+    "strName": "PLOTProspectorFetchGold_PayPDC",
+    "strDesc": "Оплата за доставку PDC.",
+    "fAmount": -80000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": "OKLGProspector"
+  },
+  {
+    "strName": "PLOTProspectorFetchGold_PayRadar",
+    "strDesc": "Оплата за доставку радара.",
+    "fAmount": -80000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": "OKLGProspector"
+  },
+  {
+    "strName": "PLOTProspectorBCERFetchGold_PayGold",
+    "strDesc": "Оплата за доставку золота.",
+    "fAmount": -18000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": "ProspectorBCER"
+  },
+  {
+    "strName": "PLOTProspectorBCRSFetchGold_PayGold",
+    "strDesc": "Оплата за доставку золота.",
+    "fAmount": -18000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": "ProspectorBCRS"
+  },
+  {
+    "strName": "PLOTScavFetch_Pay20CarbonFiber",
+    "strDesc": "Оплата за доставку партии утильного углеволокна.",
+    "fAmount": -800,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "PLOTScavFetch_PayKang",
+    "strDesc": "Оплата за доставку регулятора RCS: Kang «2202».",
+    "fAmount": -10000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "PLOTScavFetch_PayMiura",
+    "strDesc": "Оплата за доставку регулятора RCS: Miura «Hydra».",
+    "fAmount": -40000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "PLOTVLAFetch_PayCaylon",
+    "strDesc": "Оплата за доставку партии утильного калона.",
+    "fAmount": -20000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "PLOTVLAFetch_PayAeroSlantWall",
+    "strDesc": "Оплата за доставку аэродинамической скошенной стены.",
+    "fAmount": -10000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "PLOTVLAFetch_PayStabilizer",
+    "strDesc": "Оплата за доставку активного стабилизатора.",
+    "fAmount": -100000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "PLOTVLAFetch_PayRotor",
+    "strDesc": "Оплата за доставку тяжёлого подъёмного ротора.",
+    "fAmount": -75000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "PLOTVLAFetch_PayRobotOS",
+    "strDesc": "Оплата за доставку ОС дрона.",
+    "fAmount": -15000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "Plot_Whodunnit_ReportToKinClose",
+    "strDesc": "Спасибо, что помогли нам обрести покой.",
+    "fAmount": -3000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "Plot_Whodunnit_ReportToKinEnemy",
+    "strDesc": "Хорошие новости о враге.",
+    "fAmount": -1500,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "Plot_Whodunnit_ReportMurderConfession",
+    "strDesc": "Награда: признание в убийстве передано AyoSec.",
+    "fAmount": -15000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "Plot_Whodunnit_ReportMurderedShipbreakerToLEO",
+    "strDesc": "Награда: дело об убийстве разборщика кораблей передано AyoSec.",
+    "fAmount": -1000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "Plot_Whodunnit_ReportMurderedLEOToLEO",
+    "strDesc": "Награда: дело об убийстве офицера передано AyoSec.",
+    "fAmount": -5000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "Plot_Whodunnit_ReportMurderedManagerToLEO",
+    "strDesc": "Награда: дело об убийстве корпоративного менеджера передано AyoSec.",
+    "fAmount": -8599,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "Plot_Whodunnit_ReportMurderedCriminalToLEO",
+    "strDesc": "Награда: дело об убийстве преступника передано AyoSec.",
+    "fAmount": -2000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "Plot_Whodunnit_ReportMurderedPirateToLEO",
+    "strDesc": "Награда: дело об убийстве пирата передано AyoSec (включая неоплаченную награду).",
+    "fAmount": -4600,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "Plot_Whodunnit_ReportMurderedBartenderToLEO",
+    "strDesc": "Награда: дело об убийстве бармена передано AyoSec.",
+    "fAmount": -2000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "Plot_Whodunnit_ReportMurderedOtherToLEO",
+    "strDesc": "Награда: дело об убийстве передано AyoSec.",
+    "fAmount": -1400,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "Plot_Whodunnit_ReportToFaction",
+    "strDesc": "Сообщено о летальном исходе.",
+    "fAmount": -300,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "Plot_Whodunnit_ReportDeadShipbreakerToLEO",
+    "strDesc": "Сообщено о летальном исходе мусорщика в AyoSec.",
+    "fAmount": -600,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "Plot_Whodunnit_ReportDeadLEOToLEO",
+    "strDesc": "Сообщено о летальном исходе офицера в AyoSec.",
+    "fAmount": -2100,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "Plot_Whodunnit_ReportDeadManagerToLEO",
+    "strDesc": "Сообщено о летальном исходе сотрудника корпорации в AyoSec.",
+    "fAmount": -2700,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "Plot_Whodunnit_ReportDeadCriminalToLEO",
+    "strDesc": "Данные о летальном исходе преступника вознаграждены AyoSec.",
+    "fAmount": -1000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "Plot_Whodunnit_ReportDeadPirateToLEO",
+    "strDesc": "Награда за пиратскую голову от AyoSec.",
+    "fAmount": -2300,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "Plot_Whodunnit_ReportDeadBartenderToLEO",
+    "strDesc": "Сообщено о летальном исходе бармена через AyoSec.",
+    "fAmount": -1200,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "Plot_Whodunnit_ReportDeadShipbreakerToManager",
+    "strDesc": "Сообщено о летальном исходе бойца подразделения разборщиков корпорации Аётимиwa.",
+    "fAmount": -199.99,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "Plot_Whodunnit_ReportDeadManagerToManager",
+    "strDesc": "Сообщено о летальном исходе сотрудника корпорации Аётимиwa.",
+    "fAmount": -1999.99,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "Plot_Whodunnit_ReportDeadBartenderToManager",
+    "strDesc": "Сообщено о летальном исходе артиста через корпорацию Аётимиwa.",
+    "fAmount": -799.99,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "Plot_Whodunnit_ReportDeadBartenderToBartender",
+    "strDesc": "О смерти бармена сообщено людям.",
+    "fAmount": -500,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "Plot_Whodunnit_ReportToFactionUnofficial",
+    "strDesc": "Сообщено о смерти.",
+    "fAmount": -400,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "Plot_Whodunnit_ReportDeadLEOToCriminal",
+    "strDesc": "За новости о медицинских расходах общего знакомого.",
+    "fAmount": -750,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "Plot_Whodunnit_ReportDeadCriminalToCriminal",
+    "strDesc": "За новости о выходе на пенсию соотечественника.",
+    "fAmount": -900,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "RacingBronzeEntryFee",
+    "strDesc": "Взнос за вход в Бронзовую лигу",
+    "fAmount": 100,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "RacingSilverEntryFee",
+    "strDesc": "Взнос за вход в Серебряную лигу",
+    "fAmount": 1000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "RacingGoldEntryFee",
+    "strDesc": "Взнос за вход в Золотую лигу",
+    "fAmount": 5000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "RacingTutorialFirst",
+    "strDesc": "Призовые деньги Лиги испытаний",
+    "fAmount": 20000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": false,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "RacingTutorialSecond",
+    "strDesc": "Призовые деньги Лиги испытаний",
+    "fAmount": 10000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": false,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "RacingTutorialThird",
+    "strDesc": "Призовые деньги Лиги испытаний",
+    "fAmount": 5000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": false,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "RacingBronzePrizeFirst",
+    "strDesc": "Призовые деньги Бронзовой лиги",
+    "fAmount": 100000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": false,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "RacingBronzePrizeSecond",
+    "strDesc": "Призовые деньги Бронзовой лиги",
+    "fAmount": 50000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": false,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "RacingBronzePrizeThird",
+    "strDesc": "Призовые деньги Бронзовой лиги",
+    "fAmount": 25000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": false,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "RacingSilverPrizeFirst",
+    "strDesc": "Призовые деньги Серебряной лиги",
+    "fAmount": 500000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": false,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "RacingSilverPrizeSecond",
+    "strDesc": "Призовые деньги Серебряной лиги",
+    "fAmount": 200000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": false,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "RacingSilverPrizeThird",
+    "strDesc": "Призовые деньги Серебряной лиги",
+    "fAmount": 100000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": false,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "RacingGoldPrizeFirst",
+    "strDesc": "Призовые деньги Золотой лиги",
+    "fAmount": 1000000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": false,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "RacingGoldPrizeSecond",
+    "strDesc": "Призовые деньги Золотой лиги",
+    "fAmount": 500000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": false,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "RacingGoldPrizeThird",
+    "strDesc": "Призовые деньги Золотой лиги",
+    "fAmount": 200000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": false,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ScripBCRSBuy100",
+    "strDesc": "Купить 100 кредитов CCRE",
+    "fAmount": 10000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ScripBCRSSell100",
+    "strDesc": "Продать 100 кредитов CCRE",
+    "fAmount": -1000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ScripBCRSBuy1000",
+    "strDesc": "Купить 1000 кредитов CCRE",
+    "fAmount": 50000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ScripBCRSSell1000",
+    "strDesc": "Продать 1000 кредитов CCRE",
+    "fAmount": -15000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ScripBCERBuy100",
+    "strDesc": "Купить 100 кредитов Галилейской Конфедерации",
+    "fAmount": 10000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ScripBCERSell100",
+    "strDesc": "Продать 100 кредитов Галилейской Конфедерации",
+    "fAmount": -1000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ScripBCERBuy1000",
+    "strDesc": "Купить 1000 кредитов Галилейской Конфедерации",
+    "fAmount": 50000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "ScripBCERSell1000",
+    "strDesc": "Продать 1000 кредитов Галилейской Конфедерации",
+    "fAmount": -15000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": true,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "SHIPReceive1M",
+    "strDesc": "Анонимный депозит",
+    "fAmount": 1000000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "SHIPReceive500k",
+    "strDesc": "Анонимный депозит",
+    "fAmount": 500000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "SHIPReceive100k",
+    "strDesc": "Анонимный депозит",
+    "fAmount": 100000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "SHIPReceive50k",
+    "strDesc": "Анонимный депозит",
+    "fAmount": 50000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "SHIPReceive10k",
+    "strDesc": "Анонимный депозит",
+    "fAmount": 10000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "SHIPSurrender1M",
+    "strDesc": "Анонимный вывод средств",
+    "fAmount": 1000000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "SHIPSurrender500k",
+    "strDesc": "Анонимный вывод средств",
+    "fAmount": 500000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "SHIPSurrender100k",
+    "strDesc": "Анонимный вывод средств",
+    "fAmount": 100000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "SHIPSurrender50k",
+    "strDesc": "Анонимный вывод средств",
+    "fAmount": 50000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  },
+  {
+    "strName": "SHIPSurrender10k",
+    "strDesc": "Анонимный вывод средств",
+    "fAmount": 10000,
+    "strCurrency": "StatUSD",
+    "strFrequency": "OneTime",
+    "bPaid": true,
+    "bPayATC": false,
+    "strPSpecOrCtPayee": null
+  }
+]

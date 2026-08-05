@@ -1,0 +1,67 @@
+[
+  {
+    "strName": "StatCrimeMHNGArrestWarning",
+    "strNameFriendly": "Количество предупреждений об аресте от MHNG",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] столько предупреждений об аресте от MHNG.",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  },
+  {
+    "strName": "CrimeMHNGArrest",
+    "strNameFriendly": "Ордер MHNG на арест",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] действующий ордер на арест в Ханчжоу.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true,
+    "bInvert": true
+  },
+  {
+    "strName": "CrimeMHNGThreat",
+    "strNameFriendly": "Враг общества по версии MHNG",
+    "strColor": "Bad",
+    "strDesc": "[us] разыскивается живым или мёртвым местными властями Ханчжоу и считается врагом общества.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true,
+    "bInvert": true
+  },
+  {
+    "strName": "CrimeMHNGTrespass",
+    "strNameFriendly": "Ордер MHNG за нарушение границ",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] действующий ордер за проникновение на частную территорию в Ханчжоу.",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 1e-05,
+    "bRemoveAll": true,
+    "aNext": [
+      "TUpCrimeMHNGTrespassNext"
+    ]
+  },
+  {
+    "strName": "CrimeMHNGStolenShip",
+    "strNameFriendly": "Ордер MHNG за угон корабля",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] действующий ордер на арест в Ханчжоу за угон корабля.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  },
+  {
+    "strName": "CrimeMHNGNoUndock",
+    "strNameFriendly": "Ордер MHNG за отказ отстыковаться",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] действующий ордер на арест в Ханчжоу за отказ отстыковаться во время инспекции офицера.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  }
+]

@@ -1,0 +1,1080 @@
+[
+  {
+    "strName": "ItmNavModControls",
+    "strNameFriendly": "Модуль управления навигацией Polaris",
+    "strNameShort": "Управление",
+    "strDesc": "Модуль управления с возможностью горячей замены для «Стандартной навигационной консоли» Polaris (PSNC).\n\nПоследняя версия PSNC от Polaris позволяет настраивать компоновку по желанию пользователя благодаря запатентованной модульной системе. Модули можно устанавливать несколькими способами, изменяя конфигурацию системы под разные задачи мониторинга и управления кораблём.",
+    "strImg": "navmod/ItmNavModControls",
+    "strImgNorm": "navmod/ItmNavModControlsn",
+    "strPortraitImg": "navmod/ItmNavModControls",
+    "strCondLoot": "CNDOLNavModControls",
+    "strCOBase": "ItmNavMod",
+    "mapGUIPropMaps": [
+      "NavMod",
+      "NavModControls"
+    ],
+    "mapModeSwitches": [
+      "ItmNavMod",
+      "ItmNavModControls",
+      "ItmNavModDmg",
+      "ItmNavModControlsDmg"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "ItmNavModControlsDmg",
+    "strNameFriendly": "Модуль управления навигацией Polaris (повреждён)",
+    "strNameShort": "Управление (повр.)",
+    "strDesc": "Модуль управления с возможностью горячей замены для «Стандартной навигационной консоли» Polaris (PSNC).\n\nПоследняя версия PSNC от Polaris позволяет настраивать компоновку по желанию пользователя благодаря запатентованной модульной системе. Модули можно устанавливать несколькими способами, изменяя конфигурацию системы под разные задачи мониторинга и управления кораблём.",
+    "strImg": "navmod/ItmNavModControlsDmg",
+    "strImgNorm": "navmod/ItmNavModControlsDmgn",
+    "strPortraitImg": "navmod/ItmNavModControlsDmg",
+    "strCondLoot": "CNDOLNavModControlsDmg",
+    "strCOBase": "ItmNavModDmg",
+    "mapGUIPropMaps": [
+      "NavMod",
+      "NavModControls"
+    ],
+    "mapModeSwitches": [
+      "ItmNavMod",
+      "ItmNavModControls",
+      "ItmNavModDmg",
+      "ItmNavModControlsDmg"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "ItmNavModControlToggle",
+    "strNameFriendly": "Модуль переключения управления навигацией Polaris",
+    "strNameShort": "Переключатель управления",
+    "strDesc": "Модуль управления с возможностью горячей замены для «Стандартной навигационной консоли» Polaris (PSNC).\n\nПоследняя версия PSNC от Polaris позволяет настраивать компоновку по желанию пользователя благодаря запатентованной модульной системе. Модули можно устанавливать несколькими способами, изменяя конфигурацию системы под разные задачи мониторинга и управления кораблём.",
+    "strImg": "navmod/ItmNavModControlToggle",
+    "strImgNorm": "navmod/ItmNavModControlTogglen",
+    "strPortraitImg": "navmod/ItmNavModControlToggle",
+    "strCondLoot": "CNDOLNavModControlToggle",
+    "strCOBase": "ItmNavMod",
+    "mapGUIPropMaps": [
+      "NavMod",
+      "NavModControlToggle"
+    ],
+    "mapModeSwitches": [
+      "ItmNavMod",
+      "ItmNavModControlToggle",
+      "ItmNavModDmg",
+      "ItmNavModControlToggleDmg"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "ItmNavModControlToggleDmg",
+    "strNameFriendly": "Модуль переключения управления навигацией Polaris (повреждён)",
+    "strNameShort": "Переключатель управления (повр.)",
+    "strDesc": "Модуль управления с возможностью горячей замены для «Стандартной навигационной консоли» Polaris (PSNC).\n\nПоследняя версия PSNC от Polaris позволяет настраивать компоновку по желанию пользователя благодаря запатентованной модульной системе. Модули можно устанавливать несколькими способами, изменяя конфигурацию системы под разные задачи мониторинга и управления кораблём.",
+    "strImg": "navmod/ItmNavModControlToggleDmg",
+    "strImgNorm": "navmod/ItmNavModControlToggleDmgn",
+    "strPortraitImg": "navmod/ItmNavModControlToggleDmg",
+    "strCondLoot": "CNDOLNavModControlToggleDmg",
+    "strCOBase": "ItmNavModDmg",
+    "mapGUIPropMaps": [
+      "NavMod",
+      "NavModControlToggle"
+    ],
+    "mapModeSwitches": [
+      "ItmNavMod",
+      "ItmNavModControlToggle",
+      "ItmNavModDmg",
+      "ItmNavModControlToggleDmg"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "ItmNavModCoursePlot",
+    "strNameFriendly": "Модуль прокладки курса навигации Polaris",
+    "strNameShort": "Прокладка курса",
+    "strDesc": "Модуль управления с возможностью горячей замены для «Стандартной навигационной консоли» Polaris (PSNC).\n\nПоследняя версия PSNC от Polaris позволяет настраивать компоновку по желанию пользователя благодаря запатентованной модульной системе. Модули можно устанавливать несколькими способами, изменяя конфигурацию системы под разные задачи мониторинга и управления кораблём.",
+    "strImg": "navmod/ItmNavModCoursePlot",
+    "strImgNorm": "navmod/ItmNavModCoursePlotn",
+    "strPortraitImg": "navmod/ItmNavModCoursePlot",
+    "strCondLoot": "CNDOLNavModCoursePlot",
+    "strCOBase": "ItmNavModMobo",
+    "mapGUIPropMaps": [
+      "NavMod",
+      "NavModCoursePlot"
+    ],
+    "mapModeSwitches": [
+      "ItmNavModMobo",
+      "ItmNavModCoursePlot",
+      "ItmNavModMoboDmg",
+      "ItmNavModCoursePlotDmg"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "ItmNavModCoursePlotDmg",
+    "strNameFriendly": "Модуль прокладки курса навигации Polaris (повреждён)",
+    "strNameShort": "Прокладка курса (повр.)",
+    "strDesc": "Модуль управления с возможностью горячей замены для «Стандартной навигационной консоли» Polaris (PSNC).\n\nПоследняя версия PSNC от Polaris позволяет настраивать компоновку по желанию пользователя благодаря запатентованной модульной системе. Модули можно устанавливать несколькими способами, изменяя конфигурацию системы под разные задачи мониторинга и управления кораблём.",
+    "strImg": "navmod/ItmNavModCoursePlotDmg",
+    "strImgNorm": "navmod/ItmNavModCoursePlotDmgn",
+    "strPortraitImg": "navmod/ItmNavModCoursePlotDmg",
+    "strCondLoot": "CNDOLNavModCoursePlotDmg",
+    "strCOBase": "ItmNavModMoboDmg",
+    "mapGUIPropMaps": [
+      "NavMod",
+      "NavModCoursePlot"
+    ],
+    "mapModeSwitches": [
+      "ItmNavModMobo",
+      "ItmNavModCoursePlot",
+      "ItmNavModMoboDmg",
+      "ItmNavModCoursePlotDmg"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "ItmNavModDiagnostics",
+    "strNameFriendly": "Диагностический модуль навигации Polaris",
+    "strNameShort": "Диагностика",
+    "strDesc": "Модуль управления с возможностью горячей замены для «Стандартной навигационной консоли» Polaris (PSNC).\n\nПоследняя версия PSNC от Polaris позволяет настраивать компоновку по желанию пользователя благодаря запатентованной модульной системе. Модули можно устанавливать несколькими способами, изменяя конфигурацию системы под разные задачи мониторинга и управления кораблём.",
+    "strImg": "navmod/ItmNavModDiagnostics",
+    "strImgNorm": "navmod/ItmNavModDiagnosticsn",
+    "strPortraitImg": "navmod/ItmNavModDiagnostics",
+    "strCondLoot": "CNDOLNavModDiagnostics",
+    "strCOBase": "ItmNavModMobo",
+    "mapGUIPropMaps": [
+      "NavMod",
+      "NavModDiagnostics"
+    ],
+    "mapModeSwitches": [
+      "ItmNavModMobo",
+      "ItmNavModDiagnostics",
+      "ItmNavModMoboDmg",
+      "ItmNavModDiagnosticsDmg"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "ItmNavModDiagnosticsDmg",
+    "strNameFriendly": "Диагностический модуль навигации Polaris (повреждён)",
+    "strNameShort": "Диагностика (повр.)",
+    "strDesc": "Модуль управления с возможностью горячей замены для «Стандартной навигационной консоли» Polaris (PSNC).\n\nПоследняя версия PSNC от Polaris позволяет настраивать компоновку по желанию пользователя благодаря запатентованной модульной системе. Модули можно устанавливать несколькими способами, изменяя конфигурацию системы под разные задачи мониторинга и управления кораблём.",
+    "strImg": "navmod/ItmNavModDiagnosticsDmg",
+    "strImgNorm": "navmod/ItmNavModDiagnosticsDmgn",
+    "strPortraitImg": "navmod/ItmNavModDiagnosticsDmg",
+    "strCondLoot": "CNDOLNavModDiagnosticsDmg",
+    "strCOBase": "ItmNavModMoboDmg",
+    "mapGUIPropMaps": [
+      "NavMod",
+      "NavModDiagnostics"
+    ],
+    "mapModeSwitches": [
+      "ItmNavModMobo",
+      "ItmNavModDiagnostics",
+      "ItmNavModMoboDmg",
+      "ItmNavModDiagnosticsDmg"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "ItmNavModDisplayControls",
+    "strNameFriendly": "Модуль управления картой навигации Polaris",
+    "strNameShort": "Управление дисплеем",
+    "strDesc": "Модуль управления с возможностью горячей замены для «Стандартной навигационной консоли» Polaris (PSNC).\n\nПоследняя версия PSNC от Polaris позволяет настраивать компоновку по желанию пользователя благодаря запатентованной модульной системе. Модули можно устанавливать несколькими способами, изменяя конфигурацию системы под разные задачи мониторинга и управления кораблём.",
+    "strImg": "navmod/ItmNavModDisplayControls",
+    "strImgNorm": "navmod/ItmNavModDisplayControlsn",
+    "strPortraitImg": "navmod/ItmNavModDisplayControls",
+    "strCondLoot": "CNDOLNavModDisplayControls",
+    "strCOBase": "ItmNavModMobo",
+    "mapGUIPropMaps": [
+      "NavMod",
+      "NavModDisplayControls"
+    ],
+    "mapModeSwitches": [
+      "ItmNavModMobo",
+      "ItmNavModDisplayControls",
+      "ItmNavModMoboDmg",
+      "ItmNavModDisplayControlsDmg"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "ItmNavModDisplayControlsDmg",
+    "strNameFriendly": "Модуль управления картой навигации Polaris (повреждён)",
+    "strNameShort": "Управление дисплеем (повр.)",
+    "strDesc": "Модуль управления с возможностью горячей замены для «Стандартной навигационной консоли» Polaris (PSNC).\n\nПоследняя версия PSNC от Polaris позволяет настраивать компоновку по желанию пользователя благодаря запатентованной модульной системе. Модули можно устанавливать несколькими способами, изменяя конфигурацию системы под разные задачи мониторинга и управления кораблём.",
+    "strImg": "navmod/ItmNavModDisplayControlsDmg",
+    "strImgNorm": "navmod/ItmNavModDisplayControlsDmgn",
+    "strPortraitImg": "navmod/ItmNavModDisplayControlsDmg",
+    "strCondLoot": "CNDOLNavModDisplayControlsDmg",
+    "strCOBase": "ItmNavModMoboDmg",
+    "mapGUIPropMaps": [
+      "NavMod",
+      "NavModDisplayControls"
+    ],
+    "mapModeSwitches": [
+      "ItmNavModMobo",
+      "ItmNavModDisplayControls",
+      "ItmNavModMoboDmg",
+      "ItmNavModDisplayControlsDmg"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "ItmNavModDuhrt",
+    "strNameFriendly": "Модуль Dyonn Ultra High Resolution Tomographer",
+    "strDesc": "Модуль управления с возможностью горячей замены для «Стандартной навигационной консоли» Polaris (PSNC).\n\nПоследняя версия PSNC от Polaris позволяет настраивать компоновку по желанию пользователя благодаря запатентованной модульной системе. Модули можно устанавливать несколькими способами, изменяя конфигурацию системы под разные задачи мониторинга и управления кораблём.",
+    "strImg": "navmod/ItmNavModDuhrt",
+    "strImgNorm": "navmod/ItmNavModControlTogglen",
+    "strPortraitImg": "navmod/ItmNavModDuhrt",
+    "strCondLoot": "CNDOLNavModDuhrt",
+    "strCOBase": "ItmNavModMoboScreen",
+    "mapGUIPropMaps": [
+      "NavMod",
+      "NavModDuhrt"
+    ],
+    "mapModeSwitches": [
+      "ItmNavModMoboScreen",
+      "ItmNavModDuhrt",
+      "ItmNavModMoboScreenDmg",
+      "ItmNavModDuhrtDmg"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "ItmNavModDuhrtDmg",
+    "strNameFriendly": "Модуль Dyonn Ultra High Resolution Tomographer (повреждён)",
+    "strDesc": "Модуль управления с возможностью горячей замены для «Стандартной навигационной консоли» Polaris (PSNC).\n\nПоследняя версия PSNC от Polaris позволяет настраивать компоновку по желанию пользователя благодаря запатентованной модульной системе. Модули можно устанавливать несколькими способами, изменяя конфигурацию системы под разные задачи мониторинга и управления кораблём.",
+    "strImg": "navmod/ItmNavModDuhrtDmg",
+    "strImgNorm": "navmod/ItmNavModControlToggleDmgn",
+    "strPortraitImg": "navmod/ItmNavModDuhrtDmg",
+    "strCondLoot": "CNDOLNavModDuhrtDmg",
+    "strCOBase": "ItmNavModMoboScreenDmg",
+    "mapGUIPropMaps": [
+      "NavMod",
+      "NavModDuhrt"
+    ],
+    "mapModeSwitches": [
+      "ItmNavModMoboScreen",
+      "ItmNavModDuhrt",
+      "ItmNavModMoboScreenDmg",
+      "ItmNavModDuhrtDmg"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "ItmNavModEngineMode",
+    "strNameFriendly": "Модуль режима двигателя навигации Polaris",
+    "strNameShort": "Режим двигателя",
+    "strDesc": "Модуль управления с возможностью горячей замены для «Стандартной навигационной консоли» Polaris (PSNC).\n\nПоследняя версия PSNC от Polaris позволяет настраивать компоновку по желанию пользователя благодаря запатентованной модульной системе. Модули можно устанавливать несколькими способами, изменяя конфигурацию системы под разные задачи мониторинга и управления кораблём.",
+    "strImg": "navmod/ItmNavModEngineMode",
+    "strImgNorm": "navmod/ItmNavModEngineModen",
+    "strPortraitImg": "navmod/ItmNavModEngineMode",
+    "strCondLoot": "CNDOLNavModEngineMode",
+    "strCOBase": "ItmNavMod",
+    "mapGUIPropMaps": [
+      "NavMod",
+      "NavModEngineMode"
+    ],
+    "mapModeSwitches": [
+      "ItmNavMod",
+      "ItmNavModEngineMode",
+      "ItmNavModDmg",
+      "ItmNavModEngineModeDmg"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "ItmNavModEngineModeDmg",
+    "strNameFriendly": "Модуль режима двигателя навигации Polaris (повреждён)",
+    "strNameShort": "Режим двигателя (повр.)",
+    "strDesc": "Модуль управления с возможностью горячей замены для «Стандартной навигационной консоли» Polaris (PSNC).\n\nПоследняя версия PSNC от Polaris позволяет настраивать компоновку по желанию пользователя благодаря запатентованной модульной системе. Модули можно устанавливать несколькими способами, изменяя конфигурацию системы под разные задачи мониторинга и управления кораблём.",
+    "strImg": "navmod/ItmNavModEngineModeDmg",
+    "strImgNorm": "navmod/ItmNavModEngineModeDmgn",
+    "strPortraitImg": "navmod/ItmNavModEngineModeDmg",
+    "strCondLoot": "CNDOLNavModEngineModeDmg",
+    "strCOBase": "ItmNavModDmg",
+    "mapGUIPropMaps": [
+      "NavMod",
+      "NavModEngineMode"
+    ],
+    "mapModeSwitches": [
+      "ItmNavMod",
+      "ItmNavModEngineMode",
+      "ItmNavModDmg",
+      "ItmNavModEngineModeDmg"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "ItmNavModFlightDynamics",
+    "strNameFriendly": "Модуль динамики полёта навигации Polaris",
+    "strNameShort": "Динамика полёта",
+    "strDesc": "Модуль управления с возможностью горячей замены для «Стандартной навигационной консоли» Polaris (PSNC).\n\nПоследняя версия PSNC от Polaris позволяет настраивать компоновку по желанию пользователя благодаря запатентованной модульной системе. Модули можно устанавливать несколькими способами, изменяя конфигурацию системы под разные задачи мониторинга и управления кораблём.",
+    "strImg": "navmod/ItmNavModFlightDynamics",
+    "strImgNorm": "navmod/ItmNavModFlightDynamicsn",
+    "strPortraitImg": "navmod/ItmNavModFlightDynamics",
+    "strCondLoot": "CNDOLNavModFlightDynamics",
+    "strCOBase": "ItmNavModMobo",
+    "mapGUIPropMaps": [
+      "NavMod",
+      "NavModFlightDynamics"
+    ],
+    "mapModeSwitches": [
+      "ItmNavModMobo",
+      "ItmNavModFlightDynamics",
+      "ItmNavModMoboDmg",
+      "ItmNavModFlightDynamicsDmg"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "ItmNavModFlightDynamicsDmg",
+    "strNameFriendly": "Модуль динамики полёта навигации Polaris (повреждён)",
+    "strNameShort": "Динамика полёта (повр.)",
+    "strDesc": "Модуль управления с возможностью горячей замены для «Стандартной навигационной консоли» Polaris (PSNC).\n\nПоследняя версия PSNC от Polaris позволяет настраивать компоновку по желанию пользователя благодаря запатентованной модульной системе. Модули можно устанавливать несколькими способами, изменяя конфигурацию системы под разные задачи мониторинга и управления кораблём.",
+    "strImg": "navmod/ItmNavModFlightDynamicsDmg",
+    "strImgNorm": "navmod/ItmNavModFlightDynamicsDmgn",
+    "strPortraitImg": "navmod/ItmNavModFlightDynamicsDmg",
+    "strCondLoot": "CNDOLNavModFlightDynamicsDmg",
+    "strCOBase": "ItmNavModMoboDmg",
+    "mapGUIPropMaps": [
+      "NavMod",
+      "NavModFlightDynamics"
+    ],
+    "mapModeSwitches": [
+      "ItmNavModMobo",
+      "ItmNavModFlightDynamics",
+      "ItmNavModMoboDmg",
+      "ItmNavModFlightDynamicsDmg"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "ItmNavModMap",
+    "strNameFriendly": "Модуль навигационной карты Polaris",
+    "strNameShort": "Карта",
+    "strDesc": "Модуль управления с возможностью горячей замены для «Стандартной навигационной консоли» Polaris (PSNC).\n\nПоследняя версия PSNC от Polaris позволяет настраивать компоновку по желанию пользователя благодаря запатентованной модульной системе. Модули можно устанавливать несколькими способами, изменяя конфигурацию системы под разные задачи мониторинга и управления кораблём.",
+    "strImg": "navmod/ItmNavModMap",
+    "strImgNorm": "navmod/ItmNavModMapn",
+    "strPortraitImg": "navmod/ItmNavModMap",
+    "strCondLoot": "CNDOLNavModMap",
+    "strCOBase": "ItmNavModMoboScreen",
+    "mapGUIPropMaps": [
+      "NavMod",
+      "NavModMap"
+    ],
+    "mapModeSwitches": [
+      "ItmNavModMoboScreen",
+      "ItmNavModMap",
+      "ItmNavModMoboScreenDmg",
+      "ItmNavModMapDmg"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "ItmNavModMapDmg",
+    "strNameFriendly": "Модуль навигационной карты Polaris (повреждён)",
+    "strNameShort": "Карта (повр.)",
+    "strDesc": "Модуль управления с возможностью горячей замены для «Стандартной навигационной консоли» Polaris (PSNC).\n\nПоследняя версия PSNC от Polaris позволяет настраивать компоновку по желанию пользователя благодаря запатентованной модульной системе. Модули можно устанавливать несколькими способами, изменяя конфигурацию системы под разные задачи мониторинга и управления кораблём.",
+    "strImg": "navmod/ItmNavModMapDmg",
+    "strImgNorm": "navmod/ItmNavModMapDmgn",
+    "strPortraitImg": "navmod/ItmNavModMapDmg",
+    "strCondLoot": "CNDOLNavModMapDmg",
+    "strCOBase": "ItmNavModMoboScreenDmg",
+    "mapGUIPropMaps": [
+      "NavMod",
+      "NavModMap"
+    ],
+    "mapModeSwitches": [
+      "ItmNavModMoboScreen",
+      "ItmNavModMap",
+      "ItmNavModMoboScreenDmg",
+      "ItmNavModMapDmg"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "ItmNavModReserves",
+    "strNameFriendly": "Модуль резервов навигации Polaris",
+    "strNameShort": "Резервы",
+    "strDesc": "Модуль управления с возможностью горячей замены для «Стандартной навигационной консоли» Polaris (PSNC).\n\nПоследняя версия PSNC от Polaris позволяет настраивать компоновку по желанию пользователя благодаря запатентованной модульной системе. Модули можно устанавливать несколькими способами, изменяя конфигурацию системы под разные задачи мониторинга и управления кораблём.",
+    "strImg": "navmod/ItmNavModReserves",
+    "strImgNorm": "navmod/ItmNavModReservesn",
+    "strPortraitImg": "navmod/ItmNavModReserves",
+    "strCondLoot": "CNDOLNavModReserves",
+    "strCOBase": "ItmNavMod",
+    "mapGUIPropMaps": [
+      "NavMod",
+      "NavModReserves"
+    ],
+    "mapModeSwitches": [
+      "ItmNavMod",
+      "ItmNavModReserves",
+      "ItmNavModDmg",
+      "ItmNavModReservesDmg"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "ItmNavModReservesDmg",
+    "strNameFriendly": "Модуль резервов навигации Polaris (повреждён)",
+    "strNameShort": "Резервы (повр.)",
+    "strDesc": "Модуль управления с возможностью горячей замены для «Стандартной навигационной консоли» Polaris (PSNC).\n\nПоследняя версия PSNC от Polaris позволяет настраивать компоновку по желанию пользователя благодаря запатентованной модульной системе. Модули можно устанавливать несколькими способами, изменяя конфигурацию системы под разные задачи мониторинга и управления кораблём.",
+    "strImg": "navmod/ItmNavModReservesDmg",
+    "strImgNorm": "navmod/ItmNavModReservesDmgn",
+    "strPortraitImg": "navmod/ItmNavModReservesDmg",
+    "strCondLoot": "CNDOLNavModReservesDmg",
+    "strCOBase": "ItmNavModDmg",
+    "mapGUIPropMaps": [
+      "NavMod",
+      "NavModReserves"
+    ],
+    "mapModeSwitches": [
+      "ItmNavMod",
+      "ItmNavModReserves",
+      "ItmNavModDmg",
+      "ItmNavModReservesDmg"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "ItmNavModTargetData",
+    "strNameFriendly": "Модуль данных цели навигации Polaris",
+    "strNameShort": "Данные цели",
+    "strDesc": "Модуль управления с возможностью горячей замены для «Стандартной навигационной консоли» Polaris (PSNC).\n\nПоследняя версия PSNC от Polaris позволяет настраивать компоновку по желанию пользователя благодаря запатентованной модульной системе. Модули можно устанавливать несколькими способами, изменяя конфигурацию системы под разные задачи мониторинга и управления кораблём.",
+    "strImg": "navmod/ItmNavModTargetData",
+    "strImgNorm": "navmod/ItmNavModTargetDatan",
+    "strPortraitImg": "navmod/ItmNavModTargetData",
+    "strCondLoot": "CNDOLNavModTargetData",
+    "strCOBase": "ItmNavModMobo",
+    "mapGUIPropMaps": [
+      "NavMod",
+      "NavModTargetData"
+    ],
+    "mapModeSwitches": [
+      "ItmNavModMobo",
+      "ItmNavModTargetData",
+      "ItmNavModMoboDmg",
+      "ItmNavModTargetDataDmg"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "ItmNavModTargetDataDmg",
+    "strNameFriendly": "Модуль данных цели навигации Polaris (повреждён)",
+    "strNameShort": "Данные цели (повр.)",
+    "strDesc": "Модуль управления с возможностью горячей замены для «Стандартной навигационной консоли» Polaris (PSNC).\n\nПоследняя версия PSNC от Polaris позволяет настраивать компоновку по желанию пользователя благодаря запатентованной модульной системе. Модули можно устанавливать несколькими способами, изменяя конфигурацию системы под разные задачи мониторинга и управления кораблём.",
+    "strImg": "navmod/ItmNavModTargetDataDmg",
+    "strImgNorm": "navmod/ItmNavModTargetDataDmgn",
+    "strPortraitImg": "navmod/ItmNavModTargetDataDmg",
+    "strCondLoot": "CNDOLNavModTargetDataDmg",
+    "strCOBase": "ItmNavModMoboDmg",
+    "mapGUIPropMaps": [
+      "NavMod",
+      "NavModTargetData"
+    ],
+    "mapModeSwitches": [
+      "ItmNavModMobo",
+      "ItmNavModTargetData",
+      "ItmNavModMoboDmg",
+      "ItmNavModTargetDataDmg"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "ItmNavModTimeZoom",
+    "strNameFriendly": "Модуль времени/масштаба навигации Polaris",
+    "strNameShort": "Время/Масштаб",
+    "strDesc": "Модуль управления с возможностью горячей замены для «Стандартной навигационной консоли» Polaris (PSNC).\n\nПоследняя версия PSNC от Polaris позволяет настраивать компоновку по желанию пользователя благодаря запатентованной модульной системе. Модули можно устанавливать несколькими способами, изменяя конфигурацию системы под разные задачи мониторинга и управления кораблём.",
+    "strImg": "navmod/ItmNavModTimeZoom",
+    "strImgNorm": "navmod/ItmNavModTimeZoomn",
+    "strPortraitImg": "navmod/ItmNavModTimeZoom",
+    "strCondLoot": "CNDOLNavModTimeZoom",
+    "strCOBase": "ItmNavModMobo",
+    "mapGUIPropMaps": [
+      "NavMod",
+      "NavModTimeZoom"
+    ],
+    "mapModeSwitches": [
+      "ItmNavModMobo",
+      "ItmNavModTimeZoom",
+      "ItmNavModMoboDmg",
+      "ItmNavModTimeZoomDmg"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "ItmNavModTimeZoomDmg",
+    "strNameFriendly": "Модуль времени/масштаба навигации Polaris (повреждён)",
+    "strNameShort": "Время/Масштаб (повр.)",
+    "strDesc": "Модуль управления с возможностью горячей замены для «Стандартной навигационной консоли» Polaris (PSNC).\n\nПоследняя версия PSNC от Polaris позволяет настраивать компоновку по желанию пользователя благодаря запатентованной модульной системе. Модули можно устанавливать несколькими способами, изменяя конфигурацию системы под разные задачи мониторинга и управления кораблём.",
+    "strImg": "navmod/ItmNavModTimeZoomDmg",
+    "strImgNorm": "navmod/ItmNavModTimeZoomDmgn",
+    "strPortraitImg": "navmod/ItmNavModTimeZoomDmg",
+    "strCondLoot": "CNDOLNavModTimeZoomDmg",
+    "strCOBase": "ItmNavModMoboDmg",
+    "mapGUIPropMaps": [
+      "NavMod",
+      "NavModTimeZoom"
+    ],
+    "mapModeSwitches": [
+      "ItmNavModMobo",
+      "ItmNavModTimeZoom",
+      "ItmNavModMoboDmg",
+      "ItmNavModTimeZoomDmg"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "ItmNavModMooringControl",
+    "strNameFriendly": "Модуль управления швартовкой Polaris",
+    "strNameShort": "Швартовка",
+    "strDesc": "Модуль управления с возможностью горячей замены для «Стандартной навигационной консоли» Polaris (PSNC).\n\nПоследняя версия PSNC от Polaris позволяет настраивать компоновку по желанию пользователя благодаря запатентованной модульной системе. Модули можно устанавливать несколькими способами, изменяя конфигурацию системы под разные задачи мониторинга и управления кораблём.",
+    "strImg": "navmod/ItmNavModMooringControl",
+    "strImgNorm": "navmod/ItmNavModMooringControln",
+    "strPortraitImg": "navmod/ItmNavModMooringControl",
+    "strCondLoot": "CNDOLNavModMooringControl",
+    "strCOBase": "ItmNavModMobo",
+    "mapGUIPropMaps": [
+      "NavMod",
+      "NavModMooringControl"
+    ],
+    "mapModeSwitches": [
+      "ItmNavModMobo",
+      "ItmNavModMooringControl",
+      "ItmNavModMoboDmg",
+      "ItmNavModMooringControlDmg"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "ItmNavModMooringControlDmg",
+    "strNameFriendly": "Модуль управления швартовкой Polaris (повреждён)",
+    "strNameShort": "Швартовка (повр.)",
+    "strDesc": "Модуль управления с возможностью горячей замены для «Стандартной навигационной консоли» Polaris (PSNC).\n\nПоследняя версия PSNC от Polaris позволяет настраивать компоновку по желанию пользователя благодаря запатентованной модульной системе. Модули можно устанавливать несколькими способами, изменяя конфигурацию системы под разные задачи мониторинга и управления кораблём.",
+    "strImg": "navmod/ItmNavModMooringControlDmg",
+    "strImgNorm": "navmod/ItmNavModMooringControlDmgn",
+    "strPortraitImg": "navmod/ItmNavModMooringControlDmg",
+    "strCondLoot": "CNDOLNavModMooringControlDmg",
+    "strCOBase": "ItmNavModMoboDmg",
+    "mapGUIPropMaps": [
+      "NavMod",
+      "NavModMooringControl"
+    ],
+    "mapModeSwitches": [
+      "ItmNavModMobo",
+      "ItmNavModMooringControl",
+      "ItmNavModMoboDmg",
+      "ItmNavModMooringControlDmg"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "ItmNavModSensorsMFD",
+    "strNameFriendly": "Модуль МФД сенсоров навигации Polaris",
+    "strNameShort": "МФИ сенсоров",
+    "strDesc": "Модуль управления с возможностью горячей замены для «Стандартной навигационной консоли» Polaris (PSNC).\n\nПоследняя версия PSNC от Polaris позволяет настраивать компоновку по желанию пользователя благодаря запатентованной модульной системе. Модули можно устанавливать несколькими способами, изменяя конфигурацию системы под разные задачи мониторинга и управления кораблём.",
+    "strImg": "navmod/ItmNavModSensorsMFD",
+    "strImgNorm": "navmod/ItmNavModSensorsMFDn",
+    "strPortraitImg": "navmod/ItmNavModSensorsMFD",
+    "strCondLoot": "CNDOLNavModSensorsMFD",
+    "strCOBase": "ItmNavModMoboScreen",
+    "mapGUIPropMaps": [
+      "NavMod",
+      "NavModSensorsMFD"
+    ],
+    "mapModeSwitches": [
+      "ItmNavModMoboScreen",
+      "ItmNavModSensorsMFD",
+      "ItmNavModMoboScreenDmg",
+      "ItmNavModSensorsMFDDmg"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "ItmNavModSensorsMFDDmg",
+    "strNameFriendly": "Модуль МФД сенсоров навигации Polaris (повреждён)",
+    "strNameShort": "МФИ сенсоров (повр.)",
+    "strDesc": "Модуль управления с возможностью горячей замены для «Стандартной навигационной консоли» Polaris (PSNC).\n\nПоследняя версия PSNC от Polaris позволяет настраивать компоновку по желанию пользователя благодаря запатентованной модульной системе. Модули можно устанавливать несколькими способами, изменяя конфигурацию системы под разные задачи мониторинга и управления кораблём.",
+    "strImg": "navmod/ItmNavModSensorsMFDDmg",
+    "strImgNorm": "navmod/ItmNavModSensorsMFDDmgn",
+    "strPortraitImg": "navmod/ItmNavModSensorsMFDDmg",
+    "strCondLoot": "CNDOLNavModSensorsMFDDmg",
+    "strCOBase": "ItmNavModMoboScreenDmg",
+    "mapGUIPropMaps": [
+      "NavMod",
+      "NavModSensorsMFD"
+    ],
+    "mapModeSwitches": [
+      "ItmNavModMoboScreen",
+      "ItmNavModSensorsMFD",
+      "ItmNavModMoboScreenDmg",
+      "ItmNavModSensorsMFDDmg"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "ItmNavModTorchDrive",
+    "strNameFriendly": "Модуль факельного привода навигации Polaris",
+    "strNameShort": "Факельный привод",
+    "strDesc": "Модуль управления с возможностью горячей замены для «Стандартной навигационной консоли» Polaris (PSNC).\n\nПоследняя версия PSNC от Polaris позволяет настраивать компоновку по желанию пользователя благодаря запатентованной модульной системе. Модули можно устанавливать несколькими способами, изменяя конфигурацию системы под разные задачи мониторинга и управления кораблём.",
+    "strImg": "navmod/ItmNavModTorchDrive",
+    "strImgNorm": "navmod/ItmNavModTorchDriven",
+    "strPortraitImg": "navmod/ItmNavModTorchDrive",
+    "strCondLoot": "CNDOLNavModTorchDrive",
+    "strCOBase": "ItmNavModMobo",
+    "mapGUIPropMaps": [
+      "NavMod",
+      "NavModTorchDrive"
+    ],
+    "mapModeSwitches": [
+      "ItmNavModMobo",
+      "ItmNavModTorchDrive",
+      "ItmNavModMoboDmg",
+      "ItmNavModTorchDriveDmg"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "ItmNavModTorchDriveDmg",
+    "strNameFriendly": "Модуль факельного привода навигации Polaris (повреждён)",
+    "strNameShort": "Факельный привод (повр.)",
+    "strDesc": "Модуль управления с возможностью горячей замены для «Стандартной навигационной консоли» Polaris (PSNC).\n\nПоследняя версия PSNC от Polaris позволяет настраивать компоновку по желанию пользователя благодаря запатентованной модульной системе. Модули можно устанавливать несколькими способами, изменяя конфигурацию системы под разные задачи мониторинга и управления кораблём.",
+    "strImg": "navmod/ItmNavModTorchDriveDmg",
+    "strImgNorm": "navmod/ItmNavModTorchDriveDmgn",
+    "strPortraitImg": "navmod/ItmNavModTorchDriveDmg",
+    "strCondLoot": "CNDOLNavModTorchDriveDmg",
+    "strCOBase": "ItmNavModMoboDmg",
+    "mapGUIPropMaps": [
+      "NavMod",
+      "NavModTorchDrive"
+    ],
+    "mapModeSwitches": [
+      "ItmNavModMobo",
+      "ItmNavModTorchDrive",
+      "ItmNavModMoboDmg",
+      "ItmNavModTorchDriveDmg"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "ItmNavModTransponder",
+    "strNameFriendly": "Модуль транспондера навигации Polaris",
+    "strNameShort": "Транспондер",
+    "strDesc": "Модуль управления с возможностью горячей замены для «Стандартной навигационной консоли» Polaris (PSNC).\n\nПоследняя версия PSNC от Polaris позволяет настраивать компоновку по желанию пользователя благодаря запатентованной модульной системе. Модули можно устанавливать несколькими способами, изменяя конфигурацию системы под разные задачи мониторинга и управления кораблём.",
+    "strImg": "navmod/ItmNavModTransponder",
+    "strImgNorm": "navmod/ItmNavModTranspondern",
+    "strPortraitImg": "navmod/ItmNavModTransponder",
+    "strCondLoot": "CNDOLNavModTransponder",
+    "strCOBase": "ItmNavModMoboScreen",
+    "mapGUIPropMaps": [
+      "NavMod",
+      "NavModTransponder"
+    ],
+    "mapModeSwitches": [
+      "ItmNavModMoboScreen",
+      "ItmNavModTransponder",
+      "ItmNavModMoboScreenDmg",
+      "ItmNavModTransponderDmg"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "ItmNavModTransponderDmg",
+    "strNameFriendly": "Модуль транспондера навигации Polaris (повреждён)",
+    "strNameShort": "Транспондер (повр.)",
+    "strDesc": "Модуль управления с возможностью горячей замены для «Стандартной навигационной консоли» Polaris (PSNC).\n\nПоследняя версия PSNC от Polaris позволяет настраивать компоновку по желанию пользователя благодаря запатентованной модульной системе. Модули можно устанавливать несколькими способами, изменяя конфигурацию системы под разные задачи мониторинга и управления кораблём.",
+    "strImg": "navmod/ItmNavModTransponderDmg",
+    "strImgNorm": "navmod/ItmNavModTransponderDmgn",
+    "strPortraitImg": "navmod/ItmNavModTransponderDmg",
+    "strCondLoot": "CNDOLNavModTransponderDmg",
+    "strCOBase": "ItmNavModMoboScreenDmg",
+    "mapGUIPropMaps": [
+      "NavMod",
+      "NavModTransponder"
+    ],
+    "mapModeSwitches": [
+      "ItmNavModMoboScreen",
+      "ItmNavModTransponder",
+      "ItmNavModMoboScreenDmg",
+      "ItmNavModTransponderDmg"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "ItmNavModWarnings",
+    "strNameFriendly": "Модуль предупреждений навигации Polaris",
+    "strNameShort": "Предупреждения",
+    "strDesc": "Модуль управления с возможностью горячей замены для «Стандартной навигационной консоли» Polaris (PSNC).\n\nПоследняя версия PSNC от Polaris позволяет настраивать компоновку по желанию пользователя благодаря запатентованной модульной системе. Модули можно устанавливать несколькими способами, изменяя конфигурацию системы под разные задачи мониторинга и управления кораблём.",
+    "strImg": "navmod/ItmNavModWarnings",
+    "strImgNorm": "navmod/ItmNavModWarningsn",
+    "strPortraitImg": "navmod/ItmNavModWarnings",
+    "strCondLoot": "CNDOLNavModWarnings",
+    "strCOBase": "ItmNavMod",
+    "mapGUIPropMaps": [
+      "NavMod",
+      "NavModWarnings"
+    ],
+    "mapModeSwitches": [
+      "ItmNavMod",
+      "ItmNavModWarnings",
+      "ItmNavModDmg",
+      "ItmNavModWarningsDmg"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "ItmNavModWarningsDmg",
+    "strNameFriendly": "Модуль предупреждений навигации Polaris (повреждён)",
+    "strNameShort": "Предупреждения (повр.)",
+    "strDesc": "Модуль управления с возможностью горячей замены для «Стандартной навигационной консоли» Polaris (PSNC).\n\nПоследняя версия PSNC от Polaris позволяет настраивать компоновку по желанию пользователя благодаря запатентованной модульной системе. Модули можно устанавливать несколькими способами, изменяя конфигурацию системы под разные задачи мониторинга и управления кораблём.",
+    "strImg": "navmod/ItmNavModWarningsDmg",
+    "strImgNorm": "navmod/ItmNavModWarningsDmgn",
+    "strPortraitImg": "navmod/ItmNavModWarningsDmg",
+    "strCondLoot": "CNDOLNavModWarningsDmg",
+    "strCOBase": "ItmNavModDmg",
+    "mapGUIPropMaps": [
+      "NavMod",
+      "NavModWarnings"
+    ],
+    "mapModeSwitches": [
+      "ItmNavMod",
+      "ItmNavModWarnings",
+      "ItmNavModDmg",
+      "ItmNavModWarningsDmg"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "ItmNavModWeaponsMFD",
+    "strNameFriendly": "Модуль МФД вооружения навигации Polaris",
+    "strNameShort": "МФИ вооружения",
+    "strDesc": "Модуль управления с возможностью горячей замены для «Стандартной навигационной консоли» Polaris (PSNC).\n\nПоследняя версия PSNC от Polaris позволяет настраивать компоновку по желанию пользователя благодаря запатентованной модульной системе. Модули можно устанавливать несколькими способами, изменяя конфигурацию системы под разные задачи мониторинга и управления кораблём.",
+    "strImg": "navmod/ItmNavModWeaponsMFD",
+    "strImgNorm": "navmod/ItmNavModWeaponsMFDn",
+    "strPortraitImg": "navmod/ItmNavModWeaponsMFD",
+    "strCondLoot": "CNDOLNavModWeaponsMFD",
+    "strCOBase": "ItmNavModMoboScreen",
+    "mapGUIPropMaps": [
+      "NavMod",
+      "NavModWeaponsMFD"
+    ],
+    "mapModeSwitches": [
+      "ItmNavModMoboScreen",
+      "ItmNavModWeaponsMFD",
+      "ItmNavModMoboScreenDmg",
+      "ItmNavModWeaponsMFDDmg"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "ItmNavModWeaponsMFDDmg",
+    "strNameFriendly": "Модуль МФД вооружения навигации Polaris (повреждён)",
+    "strNameShort": "МФИ вооружения (повр.)",
+    "strDesc": "Модуль управления с возможностью горячей замены для «Стандартной навигационной консоли» Polaris (PSNC).\n\nПоследняя версия PSNC от Polaris позволяет настраивать компоновку по желанию пользователя благодаря запатентованной модульной системе. Модули можно устанавливать несколькими способами, изменяя конфигурацию системы под разные задачи мониторинга и управления кораблём.",
+    "strImg": "navmod/ItmNavModWeaponsMFDDmg",
+    "strImgNorm": "navmod/ItmNavModWeaponsMFDDmgn",
+    "strPortraitImg": "navmod/ItmNavModWeaponsMFDDmg",
+    "strCondLoot": "CNDOLNavModWeaponsMFDDmg",
+    "strCOBase": "ItmNavModMoboScreenDmg",
+    "mapGUIPropMaps": [
+      "NavMod",
+      "NavModWeaponsMFD"
+    ],
+    "mapModeSwitches": [
+      "ItmNavModMoboScreen",
+      "ItmNavModWeaponsMFD",
+      "ItmNavModMoboScreenDmg",
+      "ItmNavModWeaponsMFDDmg"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "ItmNavModFire3x3",
+    "strNameFriendly": "Модуль групп огня навигации Polaris",
+    "strNameShort": "Группы огня",
+    "strDesc": "Модуль управления с возможностью горячей замены для «Стандартной навигационной консоли» Polaris (PSNC).\n\nПоследняя версия PSNC от Polaris позволяет настраивать компоновку по желанию пользователя благодаря запатентованной модульной системе. Модули можно устанавливать несколькими способами, изменяя конфигурацию системы под разные задачи мониторинга и управления кораблём.",
+    "strImg": "navmod/ItmNavModFire2x5",
+    "strImgNorm": "navmod/ItmNavModFire2x5n",
+    "strPortraitImg": "navmod/ItmNavModFire2x5",
+    "strCondLoot": "CNDOLNavModFire3x3",
+    "strCOBase": "ItmNavMod",
+    "mapGUIPropMaps": [
+      "NavMod",
+      "NavModFire3x3"
+    ],
+    "mapModeSwitches": [
+      "ItmNavMod",
+      "ItmNavModFire3x3",
+      "ItmNavModDmg",
+      "ItmNavModFire3x3Dmg"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "ItmNavModFire3x3Dmg",
+    "strNameFriendly": "Модуль групп огня навигации Polaris (повреждён)",
+    "strNameShort": "Группы огня (повр.)",
+    "strDesc": "Модуль управления с возможностью горячей замены для «Стандартной навигационной консоли» Polaris (PSNC).\n\nПоследняя версия PSNC от Polaris позволяет настраивать компоновку по желанию пользователя благодаря запатентованной модульной системе. Модули можно устанавливать несколькими способами, изменяя конфигурацию системы под разные задачи мониторинга и управления кораблём.",
+    "strImg": "navmod/ItmNavModFire2x5Dmg",
+    "strImgNorm": "navmod/ItmNavModFire2x5Dmgn",
+    "strPortraitImg": "navmod/ItmNavModFire2x5Dmg",
+    "strCondLoot": "CNDOLNavModFire3x3Dmg",
+    "strCOBase": "ItmNavModDmg",
+    "mapGUIPropMaps": [
+      "NavMod",
+      "ItmNavModFire3x3"
+    ],
+    "mapModeSwitches": [
+      "ItmNavMod",
+      "ItmNavModFire3x3",
+      "ItmNavModDmg",
+      "ItmNavModFire3x3Dmg"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "ItmNavModFire2x2",
+    "strNameFriendly": "Модуль групп огня навигации Polaris",
+    "strNameShort": "Группы огня",
+    "strDesc": "Модуль управления с возможностью горячей замены для «Стандартной навигационной консоли» Polaris (PSNC).\n\nПоследняя версия PSNC от Polaris позволяет настраивать компоновку по желанию пользователя благодаря запатентованной модульной системе. Модули можно устанавливать несколькими способами, изменяя конфигурацию системы под разные задачи мониторинга и управления кораблём.",
+    "strImg": "navmod/ItmNavModFire2x2",
+    "strImgNorm": "navmod/ItmNavModFire2x2n",
+    "strPortraitImg": "navmod/ItmNavModFire2x2",
+    "strCondLoot": "CNDOLNavModFire2x2",
+    "strCOBase": "ItmNavMod",
+    "mapGUIPropMaps": [
+      "NavMod",
+      "NavModFire2x2"
+    ],
+    "mapModeSwitches": [
+      "ItmNavMod",
+      "ItmNavModFire2x2",
+      "ItmNavModDmg",
+      "ItmNavModFire2x2Dmg"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  },
+  {
+    "strName": "ItmNavModFire2x2Dmg",
+    "strNameFriendly": "Модуль групп огня навигации Polaris (повреждён)",
+    "strNameShort": "Группы огня (повр.)",
+    "strDesc": "Модуль управления с возможностью горячей замены для «Стандартной навигационной консоли» Polaris (PSNC).\n\nПоследняя версия PSNC от Polaris позволяет настраивать компоновку по желанию пользователя благодаря запатентованной модульной системе. Модули можно устанавливать несколькими способами, изменяя конфигурацию системы под разные задачи мониторинга и управления кораблём.",
+    "strImg": "navmod/ItmNavModFire2x2Dmg",
+    "strImgNorm": "navmod/ItmNavModFire2x2Dmgn",
+    "strPortraitImg": "navmod/ItmNavModFire2x2Dmg",
+    "strCondLoot": "CNDOLNavModFire2x2Dmg",
+    "strCOBase": "ItmNavModDmg",
+    "mapGUIPropMaps": [
+      "NavMod",
+      "ItmNavModFire2x2"
+    ],
+    "mapModeSwitches": [
+      "ItmNavMod",
+      "ItmNavModFire2x2",
+      "ItmNavModDmg",
+      "ItmNavModFire2x2Dmg"
+    ],
+    "mapSlotEffects": [
+      "heldL",
+      "HeldItmDefaultL",
+      "heldR",
+      "HeldItmDefaultR"
+    ]
+  }
+]

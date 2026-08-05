@@ -1,0 +1,200 @@
+[
+  {
+    "strName": "AF_BeltPirates",
+    "strTitle": "Тест фракции: Пираты Пояса",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_BeltPirates"
+  },
+  {
+    "strName": "AF_BCERLEO",
+    "strTitle": "Тест фракции: CCRE LEO",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_BCERLEO"
+  },
+  {
+    "strName": "AF_BCRSLEO",
+    "strTitle": "Тест фракции: LEO Галилейской Конфедерации",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_BCRSLEO"
+  },
+  {
+    "strName": "AF_OKLGCiv",
+    "strTitle": "Тест фракции: Гражданские OKLG",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_OKLGCiv"
+  },
+  {
+    "strName": "AF_OKLGCorp",
+    "strTitle": "Тест фракции: Корпорации OKLG",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_OKLGCorp"
+  },
+  {
+    "strName": "AF_OKLGCrim",
+    "strTitle": "Тест фракции: Преступники OKLG",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_OKLGCrim"
+  },
+  {
+    "strName": "AF_OKLGFlotilla",
+    "strTitle": "Тест фракции: Флотилия OKLG",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_OKLGFlotilla"
+  },
+  {
+    "strName": "AF_OKLGLEO",
+    "strTitle": "Тест фракции: LEO OKLG",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_OKLGLEO"
+  },
+  {
+    "strName": "AF_OKLGPirates",
+    "strTitle": "Тест фракции: Пираты OKLG",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_OKLGPirates"
+  },
+  {
+    "strName": "AF_OKLGScav",
+    "strTitle": "Тест фракции: Утилизаторы OKLG",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_OKLGScav"
+  },
+  {
+    "strName": "AF_VCBRCiv",
+    "strTitle": "Тест фракции: Гражданские VCBR",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_VCBRCiv"
+  },
+  {
+    "strName": "AF_VCBRLEO",
+    "strTitle": "Тест фракции: LEO VCBR",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_VCBRLEO"
+  },
+  {
+    "strName": "AF_VENCCiv",
+    "strTitle": "Тест фракции: Гражданские VENC",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_VENCCiv"
+  },
+  {
+    "strName": "AF_VENCLEO",
+    "strTitle": "Тест фракции: LEO VENC",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_VENCLEO"
+  },
+  {
+    "strName": "AF_VenusCrim",
+    "strTitle": "Тест фракции: Преступники Венеры",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_VenusCrim"
+  },
+  {
+    "strName": "AF_VenusPirates",
+    "strTitle": "Тест фракции: Пираты Венеры",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_VenusPirates"
+  },
+  {
+    "strName": "AF_VNCACiv",
+    "strTitle": "Тест фракции: Гражданские VNCA",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_VNCACiv"
+  },
+  {
+    "strName": "AF_VNCALEO",
+    "strTitle": "Тест фракции: LEO VNCA",
+    "strColor": "Neutral",
+    "aInverse": [],
+    "fDuration": 0.0,
+    "strThemType": "Self",
+    "nLogging": 0,
+    "bIgnoreFeelings": true,
+    "PSpecTestThem": "AF_VNCALEO"
+  }
+]

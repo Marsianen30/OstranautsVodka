@@ -1,0 +1,67 @@
+[
+  {
+    "strName": "StatCrimeGalConArrestWarning",
+    "strNameFriendly": "Количество предупреждений об аресте от GalCon",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] столько предупреждений об аресте от GalCon.",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  },
+  {
+    "strName": "CrimeGalConArrest",
+    "strNameFriendly": "Ордер GalCon на арест",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] действующий ордер на арест в Галилейской Конфедерации.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true,
+    "bInvert": true
+  },
+  {
+    "strName": "CrimeGalConThreat",
+    "strNameFriendly": "Враг общества по версии GalCon",
+    "strColor": "Bad",
+    "strDesc": "[us] разыскивается живым или мёртвым местными властями Галилейской Конфедерации и считается врагом общества.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true,
+    "bInvert": true
+  },
+  {
+    "strName": "CrimeGalConTrespass",
+    "strNameFriendly": "Ордер GalCon за нарушение границ",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] действующий ордер за проникновение на частную территорию в Галилейской Конфедерации.",
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 1e-05,
+    "bRemoveAll": true,
+    "aNext": [
+      "TUpCrimeGalConTrespassNext"
+    ]
+  },
+  {
+    "strName": "CrimeGalConStolenShip",
+    "strNameFriendly": "Ордер GalCon за угон корабля",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] действующий ордер на арест в Галилейской Конфедерации за угон корабля.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  },
+  {
+    "strName": "CrimeGalConNoUndock",
+    "strNameFriendly": "Ордер GalCon за отказ отстыковаться",
+    "strColor": "Bad",
+    "strDesc": "[us] [has] действующий ордер на арест в Галилейской Конфедерации за отказ отстыковаться во время инспекции офицера.",
+    "nDisplaySelf": 2,
+    "nDisplayOther": 2,
+    "fDuration": 0.0,
+    "bRemoveAll": true
+  }
+]

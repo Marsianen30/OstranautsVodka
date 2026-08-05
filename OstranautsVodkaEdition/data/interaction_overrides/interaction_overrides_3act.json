@@ -1,0 +1,43 @@
+[
+    {
+		"strName" : "PLOTTEMP3ActMIDTarget",
+		"strTemplateIA" : "PLOTTEMP3ActBEGTarget",
+		"strFind" : "TEMP3ActBEG",
+		"strReplace" : "TEMP3ActMID",
+        "aOverrideValues" : [
+			"strTitle|Цель TEMP3ActMID", 
+			"strDesc|[us] TEMP3ActMID [them-obj] для [3rd-obj]."
+		]
+	},
+    {
+		"strName" : "PLOTTEMP3ActMIDTurnIn",
+		"strTemplateIA" : "PLOTTEMP3ActBEGTurnIn",
+		"strFind" : "TEMP3ActBEG",
+		"strReplace" : "TEMP3ActMID",
+        "aOverrideValues" : [
+			"strTitle|Сдать TEMP3ActMID", 
+			"strDesc|[us] [сдаёт] TEMP3ActMID [them-obj] для [3rd-obj]."
+		]
+	},
+
+    {
+		"strName" : "PLOTTEMP3ActENDTarget",
+		"strTemplateIA" : "PLOTTEMP3ActBEGTarget",
+		"strFind" : "TEMP3ActBEG",
+		"strReplace" : "TEMP3ActEND",
+        "aOverrideValues" : [
+			"strTitle|Цель TEMP3ActEND", 
+			"strDesc|[us] TEMP3ActEND [them-obj] для [3rd-obj]."
+		]
+	},
+    {
+		"strName" : "PLOTTEMP3ActENDTurnIn",
+		"strTemplateIA" : "PLOTTEMP3ActBEGTurnIn",
+		"strFind" : "TEMP3ActBEG",
+		"strReplace" : "TEMP3ActEND",
+        "aOverrideValues" : [
+			"strTitle|Сдать TEMP3ActEND", 
+			"strDesc|[us] [сдаёт] TEMP3ActEND [them-obj] для [3rd-obj]."
+		]
+	}
+]

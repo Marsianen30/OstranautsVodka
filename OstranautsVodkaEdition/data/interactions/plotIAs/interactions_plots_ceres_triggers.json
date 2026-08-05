@@ -1,0 +1,85 @@
+[
+  {
+    "strName": "PLOT_Ceres_StartTrigger1_Isambard",
+    "strTitle": "Триггер начального бита сюжета Ceres для создания Isambard",
+    "strDesc": "[us-contractIs] охвачен ностальгией по прошлому, которого [us-subj] никогда не переживал.",
+    "strActionGroup": "Use",
+    "bIgnoreFeelings": true,
+    "fDuration": 0.0,
+    "strThemType": "Other",
+    "strPlot": "Ceres",
+    "strSetPlotObjective": "TIsVideotape",
+    "nLogging": 1,
+    "strColor": "Dialogue",
+    "bRecheckThisPlot": true,
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_StartTrigger1_Isambard_Completed",
+    "CTTestUs": "CTPlot_PLOT_Ceres_StartTrigger1_Isambard_Completed",
+    "TIsNavStation": "OKLG_Flot",
+    "aSocialNew": [
+      "Plot_Ceres_Smiley_Make",
+      "Plot_Ceres_Isambard_Make"
+    ]
+  },
+  {
+    "strName": "PLOT_Ceres_The_AV_Club_Trigger",
+    "strTitle": "Триггер продвижения бита AV-клуба сюжета Ceres",
+    "strDesc": "[us] вступил в дебри зеркал.",
+    "strThemType": "Other",
+    "strPlot": "Ceres",
+    "strSetPlotObjective": "TIsVideotape",
+    "bIgnoreFeelings": true,
+    "bRecheckThisPlot": true,
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_The_AV_Club_Trigger_Completed",
+    "CTTestUs": "CTPlot_PLOT_Ceres_The_AV_Club_Trigger_Completed",
+    "nLogging": 1
+  },
+  {
+    "strName": "PLOT_Ceres_The_Scholar_Trigger",
+    "strTitle": "Триггер продвижения бита «Учёный» сюжета Ceres",
+    "strDesc": "[us] встретил чудаковатого учёного и узнал больше о странной технологии, которая могла бы переломить ход Proxy-войны на Ceres.",
+    "bIgnoreFeelings": true,
+    "bRecheckThisPlot": true,
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_The_Scholar_Trigger_Completed",
+    "CTTestUs": "CTPlot_PLOT_Ceres_The_Scholar_Trigger_Completed",
+    "nLogging": 1
+  },
+  {
+    "strName": "PLOT_Ceres_Clandestine_Interventions_Trigger",
+    "strTitle": "Триггер продвижения бита «Тайные вмешательства» сюжета Ceres",
+    "strDesc": "[us] начал выбирать сторону и тайно вмешиваться в Proxy-войну на Ceres.",
+    "bIgnoreFeelings": true,
+    "bRecheckThisPlot": true,
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_Clandestine_Interventions_Trigger_Completed",
+    "CTTestUs": "CTPlot_PLOT_Ceres_Clandestine_Interventions_Trigger_Completed",
+    "nLogging": 1
+  },
+  {
+    "strName": "PLOT_Ceres_Our_System_For_Whom_Trigger",
+    "strTitle": "Триггер продвижения бита «Чья же наша Система» сюжета Ceres",
+    "strDesc": "[us] начал оказывать материальную поддержку и вести саботаж в Proxy-войне на Ceres.",
+    "bIgnoreFeelings": true,
+    "bRecheckThisPlot": true,
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_Our_System_For_Whom_Trigger_Completed",
+    "CTTestUs": "CTPlot_PLOT_Ceres_Our_System_For_Whom_Trigger_Completed"
+  },
+  {
+    "strName": "PLOT_Ceres_Valkyrie_Trigger",
+    "strTitle": "Триггер продвижения бита «Валькирия» сюжета Ceres",
+    "strDesc": "[us] начал собирать образец странной технологии, которая могла бы переломить ход Proxy-войны на Ceres.",
+    "bIgnoreFeelings": true,
+    "bRecheckThisPlot": true,
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_Valkyrie_Trigger_Completed",
+    "CTTestUs": "CTPlot_PLOT_Ceres_Valkyrie_Trigger_Completed",
+    "nLogging": 1
+  },
+  {
+    "strName": "PLOT_Ceres_Our_Strange_Denouement_Trigger",
+    "strTitle": "Триггер продвижения бита «Наша странная развязка» сюжета Ceres",
+    "strDesc": "[us] воспользовался мощной технологией и должен решить, кому она принадлежит, чтобы изменить судьбу Ceres и Системы в целом.",
+    "bIgnoreFeelings": true,
+    "bRecheckThisPlot": true,
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_Our_Strange_Denouement_Trigger_Completed",
+    "CTTestUs": "CTPlot_PLOT_Ceres_Our_Strange_Denouement_Trigger_Completed",
+    "nLogging": 1
+  }
+]

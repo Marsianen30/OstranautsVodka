@@ -1,0 +1,32 @@
+[
+  {
+    "strName": "IsSTKFollow_Fail_Cooldown",
+    "strNameFriendly": "Откат неудачи STKFollow",
+    "strColor": "Neutral",
+    "strDesc": "[us] попытался выполнить STKFollow и пока не может попробовать снова.",
+    "bResetTimer": true,
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 0.1
+  },
+  {
+    "strName": "IsSTKFollow_Fail_Avoid",
+    "strNameFriendly": "Мягкая неудача STKFollow",
+    "strColor": "Neutral",
+    "strDesc": "[us] использовал мягкую неудачу (soft fail) в STKFollow, чтобы избежать критической неудачи, и пока не может применить её снова.",
+    "bResetTimer": true,
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 0.1
+  },
+  {
+    "strName": "IsSTKFollow_Chitchat_Trait_Used",
+    "strNameFriendly": "Применена беседа по черте STKFollow",
+    "strColor": "Neutral",
+    "strDesc": "[us] использовал приём светской беседы по черте характера в STKFollow и пока не может применить его снова.",
+    "bResetTimer": true,
+    "nDisplaySelf": 0,
+    "nDisplayOther": 0,
+    "fDuration": 0.1
+  }
+]

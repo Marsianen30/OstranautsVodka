@@ -1,0 +1,27 @@
+[
+  {
+    "strName": "ACTFixerEntryUs",
+    "strTitle": "Фиксер",
+    "strMainText": "Убедить Фиксера дать вам доступ к черному рынку."
+  },
+  {
+    "strName": "ACTPortAuthorityEntryUs",
+    "strTitle": "Администрация порта",
+    "strMainText": "Убедить клерка простить вам плату за стыковку на этот раз."
+  },
+  {
+    "strName": "ACTPoliceShakedownThem",
+    "strTitle": "Полицейский наезд",
+    "strMainText": "Убедить копов оставить вас в покое или хотя бы минимизировать штраф."
+  },
+  {
+    "strName": "ACTSTKFollowThem",
+    "strTitle": "Следование",
+    "strMainText": "Убедить их следовать за вами."
+  },
+  {
+    "strName": "ACTSTKTemplateThem",
+    "strTitle": "Попросить об одолжении",
+    "strMainText": "Убедить их сделать вам одолжение."
+  }
+]
