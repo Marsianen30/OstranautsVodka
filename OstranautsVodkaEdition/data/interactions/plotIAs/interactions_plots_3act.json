@@ -2,7 +2,7 @@
   {
     "strName": "PLOTTEMP3ActBEGStartTrigger",
     "strTitle": "Триггер для начального бита сюжета TEMP3ActBEG",
-    "strDesc": "[them] [messages] [us] с просьбой TEMP3ActBEG [3rd].",
+    "strDesc": "[them] пишет [us] с просьбой TEMP3ActBEG [3rd].",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -37,7 +37,7 @@
   {
     "strName": "PLOTTEMP3ActBEGTurnInTrigger",
     "strTitle": "Триггер для бита сдачи TEMP3ActBEG",
-    "strDesc": "[us] [triggers] бит 2 сюжета TEMP3ActBEG с [them-obj].",
+    "strDesc": "[us] запускает бит 2 сюжета TEMP3ActBEG с [them-obj].",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -71,7 +71,7 @@
   {
     "strName": "PLOTTEMP3ActBEGTurnIn",
     "strTitle": "Сдать TEMP3ActBEG",
-    "strDesc": "[us] [turns] TEMP3ActBEG от [3rd] для [them-obj].",
+    "strDesc": "[us] поворачивает TEMP3ActBEG от [3rd] для [them-obj].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [],

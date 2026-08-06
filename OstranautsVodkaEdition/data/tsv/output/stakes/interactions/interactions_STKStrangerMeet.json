@@ -2,7 +2,7 @@
   {
     "strName": "STKStrangerMeet_Intro",
     "strTitle": "Начать разговор",
-    "strDesc": "[us] [approaches] к [them-obj], чтобы поговорить.",
+    "strDesc": "[us] приближается к [them-obj], чтобы поговорить.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 0.0,
@@ -64,7 +64,7 @@
   {
     "strName": "STKStrangerMeet_Intro_Allow",
     "strTitle": "Выслушать вкратце",
-    "strDesc": "[us] ненадолго [pauses], но, [seems], хочет поскорее уйти.",
+    "strDesc": "[us] ненадолго делает паузу, но, кажется, хочет поскорее уйти.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 0.0,
@@ -119,7 +119,7 @@
   {
     "strName": "STKStrangerMeet_Intro_Allow_Enemy",
     "strTitle": "Поприветствовать врага",
-    "strDesc": "[us] [rolls] [us-pos] глаза, когда [them] подходит.",
+    "strDesc": "[us] катит [us-pos] глаза, когда [them] подходит.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -174,7 +174,7 @@
   {
     "strName": "STKStrangerMeet_Intro_Allow_Friendly",
     "strTitle": "Поприветствовать друга",
-    "strDesc": "На лице [us-pos] вспыхивает узнавание, когда [them] [approaches].",
+    "strDesc": "На лице [us-pos] вспыхивает узнавание, когда [them] приближается.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -232,7 +232,7 @@
   {
     "strName": "STKStrangerMeet_Intro_Allow_Drunk",
     "strTitle": "Поприветствовать пьяно",
-    "strDesc": "[us] пьяно [peers] на [them-obj], когда [them-subj] [approaches].",
+    "strDesc": "[us] пьяно вглядывается на [them-obj], когда [them-subj] приближается.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 0.0,
@@ -287,7 +287,7 @@
   {
     "strName": "STKStrangerMeet_Intro_Allow_HygieneBad",
     "strTitle": "Поприветствовать вонючего",
-    "strDesc": "[us] [recoils] от грязи [them-pos], когда [them-subj] [approaches].",
+    "strDesc": "[us] отшатывается от грязи [them-pos], когда [them-subj] приближается.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 0.0,
@@ -342,7 +342,7 @@
   {
     "strName": "STKStrangerMeet_Intro_Allow_PhysioBad",
     "strTitle": "Поприветствовать раненого",
-    "strDesc": "[us] [winces] от боли, когда [them-subj] [approaches], и говорит закругляться побыстрее.",
+    "strDesc": "[us] морщится от боли, когда [them-subj] приближается, и говорит закругляться побыстрее.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 0.0,
@@ -397,7 +397,7 @@
   {
     "strName": "STKStrangerMeet_Intro_Deny_Cooldown",
     "strTitle": "Отказать (перезарядка)",
-    "strDesc": "[us] [says] проваливать, [us-subj] уже сказал, что [us-doesn't] хочет разговаривать!",
+    "strDesc": "[us] говорит проваливать, [us-subj] уже сказал, что [us-doesn't] хочет разговаривать!",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -453,7 +453,7 @@
   {
     "strName": "STKStrangerMeet_Fail_Hard_DcAutonomyBad",
     "strTitle": "Настоять, чтоб оставили в покое",
-    "strDesc": "[us] [tells] [them] отвалить, [us-subj] не [хочет] разговаривать.",
+    "strDesc": "[us] говорит [them] отвалить, [us-subj] не хочет разговаривать.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -509,7 +509,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_SharedHomeworld",
     "strTitle": "Общий родной мир",
-    "strDesc": "[us] [tries] сблизиться на почве общего родного мира.",
+    "strDesc": "[us] пытается сблизиться на почве общего родного мира.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 0.0,
@@ -567,7 +567,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_SharedHomeworld_Fail_Soft",
     "strTitle": "Мягкий отказ от общего родного мира",
-    "strDesc": "[us] [says], что оттуда много кто родом, и [looks] готовым уйти.",
+    "strDesc": "[us] говорит, что оттуда много кто родом, и смотрит готовым уйти.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -620,7 +620,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_SharedHomeworld_Fail_Hard",
     "strTitle": "Отказ от общего родного мира",
-    "strDesc": "[us] [tells] [them] проваливать.",
+    "strDesc": "[us] говорит [them] проваливать.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -676,7 +676,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_SharedHomeworld_Allow",
     "strTitle": "Продолжить разговор о родном мире",
-    "strDesc": "[us] немного [softens] [us-pos] позицию.",
+    "strDesc": "[us] немного смягчается [us-pos] позицию.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -732,7 +732,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_SharedCrew",
     "strTitle": "Свой брат по команде",
-    "strDesc": "[us] [starts] разговор о работе.",
+    "strDesc": "[us] начинает разговор о работе.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 0.0,
@@ -790,7 +790,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_SharedCrew_Fail_Soft",
     "strTitle": "Мягкий отказ говорить о работе",
-    "strDesc": "[us] не [хочет] говорить о работе.",
+    "strDesc": "[us] не хочет говорить о работе.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -843,7 +843,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_SharedCrew_Fail_Hard",
     "strTitle": "Отказ говорить о работе",
-    "strDesc": "[us] [shoots] любые дальнейшие разговоры о работе с [them-obj].",
+    "strDesc": "[us] стреляет любые дальнейшие разговоры о работе с [them-obj].",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -899,7 +899,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_SharedCrew_Allow",
     "strTitle": "Продолжить разговор о работе",
-    "strDesc": "[us], [seems], рад поговорить с товарищем по команде.",
+    "strDesc": "[us], кажется, рад поговорить с товарищем по команде.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -955,7 +955,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_SharedScar",
     "strTitle": "Сравнить шрамы",
-    "strDesc": "[us] [tries] сравнить [us-pos] шрам со шрамом [them-pos].",
+    "strDesc": "[us] пытается сравнить [us-pos] шрам со шрамом [them-pos].",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 0.0,
@@ -1013,7 +1013,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_SharedScar_Fail_Soft",
     "strTitle": "Мягкий отказ от сближения по шрамам",
-    "strDesc": "[us] не [хочет] говорить о шрамах.",
+    "strDesc": "[us] не хочет говорить о шрамах.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -1066,7 +1066,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_SharedScar_Fail_Hard",
     "strTitle": "Отказ от сближения по шрамам",
-    "strDesc": "[us] [hides] [us-pos] шрам и [refuses] продолжать разговор.",
+    "strDesc": "[us] прячет [us-pos] шрам и отказывается продолжать разговор.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -1122,7 +1122,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_SharedScar_Allow",
     "strTitle": "Продолжить разговор на почве общего шрама",
-    "strDesc": "[us] немного [opens] перед собратом по несчастью.",
+    "strDesc": "[us] немного открывает перед собратом по несчастью.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -1178,7 +1178,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_SharedCareer",
     "strTitle": "Потолковать о деле (профессия)",
-    "strDesc": "[us] [attempts] потолковать о деле.",
+    "strDesc": "[us] пытается потолковать о деле.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 0.0,
@@ -1236,7 +1236,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_SharedCareer_Fail_Soft",
     "strTitle": "Мягкий отказ от разговоров о деле (Shipbreaker)",
-    "strDesc": "[us] не [спешит] хвататься за возможность поговорить о работе.",
+    "strDesc": "[us] не спешит хвататься за возможность поговорить о работе.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -1289,7 +1289,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_SharedCareer_Fail_Hard",
     "strTitle": "Отказ от разговоров о деле (Shipbreaker)",
-    "strDesc": "[us] [shoots] любые дальнейшие разговоры о работе с [them-obj].",
+    "strDesc": "[us] стреляет любые дальнейшие разговоры о работе с [them-obj].",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -1345,7 +1345,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_SharedCareer_Allow",
     "strTitle": "Продолжить разговор о деле (Shipbreaker)",
-    "strDesc": "[us], [seems], рад потолковать о деле с коллегой по цеху.",
+    "strDesc": "[us], кажется, рад потолковать о деле с коллегой по цеху.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -1401,7 +1401,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_BeautifulSelf",
     "strTitle": "Очаровать (красивый)",
-    "strDesc": "[us] [attempts] очаровать [them] [us-pos] внешностью.",
+    "strDesc": "[us] пытается очаровать [them] [us-pos] внешностью.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 0.0,
@@ -1459,7 +1459,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_BeautifulSelf_Fail_Soft",
     "strTitle": "Мягкий отказ от чар (красивый)",
-    "strDesc": "[us] [glances] взгляд и, кажется, хочет поскорее уйти.",
+    "strDesc": "[us] взглядывает взгляд и, кажется, хочет поскорее уйти.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -1568,7 +1568,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_BeautifulSelf_Allow",
     "strTitle": "Поддаться красоте",
-    "strDesc": "[us] [swoons] от [them].",
+    "strDesc": "[us] млеет от [them].",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -1624,7 +1624,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_RecentlyInstalledSelf",
     "strTitle": "Обсудить недавнее занятие (установка)",
-    "strDesc": "[us] [attempts] обсудить недавнюю работу по установке, выполненную [them].",
+    "strDesc": "[us] пытается обсудить недавнюю работу по установке, выполненную [them].",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 0.0,
@@ -1682,7 +1682,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_RecentlyInstalledSelf_Fail_Soft",
     "strTitle": "Мягкий отказ от недавнего занятия (установка)",
-    "strDesc": "[us] [gives] сухо и, кажется, хочет поскорее уйти.",
+    "strDesc": "[us] даёт сухо и, кажется, хочет поскорее уйти.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -1735,7 +1735,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_RecentlyInstalledSelf_Fail_Hard",
     "strTitle": "Отказ от недавнего занятия (установка)",
-    "strDesc": "[us] не впечатлён инженерной болтовнёй [them-pos] и [заканчивает] разговор.",
+    "strDesc": "[us] не впечатлён инженерной болтовнёй [them-pos] и заканчивает разговор.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -1791,7 +1791,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_RecentlyInstalledSelf_Allow",
     "strTitle": "Продолжить разговор о недавнем занятии (установка)",
-    "strDesc": "[us] впечатлён инженерными познаниями [them-pos] и [продолжает] разговор.",
+    "strDesc": "[us] впечатлён инженерными познаниями [them-pos] и продолжает разговор.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -1847,7 +1847,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_RecentlyUninstalledSelf",
     "strTitle": "Обсудить недавнее занятие (демонтаж)",
-    "strDesc": "[us] [attempts] обсудить недавнюю работу по демонтажу, выполненную [them].",
+    "strDesc": "[us] пытается обсудить недавнюю работу по демонтажу, выполненную [them].",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 0.0,
@@ -1905,7 +1905,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_RecentlyUninstalledSelf_Fail_Soft",
     "strTitle": "Мягкий отказ от недавнего занятия (демонтаж)",
-    "strDesc": "[us] [gives] сухо и, кажется, хочет поскорее уйти.",
+    "strDesc": "[us] даёт сухо и, кажется, хочет поскорее уйти.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -1958,7 +1958,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_RecentlyUninstalledSelf_Fail_Hard",
     "strTitle": "Отказ от недавнего занятия (демонтаж)",
-    "strDesc": "[us] не впечатлён инженерной болтовнёй [them-pos] и [заканчивает] разговор.",
+    "strDesc": "[us] не впечатлён инженерной болтовнёй [them-pos] и заканчивает разговор.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -2014,7 +2014,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_RecentlyUninstalledSelf_Allow",
     "strTitle": "Продолжить разговор о недавнем занятии (демонтаж)",
-    "strDesc": "[us] впечатлён инженерными познаниями [them-pos] и [продолжает] разговор.",
+    "strDesc": "[us] впечатлён инженерными познаниями [them-pos] и продолжает разговор.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -2070,7 +2070,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_RecentlyRepairedSelf",
     "strTitle": "Обсудить недавнее занятие (ремонт)",
-    "strDesc": "[us] [attempts] обсудить недавнюю работу по ремонту, выполненную [them].",
+    "strDesc": "[us] пытается обсудить недавнюю работу по ремонту, выполненную [them].",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 0.0,
@@ -2128,7 +2128,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_RecentlyRepairedSelf_Fail_Soft",
     "strTitle": "Мягкий отказ от недавнего занятия (ремонт)",
-    "strDesc": "[us] [gives] сухо и, кажется, хочет поскорее уйти.",
+    "strDesc": "[us] даёт сухо и, кажется, хочет поскорее уйти.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -2181,7 +2181,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_RecentlyRepairedSelf_Fail_Hard",
     "strTitle": "Отказ от недавнего занятия (ремонт)",
-    "strDesc": "[us] не впечатлён инженерной болтовнёй [them-pos] и [заканчивает] разговор.",
+    "strDesc": "[us] не впечатлён инженерной болтовнёй [them-pos] и заканчивает разговор.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -2237,7 +2237,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_RecentlyRepairedSelf_Allow",
     "strTitle": "Продолжить разговор о недавнем занятии (ремонт)",
-    "strDesc": "[us] впечатлён инженерными познаниями [them-pos] и [продолжает] разговор.",
+    "strDesc": "[us] впечатлён инженерными познаниями [them-pos] и продолжает разговор.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -2293,7 +2293,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_RecentlyRestoredSelf",
     "strTitle": "Обсудить недавнее занятие (восстановление)",
-    "strDesc": "[us] [attempts] обсудить недавнюю работу по восстановлению, выполненную [them].",
+    "strDesc": "[us] пытается обсудить недавнюю работу по восстановлению, выполненную [them].",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 0.0,
@@ -2351,7 +2351,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_RecentlyRestoredSelf_Fail_Soft",
     "strTitle": "Мягкий отказ от недавнего занятия (восстановление)",
-    "strDesc": "[us] [gives] сухо и, кажется, хочет поскорее уйти.",
+    "strDesc": "[us] даёт сухо и, кажется, хочет поскорее уйти.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -2404,7 +2404,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_RecentlyRestoredSelf_Fail_Hard",
     "strTitle": "Отказ от недавнего занятия (восстановление)",
-    "strDesc": "[us] не впечатлён инженерной болтовнёй [them-pos] и [заканчивает] разговор.",
+    "strDesc": "[us] не впечатлён инженерной болтовнёй [them-pos] и заканчивает разговор.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -2460,7 +2460,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_RecentlyRestoredSelf_Allow",
     "strTitle": "Продолжить разговор о недавнем занятии (восстановление)",
-    "strDesc": "[us] впечатлён инженерными познаниями [them-pos] и [продолжает] разговор.",
+    "strDesc": "[us] впечатлён инженерными познаниями [them-pos] и продолжает разговор.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -2516,7 +2516,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_RecentlyWatchNewsSelf",
     "strTitle": "Обсудить новости на экране",
-    "strDesc": "[us] [attempts] обсудить новости, что смотрит [them].",
+    "strDesc": "[us] пытается обсудить новости, что смотрит [them].",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 0.0,
@@ -2574,7 +2574,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_RecentlyWatchNewsSelf_Fail_Soft",
     "strTitle": "Мягкий отказ от недавнего занятия (просмотр новостей)",
-    "strDesc": "[us] [gives] сухо и, кажется, хочет поскорее уйти.",
+    "strDesc": "[us] даёт сухо и, кажется, хочет поскорее уйти.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -2627,7 +2627,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_RecentlyWatchNewsSelf_Fail_Hard",
     "strTitle": "Отказ от недавнего занятия (просмотр новостей)",
-    "strDesc": "[us] не впечатлён тем, как [them-pos] [разбирается] в текущих событиях, и [заканчивает] разговор.",
+    "strDesc": "[us] не впечатлён тем, как [them-pos] разбирается в текущих событиях, и заканчивает разговор.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -2683,7 +2683,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_RecentlyWatchNewsSelf_Allow",
     "strTitle": "Продолжить разговор о недавнем занятии (просмотр новостей)",
-    "strDesc": "[us] впечатлён тем, как [them-pos] [разбирается] в текущих событиях, и охотнее [идёт] на разговор.",
+    "strDesc": "[us] впечатлён тем, как [them-pos] разбирается в текущих событиях, и охотнее идёт на разговор.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -2739,7 +2739,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_RecentlyAdmireSelf",
     "strTitle": "Обсудить недавнее занятие (восхищение)",
-    "strDesc": "[us] [attempts] обсудить предмет восхищения [them-pos].",
+    "strDesc": "[us] пытается обсудить предмет восхищения [them-pos].",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 0.0,
@@ -2797,7 +2797,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_RecentlyAdmireSelf_Fail_Soft",
     "strTitle": "Мягкий отказ от недавнего занятия (восхищение)",
-    "strDesc": "[us] [gives] сухо и, кажется, хочет поскорее уйти.",
+    "strDesc": "[us] даёт сухо и, кажется, хочет поскорее уйти.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -2850,7 +2850,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_RecentlyAdmireSelf_Fail_Hard",
     "strTitle": "Отказ от недавнего занятия (восхищение)",
-    "strDesc": "[us] не заинтересован в [them-pos] комментариях и [заканчивает] разговор.",
+    "strDesc": "[us] не заинтересован в [them-pos] комментариях и заканчивает разговор.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -2906,7 +2906,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_RecentlyAdmireSelf_Allow",
     "strTitle": "Продолжить разговор о недавнем занятии (восхищение)",
-    "strDesc": "[us] заинтересован в [them-pos] комментариях и [продолжает] разговор.",
+    "strDesc": "[us] заинтересован в [them-pos] комментариях и продолжает разговор.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -2962,7 +2962,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_CruelSelf",
     "strTitle": "Наступить на ногу (жестокий)",
-    "strDesc": "[us] [stomps] на ногу [them-pos] и [pretends] вид, что это случайно.",
+    "strDesc": "[us] топает на ногу [them-pos] и притворяется вид, что это случайно.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 0.0,
@@ -3020,7 +3020,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_CruelSelf_Fail_Soft",
     "strTitle": "Мягкий отказ на «наступить на ногу» (жестокий)",
-    "strDesc": "[us] быстро [pulls] [us-pos] ногу и, [seems], готов уйти.",
+    "strDesc": "[us] быстро тянет [us-pos] ногу и, кажется, готов уйти.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -3073,7 +3073,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_CruelSelf_Fail_Hard",
     "strTitle": "Отказ на «наступить на ногу» (жестокий)",
-    "strDesc": "[us] [tells] [them] на хер.",
+    "strDesc": "[us] говорит [them] на хер.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -3129,7 +3129,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_CruelSelf_Allow",
     "strTitle": "Поддаться жестокости",
-    "strDesc": "[us] неловко [apologizes] и, [seems], готов продолжить разговор.",
+    "strDesc": "[us] неловко извиняется и, кажется, готов продолжить разговор.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -3185,7 +3185,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_ContactVPrivacy",
     "strTitle": "Начать с ходу",
-    "strDesc": "[us] просто [starts] говорить о чём попало.",
+    "strDesc": "[us] просто начинает говорить о чём попало.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 0.0,
@@ -3243,7 +3243,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_ContactVPrivacy_Allow",
     "strTitle": "Продолжить разговор",
-    "strDesc": "[us], [seems], готов поболтать.",
+    "strDesc": "[us], кажется, готов поболтать.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -3299,7 +3299,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_ContactVPrivacy_Fail_Soft",
     "strTitle": "Продолжить разговор со скепсисом",
-    "strDesc": "[us] не [ведётся], но и не [уходит].",
+    "strDesc": "[us] не ведётся, но и не уходит.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -3352,7 +3352,7 @@
   {
     "strName": "STKStrangerMeet_Gambit_ContactVPrivacy_Fail_Hard",
     "strTitle": "Отмахнуться от разговора",
-    "strDesc": "[us] [brushes] от [them].",
+    "strDesc": "[us] чистит от [them].",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,

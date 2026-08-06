@@ -137,7 +137,7 @@
   {
     "strName": "PLOT_Meat_WhispersFound01",
     "strTitle": "Тосковать по нормальной еде",
-    "strDesc": "[us] мечтательно [imagines], как пробует настоящую земную еду: мясо травяного откорма, свежевыловленную рыбу, выращенные в поле овощи.",
+    "strDesc": "[us] мечтательно воображает, как пробует настоящую земную еду: мясо травяного откорма, свежевыловленную рыбу, выращенные в поле овощи.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "fDuration": 0.003,
@@ -156,7 +156,7 @@
   {
     "strName": "PLOT_Meat_WhispersFound02",
     "strTitle": "Поразмыслить о «мясе-загадке»",
-    "strDesc": "[us] [inspects] [them], предаваясь фантазиям о том, что же такое на самом деле «мясо-загадка». Станционный терминал или продовольственный надзор, наверное, знают больше.",
+    "strDesc": "[us] осматривает [them], предаваясь фантазиям о том, что же такое на самом деле «мясо-загадка». Станционный терминал или продовольственный надзор, наверное, знают больше.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -175,7 +175,7 @@
   {
     "strName": "PLOT_Meat_WhispersFound03",
     "strTitle": "Убрать куски «мяса-загадки»",
-    "strDesc": "[us] внимательно [inspects] [them], удаляя все видимые куски «мяса-загадки», какие можно, чтобы улучшить вкус трапезы.",
+    "strDesc": "[us] внимательно осматривает [them], удаляя все видимые куски «мяса-загадки», какие можно, чтобы улучшить вкус трапезы.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -194,7 +194,7 @@
   {
     "strName": "PLOT_Meat_WhispersFound04",
     "strTitle": "Разузнать про «мясо-загадку»",
-    "strDesc": "[us] [пытается] разузнать через [them] информацию о «мясе-загадке» от Trenchers.",
+    "strDesc": "[us] пытается разузнать через [them] информацию о «мясе-загадке» от Trenchers.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -216,7 +216,7 @@
   {
     "strName": "PLOT_Meat_WhispersFound04Reply",
     "strTitle": "",
-    "strDesc": "[them] [finds] через [them] информацию о том, что материнская компания Trenchers — это мегакорпорация Future Foods, прославившаяся в последние годы своим язык-сломаешь скандалом «Futures Feud».",
+    "strDesc": "[them] находит через [them] информацию о том, что материнская компания Trenchers — это мегакорпорация Future Foods, прославившаяся в последние годы своим язык-сломаешь скандалом «Futures Feud».",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -236,7 +236,7 @@
   {
     "strName": "PLOT_Meat_WhispersFound04b",
     "strTitle": "Спросить про «мясо-загадку»",
-    "strDesc": "[us] [asks] у [them-obj] больше информации о «мясе-загадке» от Trenchers.",
+    "strDesc": "[us] спрашивает у [them-obj] больше информации о «мясе-загадке» от Trenchers.",
     "strActionGroup": "Talk",
     "bSocial": true,
     "bIgnoreFeelings": true,
@@ -259,7 +259,7 @@
   {
     "strName": "PLOT_Meat_WhispersFound04bReply",
     "strTitle": "Обсудить «мясо-загадку»",
-    "strDesc": "[us] [tells] [them] всё, что слышал о секретности, которую блюдёт материнская компания Trenchers — Future Foods.",
+    "strDesc": "[us] говорит [them] всё, что слышал о секретности, которую блюдёт материнская компания Trenchers — Future Foods.",
     "strActionGroup": "Talk",
     "aInverse": [],
     "fDuration": 0.0005,
@@ -279,7 +279,7 @@
   {
     "strName": "PLOT_Meat_WhispersFound05",
     "strTitle": "Посмотреть новости: вечный источник еды",
-    "strDesc": "[us] [watches] [them] повнимательнее, чтобы узнать больше об экспериментах уберкорпораций в погоне за якобы бесконечным источником еды.",
+    "strDesc": "[us] наблюдает [them] повнимательнее, чтобы узнать больше об экспериментах уберкорпораций в погоне за якобы бесконечным источником еды.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -301,7 +301,7 @@
   {
     "strName": "PLOT_Meat_WhispersFound05Reply",
     "strTitle": "Посмотреть новости о вечном источнике еды",
-    "strDesc": "[them] [learns] о провалившейся биоинженерной лаборатории под Tharsis Landing на Марсе, где Brave New World, LLC ставила опыты на козах.",
+    "strDesc": "[them] учится о провалившейся биоинженерной лаборатории под Tharsis Landing на Марсе, где Brave New World, LLC ставила опыты на козах.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -321,7 +321,7 @@
   {
     "strName": "PLOT_Meat_WhispersFound06",
     "strTitle": "Спросить про рацион",
-    "strDesc": "[us] [asks] у [them-obj], как [them-contractIs] питался в последнее время. Нехватка еды — обычное дело в колониях, особенно на переполненных станциях, а жаловаться на Trenchers — практически традиция космачей.",
+    "strDesc": "[us] спрашивает у [them-obj], как [them-contractIs] питался в последнее время. Нехватка еды — обычное дело в колониях, особенно на переполненных станциях, а жаловаться на Trenchers — практически традиция космачей.",
     "strActionGroup": "Talk",
     "bSocial": true,
     "aInverse": [
@@ -345,7 +345,7 @@
   {
     "strName": "PLOT_Meat_WhispersFound06ReplyManager",
     "strTitle": "Обсудить еду",
-    "strDesc": "[us] с удовольствием [shares] с [them-obj] своей последней шикарной трапезой. В отличие от остального человечества, корпоративные менеджеры часто наслаждаются деликатесными, почти земными продуктами с Hangzhou Orbital или биоинженерной едой из Voltaire, Deimos.",
+    "strDesc": "[us] с удовольствием делится с [them-obj] своей последней шикарной трапезой. В отличие от остального человечества, корпоративные менеджеры часто наслаждаются деликатесными, почти земными продуктами с Hangzhou Orbital или биоинженерной едой из Voltaire, Deimos.",
     "strActionGroup": "Talk",
     "aInverse": [],
     "fDuration": 0.0005,
@@ -366,7 +366,7 @@
   {
     "strName": "PLOT_Meat_WhispersFound06ReplyHangzhou",
     "strTitle": "Обсудить сельское хозяйство",
-    "strDesc": "[us] весело [recounts] [them] истории о том, как рос на Hangzhou Orbital с его земными условиями, гравитацией, даже озёрами и искусственным циклом солнечного света. Hangzhou, на орбите Марса, — одно из немногих мест в Солнечной системе, не знающих вечной нехватки еды.",
+    "strDesc": "[us] весело рассказывает [them] истории о том, как рос на Hangzhou Orbital с его земными условиями, гравитацией, даже озёрами и искусственным циклом солнечного света. Hangzhou, на орбите Марса, — одно из немногих мест в Солнечной системе, не знающих вечной нехватки еды.",
     "strActionGroup": "Talk",
     "aInverse": [],
     "fDuration": 0.0005,
@@ -387,7 +387,7 @@
   {
     "strName": "PLOT_Meat_WhispersFound06Reply",
     "strTitle": "Обсудить голод",
-    "strDesc": "[us] [thanks] их за вопрос и [tells] [them] извечную историю о космаческих пайках, растянутых до предела. Еда просто не растёт в космосе достаточно хорошо, чтобы прокормить всех. Говорят, на Hangzhou Orbital земное сельское хозяйство, но там придерживают поставки и обдирают остальные колонии за свои сказочные продукты.",
+    "strDesc": "[us] благодарит их за вопрос и говорит [them] извечную историю о космаческих пайках, растянутых до предела. Еда просто не растёт в космосе достаточно хорошо, чтобы прокормить всех. Говорят, на Hangzhou Orbital земное сельское хозяйство, но там придерживают поставки и обдирают остальные колонии за свои сказочные продукты.",
     "strActionGroup": "Talk",
     "aInverse": [],
     "fDuration": 0.0005,
@@ -407,7 +407,7 @@
   {
     "strName": "PLOT_Meat_SignsDiscussed01",
     "strTitle": "Обсудить новости о бесконечной еде",
-    "strDesc": "[us] [discusses] с [them-obj] слухи в новостях о корпоративных экспериментах в марсианской системе в поисках бесконечных источников еды.",
+    "strDesc": "[us] обсуждает с [them-obj] слухи в новостях о корпоративных экспериментах в марсианской системе в поисках бесконечных источников еды.",
     "strActionGroup": "Talk",
     "bSocial": true,
     "bRandomInverse": true,
@@ -448,7 +448,7 @@
   {
     "strName": "PLOT_Meat_SignsDiscussed02",
     "strTitle": "Обсудить несправедливость голода",
-    "strDesc": "[us] [discusses] с [them-obj] несправедливость нескончаемого голода космачей, роль корпораций в дефиците и надежды на технологические прорывы в производстве и распределении еды.",
+    "strDesc": "[us] обсуждает с [them-obj] несправедливость нескончаемого голода космачей, роль корпораций в дефиците и надежды на технологические прорывы в производстве и распределении еды.",
     "strActionGroup": "Talk",
     "bSocial": true,
     "bRandomInverse": true,
@@ -506,7 +506,7 @@
   {
     "strName": "PLOT_Meat_SignsDiscussed03",
     "strTitle": "Взломать записи продовольственной компании",
-    "strDesc": "[us] [hacks] записи различных уберкорпораций, разыскивая информацию об исследованиях бесконечных источников еды.",
+    "strDesc": "[us] взламывает записи различных уберкорпораций, разыскивая информацию об исследованиях бесконечных источников еды.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -529,7 +529,7 @@
   {
     "strName": "PLOT_Meat_SignsDiscussed03ReplyLEOShip",
     "strTitle": "",
-    "strDesc": "[them] [unearths] сочные полицейские записи через доступ терминала местной власти: сильно отцензуренные отчёты о происшествиях со смертями и пропажами людей имеют тревожную закономерность — они ведут к кораблям и обломкам, о которых сообщали как о заражённых стремительно растущим, бестелесным мясом. В некоторых отчётах, помеченных на психологическую проверку, даже говорится, что мясо, возможно, дышало и говорило. У этой кроличьей норы есть продолжение. Но где?",
+    "strDesc": "[them] раскапывает сочные полицейские записи через доступ терминала местной власти: сильно отцензуренные отчёты о происшествиях со смертями и пропажами людей имеют тревожную закономерность — они ведут к кораблям и обломкам, о которых сообщали как о заражённых стремительно растущим, бестелесным мясом. В некоторых отчётах, помеченных на психологическую проверку, даже говорится, что мясо, возможно, дышало и говорило. У этой кроличьей норы есть продолжение. Но где?",
     "strActionGroup": "Use",
     "aInverse": [],
     "fDuration": 0.0005,
@@ -549,7 +549,7 @@
   {
     "strName": "PLOT_Meat_SignsDiscussed03ReplyBIZ",
     "strTitle": "",
-    "strDesc": "[them] [finds] разоблачающие записи через более официальный доступ, предоставленный бизнес-терминалом: Brave New Worlds LLC приложила огромные усилия, чтобы задушить любопытство вокруг своего проекта «Perpetual Protein», в основном чтобы избежать дурной славы. В числе её усилий — очернение репутации The Fishers of Men, религиозной активистской группы на станции Kapyong, а также Future Foods Inc, их главного конкурента. Наверняка есть ещё что раскопать.",
+    "strDesc": "[them] находит разоблачающие записи через более официальный доступ, предоставленный бизнес-терминалом: Brave New Worlds LLC приложила огромные усилия, чтобы задушить любопытство вокруг своего проекта «Perpetual Protein», в основном чтобы избежать дурной славы. В числе её усилий — очернение репутации The Fishers of Men, религиозной активистской группы на станции Kapyong, а также Future Foods Inc, их главного конкурента. Наверняка есть ещё что раскопать.",
     "strActionGroup": "Use",
     "aInverse": [],
     "fDuration": 0.0005,
@@ -569,7 +569,7 @@
   {
     "strName": "PLOT_Meat_SignsDiscussed03Reply",
     "strTitle": "",
-    "strDesc": "[them] [finds] слухи об инвестиционных питчах, связанных с корпоративными генетическими пищевыми научными экспериментами, призванными выгодно улучшить питание станций и колоний, создавая протеин из воздуха. Звучит неправдоподобно: питчи, вероятно, ни к чему не привели или были прикрыты доминирующими аграрными уберкорпорациями Xinhua. Терминалы с более официальным доступом позволили бы взламывать плодотворнее. Наверняка есть ещё что раскопать.",
+    "strDesc": "[them] находит слухи об инвестиционных питчах, связанных с корпоративными генетическими пищевыми научными экспериментами, призванными выгодно улучшить питание станций и колоний, создавая протеин из воздуха. Звучит неправдоподобно: питчи, вероятно, ни к чему не привели или были прикрыты доминирующими аграрными уберкорпорациями Xinhua. Терминалы с более официальным доступом позволили бы взламывать плодотворнее. Наверняка есть ещё что раскопать.",
     "strActionGroup": "Use",
     "aInverse": [],
     "fDuration": 0.0005,
@@ -588,7 +588,7 @@
   {
     "strName": "PLOT_Meat_SignsDiscussed04",
     "strTitle": "Осмотреть упаковку",
-    "strDesc": "[us] [inspects] [them], в которую когда-то было завёрнуто то, что похоже на прототип для проекта «Perpetual Protein».",
+    "strDesc": "[us] осматривает [them], в которую когда-то было завёрнуто то, что похоже на прототип для проекта «Perpetual Protein».",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -628,7 +628,7 @@
   {
     "strName": "PLOT_Meat_SignsDiscussed05",
     "strTitle": "Осмотреть странную кровь",
-    "strDesc": "[us] [looks] пристальнее на то, что похоже на комковатую кровь.",
+    "strDesc": "[us] смотрит пристальнее на то, что похоже на комковатую кровь.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -668,7 +668,7 @@
   {
     "strName": "PLOT_Meat_SignsDiscussed06",
     "strTitle": "Спросить о странной крови",
-    "strDesc": "[us] [describes] странную кровь, что [us-contractHas] видел, и [seeks] мнения [them-pos].",
+    "strDesc": "[us] описывает странную кровь, что [us-contractHas] видел, и ищет мнения [them-pos].",
     "strActionGroup": "Talk",
     "bSocial": true,
     "bIgnoreFeelings": true,
@@ -744,7 +744,7 @@
   {
     "strName": "PLOT_Meat_SignsDiscussed06ReplyCultist",
     "strTitle": "Жадно слушать",
-    "strDesc": "[us] [devours] каждую деталь, что [them] готов предоставить. [us-subj] [finds], что [us-obj] тянет к идее странной крови.",
+    "strDesc": "[us] пожирает каждую деталь, что [them] готов предоставить. [us-subj] находит, что [us-obj] тянет к идее странной крови.",
     "strActionGroup": "Talk",
     "bRandomInverse": true,
     "aInverse": [],
@@ -765,7 +765,7 @@
   {
     "strName": "PLOT_Meat_SignsDiscussed06ReplyAntiGMO",
     "strTitle": "Отречься",
-    "strDesc": "[us] [stops] [them], прежде чем [them-subj] [finishes]. [us-subj] [renounces] от свидетельств генной модификации как от дьявольских, «игры в Бога» и прочего в том же духе.",
+    "strDesc": "[us] останавливается [them], прежде чем [them-subj] заканчивает. [us-subj] отрекается от свидетельств генной модификации как от дьявольских, «игры в Бога» и прочего в том же духе.",
     "strActionGroup": "Talk",
     "bRandomInverse": true,
     "aInverse": [],
@@ -786,7 +786,7 @@
   {
     "strName": "PLOT_Meat_SignsDiscussed06ReplyModerate",
     "strTitle": "Поделиться научным оптимизмом",
-    "strDesc": "[us] [interprets] историю [them-pos] как нечто, что стоит исследовать дальше. Наука может найти способ удовлетворить нужды человечества.",
+    "strDesc": "[us] толкует историю [them-pos] как нечто, что стоит исследовать дальше. Наука может найти способ удовлетворить нужды человечества.",
     "strActionGroup": "Talk",
     "bRandomInverse": true,
     "aInverse": [],
@@ -807,7 +807,7 @@
   {
     "strName": "PLOT_Meat_SignsDiscussed06Reply",
     "strTitle": "Пожать плечами",
-    "strDesc": "[us] [shrugs] плечами и [asks] у [them-obj], похож ли [us-subj] на врача или учёного.",
+    "strDesc": "[us] пожимает плечами плечами и спрашивает у [them-obj], похож ли [us-subj] на врача или учёного.",
     "strActionGroup": "Talk",
     "bRandomInverse": true,
     "aInverse": [],
@@ -827,7 +827,7 @@
   {
     "strName": "PLOT_Meat_MeatEngaged01",
     "strTitle": "Осмотреть мясо",
-    "strDesc": "[us] [looks] пристальнее на [them-obj], пытаясь понять, что это такое.",
+    "strDesc": "[us] смотрит пристальнее на [them-obj], пытаясь понять, что это такое.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -867,7 +867,7 @@
   {
     "strName": "PLOT_Meat_MeatEngaged02",
     "strTitle": "Послушать мясо",
-    "strDesc": "[us] [inclines] к дрожащей массе, пытаясь прислушаться к странным шелестам, что как будто исходят изнутри неё.",
+    "strDesc": "[us] склоняется к дрожащей массе, пытаясь прислушаться к странным шелестам, что как будто исходят изнутри неё.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -888,7 +888,7 @@
   {
     "strName": "PLOT_Meat_MeatEngaged02Reply",
     "strTitle": "",
-    "strDesc": "[them] [hears] [us]: Бормотание звучит как тоска и уверенность, изречения, блеющие о глубинной истине и о том, что отделяет добро от зла, на многих языках одновременно и в то же время ни на одном.",
+    "strDesc": "[them] слышит [us]: Бормотание звучит как тоска и уверенность, изречения, блеющие о глубинной истине и о том, что отделяет добро от зла, на многих языках одновременно и в то же время ни на одном.",
     "strActionGroup": "Use",
     "aInverse": [],
     "fDuration": 0.0,
@@ -907,7 +907,7 @@
   {
     "strName": "PLOT_Meat_MeatEngaged03",
     "strTitle": "Обсудить необычное мясо",
-    "strDesc": "[us] [mentions] живые мясные массы, что [us-contractHas] видел вокруг, напрашиваясь на мнение [them-pos].",
+    "strDesc": "[us] упоминает живые мясные массы, что [us-contractHas] видел вокруг, напрашиваясь на мнение [them-pos].",
     "strActionGroup": "Talk",
     "bSocial": true,
     "bRandomInverse": true,
@@ -958,7 +958,7 @@
   {
     "strName": "PLOT_Meat_MeatEngaged03ReplyCultist",
     "strTitle": "Принять мясо",
-    "strDesc": "[us] с жаром [engages] о сути и значении этого мяса. [us-subj] [asks], говорило ли оно с [them-obj], и [us-insists], что совпадением нельзя объяснить его появление здесь и сейчас, верно?",
+    "strDesc": "[us] с жаром вступает о сути и значении этого мяса. [us-subj] спрашивает, говорило ли оно с [them-obj], и [us-insists], что совпадением нельзя объяснить его появление здесь и сейчас, верно?",
     "strActionGroup": "Talk",
     "aInverse": [],
     "fDuration": 0.0005,
@@ -978,7 +978,7 @@
   {
     "strName": "PLOT_Meat_MeatEngaged03ReplyAntiGMO",
     "strTitle": "Отречься от мяса",
-    "strDesc": "[us] [responds] так, будто [them] [говорит] о демонах или чём похуже. Уж наверняка такую мерзость надо выжигать везде, где её найдут. Разве [them] не согласен?",
+    "strDesc": "[us] отвечает так, будто [them] говорит о демонах или чём похуже. Уж наверняка такую мерзость надо выжигать везде, где её найдут. Разве [them] не согласен?",
     "strActionGroup": "Talk",
     "aInverse": [],
     "fDuration": 0.0005,
@@ -998,7 +998,7 @@
   {
     "strName": "PLOT_Meat_MeatEngaged03ReplyModerate",
     "strTitle": "Обуздать мясо",
-    "strDesc": "[us] [expresses] оптимизм, что наука могла бы обуздать нечто подобное и превратить в полезный ресурс. [us-subj] [recommends] собрать его и изучить.",
+    "strDesc": "[us] выражает оптимизм, что наука могла бы обуздать нечто подобное и превратить в полезный ресурс. [us-subj] советует собрать его и изучить.",
     "strActionGroup": "Talk",
     "aInverse": [],
     "fDuration": 0.0005,
@@ -1018,7 +1018,7 @@
   {
     "strName": "PLOT_Meat_MeatEngaged03Reply",
     "strTitle": "Пожать плечами",
-    "strDesc": "[us] [tells] [them], что звучит это довольно мерзко и странно, но [us-subj] слышал, как другие обсуждают похожие темы.",
+    "strDesc": "[us] говорит [them], что звучит это довольно мерзко и странно, но [us-subj] слышал, как другие обсуждают похожие темы.",
     "strActionGroup": "Talk",
     "aInverse": [],
     "fDuration": 0.0005,
@@ -1037,7 +1037,7 @@
   {
     "strName": "PLOT_Meat_MeatEngaged04",
     "strTitle": "Поговорить с мясом",
-    "strDesc": "[us] [speaks] с мясной массой, уверенный, что она слушает.",
+    "strDesc": "[us] говорит с мясной массой, уверенный, что она слушает.",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -1059,7 +1059,7 @@
   {
     "strName": "PLOT_Meat_MeatEngaged04Reply",
     "strTitle": "Изрекающий истины",
-    "strDesc": "[them] [hears] [us]: Если ты смел и чист сердцем, [us-subj] [может] просить, и Царь Без Конца может даровать дары достойным.",
+    "strDesc": "[them] слышит [us]: Если ты смел и чист сердцем, [us-subj] может просить, и Царь Без Конца может даровать дары достойным.",
     "strActionGroup": "Use",
     "aInverse": [],
     "fDuration": 0.0,
@@ -1078,7 +1078,7 @@
   {
     "strName": "PLOT_Meat_MeatEngaged05",
     "strTitle": "Попросить у мяса даров",
-    "strDesc": "[us] смиренно [asks], готов ли Царь Без Конца даровать свои благие дары такому, как [us-obj].",
+    "strDesc": "[us] смиренно спрашивает, готов ли Царь Без Конца даровать свои благие дары такому, как [us-obj].",
     "strActionGroup": "Talk",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -1101,7 +1101,7 @@
   {
     "strName": "PLOT_Meat_MeatEngaged05Reply",
     "strTitle": "Царь готов",
-    "strDesc": "[them] [watches], как масса содрогается и трясётся, распадаясь на отдельные сегменты.",
+    "strDesc": "[them] наблюдает, как масса содрогается и трясётся, распадаясь на отдельные сегменты.",
     "strActionGroup": "Use",
     "aInverse": [],
     "fDuration": 0.0008,
@@ -1120,7 +1120,7 @@
   {
     "strName": "PLOT_Meat_MeatEngaged05ReplyNo",
     "strTitle": "Царь не готов",
-    "strDesc": "[us] [pulsates], но не меняется. Возможно, Царь Без Конца сейчас не готов. Возможно, позже.",
+    "strDesc": "[us] пульсирует, но не меняется. Возможно, Царь Без Конца сейчас не готов. Возможно, позже.",
     "strActionGroup": "Use",
     "aInverse": [],
     "fDuration": 0.0008,
@@ -1139,7 +1139,7 @@
   {
     "strName": "ACTMeleeMeat",
     "strTitle": "",
-    "strDesc": "[them] скорбно [quivers], и [us] [hears] сердитый блеющий звук.",
+    "strDesc": "[them] скорбно дрожит, и [us] слышит сердитый блеющий звук.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -1159,7 +1159,7 @@
   {
     "strName": "ACTRangedMeat",
     "strTitle": "",
-    "strDesc": "[them] скорбно [quivers], и [us] [hears] сердитый блеющий звук.",
+    "strDesc": "[them] скорбно дрожит, и [us] слышит сердитый блеющий звук.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -1179,7 +1179,7 @@
   {
     "strName": "ACTMeleeMeatCrush",
     "strTitle": "Мясная рукопашная: раздавить",
-    "strDesc": "[us] [expands], пытаясь поглотить [them].",
+    "strDesc": "[us] расширяет, пытаясь поглотить [them].",
     "strTooltip": "Попытаться поглотить цель, расширившись в неё.",
     "strActionGroup": "Fight",
     "strTargetPoint": "use",
@@ -1215,7 +1215,7 @@
   {
     "strName": "PLOT_Meat_MeatKnown01",
     "strTitle": "Осмотреть копыто",
-    "strDesc": "[us] [looks] пристальнее на [them-obj].",
+    "strDesc": "[us] смотрит пристальнее на [them-obj].",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -1255,7 +1255,7 @@
   {
     "strName": "PLOT_Meat_MeatKnown02",
     "strTitle": "Осмотреть рог",
-    "strDesc": "[us] [looks] пристальнее на [them-obj].",
+    "strDesc": "[us] смотрит пристальнее на [them-obj].",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -1295,7 +1295,7 @@
   {
     "strName": "PLOT_Meat_MeatKnown03",
     "strTitle": "Осмотреть глаз",
-    "strDesc": "[us] [looks] пристальнее на [them-obj].",
+    "strDesc": "[us] смотрит пристальнее на [them-obj].",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -1335,7 +1335,7 @@
   {
     "strName": "PLOT_Meat_MeatKnown04",
     "strTitle": "Обсудить козьи части",
-    "strDesc": "[us] [discusses] предметы, что [us-subj] добыл из мяса, разыскивая информацию о том, что с ними делать.",
+    "strDesc": "[us] обсуждает предметы, что [us-subj] добыл из мяса, разыскивая информацию о том, что с ними делать.",
     "strActionGroup": "Talk",
     "bSocial": true,
     "bRandomInverse": true,
@@ -1375,7 +1375,7 @@
   {
     "strName": "PLOT_Meat_MeatKnown04ReplyCultist",
     "strTitle": "Принять это",
-    "strDesc": "[us] [raves] о славном пороге, на котором стоит [them]. [us-subj] [reveals] древние шёпоты, гласящие, что вечные объятия Козла Без Конца можно призвать, собрав алтарь и преклонив пред ним колени:",
+    "strDesc": "[us] восторгается о славном пороге, на котором стоит [them]. [us-subj] раскрывает древние шёпоты, гласящие, что вечные объятия Козла Без Конца можно призвать, собрав алтарь и преклонив пред ним колени:",
     "strActionGroup": "Talk",
     "aInverse": [],
     "fDuration": 0.0005,
@@ -1396,7 +1396,7 @@
   {
     "strName": "PLOT_Meat_MeatKnown04ReplyAntiGMO",
     "strTitle": "Очистить это",
-    "strDesc": "[us] [responds] с мрачной серьёзностью: Знай же, порождение гордыни, что чумой расползлось по нашей вселенной, должно быть очищено, и ключи к спасению явлены истинно верующим.",
+    "strDesc": "[us] отвечает с мрачной серьёзностью: Знай же, порождение гордыни, что чумой расползлось по нашей вселенной, должно быть очищено, и ключи к спасению явлены истинно верующим.",
     "strActionGroup": "Talk",
     "aInverse": [],
     "fDuration": 0.0005,
@@ -1417,7 +1417,7 @@
   {
     "strName": "PLOT_Meat_MeatKnown04ReplyModerate",
     "strTitle": "Пожать плечами",
-    "strDesc": "[us] [says], что для полного раскрытия потенциала этого организма нужны всестороннее извлечение и анализ.",
+    "strDesc": "[us] говорит, что для полного раскрытия потенциала этого организма нужны всестороннее извлечение и анализ.",
     "strActionGroup": "Talk",
     "aInverse": [],
     "fDuration": 0.0005,
@@ -1438,7 +1438,7 @@
   {
     "strName": "PLOT_Meat_MeatKnown04Reply",
     "strTitle": "Становится страшно",
-    "strDesc": "[us] [tells] [them], что [us-subj] в ужасе от того, что столько людей обсуждают это жуткое мясо.",
+    "strDesc": "[us] говорит [them], что [us-subj] в ужасе от того, что столько людей обсуждают это жуткое мясо.",
     "strActionGroup": "Talk",
     "aInverse": [],
     "fDuration": 0.0005,
@@ -1457,7 +1457,7 @@
   {
     "strName": "PLOT_Meat_MeatKnown05",
     "strTitle": "Осмотреть сооружение",
-    "strDesc": "[us] [looks] пристальнее на [them-obj].",
+    "strDesc": "[us] смотрит пристальнее на [them-obj].",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -1497,7 +1497,7 @@
   {
     "strName": "PLOT_Meat_RitualPrepared02",
     "strTitle": "Начать ритуал",
-    "strDesc": "[us] [approaches] к жуткому сооружению с намерением.",
+    "strDesc": "[us] приближается к жуткому сооружению с намерением.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
@@ -2894,7 +2894,7 @@
   {
     "strName": "PLOT_Meat_PrayAltar",
     "strTitle": "Молиться о мясе",
-    "strDesc": "[us] [prostrates] [us-reflexive] перед алтарём и [begs] Козла Без Конца о его дарах.",
+    "strDesc": "[us] падает ниц [us-reflexive] перед алтарём и умоляет Козла Без Конца о его дарах.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],

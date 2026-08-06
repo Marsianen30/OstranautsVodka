@@ -2,7 +2,7 @@
   {
     "strName": "ACTMine",
     "strTitle": "Добыча",
-    "strDesc": "[us] [prepares] добывать [them].",
+    "strDesc": "[us] готовит добывать [them].",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
     "fTargetPointRange": 1,
@@ -33,7 +33,7 @@
   {
     "strName": "ACTMineBig",
     "strTitle": "Добыча",
-    "strDesc": "[us] [prepares] добывать [them].",
+    "strDesc": "[us] готовит добывать [them].",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
     "fTargetPointRange": 3,
@@ -63,7 +63,7 @@
   {
     "strName": "ACTMineDrill01",
     "strTitle": "Добыча",
-    "strDesc": "[us] [prepares] добывать [them].",
+    "strDesc": "[us] готовит добывать [them].",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
     "fTargetPointRange": 1,
@@ -92,7 +92,7 @@
   {
     "strName": "ACTMineDrill02",
     "strTitle": "Добыча",
-    "strDesc": "[us] [prepares] добывать [them] эргономично.",
+    "strDesc": "[us] готовит добывать [them] эргономично.",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
     "fTargetPointRange": 1,
@@ -121,7 +121,7 @@
   {
     "strName": "ACTMineBig--DNU",
     "strTitle": "Добыча",
-    "strDesc": "[us] [собирается] добывать [them].",
+    "strDesc": "[us] собирается добывать [them].",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
     "fTargetPointRange": 3,
@@ -173,7 +173,7 @@
   {
     "strName": "ACTDenyUnmineable",
     "strTitle": "Отказ: нельзя добывать",
-    "strDesc": "[us] [stops] добычу. Цель нельзя добыть.",
+    "strDesc": "[us] останавливается добычу. Цель нельзя добыть.",
     "strTargetPoint": "use",
     "fTargetPointRange": 1,
     "strAnim": null,
@@ -223,7 +223,7 @@
   {
     "strName": "ACTMineAllowStrong",
     "strTitle": "Добыча (сильная)",
-    "strDesc": "[us] мощно [mines] [them].",
+    "strDesc": "[us] мощно добывает [them].",
     "strTargetPoint": null,
     "fTargetPointRange": 1,
     "strDuty": "Construct",
@@ -285,7 +285,7 @@
   {
     "strName": "ACTMineDrill02AllowStrong",
     "strTitle": "Добыча (сильная)",
-    "strDesc": "[us] мощно [mines] [them].",
+    "strDesc": "[us] мощно добывает [them].",
     "strTargetPoint": null,
     "fTargetPointRange": 1,
     "strDuty": "Construct",
@@ -316,7 +316,7 @@
   {
     "strName": "ACTMineDeposit",
     "strTitle": "Добыча залежи",
-    "strDesc": "[us] [prepares] добывать [them].",
+    "strDesc": "[us] готовит добывать [them].",
     "strTargetPoint": "use",
     "strActionGroup": "Use",
     "fTargetPointRange": 1,
@@ -346,7 +346,7 @@
   {
     "strName": "ACTMineDepositDrill01",
     "strTitle": "Добыча залежи",
-    "strDesc": "[us] [prepares] выгодно добывать [them].",
+    "strDesc": "[us] готовит выгодно добывать [them].",
     "strTargetPoint": "use",
     "fTargetPointRange": 1,
     "strDuty": "Construct",
@@ -378,7 +378,7 @@
   {
     "strName": "ACTMineDepositDrill02",
     "strTitle": "Добыча залежи",
-    "strDesc": "[us] [prepares] выгодно добывать [them] эргономично.",
+    "strDesc": "[us] готовит выгодно добывать [them] эргономично.",
     "strTargetPoint": "use",
     "fTargetPointRange": 1,
     "strDuty": "Construct",
@@ -410,7 +410,7 @@
   {
     "strName": "ACTMineAllowDepositRewardS",
     "strTitle": "Добыча: извлечение",
-    "strDesc": "[us] [extracts] из [them].",
+    "strDesc": "[us] извлекает из [them].",
     "strTargetPoint": null,
     "fTargetPointRange": 1,
     "strDuty": "Construct",
@@ -441,7 +441,7 @@
   {
     "strName": "ACTMineAllowDepositRewardC",
     "strTitle": "Добыча: извлечение",
-    "strDesc": "[us] [extracts] из [them].",
+    "strDesc": "[us] извлекает из [them].",
     "strTargetPoint": null,
     "fTargetPointRange": 1,
     "strDuty": "Construct",
@@ -472,7 +472,7 @@
   {
     "strName": "ACTMineAllowDepositRewardM",
     "strTitle": "Добыча: извлечение",
-    "strDesc": "[us] [extracts] из [them].",
+    "strDesc": "[us] извлекает из [them].",
     "strTargetPoint": null,
     "fTargetPointRange": 1,
     "strDuty": "Construct",
@@ -503,7 +503,7 @@
   {
     "strName": "ACTMineAllowDepositRewardSSkill",
     "strTitle": "Добыча: умелое извлечение",
-    "strDesc": "[us] умело [extracts] из [them].",
+    "strDesc": "[us] умело извлекает из [them].",
     "strTargetPoint": null,
     "fTargetPointRange": 1,
     "strDuty": "Construct",
@@ -534,7 +534,7 @@
   {
     "strName": "ACTMineAllowDepositRewardCSkill",
     "strTitle": "Добыча: умелое извлечение",
-    "strDesc": "[us] умело [extracts] из [them].",
+    "strDesc": "[us] умело извлекает из [them].",
     "strTargetPoint": null,
     "fTargetPointRange": 1,
     "strDuty": "Construct",
@@ -565,7 +565,7 @@
   {
     "strName": "ACTMineAllowDepositRewardMSkill",
     "strTitle": "Добыча: умелое извлечение",
-    "strDesc": "[us] умело [extracts] из [them].",
+    "strDesc": "[us] умело извлекает из [them].",
     "strTargetPoint": null,
     "fTargetPointRange": 1,
     "strDuty": "Construct",
@@ -596,7 +596,7 @@
   {
     "strName": "ACTMineDrill02AllowDepositRewardS",
     "strTitle": "Добыча: извлечение",
-    "strDesc": "[us] [extracts] из [them].",
+    "strDesc": "[us] извлекает из [them].",
     "strTargetPoint": null,
     "fTargetPointRange": 1,
     "strDuty": "Construct",
@@ -627,7 +627,7 @@
   {
     "strName": "ACTMineDrill02AllowDepositRewardC",
     "strTitle": "Добыча: извлечение",
-    "strDesc": "[us] [extracts] из [them].",
+    "strDesc": "[us] извлекает из [them].",
     "strTargetPoint": null,
     "fTargetPointRange": 1,
     "strDuty": "Construct",
@@ -658,7 +658,7 @@
   {
     "strName": "ACTMineDrill02AllowDepositRewardM",
     "strTitle": "Добыча: извлечение",
-    "strDesc": "[us] [extracts] из [them].",
+    "strDesc": "[us] извлекает из [them].",
     "strTargetPoint": null,
     "fTargetPointRange": 1,
     "strDuty": "Construct",
@@ -689,7 +689,7 @@
   {
     "strName": "ACTMineDrill02AllowDepositRewardSSkill",
     "strTitle": "Добыча: умелое извлечение",
-    "strDesc": "[us] умело [extracts] из [them].",
+    "strDesc": "[us] умело извлекает из [them].",
     "strTargetPoint": null,
     "fTargetPointRange": 1,
     "strDuty": "Construct",
@@ -720,7 +720,7 @@
   {
     "strName": "ACTMineDrill02AllowDepositRewardCSkill",
     "strTitle": "Добыча: умелое извлечение",
-    "strDesc": "[us] умело [extracts] из [them].",
+    "strDesc": "[us] умело извлекает из [them].",
     "strTargetPoint": null,
     "fTargetPointRange": 1,
     "strDuty": "Construct",
@@ -751,7 +751,7 @@
   {
     "strName": "ACTMineDrill02AllowDepositRewardMSkill",
     "strTitle": "Добыча: умелое извлечение",
-    "strDesc": "[us] умело [extracts] из [them].",
+    "strDesc": "[us] умело извлекает из [them].",
     "strTargetPoint": null,
     "fTargetPointRange": 1,
     "strDuty": "Construct",
@@ -782,7 +782,7 @@
   {
     "strName": "ACTMineDenyNoMining",
     "strTitle": "Неудача добычи: нет инструмента",
-    "strDesc": "[them] не [может] добывать [us] без добычного инструмента.",
+    "strDesc": "[them] не может добывать [us] без добычного инструмента.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": "Idle",
@@ -802,7 +802,7 @@
   {
     "strName": "ACTArmExplosive",
     "strTitle": "Установить взрывчатку",
-    "strDesc": "[us] [собирается] установить [them] с взрывателем примерно на 25 секунд.",
+    "strDesc": "[us] собирается установить [them] с взрывателем примерно на 25 секунд.",
     "strTooltip": "Устанавливает взрывчатку с взрывателем примерно на 25 секунд (плюс-минус несколько секунд).",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
@@ -829,7 +829,7 @@
   {
     "strName": "ACTArmExplosiveAllow",
     "strTitle": "Запустить взрыватель",
-    "strDesc": "[them] [triggers] взрыватель на [us-obj]. <color=#990000>ВНИМАНИЕ: Отойдите!</color>",
+    "strDesc": "[them] запускает взрыватель на [us-obj]. <color=#990000>ВНИМАНИЕ: Отойдите!</color>",
     "strTargetPoint": null,
     "fTargetPointRange": 1,
     "strAnim": "Tooling",
@@ -849,7 +849,7 @@
   {
     "strName": "ACTDisarmExplosive01",
     "strTitle": "Обезвредить взрывчатку",
-    "strDesc": "[us] [собирается] обезвредить [them].",
+    "strDesc": "[us] собирается обезвредить [them].",
     "strTooltip": "Обезвреживает активированную взрывчатку (мгновенно).",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
@@ -876,7 +876,7 @@
   {
     "strName": "ACTDisarmExplosive01Allow",
     "strTitle": "Обезвреживание",
-    "strDesc": "[them] [disarms] взрыватель на [us-obj].",
+    "strDesc": "[them] обезвреживает взрыватель на [us-obj].",
     "strTargetPoint": null,
     "fTargetPointRange": 1,
     "strAnim": "Tooling",
@@ -898,7 +898,7 @@
   {
     "strName": "ACTDetonateExplosive01",
     "strTitle": "Подорвать взрывчатку",
-    "strDesc": "[us] [собирается] подорвать [them].",
+    "strDesc": "[us] собирается подорвать [them].",
     "strTooltip": "Подрывает взрывчатку в радиусе 25 тайлов и в пределах прямой видимости.",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
@@ -925,7 +925,7 @@
   {
     "strName": "ACTDetonateExplosive01Allow",
     "strTitle": "Взрыв",
-    "strDesc": "[them] [triggers] взрыв на [us-obj].",
+    "strDesc": "[them] запускает взрыв на [us-obj].",
     "strTargetPoint": null,
     "fTargetPointRange": 1,
     "strAnim": null,
@@ -944,7 +944,7 @@
   {
     "strName": "ACTArmExplosive02",
     "strTitle": "Установить взрывчатку",
-    "strDesc": "[us] [собирается] установить [them] с взрывателем примерно на 25 секунд.",
+    "strDesc": "[us] собирается установить [them] с взрывателем примерно на 25 секунд.",
     "strTooltip": "Устанавливает взрывчатку с взрывателем примерно на 25 секунд (плюс-минус несколько секунд).",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
@@ -971,7 +971,7 @@
   {
     "strName": "ACTArmExplosiveAllow02",
     "strTitle": "Запустить взрыватель",
-    "strDesc": "[them] [triggers] взрыватель на [us-obj]. <color=#990000>ВНИМАНИЕ: Отойдите!</color>",
+    "strDesc": "[them] запускает взрыватель на [us-obj]. <color=#990000>ВНИМАНИЕ: Отойдите!</color>",
     "strTargetPoint": null,
     "fTargetPointRange": 1,
     "strAnim": "Tooling",
@@ -991,7 +991,7 @@
   {
     "strName": "ACTDisarmExplosive02",
     "strTitle": "Обезвредить взрывчатку",
-    "strDesc": "[us] [собирается] обезвредить [them].",
+    "strDesc": "[us] собирается обезвредить [them].",
     "strTooltip": "Обезвреживает активированную взрывчатку (мгновенно).",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
@@ -1018,7 +1018,7 @@
   {
     "strName": "ACTDisarmExplosive02Allow",
     "strTitle": "Обезвреживание",
-    "strDesc": "[them] [disarms] взрыватель на [us-obj].",
+    "strDesc": "[them] обезвреживает взрыватель на [us-obj].",
     "strTargetPoint": null,
     "fTargetPointRange": 1,
     "strAnim": "Tooling",
@@ -1040,7 +1040,7 @@
   {
     "strName": "ACTDetonateExplosive02",
     "strTitle": "Подорвать малый заряд",
-    "strDesc": "[us] [собирается] подорвать [them].",
+    "strDesc": "[us] собирается подорвать [them].",
     "strTooltip": "Подрывает взрывчатку в радиусе 25 тайлов и в пределах прямой видимости.",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
@@ -1067,7 +1067,7 @@
   {
     "strName": "ACTDetonateExplosive02Allow",
     "strTitle": "Взрыв",
-    "strDesc": "[them] [triggers] взрыв на [us-obj].",
+    "strDesc": "[them] запускает взрыв на [us-obj].",
     "strTargetPoint": null,
     "fTargetPointRange": 1,
     "strAnim": null,

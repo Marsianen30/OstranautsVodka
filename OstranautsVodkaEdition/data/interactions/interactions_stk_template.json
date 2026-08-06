@@ -2910,7 +2910,7 @@
   {
     "strName": "STKTemplate_Gambit_SharedScar",
     "strTitle": "Показать шрам",
-    "strDesc": "[us] [пытается] показать свой шрам [them] в сравнении с шрамом [them].",
+    "strDesc": "[us] пытается показать свой шрам [them] в сравнении с шрамом [them].",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -3016,7 +3016,7 @@
   {
     "strName": "STKTemplate_Gambit_BeautifulSelf",
     "strTitle": "Продемонстрировать красоту",
-    "strDesc": "[us] [пытается] продемонстрировать свою внешнюю красоту [them].",
+    "strDesc": "[us] пытается продемонстрировать свою внешнюю красоту [them].",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -3122,7 +3122,7 @@
   {
     "strName": "STKTemplate_Gambit_SharedCareer",
     "strTitle": "Сравнить шрамы",
-    "strDesc": "[us] [пытается] поговорить об общем опыте работы разборщиком кораблей.",
+    "strDesc": "[us] пытается поговорить об общем опыте работы разборщиком кораблей.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -3229,7 +3229,7 @@
   {
     "strName": "STKTemplate_Gambit_SharedCrew",
     "strTitle": "Поговорить о работе",
-    "strDesc": "[us] [пытается] поговорить о работе с [them-obj]",
+    "strDesc": "[us] пытается поговорить о работе с [them-obj]",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -3336,7 +3336,7 @@
   {
     "strName": "STKTemplate_Gambit_CruelSelf",
     "strTitle": "Продемонстрировать жестокость",
-    "strDesc": "[us] [пытается] использовать свою жестокость против [them].",
+    "strDesc": "[us] пытается использовать свою жестокость против [them].",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -3442,7 +3442,7 @@
   {
     "strName": "STKTemplate_Gambit_RecentlyInstalledSelf",
     "strTitle": "Поговорить об установленной детали",
-    "strDesc": "[us] [пытается] обсудить недавнюю установку, выполненную [them].",
+    "strDesc": "[us] пытается обсудить недавнюю установку, выполненную [them].",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -3548,7 +3548,7 @@
   {
     "strName": "STKTemplate_Gambit_RecentlyUninstalledSelf",
     "strTitle": "Поговорить о снятой детали",
-    "strDesc": "[us] [пытается] обсудить недавний демонтаж, выполненный [them].",
+    "strDesc": "[us] пытается обсудить недавний демонтаж, выполненный [them].",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -3654,7 +3654,7 @@
   {
     "strName": "STKTemplate_Gambit_RecentlyRepairedSelf",
     "strTitle": "Поговорить о отремонтированной детали",
-    "strDesc": "[us] [пытается] поговорить с [them-obj] о ремонте детали корабля.",
+    "strDesc": "[us] пытается поговорить с [them-obj] о ремонте детали корабля.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -3760,7 +3760,7 @@
   {
     "strName": "STKTemplate_Gambit_RecentlyRestoredSelf",
     "strTitle": "Поговорить о восстановленной детали",
-    "strDesc": "[us] [пытается] поговорить с [them-obj] о работе с деталью корабля.",
+    "strDesc": "[us] пытается поговорить с [them-obj] о работе с деталью корабля.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -3866,7 +3866,7 @@
   {
     "strName": "STKTemplate_Gambit_RecentlyWatchNewsSelf",
     "strTitle": "Обсудить новости на экране",
-    "strDesc": "[us] [пытается] обсудить новости, которые [them] сейчас смотрит.",
+    "strDesc": "[us] пытается обсудить новости, которые [them] сейчас смотрит.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -3972,7 +3972,7 @@
   {
     "strName": "STKTemplate_Gambit_RecentlyAdmireSelf",
     "strTitle": "Упомянуть предмет восхищения",
-    "strDesc": "[us] [отмечает] о предмете, которым восхищается [them].",
+    "strDesc": "[us] отмечает о предмете, которым восхищается [them].",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -4078,7 +4078,7 @@
   {
     "strName": "STKTemplate_Gambit_RecentlyAteSelf",
     "strTitle": "Обсудить недавнюю еду",
-    "strDesc": "[us] [пытается] обсудить еду, которую [them] только что съел.",
+    "strDesc": "[us] пытается обсудить еду, которую [them] только что съел.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -4184,7 +4184,7 @@
   {
     "strName": "STKTemplate_Gambit_RecentlyDrankSelf",
     "strTitle": "Обсудить недавний напиток",
-    "strDesc": "[us] [пытается] обсудить напиток, который [them] только что выпил.",
+    "strDesc": "[us] пытается обсудить напиток, который [them] только что выпил.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -4290,7 +4290,7 @@
   {
     "strName": "STKTemplate_Gambit_XXXSelf",
     "strTitle": "Продемонстрировать XXX",
-    "strDesc": "[us] [пытается] использовать своё XXX против [them].",
+    "strDesc": "[us] пытается использовать своё XXX против [them].",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,

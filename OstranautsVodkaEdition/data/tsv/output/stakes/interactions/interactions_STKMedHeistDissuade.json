@@ -58,7 +58,7 @@
   {
     "strName": "STKMedHeistDissuade_Intro_Allow",
     "strTitle": "Согласиться выслушать доводы",
-    "strDesc": "[us] [говорит], что готов выслушать, но план уже запущен.",
+    "strDesc": "[us] говорит, что готов выслушать, но план уже запущен.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 0.0,
@@ -169,7 +169,7 @@
   {
     "strName": "STKMedHeistDissuade_Gambit_Family",
     "strTitle": "Напомнить о близких",
-    "strDesc": "[us] [умоляет] [them] подумать, сколько жизней порушит его опрометчивое решение.",
+    "strDesc": "[us] умоляет [them] подумать, сколько жизней порушит его опрометчивое решение.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 0.0,
@@ -336,7 +336,7 @@
   {
     "strName": "STKMedHeistDissuade_Gambit_Family_Fail_Hard",
     "strTitle": "Заявить о намерении провернуть дело",
-    "strDesc": "[us] [настаивает], что план по добыче лекарства для региона важнее его собственной семьи.",
+    "strDesc": "[us] настаивает, что план по добыче лекарства для региона важнее его собственной семьи.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,

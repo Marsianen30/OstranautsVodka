@@ -2,7 +2,7 @@
   {
     "strName": "MarkAsScrap",
     "strTitle": "Отметить как лом",
-    "strDesc": "[us] [marks] [them] как лом.",
+    "strDesc": "[us] отмечает [them] как лом.",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
     "fTargetPointRange": 1,
@@ -24,7 +24,7 @@
   {
     "strName": "MarkAsNotScrap",
     "strTitle": "Снять отметку лома",
-    "strDesc": "[us] [unmarks] отметку лома с [them-obj].",
+    "strDesc": "[us] снимает отметку отметку лома с [them-obj].",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
     "fTargetPointRange": 1,

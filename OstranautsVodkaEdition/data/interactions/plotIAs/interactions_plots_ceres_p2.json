@@ -2,7 +2,7 @@
   {
     "strName": "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE",
     "strTitle": "Спросить о Benjamin Choong и CCRE",
-    "strDesc": "[us] [спрашивает] [them] о местонахождении Benjamin Choong.",
+    "strDesc": "[us] спрашивает [them] о местонахождении Benjamin Choong.",
     "LootCondsUs": "CONDPLOT_PLOT_Ceres_The_Scholar_Establish_Contact_CCRE",
     "CTTestUs": "CTPlot_PLOT_Ceres_The_Scholar_Establish_Contact_CCRE",
     "aInverse": [
@@ -24,7 +24,7 @@
   {
     "strName": "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply",
     "strTitle": "Establish_Contact_CCRE_Reply_Success",
-    "strDesc": "[us] [бросает] на [them-obj] испуганный взгляд и говорит следовать за ним куда-нибудь поукромнее и ждать дальнейшей связи.",
+    "strDesc": "[us] бросает на [them-obj] испуганный взгляд и говорит следовать за ним куда-нибудь поукромнее и ждать дальнейшей связи.",
     "strTargetPoint": "Talk",
     "fTargetPointRange": 2,
     "strAnim": "Talk",
@@ -307,7 +307,7 @@
   {
     "strName": "PLOT_Ceres_The_Scholar_Establish_Contact_BCRS",
     "strTitle": "Спросить о Benjamin Choong и GalCon",
-    "strDesc": "[us] [спрашивает] [them] о местонахождении Benjamin Choong.",
+    "strDesc": "[us] спрашивает [them] о местонахождении Benjamin Choong.",
     "strActionGroup": "Talk",
     "nLogging": 0,
     "bRecheckThisPlot": true,
@@ -329,7 +329,7 @@
   {
     "strName": "PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Reply",
     "strTitle": "Establish_Contact_CCRE_Reply_Success",
-    "strDesc": "[us] [бросает] на [them-obj] испуганный взгляд и говорит следовать за ним в район The Fountain и ждать дальнейшей связи.",
+    "strDesc": "[us] бросает на [them-obj] испуганный взгляд и говорит следовать за ним в район The Fountain и ждать дальнейшей связи.",
     "strTargetPoint": "Talk",
     "fTargetPointRange": 2,
     "fForcedChance": 1,

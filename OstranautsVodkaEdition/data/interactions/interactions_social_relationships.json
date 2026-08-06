@@ -2,7 +2,7 @@
   {
     "strName": "SOCWitnessCancel",
     "strTitle": "Прервано свидетелем",
-    "strDesc": "[them] заметил, как [us] [делает] что-то с [3rd-obj], и остановился.",
+    "strDesc": "[them] заметил, как [us] делает что-то с [3rd-obj], и остановился.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -27,7 +27,7 @@
   {
     "strName": "SOCKiss",
     "strTitle": "Поцелуй",
-    "strDesc": "[us] тепло [greets] [them] любовным поцелуем.",
+    "strDesc": "[us] тепло приветствует [them] любовным поцелуем.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 1.0,
@@ -55,7 +55,7 @@
   {
     "strName": "SOCGreetFriend",
     "strTitle": "«Давненько не виделись!»",
-    "strDesc": "[us] [cheers] при виде друга: «Это же [them]! Давненько не виделись!»",
+    "strDesc": "[us] ликует при виде друга: «Это же [them]! Давненько не виделись!»",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 3.0,
@@ -79,7 +79,7 @@
   {
     "strName": "SOCGreetEnemy",
     "strTitle": "Поприветствовать врага",
-    "strDesc": "[us] с презрением [sneers] на [them-obj] и [us-mutters] ругательства на разных языках в адрес [them-pos].",
+    "strDesc": "[us] с презрением усмехается на [them-obj] и [us-mutters] ругательства на разных языках в адрес [them-pos].",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 4.0,
@@ -99,7 +99,7 @@
   {
     "strName": "SOCGreetCaptain",
     "strTitle": "Поприветствовать капитана",
-    "strDesc": "[us] [greets] [us-pos] капитана воинским приветствием.",
+    "strDesc": "[us] приветствует [us-pos] капитана воинским приветствием.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 3.0,
@@ -120,7 +120,7 @@
   {
     "strName": "SOCGreetAI",
     "strTitle": "Начать разговор",
-    "strDesc": "[us] [approaches] к [them-obj] для разговора.",
+    "strDesc": "[us] приближается к [them-obj] для разговора.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "strAnim": "Talk",

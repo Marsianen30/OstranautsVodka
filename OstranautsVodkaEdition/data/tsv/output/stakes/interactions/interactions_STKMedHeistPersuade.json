@@ -2,7 +2,7 @@
   {
     "strName": "STKMedHeistPersuade_Intro",
     "strTitle": "Попроситься в поддержку кражи",
-    "strDesc": "[us] [спрашивает] у [them-obj], можно ли ему поучаствовать и подсобить в плане.",
+    "strDesc": "[us] спрашивает у [them-obj], можно ли ему поучаствовать и подсобить в плане.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 0.0,
@@ -58,7 +58,7 @@
   {
     "strName": "STKMedHeistPersuade_Intro_Allow",
     "strTitle": "Согласиться выслушать план поддержки",
-    "strDesc": "[us] [говорит], что готов выслушать, но настаивает, что это скорее работа в одиночку.",
+    "strDesc": "[us] говорит, что готов выслушать, но настаивает, что это скорее работа в одиночку.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 0.0,
@@ -169,7 +169,7 @@
   {
     "strName": "STKMedHeistPersuade_Gambit_SecurityVAutonomy",
     "strTitle": "Расписать жуткий сценарий провала",
-    "strDesc": "[us] [описывает] правдоподобную и жуткую возможность, которую его поддержка бы предотвратила.",
+    "strDesc": "[us] описывает правдоподобную и жуткую возможность, которую его поддержка бы предотвратила.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 0.0,
@@ -283,7 +283,7 @@
   {
     "strName": "STKMedHeistPersuade_Gambit_SecurityVAutonomy_Fail_Soft",
     "strTitle": "Пропустить мольбу мимо ушей",
-    "strDesc": "[us] [говорит], что даже если он и побаивается последствий кражи, он не убеждён, что риски перевешивают награду.",
+    "strDesc": "[us] говорит, что даже если он и побаивается последствий кражи, он не убеждён, что риски перевешивают награду.",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,
@@ -336,7 +336,7 @@
   {
     "strName": "STKMedHeistPersuade_Gambit_SecurityVAutonomy_Fail_Hard",
     "strTitle": "Заявить о намерении провернуть дело",
-    "strDesc": "[us] [настаивает], что у него хватит смелости провернуть план в одиночку, и решает идти дальше без поддержки [them].",
+    "strDesc": "[us] настаивает, что у него хватит смелости провернуть план в одиночку, и решает идти дальше без поддержки [them].",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,
     "fForcedChance": 1.0,

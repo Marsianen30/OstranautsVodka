@@ -153,7 +153,7 @@
   {
     "strName": "PLGAICrimeJFTSLEOArrest",
     "strTitle": "JFTS LEO начинает арест преступника",
-    "strDesc": "«Подозреваемый замечен», — [us] [says], взглянув на [them-obj].",
+    "strDesc": "«Подозреваемый замечен», — [us] говорит, взглянув на [them-obj].",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": null,
@@ -189,7 +189,7 @@
   {
     "strName": "PLGAICrimeJFTSLEOArrestDo",
     "strTitle": "Арест преступника",
-    "strDesc": "\"Остановитесь на месте! Вы арестованы!\" [us] [shouts] at [them].",
+    "strDesc": "\"Остановитесь на месте! Вы арестованы!\" [us] кричит at [them].",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": "use",
@@ -210,7 +210,7 @@
   {
     "strName": "PLGAICrimeJFTSLEOArrestDoAllow",
     "strTitle": "Сдаться офицеру",
-    "strDesc": "[us] [goes] мирно вместе с [them-obj].",
+    "strDesc": "[us] идёт мирно вместе с [them-obj].",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": "use",
@@ -230,7 +230,7 @@
   {
     "strName": "PLGAICrimeJFTSLEOArrestDoDeny",
     "strTitle": "Заявить о невиновности",
-    "strDesc": "[us] [tells] [them], что [them-subj] взял не того человека.",
+    "strDesc": "[us] говорит [them], что [them-subj] взял не того человека.",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": "use",
@@ -250,7 +250,7 @@
   {
     "strName": "PLGAICrimeJFTSLEOArrestEnd",
     "strTitle": "JFTS LEO завершил арест преступника",
-    "strDesc": "«Ещё одна победа закона», — [us] [says].",
+    "strDesc": "«Ещё одна победа закона», — [us] говорит.",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": "use",
@@ -326,7 +326,7 @@
   {
     "strName": "PLGAICrimeJFTSLEOArrestStolenShip",
     "strTitle": "JFTS LEO начинает арест преступника за кражу корабля",
-    "strDesc": "«Поступило сообщение, что вы пилотируете угнанный корабль», — [us] [says], взглянув на [them-obj]. «Мы забираем вас».",
+    "strDesc": "«Поступило сообщение, что вы пилотируете угнанный корабль», — [us] говорит, взглянув на [them-obj]. «Мы забираем вас».",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": null,
@@ -348,7 +348,7 @@
   {
     "strName": "PLGAIReportCrimeJFTSArrest",
     "strTitle": "Сообщить о преступлении",
-    "strDesc": "[us] [speaks] в PDA [us-pos], взглянув на [them-obj].",
+    "strDesc": "[us] говорит в PDA [us-pos], взглянув на [them-obj].",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": null,
@@ -371,7 +371,7 @@
   {
     "strName": "PLGAIReportCrimeJFTSArrestAllow",
     "strTitle": "Сообщить о преступлении: успех",
-    "strDesc": "[us] успешно [reports] о преступлении [them].",
+    "strDesc": "[us] успешно сообщает о преступлении [them].",
     "strActionGroup": "Talk",
     "nLogging": 0,
     "strTargetPoint": null,
@@ -406,7 +406,7 @@
   {
     "strName": "PLGAIReportCrimeJFTSTrespass",
     "strTitle": "Сообщить о преступлении",
-    "strDesc": "[us] [says] «Убирайтесь отсюда», затем говорит в PDA [us-pos], взглянув на [them-obj].",
+    "strDesc": "[us] говорит «Убирайтесь отсюда», затем говорит в PDA [us-pos], взглянув на [them-obj].",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": null,
@@ -429,7 +429,7 @@
   {
     "strName": "PLGAIReportCrimeJFTSTrespassAllow",
     "strTitle": "Сообщить о преступлении: успех",
-    "strDesc": "[us] успешно [reports] о преступлении [them].",
+    "strDesc": "[us] успешно сообщает о преступлении [them].",
     "strActionGroup": "Talk",
     "nLogging": 0,
     "strTargetPoint": null,
@@ -449,7 +449,7 @@
   {
     "strName": "PLGAIReportCrimeJFTSTrespassDeny",
     "strTitle": "Сообщить о преступлении: неудача",
-    "strDesc": "[us] [fails] попытку сообщить о преступлении [them].",
+    "strDesc": "[us] терпит неудачу попытку сообщить о преступлении [them].",
     "strActionGroup": "Talk",
     "nLogging": 0,
     "strTargetPoint": null,
@@ -503,7 +503,7 @@
   {
     "strName": "PLGAIReportCrimeJFTSThreat",
     "strTitle": "Сообщить о преступлении",
-    "strDesc": "[us] [speaks] в PDA [us-pos], взглянув на [them-obj].",
+    "strDesc": "[us] говорит в PDA [us-pos], взглянув на [them-obj].",
     "strActionGroup": "Talk",
     "nLogging": 0,
     "strTargetPoint": null,
@@ -526,7 +526,7 @@
   {
     "strName": "PLGAIReportCrimeJFTSThreatAllow",
     "strTitle": "Сообщить о преступлении: успех",
-    "strDesc": "[us] успешно [reports] о преступлении [them].",
+    "strDesc": "[us] успешно сообщает о преступлении [them].",
     "strActionGroup": "Talk",
     "nLogging": 0,
     "strTargetPoint": null,
@@ -561,7 +561,7 @@
   {
     "strName": "PSPAIAICrimeJFTSLEOArrestAdd",
     "strTitle": "Добавляет нам залог под арест JFTS LEO",
-    "strDesc": "[us] [gains] Залог под арест JFTS LEO.",
+    "strDesc": "[us] получает Залог под арест JFTS LEO.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -575,7 +575,7 @@
   {
     "strName": "PSPAIAICrimeJFTSLEOArrestStolenShipAdd",
     "strTitle": "Добавляет нам залог за арест Галкона ЛЕО, потому что игрок украл корабль.",
-    "strDesc": "[us] [gains] ГалКон ЛЕО арестован за залог за украденный корабль.",
+    "strDesc": "[us] получает ГалКон ЛЕО арестован за залог за украденный корабль.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -589,7 +589,7 @@
   {
     "strName": "PSPAIAICrimeJFTSLEOThreatAdd",
     "strTitle": "Добавляет нам JFTS LEO Threat pledge",
-    "strDesc": "[us] [gains] обязательство угрозы JFTS LEO.",
+    "strDesc": "[us] получает обязательство угрозы JFTS LEO.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],

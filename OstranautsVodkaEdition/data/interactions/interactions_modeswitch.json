@@ -2,7 +2,7 @@
   {
     "strName": "MSAICargo01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -22,7 +22,7 @@
   {
     "strName": "MSAICargo01OffLooseAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -82,7 +82,7 @@
   {
     "strName": "MSAirPump02OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -262,7 +262,7 @@
   {
     "strName": "MSAlarmCO2SwitchGreenAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] на зеленый.",
+    "strDesc": "[us] переключается на зелёный.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -283,7 +283,7 @@
   {
     "strName": "MSAlarmCO2SwitchYellowAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] на желный.",
+    "strDesc": "[us] переключается на жёлтый.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -304,7 +304,7 @@
   {
     "strName": "MSAlarmCO2SwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -324,7 +324,7 @@
   {
     "strName": "MSAlarmCO2SwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -365,7 +365,7 @@
   {
     "strName": "MSAlarmContaminantsSwitchGreenAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] на зеленый.",
+    "strDesc": "[us] переключается на зелёный.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -386,7 +386,7 @@
   {
     "strName": "MSAlarmContaminantsSwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -406,7 +406,7 @@
   {
     "strName": "MSAlarmContaminantsSwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -447,7 +447,7 @@
   {
     "strName": "MSAlarmN2SwitchGreenAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] на зеленый.",
+    "strDesc": "[us] переключается на зелёный.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -468,7 +468,7 @@
   {
     "strName": "MSAlarmN2SwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -488,7 +488,7 @@
   {
     "strName": "MSAlarmN2SwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -529,7 +529,7 @@
   {
     "strName": "MSAlarmO2SwitchGreenAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] на зеленый.",
+    "strDesc": "[us] переключается на зелёный.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -550,7 +550,7 @@
   {
     "strName": "MSAlarmO2SwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -570,7 +570,7 @@
   {
     "strName": "MSAlarmO2SwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -611,7 +611,7 @@
   {
     "strName": "MSAlarmSmokeSwitchGreenAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] на зеленый.",
+    "strDesc": "[us] переключается на зелёный.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -632,7 +632,7 @@
   {
     "strName": "MSAlarmSmokeSwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -652,7 +652,7 @@
   {
     "strName": "MSAlarmSmokeSwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -693,7 +693,7 @@
   {
     "strName": "MSAlarmTempSwitchBlueAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] на синий.",
+    "strDesc": "[us] переключается на синий.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -714,7 +714,7 @@
   {
     "strName": "MSAlarmTempSwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -734,7 +734,7 @@
   {
     "strName": "MSAlarmTempSwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -754,7 +754,7 @@
   {
     "strName": "MSAlarmTempSwitchRedAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] на красный.",
+    "strDesc": "[us] переключается на красный.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -773,7 +773,7 @@
   {
     "strName": "MSAlarmTempSwitchWhiteAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] на белый.",
+    "strDesc": "[us] переключается на белый.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -848,7 +848,7 @@
   {
     "strName": "MSArcadeGame01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -918,7 +918,7 @@
   {
     "strName": "MSAntenna01SwitchGreenAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] на зеленый.",
+    "strDesc": "[us] переключается на зелёный.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -938,7 +938,7 @@
   {
     "strName": "MSAntenna01SwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -958,7 +958,7 @@
   {
     "strName": "MSAntenna01SwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -1008,7 +1008,7 @@
   {
     "strName": "MSAntenna02SwitchGreenAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] на зеленый.",
+    "strDesc": "[us] переключается на зелёный.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -1028,7 +1028,7 @@
   {
     "strName": "MSAntenna02SwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -1048,7 +1048,7 @@
   {
     "strName": "MSAntenna02SwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -1108,7 +1108,7 @@
   {
     "strName": "MSAtmoScrubber01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -1188,7 +1188,7 @@
   {
     "strName": "MSAtmoScrubber02OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -1228,7 +1228,7 @@
   {
     "strName": "MSBed01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -1268,7 +1268,7 @@
   {
     "strName": "MSBedMedical01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -1608,7 +1608,7 @@
   {
     "strName": "MSChairStrap01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -1688,7 +1688,7 @@
   {
     "strName": "MSChargerDrill01SwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -1698,7 +1698,7 @@
   {
     "strName": "MSChargerDrill01SwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -1748,7 +1748,7 @@
   {
     "strName": "MSChargerEVASwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -1758,7 +1758,7 @@
   {
     "strName": "MSChargerEVASwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -1808,7 +1808,7 @@
   {
     "strName": "MSCharger04SwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -1818,7 +1818,7 @@
   {
     "strName": "MSCharger04SwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -1868,7 +1868,7 @@
   {
     "strName": "MSChargerWelder01SwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -1878,7 +1878,7 @@
   {
     "strName": "MSChargerWelder01SwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "fDuration": 0.0,
     "strThemType": "Other",
     "bIgnoreFeelings": true,
@@ -1968,7 +1968,7 @@
   {
     "strName": "MSCooler01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -2187,7 +2187,7 @@
   {
     "strName": "MSPlanterMeatProduceHarvest",
     "strTitle": "",
-    "strDesc": "[us] [готовит] мясо.",
+    "strDesc": "[us] готовит мясо.",
     "fDuration": 0.0,
     "strThemType": "Self",
     "bIgnoreFeelings": true,
@@ -3419,7 +3419,7 @@
   {
     "strName": "MSDoor01ClosedLockedShutdownAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3561,7 +3561,7 @@
   {
     "strName": "MSDoor01ClosedShutdownAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3581,7 +3581,7 @@
   {
     "strName": "MSDoor01OpenLockedShutdownAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3744,7 +3744,7 @@
   {
     "strName": "MSDoor01OpenShutdownAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3830,7 +3830,7 @@
   {
     "strName": "MSCeilingLightSwitchOffWhiteCustomAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3849,7 +3849,7 @@
   {
     "strName": "MSCeilingLightSwitchOnWhiteCustomAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3868,7 +3868,7 @@
   {
     "strName": "MSCeilingLightSwitchOffCustomAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3887,7 +3887,7 @@
   {
     "strName": "MSCeilingLightSwitchOnCustomAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3906,7 +3906,7 @@
   {
     "strName": "MSCeilingLightSwitchOffOrangeCustomAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3925,7 +3925,7 @@
   {
     "strName": "MSCeilingLightSwitchOnOrangeCustomAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3944,7 +3944,7 @@
   {
     "strName": "MSCeilingLightSwitchOffVibrantRedCustomAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3963,7 +3963,7 @@
   {
     "strName": "MSCeilingLightSwitchOnVibrantRedCustomAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -3982,7 +3982,7 @@
   {
     "strName": "MSCeilingLightSwitchOffVibrantPurpleCustomAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -4001,7 +4001,7 @@
   {
     "strName": "MSCeilingLightSwitchOnVibrantPurpleCustomAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -4020,7 +4020,7 @@
   {
     "strName": "MSCeilingLightSwitchOffVibrantGreenCustomAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -4039,7 +4039,7 @@
   {
     "strName": "MSCeilingLightSwitchOnVibrantGreenCustomAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -4058,7 +4058,7 @@
   {
     "strName": "MSLightSwitchOrangeOffCustomAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -4077,7 +4077,7 @@
   {
     "strName": "MSLightSwitchOrangeOnCustomAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -4096,7 +4096,7 @@
   {
     "strName": "MSLightSwitchOffCustomAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -4115,7 +4115,7 @@
   {
     "strName": "MSLightSwitchOnCustomAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -4134,7 +4134,7 @@
   {
     "strName": "MSLightSwitchOffOrangeCustomAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -4153,7 +4153,7 @@
   {
     "strName": "MSLightSwitchOnOrangeCustomAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -4172,7 +4172,7 @@
   {
     "strName": "MSLightSwitchOffRedCustomAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -4191,7 +4191,7 @@
   {
     "strName": "MSLightSwitchOnRedCustomAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -4210,7 +4210,7 @@
   {
     "strName": "MSLightSwitchOffVibrantPurpleCustomAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -4229,7 +4229,7 @@
   {
     "strName": "MSLightSwitchOnVibrantPurpleCustomAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -4248,7 +4248,7 @@
   {
     "strName": "MSLightSwitchOffVibrantGreenCustomAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -4267,7 +4267,7 @@
   {
     "strName": "MSLightSwitchOnVibrantGreenCustomAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -4286,7 +4286,7 @@
   {
     "strName": "MSLightSwitchOffWhiteCustomAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -4305,7 +4305,7 @@
   {
     "strName": "MSLightSwitchOnWhiteCustomAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -4324,7 +4324,7 @@
   {
     "strName": "MSLock",
     "strTitle": "Блокировка через GUI",
-    "strDesc": "[us] [пытается] заблокировать [them].",
+    "strDesc": "[us] пытается заблокировать [them].",
     "fTargetPointRange": 0,
     "aInverse": [
       "MSCrate01LockAllowSelf",
@@ -4339,7 +4339,7 @@
   {
     "strName": "MSUnlock",
     "strTitle": "Разблокировка через GUI",
-    "strDesc": "[us] [пытается] разблокировать [them].",
+    "strDesc": "[us] пытается разблокировать [them].",
     "fTargetPointRange": 0,
     "aInverse": [
       "MSCrate01UnlockAllowSelf",
@@ -4394,7 +4394,7 @@
   {
     "strName": "MSElectricalBox01SwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -4414,7 +4414,7 @@
   {
     "strName": "MSElectricalBox01SwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -4434,7 +4434,7 @@
   {
     "strName": "MSEVASwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -4454,7 +4454,7 @@
   {
     "strName": "MSEVASwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -4752,7 +4752,7 @@
   {
     "strName": "MSFusionReactorCore01SwitchBattAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] шина питания на батарею.",
+    "strDesc": "[us] переключает шину питания на батарею.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -4772,7 +4772,7 @@
   {
     "strName": "MSFusionReactorCore01SwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -4793,7 +4793,7 @@
   {
     "strName": "MSFusionReactorCore01SwitchIgnitionAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] на зажигание.",
+    "strDesc": "[us] переключается на зажигание.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -4854,7 +4854,7 @@
   {
     "strName": "MSFusionCorePump01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -4934,7 +4934,7 @@
   {
     "strName": "MSFusionCryoPump01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5014,7 +5014,7 @@
   {
     "strName": "MSFusionFieldCoils01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5094,7 +5094,7 @@
   {
     "strName": "MSFusionFuelRegulator01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5174,7 +5174,7 @@
   {
     "strName": "MSFusionLaserArray01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5214,7 +5214,7 @@
   {
     "strName": "MSFusionMHDGenerator01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5346,7 +5346,7 @@
   {
     "strName": "MSFusionPelletFeeder01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5426,7 +5426,7 @@
   {
     "strName": "MSHeater01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5496,7 +5496,7 @@
   {
     "strName": "MSHeavyLiftRotor01SwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5516,7 +5516,7 @@
   {
     "strName": "MSHeavyLiftRotor01SwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5536,7 +5536,7 @@
   {
     "strName": "MSJukeboxSwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5556,7 +5556,7 @@
   {
     "strName": "MSJukeboxSwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5576,7 +5576,7 @@
   {
     "strName": "MSCeilingLightSwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5596,7 +5596,7 @@
   {
     "strName": "MSCeilingLightSwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5616,7 +5616,7 @@
   {
     "strName": "MSCeilingLightSwitchOffOrangeAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5636,7 +5636,7 @@
   {
     "strName": "MSCeilingLightSwitchOnOrangeAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5656,7 +5656,7 @@
   {
     "strName": "MSCeilingLightSwitchOffVibrantRedAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5676,7 +5676,7 @@
   {
     "strName": "MSCeilingLightSwitchOnVibrantRedAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5696,7 +5696,7 @@
   {
     "strName": "MSCeilingLightSwitchOffVibrantPurpleAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5716,7 +5716,7 @@
   {
     "strName": "MSCeilingLightSwitchOnVibrantPurpleAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5736,7 +5736,7 @@
   {
     "strName": "MSCeilingLightSwitchOffVibrantGreenAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5756,7 +5756,7 @@
   {
     "strName": "MSCeilingLightSwitchOnVibrantGreenAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5776,7 +5776,7 @@
   {
     "strName": "MSCeilingLightSwitchOffWhiteAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5796,7 +5796,7 @@
   {
     "strName": "MSCeilingLightSwitchOnWhiteAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5816,7 +5816,7 @@
   {
     "strName": "MSLightSwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5836,7 +5836,7 @@
   {
     "strName": "MSLightSwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5856,7 +5856,7 @@
   {
     "strName": "MSLightSwitchOffOrangeAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5876,7 +5876,7 @@
   {
     "strName": "MSLightSwitchOnOrangeAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5896,7 +5896,7 @@
   {
     "strName": "MSLightSwitchOffRedAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5916,7 +5916,7 @@
   {
     "strName": "MSLightSwitchOnRedAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5936,7 +5936,7 @@
   {
     "strName": "MSLightSwitchOffVibrantPurpleAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5956,7 +5956,7 @@
   {
     "strName": "MSLightSwitchOnVibrantPurpleAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5976,7 +5976,7 @@
   {
     "strName": "MSLightSwitchOffVibrantGreenAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -5996,7 +5996,7 @@
   {
     "strName": "MSLightSwitchOnVibrantGreenAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -6016,7 +6016,7 @@
   {
     "strName": "MSLightSwitchOffWhiteAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -6036,7 +6036,7 @@
   {
     "strName": "MSLightSwitchOnWhiteAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -6562,7 +6562,7 @@
   {
     "strName": "MSRCSCluster01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -6642,7 +6642,7 @@
   {
     "strName": "MSRCSDistro01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -6722,7 +6722,7 @@
   {
     "strName": "MSRCSDistro02OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -6762,7 +6762,7 @@
   {
     "strName": "MSReactor02SwitchBattAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] шину питания на батарею.",
+    "strDesc": "[us] переключает шину питания на батарею.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -6782,7 +6782,7 @@
   {
     "strName": "MSReactor02SwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -6802,7 +6802,7 @@
   {
     "strName": "MSReactor02SwitchIgnitionAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] на зажигание.",
+    "strDesc": "[us] переключается на зажигание.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -6872,7 +6872,7 @@
   {
     "strName": "MSReactor03SwitchBattAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] шину питания на батарею.",
+    "strDesc": "[us] переключает шину питания на батарею.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -6892,7 +6892,7 @@
   {
     "strName": "MSReactor03SwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -6913,7 +6913,7 @@
   {
     "strName": "MSReactor03SwitchIgnitionAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] на зажигание.",
+    "strDesc": "[us] переключается на зажигание.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -8664,7 +8664,7 @@
   {
     "strName": "MSSignNeon01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -8764,7 +8764,7 @@
   {
     "strName": "MSStationNavSwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -8784,7 +8784,7 @@
   {
     "strName": "MSStationNavSwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -8831,7 +8831,7 @@
   {
     "strName": "MSStrengthTrainer01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -8909,7 +8909,7 @@
   {
     "strName": "MSSwitchSwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -8929,7 +8929,7 @@
   {
     "strName": "MSSwitchSwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -8949,7 +8949,7 @@
   {
     "strName": "MSSwitchSwitchOnAllowTut",
     "strTitle": "Туториал-версия OKLG Chargen",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -8993,7 +8993,7 @@
   {
     "strName": "MSTerminal01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -9113,7 +9113,7 @@
   {
     "strName": "MSTowingBrace01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -9153,7 +9153,7 @@
   {
     "strName": "MSTowingBrace01OffSecuredAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -9223,7 +9223,7 @@
   {
     "strName": "MSTransponder01SwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -9243,7 +9243,7 @@
   {
     "strName": "MSTransponder01SwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -9290,7 +9290,7 @@
   {
     "strName": "MSTreadmill01OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -9348,7 +9348,7 @@
   {
     "strName": "MSTV01SwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -9585,7 +9585,7 @@
   {
     "strName": "MSVent02OffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -9936,7 +9936,7 @@
   {
     "strName": "MSWorkLampSwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -9956,7 +9956,7 @@
   {
     "strName": "MSWorkLampSwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -10018,7 +10018,7 @@
   {
     "strName": "MSStabilizerActive01SwitchOffAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] выкл.",
+    "strDesc": "[us] выключает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -10038,7 +10038,7 @@
   {
     "strName": "MSStabilizerActive01SwitchOnAllow",
     "strTitle": "",
-    "strDesc": "[us] [switches] вкл.",
+    "strDesc": "[us] включает.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,

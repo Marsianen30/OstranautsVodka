@@ -1,7 +1,7 @@
 [
   {
     "strName": "SLOTWieldGrinder02L",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -20,7 +20,7 @@
   },
   {
     "strName": "SLOTWieldGrinder02R",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -39,7 +39,7 @@
   },
   {
     "strName": "SLOTWieldCrowbar01L",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -56,7 +56,7 @@
   },
   {
     "strName": "SLOTWieldCrowbar01R",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -73,7 +73,7 @@
   },
   {
     "strName": "SLOTWieldDefaultL",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -90,7 +90,7 @@
   },
   {
     "strName": "SLOTWieldDefaultR",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -107,7 +107,7 @@
   },
   {
     "strName": "SLOTWieldDefaultShaftL",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -124,7 +124,7 @@
   },
   {
     "strName": "SLOTWieldDefaultShaftR",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -141,7 +141,7 @@
   },
   {
     "strName": "SLOTWieldDefaultSharpL",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -158,7 +158,7 @@
   },
   {
     "strName": "SLOTWieldDefaultSharpR",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -175,7 +175,7 @@
   },
   {
     "strName": "SLOTWieldDefaultSharpStabL",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -192,7 +192,7 @@
   },
   {
     "strName": "SLOTWieldDefaultSharpStabR",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -209,7 +209,7 @@
   },
   {
     "strName": "SLOTWieldDefaultSoftL",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -226,7 +226,7 @@
   },
   {
     "strName": "SLOTWieldDefaultSoftR",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -243,7 +243,7 @@
   },
   {
     "strName": "SLOTWieldDrinkBottle01DmgL",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -262,7 +262,7 @@
   },
   {
     "strName": "SLOTWieldDrinkBottle01DmgR",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -281,7 +281,7 @@
   },
   {
     "strName": "SLOTWieldLaserTorch01L",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -300,7 +300,7 @@
   },
   {
     "strName": "SLOTWieldLaserTorch01R",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -319,7 +319,7 @@
   },
   {
     "strName": "SLOTWieldPunch",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -338,7 +338,7 @@
   },
   {
     "strName": "SLOTWieldScrewdriver01L",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -355,7 +355,7 @@
   },
   {
     "strName": "SLOTWieldScrewdriver01R",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -372,7 +372,7 @@
   },
   {
     "strName": "SLOTWieldSolderingIron01L",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -389,7 +389,7 @@
   },
   {
     "strName": "SLOTWieldSolderingIron01R",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -406,7 +406,7 @@
   },
   {
     "strName": "SLOTWieldWeaponBaseballBat01L",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -423,7 +423,7 @@
   },
   {
     "strName": "SLOTWieldWeaponBaseballBat01R",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -440,7 +440,7 @@
   },
   {
     "strName": "SLOTWieldWeaponBaseballBat02L",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -457,7 +457,7 @@
   },
   {
     "strName": "SLOTWieldWeaponBaseballBat02R",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -474,7 +474,7 @@
   },
   {
     "strName": "SLOTWieldWeaponCutlass01L",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -495,7 +495,7 @@
   },
   {
     "strName": "SLOTWieldWeaponCutlass01R",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -516,7 +516,7 @@
   },
   {
     "strName": "SLOTWieldWeaponGoat01L",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -535,7 +535,7 @@
   },
   {
     "strName": "SLOTWieldWeaponGoat01R",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -554,7 +554,7 @@
   },
   {
     "strName": "SLOTWieldWeaponKatana01L",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -573,7 +573,7 @@
   },
   {
     "strName": "SLOTWieldWeaponKatana01R",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -592,7 +592,7 @@
   },
   {
     "strName": "SLOTWieldWeaponKnife01L",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -611,7 +611,7 @@
   },
   {
     "strName": "SLOTWieldWeaponKnife01R",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -630,7 +630,7 @@
   },
   {
     "strName": "SLOTWieldWeaponKnuckles01L",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -649,7 +649,7 @@
   },
   {
     "strName": "SLOTWieldWeaponKnuckles01R",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -668,7 +668,7 @@
   },
   {
     "strName": "SLOTWieldWeaponMachete01L",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -689,7 +689,7 @@
   },
   {
     "strName": "SLOTWieldWeaponMachete01R",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -710,7 +710,7 @@
   },
   {
     "strName": "SLOTWieldWeaponNightstick01L",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -727,7 +727,7 @@
   },
   {
     "strName": "SLOTWieldWeaponNightstick01R",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -744,7 +744,7 @@
   },
   {
     "strName": "SLOTWieldWeaponNightstick02L",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -761,7 +761,7 @@
   },
   {
     "strName": "SLOTWieldWeaponNightstick02R",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -778,7 +778,7 @@
   },
   {
     "strName": "SLOTWieldWeaponPistol01L",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -794,7 +794,7 @@
   },
   {
     "strName": "SLOTWieldWeaponPistol01R",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -810,7 +810,7 @@
   },
   {
     "strName": "SLOTWieldWeaponPistol02L",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -827,7 +827,7 @@
   },
   {
     "strName": "SLOTWieldWeaponPistol02R",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -844,7 +844,7 @@
   },
   {
     "strName": "SLOTWieldWeaponPistol03L",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -860,7 +860,7 @@
   },
   {
     "strName": "SLOTWieldWeaponPistol03R",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -876,7 +876,7 @@
   },
   {
     "strName": "SLOTWieldWeaponPistol04L",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -892,7 +892,7 @@
   },
   {
     "strName": "SLOTWieldWeaponPistol04R",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -908,7 +908,7 @@
   },
   {
     "strName": "SLOTWieldWeaponPistolEnergy01L",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -925,7 +925,7 @@
   },
   {
     "strName": "SLOTWieldWeaponPistolEnergy01R",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -942,7 +942,7 @@
   },
   {
     "strName": "SLOTWieldWeaponPocketknife01L",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -961,7 +961,7 @@
   },
   {
     "strName": "SLOTWieldWeaponPocketknife01R",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -980,7 +980,7 @@
   },
   {
     "strName": "SLOTWieldWeaponRifle01L",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -997,7 +997,7 @@
   },
   {
     "strName": "SLOTWieldWeaponRifle01R",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1014,7 +1014,7 @@
   },
   {
     "strName": "SLOTWieldWeaponRifle02L",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1033,7 +1033,7 @@
   },
   {
     "strName": "SLOTWieldWeaponRifle02R",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1052,7 +1052,7 @@
   },
   {
     "strName": "SLOTWieldWeaponShiv01L",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1071,7 +1071,7 @@
   },
   {
     "strName": "SLOTWieldWeaponShiv01R",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1090,7 +1090,7 @@
   },
   {
     "strName": "SLOTWieldWeaponShotgun01L",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1107,7 +1107,7 @@
   },
   {
     "strName": "SLOTWieldWeaponShotgun01R",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1124,7 +1124,7 @@
   },
   {
     "strName": "SLOTWieldWeaponShotgun02L",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1141,7 +1141,7 @@
   },
   {
     "strName": "SLOTWieldWeaponShotgun02R",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1158,7 +1158,7 @@
   },
   {
     "strName": "SLOTWieldWeaponSpear01L",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1177,7 +1177,7 @@
   },
   {
     "strName": "SLOTWieldWeaponSpear01R",
-    "strDesc": "[them-subj] [держит] [us] в руках.",
+    "strDesc": "[them-subj] держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1196,7 +1196,7 @@
   },
   {
     "strName": "UNSLOTWieldCrowbar01L",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1213,7 +1213,7 @@
   },
   {
     "strName": "UNSLOTWieldCrowbar01R",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1230,7 +1230,7 @@
   },
   {
     "strName": "UNSLOTWieldGrinder02L",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1249,7 +1249,7 @@
   },
   {
     "strName": "UNSLOTWieldGrinder02R",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1268,7 +1268,7 @@
   },
   {
     "strName": "UNSLOTWieldDefaultL",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1285,7 +1285,7 @@
   },
   {
     "strName": "UNSLOTWieldDefaultR",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1302,7 +1302,7 @@
   },
   {
     "strName": "UNSLOTWieldDefaultShaftL",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1319,7 +1319,7 @@
   },
   {
     "strName": "UNSLOTWieldDefaultShaftR",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1336,7 +1336,7 @@
   },
   {
     "strName": "UNSLOTWieldDefaultSharpL",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1353,7 +1353,7 @@
   },
   {
     "strName": "UNSLOTWieldDefaultSharpR",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1370,7 +1370,7 @@
   },
   {
     "strName": "UNSLOTWieldDefaultSharpStabL",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1387,7 +1387,7 @@
   },
   {
     "strName": "UNSLOTWieldDefaultSharpStabR",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1404,7 +1404,7 @@
   },
   {
     "strName": "UNSLOTWieldDefaultSoftL",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1421,7 +1421,7 @@
   },
   {
     "strName": "UNSLOTWieldDefaultSoftR",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1438,7 +1438,7 @@
   },
   {
     "strName": "UNSLOTWieldDrinkBottle01DmgL",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1457,7 +1457,7 @@
   },
   {
     "strName": "UNSLOTWieldDrinkBottle01DmgR",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1476,7 +1476,7 @@
   },
   {
     "strName": "UNSLOTWieldLaserTorch01L",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1495,7 +1495,7 @@
   },
   {
     "strName": "UNSLOTWieldLaserTorch01R",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1514,7 +1514,7 @@
   },
   {
     "strName": "UNSLOTWieldScrewdriver01L",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1531,7 +1531,7 @@
   },
   {
     "strName": "UNSLOTWieldScrewdriver01R",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1548,7 +1548,7 @@
   },
   {
     "strName": "UNSLOTWieldSolderingIron01L",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1565,7 +1565,7 @@
   },
   {
     "strName": "UNSLOTWieldSolderingIron01R",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1582,7 +1582,7 @@
   },
   {
     "strName": "UNSLOTWieldPunch",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1601,7 +1601,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponBaseballBat01L",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1618,7 +1618,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponBaseballBat01R",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1635,7 +1635,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponBaseballBat02L",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1652,7 +1652,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponBaseballBat02R",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1669,7 +1669,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponCutlass01L",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1690,7 +1690,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponCutlass01R",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1711,7 +1711,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponGoat01L",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1730,7 +1730,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponGoat01R",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1749,7 +1749,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponKatana01L",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1768,7 +1768,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponKatana01R",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1787,7 +1787,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponKnife01L",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1806,7 +1806,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponKnife01R",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1825,7 +1825,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponKnuckles01L",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1844,7 +1844,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponKnuckles01R",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1863,7 +1863,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponMachete01L",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1884,7 +1884,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponMachete01R",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1905,7 +1905,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponNightstick01L",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1922,7 +1922,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponNightstick01R",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1939,7 +1939,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponNightstick02L",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1956,7 +1956,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponNightstick02R",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1973,7 +1973,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponPistolEnergy01L",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -1990,7 +1990,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponPistolEnergy01R",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -2007,7 +2007,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponPistol01L",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -2023,7 +2023,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponPistol01R",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -2039,7 +2039,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponPistol02L",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -2056,7 +2056,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponPistol02R",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -2073,7 +2073,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponPistol03L",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -2089,7 +2089,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponPistol03R",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -2105,7 +2105,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponPistol04L",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -2121,7 +2121,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponPistol04R",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -2137,7 +2137,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponPocketknife01L",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -2156,7 +2156,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponPocketknife01R",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -2175,7 +2175,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponRifle01L",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -2192,7 +2192,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponRifle01R",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -2209,7 +2209,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponRifle02L",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -2228,7 +2228,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponRifle02R",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -2247,7 +2247,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponShiv01L",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -2266,7 +2266,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponShiv01R",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -2285,7 +2285,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponShotgun01L",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -2302,7 +2302,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponShotgun01R",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -2319,7 +2319,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponShotgun02L",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -2336,7 +2336,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponShotgun02R",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -2353,7 +2353,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponSpear01L",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,
@@ -2372,7 +2372,7 @@
   },
   {
     "strName": "UNSLOTWieldWeaponSpear01R",
-    "strDesc": "[them-subj] больше не [держит] [us] в руках.",
+    "strDesc": "[them-subj] больше не держит [us] в руках.",
     "strThemType": "Other",
     "nLogging": 0,
     "bOpener": true,

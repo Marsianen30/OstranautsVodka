@@ -1409,7 +1409,7 @@
   {
     "strName": "SHIPSosThreatApproaching",
     "strTitle": "SOS: прибл. угроза",
-    "strDesc": "[us] [сообщает] о приближении угрозы, запрашивает оборонительную поддержку.",
+    "strDesc": "[us] сообщает о приближении угрозы, запрашивает оборонительную поддержку.",
     "strActionGroup": "Ship",
     "strColor": "Neutral",
     "aInverse": [

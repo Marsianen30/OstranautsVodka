@@ -2,7 +2,7 @@
   {
     "strName": "PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Mojave",
     "strTitle": "Взломать государственные записи",
-    "strDesc": "[us] [взламывает] [them], разыскивая записи местного правительства, а именно информацию об инженерных проектах, использующих золото.",
+    "strDesc": "[us] взламывает [them], разыскивая записи местного правительства, а именно информацию об инженерных проектах, использующих золото.",
     "fDuration": 0.005,
     "bIgnoreFeelings": true,
     "strTargetPoint": "use",
@@ -20,7 +20,7 @@
   },
   {
     "strName": "PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Mojave_Reply",
-    "strDesc": "[them] [использует] терминал, чтобы через доступ к терминалу местной власти откопать пару многообещающих исследовательских меморандумов: отчёты о ходе работ, пересылаемые между местными исследовательскими группами Mojave и высокопоставленными дипломатами в сети Titan. Верхушку, похоже, крайне интересует то, что здесь происходит. Но почему?",
+    "strDesc": "[them] использует терминал, чтобы через доступ к терминалу местной власти откопать пару многообещающих исследовательских меморандумов: отчёты о ходе работ, пересылаемые между местными исследовательскими группами Mojave и высокопоставленными дипломатами в сети Titan. Верхушку, похоже, крайне интересует то, что здесь происходит. Но почему?",
     "bIgnoreFeelings": true,
     "fDuration": 0.0005,
     "strTargetPoint": "use",
@@ -56,7 +56,7 @@
   },
   {
     "strName": "Plot_Ceres_Clandestine_Interventions_Titan_Codeword_Reply_Success",
-    "strDesc": "[us] [замечает] кодовое слово [them-pos] и в ответ незаметно роняет ответное кодовое слово.",
+    "strDesc": "[us] замечает кодовое слово [them-pos] и в ответ незаметно роняет ответное кодовое слово.",
     "LootCondsUs": "CONDPLOT_Ceres_Titan_Agent",
     "fTargetPointRange": 2,
     "strColor": "Dialogue",
@@ -121,7 +121,7 @@
   },
   {
     "strName": "Plot_Ceres_Clandestine_Interventions_Xinhua_Codeword_Reply_Success",
-    "strDesc": "[us] [замечает] кодовое слово [them-pos] и в ответ незаметно роняет ответное кодовое слово.",
+    "strDesc": "[us] замечает кодовое слово [them-pos] и в ответ незаметно роняет ответное кодовое слово.",
     "fTargetPointRange": 2,
     "strAnim": "Talk",
     "strColor": "Dialogue",
@@ -137,7 +137,7 @@
   {
     "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Cup",
     "strTitle": "Проверить кофейный стаканчик",
-    "strDesc": "[us] [заглядывает] под выброшенный кофейный стаканчик рядом с [them-obj] и находит маленькую сложенную рукописную записку, приклеенную скотчем ко дну.",
+    "strDesc": "[us] заглядывает под выброшенный кофейный стаканчик рядом с [them-obj] и находит маленькую сложенную рукописную записку, приклеенную скотчем ко дну.",
     "fForcedChance": 1,
     "strColor": "Dialogue",
     "strActionGroup": "Use",
@@ -266,7 +266,7 @@
   {
     "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Planter",
     "strTitle": "Проверить тайник",
-    "strDesc": "[us] [проверяет] местоположение тайника Titan.",
+    "strDesc": "[us] проверяет местоположение тайника Titan.",
     "fForcedChance": 1,
     "strColor": "Dialogue",
     "strActionGroup": "Use",
@@ -445,7 +445,7 @@
   {
     "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Black_Hat_Xinhua_Debrief",
     "strTitle": "Доклад об успешной «Чёрной шляпе»",
-    "strDesc": "[us] [records] доклад об успешно выполненной миссии «Чёрная шляпа».",
+    "strDesc": "[us] записывает доклад об успешно выполненной миссии «Чёрная шляпа».",
     "fForcedChance": 1,
     "strColor": "Dialogue",
     "aInverse": [
@@ -518,7 +518,7 @@
   {
     "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Black_Hat_Titan_Debrief",
     "strTitle": "Доклад об успешной «Чёрной шляпе»",
-    "strDesc": "[us] [records] доклад об успешно выполненной миссии «Чёрная шляпа».",
+    "strDesc": "[us] записывает доклад об успешно выполненной миссии «Чёрная шляпа».",
     "fForcedChance": 1,
     "strColor": "Dialogue",
     "aInverse": [
@@ -539,7 +539,7 @@
   {
     "strName": "PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Ring_Station",
     "strTitle": "Взломать государственные записи",
-    "strDesc": "[us] [uses] [them] и [us-hacks] в файл 'atmoScans.log', обнаруживая множество входов цели.",
+    "strDesc": "[us] использует [them] и [us-hacks] в файл 'atmoScans.log', обнаруживая множество входов цели.",
     "fDuration": 0.005,
     "bIgnoreFeelings": true,
     "strTargetPoint": "use",

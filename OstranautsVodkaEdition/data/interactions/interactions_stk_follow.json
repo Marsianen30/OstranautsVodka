@@ -2,7 +2,7 @@
   {
     "strName": "STKFollow_Intro",
     "strTitle": "Убедить следовать",
-    "strDesc": "[us] [спрашивает] [them], могут ли они ненадолго пойти за ним.",
+    "strDesc": "[us] спрашивает [them], могут ли они ненадолго пойти за ним.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -42,7 +42,7 @@
   {
     "strName": "STKFollow_Intro_Allow",
     "strTitle": "Согласиться обсудить следование",
-    "strDesc": "[us] [говорит] «может быть», но требует дальнейших убеждений.",
+    "strDesc": "[us] говорит «может быть», но требует дальнейших убеждений.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -66,7 +66,7 @@
   {
     "strName": "STKFollow_Intro_Allow_Friendly",
     "strTitle": "Согласиться обсудить следование друга",
-    "strDesc": "[us] восторженно [приветствует] и говорит, что мог бы пойти за таким другом, как [them].",
+    "strDesc": "[us] восторженно приветствует и говорит, что мог бы пойти за таким другом, как [them].",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -116,7 +116,7 @@
   {
     "strName": "STKFollow_Intro_Allow_Criminal",
     "strTitle": "Согласиться обсудить следование преступника",
-    "strDesc": "[us] [говорит], что не привык ходить за преступниками, но готов выслушать [them].",
+    "strDesc": "[us] говорит, что не привык ходить за преступниками, но готов выслушать [them].",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -141,7 +141,7 @@
   {
     "strName": "STKFollow_Intro_Allow_HygieneBad",
     "strTitle": "Согласиться обсудить следование грязнули",
-    "strDesc": "[us] брезгливо [отшатывается] от [them] и спрашивает, с какой стати ему идти за таким грязнулей.",
+    "strDesc": "[us] брезгливо отшатывается от [them] и спрашивает, с какой стати ему идти за таким грязнулей.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -165,7 +165,7 @@
   {
     "strName": "STKFollow_Intro_Allow_PhysioBad",
     "strTitle": "Согласиться обсудить следование раненого",
-    "strDesc": "[us] [говорит], что если [them] и нужно куда-то идти, то только в медпункт.",
+    "strDesc": "[us] говорит, что если [them] и нужно куда-то идти, то только в медпункт.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -189,7 +189,7 @@
   {
     "strName": "STKFollow_Intro_Deny_Enemy",
     "strTitle": "Отказаться следовать за врагом",
-    "strDesc": "[us] [говорит], что [them] — это последний человек, за которым бы он пошёл.",
+    "strDesc": "[us] говорит, что [them] — это последний человек, за которым бы он пошёл.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -214,7 +214,7 @@
   {
     "strName": "STKFollow_Intro_Deny_Criminal",
     "strTitle": "Отказаться следовать за преступником",
-    "strDesc": "[us] [говорит], что никогда бы не доверился преступнику настолько, чтобы пойти за ним.",
+    "strDesc": "[us] говорит, что никогда бы не доверился преступнику настолько, чтобы пойти за ним.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -239,7 +239,7 @@
   {
     "strName": "STKFollow_Intro_Deny_PhysioBad",
     "strTitle": "Отказаться следовать из-за травмы",
-    "strDesc": "[us] [говорит], что его тело сейчас не в том состоянии, чтобы куда-то идти.",
+    "strDesc": "[us] говорит, что его тело сейчас не в том состоянии, чтобы куда-то идти.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -269,7 +269,7 @@
   {
     "strName": "STKFollow_Fail_Avoid",
     "strTitle": "Тянуть время",
-    "strDesc": "[us] [говорит], что вы еще даже не озвучили самое интересное...",
+    "strDesc": "[us] говорит, что вы еще даже не озвучили самое интересное...",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -299,7 +299,7 @@
   {
     "strName": "STKFollow_Fail_Hard_DcAutonomyGood",
     "strTitle": "Отказаться следовать (свободный)",
-    "strDesc": "[us] [говорит], что сам решает, куда и когда идти, и не намерен таскаться за кем-то просто потому, что попросили.",
+    "strDesc": "[us] говорит, что сам решает, куда и когда идти, и не намерен таскаться за кем-то просто потому, что попросили.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -326,7 +326,7 @@
   {
     "strName": "STKFollow_Fail_Hard_DcSecurityBad",
     "strTitle": "Отказаться следовать (напуган)",
-    "strDesc": "[us] [съеживается] от явного ужаса и отказывается идти за вами.",
+    "strDesc": "[us] съеживается от явного ужаса и отказывается идти за вами.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -358,7 +358,7 @@
   {
     "strName": "STKFollow_Gambit_Security",
     "strTitle": "Настаивать, что это совершенно безопасно",
-    "strDesc": "[us] [настаивает], что там, куда они направляются, нет абсолютно никакой опасности.",
+    "strDesc": "[us] настаивает, что там, куда они направляются, нет абсолютно никакой опасности.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -387,7 +387,7 @@
   {
     "strName": "STKFollow_Gambit_Security_Allow",
     "strTitle": "Согласиться на следование",
-    "strDesc": "[us] [говорит] «ладно», ведь [them] кажется вполне заслуживающим доверия.",
+    "strDesc": "[us] говорит «ладно», ведь [them] кажется вполне заслуживающим доверия.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -413,7 +413,7 @@
   {
     "strName": "STK_SOCFollowCommandAllowSecurity",
     "strTitle": "Согласиться следовать",
-    "strDesc": "[us] [соглашается] следовать за [them].",
+    "strDesc": "[us] соглашается следовать за [them].",
     "strTargetPoint": "talk",
     "strActionGroup": "Talk",
     "fTargetPointRange": 2,
@@ -438,7 +438,7 @@
   {
     "strName": "STKFollow_Gambit_Security_Fail_Soft",
     "strTitle": "Отказаться следовать на данный момент",
-    "strDesc": "[us] [говорит], что не чувствует себя в достаточной безопасности, чтобы идти за вами, но готов продолжить разговор.",
+    "strDesc": "[us] говорит, что не чувствует себя в достаточной безопасности, чтобы идти за вами, но готов продолжить разговор.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -463,7 +463,7 @@
   {
     "strName": "STKFollow_Gambit_Security_Fail_Hard",
     "strTitle": "Отказать в следовании",
-    "strDesc": "[us] [говорит], что не чувствует себя в достаточной безопасности, чтобы идти за вами, и разговор окончен.",
+    "strDesc": "[us] говорит, что не чувствует себя в достаточной безопасности, чтобы идти за вами, и разговор окончен.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -494,7 +494,7 @@
   {
     "strName": "STKFollow_Gambit_Autonomy",
     "strTitle": "Сказать, что у них нет выбора",
-    "strDesc": "[us] [заявляет], что [them] пойдет за ним, нравится ему это или нет.",
+    "strDesc": "[us] заявляет, что [them] пойдет за ним, нравится ему это или нет.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -523,7 +523,7 @@
   {
     "strName": "STKFollow_Gambit_Autonomy_Allow",
     "strTitle": "Согласиться на следование",
-    "strDesc": "[us] [говорит], что у него, очевидно, просто нет выбора.",
+    "strDesc": "[us] говорит, что у него, очевидно, просто нет выбора.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -549,7 +549,7 @@
   {
     "strName": "STK_SOCFollowCommandAllowAutonomy",
     "strTitle": "Согласиться следовать",
-    "strDesc": "[us] [соглашается] следовать за [them].",
+    "strDesc": "[us] соглашается следовать за [them].",
     "strTargetPoint": "talk",
     "strActionGroup": "Talk",
     "fTargetPointRange": 2,
@@ -574,7 +574,7 @@
   {
     "strName": "STKFollow_Gambit_Autonomy_Fail_Soft",
     "strTitle": "Отказаться следовать на данный момент",
-    "strDesc": "[us] [ставит] под сомнение ваш авторитет, но готов продолжить разговор.",
+    "strDesc": "[us] ставит под сомнение ваш авторитет, но готов продолжить разговор.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -599,7 +599,7 @@
   {
     "strName": "STKFollow_Gambit_Autonomy_Fail_Hard",
     "strTitle": "Отказать в следовании",
-    "strDesc": "[us] [говорит], что сам решает, куда и когда ему идти, и этот разговор окончен.",
+    "strDesc": "[us] говорит, что сам решает, куда и когда ему идти, и этот разговор окончен.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -630,7 +630,7 @@
   {
     "strName": "STKFollow_Exit",
     "strTitle": "Забудь об этом",
-    "strDesc": "[us] [говорит], что ему больше не интересно обсуждать совместные походы куда-либо.",
+    "strDesc": "[us] говорит, что ему больше не интересно обсуждать совместные походы куда-либо.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,

@@ -413,7 +413,7 @@
   {
     "strName": "MSExplosionSmall",
     "strTitle": "",
-    "strDesc": "[us] [взрывается]",
+    "strDesc": "[us] взрывается",
     "aInverse": [],
     "fDuration": 0.0,
     "strThemType": "Other",
@@ -424,7 +424,7 @@
   {
     "strName": "MSExplosionBig",
     "strTitle": "",
-    "strDesc": "[us] [взрывается]",
+    "strDesc": "[us] взрывается",
     "fDuration": 0.0,
     "strThemType": "Other",
     "nLogging": 1,

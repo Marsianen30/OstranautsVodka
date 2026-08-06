@@ -2,7 +2,7 @@
   {
     "strName": "SOCHoneypotCombatStart",
     "strTitle": "Начать медовую ловушку",
-    "strDesc": "[us] [flashes] обаятельной улыбкой и [begins] процесс эмоционального манипулирования.",
+    "strDesc": "[us] мелькает обаятельной улыбкой и начинает процесс эмоционального манипулирования.",
     "strActionGroup": "Talk",
     "strTooltip": "Начинает взаимодействие с целью операции «медовая ловушка» с целью завоевать её доверие и выведать ценную информацию.",
     "strTargetPoint": "talk",
@@ -30,7 +30,7 @@
   {
     "strName": "SOCHoneypotPrivacyFail",
     "strTitle": "Сказать, что вам нужно свободное пространство",
-    "strDesc": "[us] [says], что [them] слишком навязчив для [us-obj], и всё, в чём [us-subj] сейчас [needs], — это немного личного пространства.",
+    "strDesc": "[us] говорит, что [them] слишком навязчив для [us-obj], и всё, в чём [us-subj] сейчас нуждается, — это немного личного пространства.",
     "strActionGroup": "Talk",
     "strTargetPoint": "use",
     "fTargetPointRange": 2,
@@ -58,7 +58,7 @@
   {
     "strName": "SOCHoneypotSecurityFail",
     "strTitle": "Высказать подозрения",
-    "strDesc": "[us] [says], что всё это внимание начинает казаться подозрительным, и [asks] [them]: «Было ли вообще хоть что-то настоящим?»",
+    "strDesc": "[us] говорит, что всё это внимание начинает казаться подозрительным, и спрашивает [them]: «Было ли вообще хоть что-то настоящим?»",
     "strActionGroup": "Talk",
     "strTargetPoint": "use",
     "fTargetPointRange": 2,
@@ -86,7 +86,7 @@
   {
     "strName": "SOCHoneypotDance",
     "strTitle": "Танцевать",
-    "strDesc": "[us] [attempts] вовлечь [them] в импровизированный танец.",
+    "strDesc": "[us] пытается вовлечь [them] в импровизированный танец.",
     "strActionGroup": "Talk",
     "strTooltip": "Попытка пофлиртовать с целью с помощью танца.",
     "strTargetPoint": "use",
@@ -111,7 +111,7 @@
   {
     "strName": "SOCHoneypotDemonstrateVulnerability",
     "strTitle": "Показать уязвимость",
-    "strDesc": "[us] ненадолго [exposes] ту сторону своей личности, которую большинство людей держат под защитой.",
+    "strDesc": "[us] ненадолго раскрывает ту сторону своей личности, которую большинство людей держат под защитой.",
     "strActionGroup": "Talk",
     "strTooltip": "Делится слабостью с целью, чтобы выстроить более прочную эмоциональную связь.",
     "strTargetPoint": "use",
@@ -136,7 +136,7 @@
   {
     "strName": "SOCHoneypotMirrorBehavior",
     "strTitle": "Подражать их манерам",
-    "strDesc": "[us] [makes] непринужденную беседу, тонко отражая манеры, речевые обороты и жесты [them-pos].",
+    "strDesc": "[us] делает непринужденную беседу, тонко отражая манеры, речевые обороты и жесты [them-pos].",
     "strActionGroup": "Talk",
     "strTooltip": "Тонко копировать их язык тела для завоевания доверия.",
     "strTargetPoint": "use",
@@ -161,7 +161,7 @@
   {
     "strName": "SOCHoneypotSong",
     "strTitle": "Спеть для них",
-    "strDesc": "[us] [vocalizes] мелодию для [them-obj] с импровизированным текстом, искусно переплетающим текущий момент с намеками на знакомые мотивы.",
+    "strDesc": "[us] озвучивает мелодию для [them-obj] с импровизированным текстом, искусно переплетающим текущий момент с намеками на знакомые мотивы.",
     "strActionGroup": "Talk",
     "strTooltip": "Попытка произвести впечатление на цель остроумной песней.",
     "strTargetPoint": "use",

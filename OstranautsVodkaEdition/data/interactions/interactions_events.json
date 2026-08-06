@@ -2,7 +2,7 @@
   {
     "strName": "EVTBark_None",
     "strTitle": "Выкрик при сильном испуге: Ничего",
-    "strDesc": "[us] [says] ничего.",
+    "strDesc": "[us] говорит ничего.",
     "bRandomInverse": true,
     "aInverse": [],
     "fDuration": 0.0,
@@ -16,7 +16,7 @@
   {
     "strName": "EVTBark_AhCrap",
     "strTitle": "Выкрик при сильном испуге: Чёрт",
-    "strDesc": "[us] [says] «Чёрт.»",
+    "strDesc": "[us] говорит «Чёрт.»",
     "bRandomInverse": true,
     "aInverse": [],
     "fDuration": 0.0,
@@ -30,7 +30,7 @@
   {
     "strName": "EVTBark_AllDie",
     "strTitle": "Выкрик при сильном испуге: Все погибнут",
-    "strDesc": "[us] [says] «Мы все тут погибнем!»",
+    "strDesc": "[us] говорит «Мы все тут погибнем!»",
     "bRandomInverse": true,
     "aInverse": [],
     "fDuration": 0.0,
@@ -44,7 +44,7 @@
   {
     "strName": "EVTBark_CantDoThis",
     "strTitle": "Выкрик при сильном испуге: Не могу этого",
-    "strDesc": "[us] [says] «Я не могу это сделать!»",
+    "strDesc": "[us] говорит «Я не могу это сделать!»",
     "bRandomInverse": true,
     "aInverse": [],
     "fDuration": 0.0,
@@ -58,7 +58,7 @@
   {
     "strName": "EVTBark_Exciting",
     "strTitle": "Выкрик при сильном испуге: Возбуждение",
-    "strDesc": "[us] [says] «О! Как интересно!»",
+    "strDesc": "[us] говорит «О! Как интересно!»",
     "bRandomInverse": true,
     "aInverse": [],
     "fDuration": 0.0,
@@ -72,7 +72,7 @@
   {
     "strName": "EVTBark_Meh",
     "strTitle": "Выкрик при сильном испуге: Мех",
-    "strDesc": "[us] [says] «Мех.»",
+    "strDesc": "[us] говорит «Мех.»",
     "bRandomInverse": true,
     "aInverse": [],
     "fDuration": 0.0,
@@ -86,7 +86,7 @@
   {
     "strName": "EVTBark_Nice",
     "strTitle": "Выкрик при сильном испуге: Неплохо",
-    "strDesc": "[us] [says] «Неплохо.»",
+    "strDesc": "[us] говорит «Неплохо.»",
     "bRandomInverse": true,
     "aInverse": [],
     "fDuration": 0.0,
@@ -100,7 +100,7 @@
   {
     "strName": "EVTBark_NotThatBad",
     "strTitle": "Выкрик при сильном испуге: Не так уж плохо",
-    "strDesc": "[us] [says] «Уверен, не так уж всё плохо.»",
+    "strDesc": "[us] говорит «Уверен, не так уж всё плохо.»",
     "bRandomInverse": true,
     "aInverse": [],
     "fDuration": 0.0,
@@ -114,7 +114,7 @@
   {
     "strName": "EVTBark_OhGod",
     "strTitle": "Выкрик при сильном испуге: О боже",
-    "strDesc": "[us] [says] «О боже!»",
+    "strDesc": "[us] говорит «О боже!»",
     "bRandomInverse": true,
     "aInverse": [],
     "fDuration": 0.0,
@@ -128,7 +128,7 @@
   {
     "strName": "EVTBark_OhNo",
     "strTitle": "Выкрик при сильном испуге: О нет",
-    "strDesc": "[us] [says] «О нет!»",
+    "strDesc": "[us] говорит «О нет!»",
     "bRandomInverse": true,
     "aInverse": [],
     "fDuration": 0.0,
@@ -142,7 +142,7 @@
   {
     "strName": "EVTBark_PrettyBad",
     "strTitle": "Выкрик при сильном испуге: Довольно плохо",
-    "strDesc": "[us] [says] «Наверное, это довольно плохо.»",
+    "strDesc": "[us] говорит «Наверное, это довольно плохо.»",
     "bRandomInverse": true,
     "aInverse": [],
     "fDuration": 0.0,
@@ -156,7 +156,7 @@
   {
     "strName": "EVTBark_SaveOthers",
     "strTitle": "Выкрик при сильном испуге: Спасти других",
-    "strDesc": "[us] [says] «Нужно проверить, как все.»",
+    "strDesc": "[us] говорит «Нужно проверить, как все.»",
     "bRandomInverse": true,
     "aInverse": [],
     "fDuration": 0.0,
@@ -170,7 +170,7 @@
   {
     "strName": "EVTBark_SaveSelf",
     "strTitle": "Выкрик при сильном испуге: Спасти себя",
-    "strDesc": "[us] [says] «Каждый за себя!»",
+    "strDesc": "[us] говорит «Каждый за себя!»",
     "bRandomInverse": true,
     "aInverse": [],
     "fDuration": 0.0,
@@ -184,7 +184,7 @@
   {
     "strName": "EVTBark_Yay",
     "strTitle": "Выкрик при сильном испуге: Ура",
-    "strDesc": "[us] [says] «Ура!»",
+    "strDesc": "[us] говорит «Ура!»",
     "bRandomInverse": true,
     "aInverse": [],
     "fDuration": 0.0,

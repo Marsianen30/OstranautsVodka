@@ -2,7 +2,7 @@
   {
     "strName": "PLGAIFirefightEmergency",
     "strTitle": "AI: проверка пожарной тревоги",
-    "strDesc": "[us] [checks] наличие пожарной тревоги.",
+    "strDesc": "[us] проверяет наличие пожарной тревоги.",
     "strActionGroup": "Use",
     "nLogging": 0,
     "strTargetPoint": null,
@@ -18,7 +18,7 @@
   {
     "strName": "PLGAISurviveCO2",
     "strTitle": "AI выживает при CO2",
-    "strDesc": "[us] [checks] уровень CO2 у [us-obj].",
+    "strDesc": "[us] проверяет уровень CO2 у [us-obj].",
     "strActionGroup": "Use",
     "nLogging": 0,
     "strTargetPoint": null,
@@ -34,7 +34,7 @@
   {
     "strName": "PLGAISurviveCO2Emergency",
     "strTitle": "AI: проверка тревоги CO2",
-    "strDesc": "[us] [checks] уровень CO2 у [us-obj] на предмет тревоги.",
+    "strDesc": "[us] проверяет уровень CO2 у [us-obj] на предмет тревоги.",
     "strActionGroup": "Use",
     "nLogging": 0,
     "strTargetPoint": null,
@@ -50,7 +50,7 @@
   {
     "strName": "PLGAISurviveO2",
     "strTitle": "AI выживает при O2",
-    "strDesc": "[us] [checks] уровень O2 у [us-obj].",
+    "strDesc": "[us] проверяет уровень O2 у [us-obj].",
     "strActionGroup": "Use",
     "nLogging": 0,
     "strTargetPoint": null,
@@ -66,7 +66,7 @@
   {
     "strName": "PLGAISurviveO2Emergency",
     "strTitle": "AI: проверка тревоги O2",
-    "strDesc": "[us] [checks] уровень O2 у [us-obj] на предмет тревоги.",
+    "strDesc": "[us] проверяет уровень O2 у [us-obj] на предмет тревоги.",
     "strActionGroup": "Use",
     "nLogging": 0,
     "strTargetPoint": null,
@@ -82,7 +82,7 @@
   {
     "strName": "PLGAIEat",
     "strTitle": "AI ест",
-    "strDesc": "[us] [checks] уровень сытости у [us-obj].",
+    "strDesc": "[us] проверяет уровень сытости у [us-obj].",
     "strActionGroup": "Use",
     "nLogging": 0,
     "strTargetPoint": null,
@@ -98,7 +98,7 @@
   {
     "strName": "PLGAIDrink",
     "strTitle": "AI пьёт",
-    "strDesc": "[us] [checks] уровень гидратации у [us-obj].",
+    "strDesc": "[us] проверяет уровень гидратации у [us-obj].",
     "strActionGroup": "Use",
     "nLogging": 0,
     "strTargetPoint": null,
@@ -114,7 +114,7 @@
   {
     "strName": "PLGAIHygiene",
     "strTitle": "AI чинит гигиену",
-    "strDesc": "[us] [checks] гигиену [us-pos].",
+    "strDesc": "[us] проверяет гигиену [us-pos].",
     "strActionGroup": "Use",
     "nLogging": 0,
     "strTargetPoint": null,
@@ -130,7 +130,7 @@
   {
     "strName": "PLGAIUnwearSuit",
     "strTitle": "AI снимает скафандр",
-    "strDesc": "[us] [checks] состояние скафандра [us-pos].",
+    "strDesc": "[us] проверяет состояние скафандра [us-pos].",
     "strActionGroup": "Use",
     "nLogging": 0,
     "strTargetPoint": null,
@@ -168,7 +168,7 @@
   {
     "strName": "PLGAICrimeOKLGLEOArrestStolenShip",
     "strTitle": "OKLG LEO начинает арест за угон корабля",
-    "strDesc": "«Тебя обвиняют в угоне корабля», — [says] [us], глядя на [them-obj]. — «Сдавайся.»",
+    "strDesc": "«Тебя обвиняют в угоне корабля», — говорит [us], глядя на [them-obj]. — «Сдавайся.»",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": null,
@@ -206,7 +206,7 @@
   {
     "strName": "PLGAICrimeOKLGLEOArrestDo",
     "strTitle": "Арест преступника",
-    "strDesc": "«Стой! Ты арестован!» — [shouts] [us] на [them-obj].",
+    "strDesc": "«Стой! Ты арестован!» — кричит [us] на [them-obj].",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": "use",
@@ -229,7 +229,7 @@
   {
     "strName": "PLGAICrimeOKLGLEOArrestDoAllow",
     "strTitle": "Сдаться офицеру",
-    "strDesc": "[us] [goes] мирно вместе с [them-obj].",
+    "strDesc": "[us] идёт мирно вместе с [them-obj].",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": "use",
@@ -249,7 +249,7 @@
   {
     "strName": "PLGAICrimeOKLGLEOArrestDoDeny",
     "strTitle": "Заявить о невиновности",
-    "strDesc": "[us] [tells] [them], что [them-subj] [имеет] дело не с тем человеком.",
+    "strDesc": "[us] говорит [them], что [them-subj] имеет дело не с тем человеком.",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": "use",
@@ -269,7 +269,7 @@
   {
     "strName": "PLGAICrimeOKLGLEOArrestEnd",
     "strTitle": "OKLG LEO закончил арест преступника",
-    "strDesc": "«Ещё одна победа закона», — [says] [us].",
+    "strDesc": "«Ещё одна победа закона», — говорит [us].",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": "use",
@@ -314,7 +314,7 @@
   {
     "strName": "PLGAICrimeLEOArrestEndCancelContd",
     "strTitle": "Преступник уже арестован (реплика)",
-    "strDesc": "«Никаких неоплаченных ордеров не найдено», — [says] [us]. — «Занимайся своими делами.»",
+    "strDesc": "«Никаких неоплаченных ордеров не найдено», — говорит [us]. — «Занимайся своими делами.»",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": "use",
@@ -386,7 +386,7 @@
   {
     "strName": "PLGAIFirefightDo",
     "strTitle": "Потушить пожар",
-    "strDesc": "[us] [decides] потушить [them].",
+    "strDesc": "[us] решает потушить [them].",
     "strActionGroup": "Work",
     "nLogging": 1,
     "strTargetPoint": "use",
@@ -410,7 +410,7 @@
   {
     "strName": "PLGAIGreetCaptainDo",
     "strTitle": "Заметить капитана",
-    "strDesc": "[us] [решает] отсалютовать своему капитану [them].",
+    "strDesc": "[us] решает отсалютовать своему капитану [them].",
     "strActionGroup": "Talk",
     "nLogging": 0,
     "strTargetPoint": "talk",
@@ -431,7 +431,7 @@
   {
     "strName": "PLGAIGreetEnemyDo",
     "strTitle": "Заметить врага",
-    "strDesc": "[us] [решает] поприветствовать [them].",
+    "strDesc": "[us] решает поприветствовать [them].",
     "strActionGroup": "Talk",
     "nLogging": 0,
     "strTargetPoint": "talk",
@@ -452,7 +452,7 @@
   {
     "strName": "PLGAIGreetFriendDo",
     "strTitle": "Заметить друга",
-    "strDesc": "[us] с радостью [решает] поприветствовать [them].",
+    "strDesc": "[us] с радостью решает поприветствовать [them].",
     "strActionGroup": "Talk",
     "nLogging": 0,
     "strTargetPoint": "talk",
@@ -474,7 +474,7 @@
   {
     "strName": "PLGAIGreetLoverDo",
     "strTitle": "Заметить любовника",
-    "strDesc": "[us] с радостью [решает] поприветствовать [them].",
+    "strDesc": "[us] с радостью решает поприветствовать [them].",
     "strActionGroup": "Talk",
     "nLogging": 0,
     "strTargetPoint": "talk",
@@ -495,7 +495,7 @@
   {
     "strName": "PLGAIMaintenanceTechWorkOKLGBreak",
     "strTitle": "Устал: передохнуть",
-    "strDesc": "[us] [grumbles] на бесконечную работу по обслуживанию.",
+    "strDesc": "[us] ворчит на бесконечную работу по обслуживанию.",
     "strActionGroup": "Work",
     "nLogging": 1,
     "strTargetPoint": null,
@@ -518,7 +518,7 @@
   {
     "strName": "PLGAIMaintenanceTechWorkOKLGBreakSmoke",
     "strTitle": "Устал: перекур",
-    "strDesc": "[us] [enjoys] перекуром. Приказ вице-короля.",
+    "strDesc": "[us] наслаждается перекуром. Приказ вице-короля.",
     "strActionGroup": "Work",
     "nLogging": 1,
     "strTargetPoint": null,
@@ -541,7 +541,7 @@
   {
     "strName": "PLGAIMaintenanceTechWorkRestorePriorityDo",
     "strTitle": "Провести обслуживание",
-    "strDesc": "[us] [decides] вычистить и обслужить [them].",
+    "strDesc": "[us] решает вычистить и обслужить [them].",
     "strActionGroup": "Work",
     "nLogging": 1,
     "strTargetPoint": "use",
@@ -565,7 +565,7 @@
   {
     "strName": "PLGAIMaintenanceTechWorkRestoreDoAllowPriority",
     "strTitle": "Проводит обслуживание",
-    "strDesc": "[us] [begins] действительно вычистить и обслужить [them].",
+    "strDesc": "[us] начинает действительно вычистить и обслужить [them].",
     "strActionGroup": "Work",
     "nLogging": 0,
     "strTargetPoint": "use",
@@ -587,7 +587,7 @@
   {
     "strName": "PLGAIMaintenanceTechWorkRestorePriority2Do",
     "strTitle": "Провести обслуживание",
-    "strDesc": "[us] [decides] вычистить и обслужить [them].",
+    "strDesc": "[us] решает вычистить и обслужить [them].",
     "strActionGroup": "Work",
     "nLogging": 1,
     "strTargetPoint": "use",
@@ -611,7 +611,7 @@
   {
     "strName": "PLGAIMaintenanceTechWorkRestoreDoAllowPriority2",
     "strTitle": "Проводит обслуживание",
-    "strDesc": "[us] [begins] действительно вычистить и обслужить [them].",
+    "strDesc": "[us] начинает действительно вычистить и обслужить [them].",
     "strActionGroup": "Work",
     "nLogging": 0,
     "strTargetPoint": "use",
@@ -633,7 +633,7 @@
   {
     "strName": "PLGAIMaintenanceTechWorkRestoreDo",
     "strTitle": "Провести обслуживание",
-    "strDesc": "[us] [decides] вычистить и обслужить [them].",
+    "strDesc": "[us] решает вычистить и обслужить [them].",
     "strActionGroup": "Work",
     "nLogging": 1,
     "strTargetPoint": "use",
@@ -657,7 +657,7 @@
   {
     "strName": "PLGAIMaintenanceTechWorkRestoreDoAllow",
     "strTitle": "Проводит обслуживание",
-    "strDesc": "[us] [begins] действительно вычистить и обслужить [them].",
+    "strDesc": "[us] начинает действительно вычистить и обслужить [them].",
     "strActionGroup": "Work",
     "nLogging": 0,
     "strTargetPoint": "use",
@@ -679,7 +679,7 @@
   {
     "strName": "PLGAIMaintenanceTechWorkRestoreDoAllowHull",
     "strTitle": "Проводит обслуживание",
-    "strDesc": "[us] [begins] действительно вычистить и обслужить [them].",
+    "strDesc": "[us] начинает действительно вычистить и обслужить [them].",
     "strActionGroup": "Work",
     "nLogging": 0,
     "strTargetPoint": "use",
@@ -718,7 +718,7 @@
   {
     "strName": "PLGAIMaintenanceTechWorkRestoreDoFail",
     "strTitle": "Не удаётся провести обслуживание",
-    "strDesc": "[us] сейчас не [может] обслужить [them].",
+    "strDesc": "[us] сейчас не может обслужить [them].",
     "strActionGroup": "Work",
     "nLogging": 1,
     "strTargetPoint": null,
@@ -737,7 +737,7 @@
   {
     "strName": "PLGAIMaintenanceTechWorkPatchDo",
     "strTitle": "Заделать пробоину",
-    "strDesc": "[us] [decides] залатать [them].",
+    "strDesc": "[us] решает залатать [them].",
     "strActionGroup": "Work",
     "nLogging": 1,
     "strTargetPoint": "use",
@@ -762,7 +762,7 @@
   {
     "strName": "PLGAIMaintenanceTechWorkPatchDoFail",
     "strTitle": "Не удаётся провести обслуживание",
-    "strDesc": "[us] сейчас не [может] залатать [them].",
+    "strDesc": "[us] сейчас не может залатать [them].",
     "strActionGroup": "Work",
     "nLogging": 1,
     "strTargetPoint": null,
@@ -781,7 +781,7 @@
   {
     "strName": "PLGAIMaintenanceTechWorkFireExtinguishDo",
     "strTitle": "Устранить пожар",
-    "strDesc": "[us] [decides] разобраться с [them-obj].",
+    "strDesc": "[us] решает разобраться с [them-obj].",
     "strActionGroup": "Work",
     "nLogging": 1,
     "strTargetPoint": null,
@@ -804,7 +804,7 @@
   {
     "strName": "PLGAIMaintenanceTechWorkReplaceCanDo",
     "strTitle": "Устранить низкий уровень газа",
-    "strDesc": "[us] [decides] разобраться с низким уровнем газа в [them].",
+    "strDesc": "[us] решает разобраться с низким уровнем газа в [them].",
     "strActionGroup": "Work",
     "nLogging": 1,
     "strTargetPoint": "use",
@@ -828,7 +828,7 @@
   {
     "strName": "PLGAIMaintenanceTechWorkReplaceCanDoAllow",
     "strTitle": "Устранить газовые баллоны",
-    "strDesc": "[us] [plans], как разобраться с уровнем газа в [them].",
+    "strDesc": "[us] планирует, как разобраться с уровнем газа в [them].",
     "strActionGroup": "Work",
     "nLogging": 1,
     "strTargetPoint": "use",
@@ -854,7 +854,7 @@
   {
     "strName": "PLGAIMaintenanceTechWorkRepairDo",
     "strTitle": "Осмотр неисправностей станции",
-    "strDesc": "[us] [decides] отремонтировать [them].",
+    "strDesc": "[us] решает отремонтировать [them].",
     "strActionGroup": "Work",
     "nLogging": 1,
     "strTargetPoint": "use",
@@ -878,7 +878,7 @@
   {
     "strName": "PLGAIMaintenanceTechWorkRepairDoAllow",
     "strTitle": "Проводит ремонт",
-    "strDesc": "[us] [plans], как отремонтировать [them].",
+    "strDesc": "[us] планирует, как отремонтировать [them].",
     "strActionGroup": "Work",
     "nLogging": 1,
     "strTargetPoint": null,
@@ -920,7 +920,7 @@
   {
     "strName": "PLGAIMaintenanceTechWorkRepairDoFail",
     "strTitle": "Не удаётся провести ремонт",
-    "strDesc": "[us] сейчас не [может] отремонтировать [them].",
+    "strDesc": "[us] сейчас не может отремонтировать [them].",
     "strActionGroup": "Work",
     "nLogging": 1,
     "strTargetPoint": null,
@@ -962,7 +962,7 @@
   {
     "strName": "PLGAIMaintenanceTechWorkRetrieveDead",
     "strTitle": "Обнаружить погибшего на станции",
-    "strDesc": "[us] [learns] о погибшем, которого нужно утилизировать.",
+    "strDesc": "[us] учится о погибшем, которого нужно утилизировать.",
     "strActionGroup": "Work",
     "nLogging": 1,
     "strTargetPoint": null,
@@ -983,7 +983,7 @@
   {
     "strName": "PLGAIMaintenanceTechWorkRetrieveDeadDo",
     "strTitle": "Утилизировать погибшего на станции",
-    "strDesc": "[us] [prepares] забрать [them].",
+    "strDesc": "[us] готовит забрать [them].",
     "strActionGroup": "Use",
     "nLogging": 1,
     "strTargetPoint": "use",
@@ -1008,7 +1008,7 @@
   {
     "strName": "PLGAIMaintenanceTechWorkRetrieveDeadDoEnd",
     "strTitle": "Готово: утилизация погибшего",
-    "strDesc": "[us] [finishes] поднимать [them].",
+    "strDesc": "[us] заканчивает поднимать [them].",
     "strActionGroup": "Use",
     "nLogging": 0,
     "strTargetPoint": null,
@@ -1025,7 +1025,7 @@
   {
     "strName": "PLGAIMaintenanceTechWorkRetrieveDeadDoEndOffShip",
     "strTitle": "Отмена: утилизация погибшего",
-    "strDesc": "[us] [abandons] поднимать [them].",
+    "strDesc": "[us] бросает поднимать [them].",
     "strActionGroup": "Use",
     "nLogging": 0,
     "strTargetPoint": null,
@@ -1043,7 +1043,7 @@
   {
     "strName": "PLGAIMaintenanceTechWorkRetrieveDeadDoDeliverBody",
     "strTitle": "Транспортировка",
-    "strDesc": "[us] [prepares] транспортировать [3rd] через [them].",
+    "strDesc": "[us] готовит транспортировать [3rd] через [them].",
     "strActionGroup": "Use",
     "strTargetPoint": null,
     "fTargetPointRange": 1,
@@ -1067,7 +1067,7 @@
   {
     "strName": "PLGAIMaintenanceTechWorkRetrieveDeadDoDeliverBodyShim",
     "strTitle": "Транспортировка",
-    "strDesc": "[us] [transports] [them] к [3rd-obj].",
+    "strDesc": "[us] перевозит [them] к [3rd-obj].",
     "strActionGroup": "Use",
     "strTargetPoint": null,
     "fTargetPointRange": 1,
@@ -1094,7 +1094,7 @@
   {
     "strName": "PLGAIMaintenanceTechWorkRetrieveDeadDoDeliverBodyAllow",
     "strTitle": "Транспортировка",
-    "strDesc": "[us] [transports] [3rd] к [them-obj].",
+    "strDesc": "[us] перевозит [3rd] к [them-obj].",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
     "fTargetPointRange": 2,
@@ -1140,7 +1140,7 @@
   {
     "strName": "PLGAIRobbery",
     "strTitle": "Грабитель начинает грабить игрока",
-    "strDesc": "«Ну-ну-ну. Что тут у нас», — [says] [us], глядя на [them-obj].",
+    "strDesc": "«Ну-ну-ну. Что тут у нас», — говорит [us], глядя на [them-obj].",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": "talk",
@@ -1164,7 +1164,7 @@
   {
     "strName": "PLGAIShipRobbery",
     "strTitle": "Грабитель начинает грабить игрока",
-    "strDesc": "«Ну-ну-ну. Гляди-ка, кого я нашёл», — [says] [us], глядя на [them-obj].",
+    "strDesc": "«Ну-ну-ну. Гляди-ка, кого я нашёл», — говорит [us], глядя на [them-obj].",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": "talk",
@@ -1188,7 +1188,7 @@
   {
     "strName": "PLGAIRobberyDo",
     "strTitle": "Оппортунист грабит усмирённых",
-    "strDesc": "«Выкладывай всё ценное», — [menaces] [us]. — «Быстро!»",
+    "strDesc": "«Выкладывай всё ценное», — угрожает [us]. — «Быстро!»",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": "use",
@@ -1210,7 +1210,7 @@
   {
     "strName": "PLGAIRobberyDoAllow",
     "strTitle": "Сдаться грабителю",
-    "strDesc": "[us] [submits], будучи ограбленным [them].",
+    "strDesc": "[us] подчиняется, будучи ограбленным [them].",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": "use",
@@ -1230,7 +1230,7 @@
   {
     "strName": "PLGShipAIRobberyEnd",
     "strTitle": "Грабитель грабит преступника",
-    "strDesc": "«Я заберу своё», — [says] [us].",
+    "strDesc": "«Я заберу своё», — говорит [us].",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": "use",
@@ -1258,7 +1258,7 @@
   {
     "strName": "PLGAIRobberyEnd",
     "strTitle": "Грабитель грабит преступника",
-    "strDesc": "«Я заберу своё», — [says] [us].",
+    "strDesc": "«Я заберу своё», — говорит [us].",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": "use",
@@ -1284,7 +1284,7 @@
   {
     "strName": "PLGShipAIRobberyFailed",
     "strTitle": "Грабитель сдаётся",
-    "strDesc": "«Ладно, ладно, твоя взяла», — [says] [us].",
+    "strDesc": "«Ладно, ладно, твоя взяла», — говорит [us].",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": "use",
@@ -1366,7 +1366,7 @@
   {
     "strName": "PLGAICombatBoardingEnd",
     "strTitle": "Захват: бой окончен",
-    "strDesc": "«Контакт!» — [says] [us].",
+    "strDesc": "«Контакт!» — говорит [us].",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": null,
@@ -1386,7 +1386,7 @@
   {
     "strName": "PLGAIReportCrimeDeny",
     "strTitle": "Доложить о преступлении: неудача",
-    "strDesc": "[us] [fails] доложить о преступлении на [them-obj].",
+    "strDesc": "[us] терпит неудачу доложить о преступлении на [them-obj].",
     "strActionGroup": "Talk",
     "nLogging": 0,
     "strTargetPoint": null,
@@ -1404,7 +1404,7 @@
   {
     "strName": "PLGAIReportCrimeOKLGArrest",
     "strTitle": "Доложить о преступлении",
-    "strDesc": "[us] [speaks] в [us-pos] PDA, глядя на [them-obj].",
+    "strDesc": "[us] говорит в [us-pos] PDA, глядя на [them-obj].",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": null,
@@ -1427,7 +1427,7 @@
   {
     "strName": "PLGAIReportCrimeOKLGArrestAllow",
     "strTitle": "Доложить о преступлении: успех",
-    "strDesc": "[us] успешно [reports] о преступлении на [them-obj].",
+    "strDesc": "[us] успешно сообщает о преступлении на [them-obj].",
     "strActionGroup": "Talk",
     "nLogging": 0,
     "strTargetPoint": null,
@@ -1462,7 +1462,7 @@
   {
     "strName": "PLGAIReportCrimeOKLGThreat",
     "strTitle": "Доложить о преступлении",
-    "strDesc": "[us] [speaks] в [us-pos] PDA, глядя на [them-obj].",
+    "strDesc": "[us] говорит в [us-pos] PDA, глядя на [them-obj].",
     "strActionGroup": "Talk",
     "nLogging": 0,
     "strTargetPoint": null,
@@ -1485,7 +1485,7 @@
   {
     "strName": "PLGAIReportCrimeOKLGThreatAllow",
     "strTitle": "Доложить о преступлении: успех",
-    "strDesc": "[us] успешно [reports] о преступлении на [them-obj].",
+    "strDesc": "[us] успешно сообщает о преступлении на [them-obj].",
     "strActionGroup": "Talk",
     "nLogging": 0,
     "strTargetPoint": null,
@@ -1520,7 +1520,7 @@
   {
     "strName": "PLGAICrimeCCRELEOArrest",
     "strTitle": "CCRE LEO начинает арестовывать преступника",
-    "strDesc": "«Подозреваемый замечен», — [says] [us], глядя на [them-obj].",
+    "strDesc": "«Подозреваемый замечен», — говорит [us], глядя на [them-obj].",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": null,
@@ -1557,7 +1557,7 @@
   {
     "strName": "PLGAICrimeCCRELEOArrestDo",
     "strTitle": "Арест преступника",
-    "strDesc": "«Стой! Ты арестован!» — [shouts] [us] на [them-obj].",
+    "strDesc": "«Стой! Ты арестован!» — кричит [us] на [them-obj].",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": "use",
@@ -1578,7 +1578,7 @@
   {
     "strName": "PLGAICrimeCCRELEOArrestDoAllow",
     "strTitle": "Сдаться офицеру",
-    "strDesc": "[us] [goes] мирно вместе с [them-obj].",
+    "strDesc": "[us] идёт мирно вместе с [them-obj].",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": "use",
@@ -1598,7 +1598,7 @@
   {
     "strName": "PLGAICrimeCCRELEOArrestDoDeny",
     "strTitle": "Заявить о невиновности",
-    "strDesc": "[us] [tells] [them], что [them-subj] [имеет] дело не с тем человеком.",
+    "strDesc": "[us] говорит [them], что [them-subj] имеет дело не с тем человеком.",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": "use",
@@ -1618,7 +1618,7 @@
   {
     "strName": "PLGAICrimeCCRELEOArrestEnd",
     "strTitle": "CCRE LEO закончил арест преступника",
-    "strDesc": "«Ещё одна победа закона», — [says] [us].",
+    "strDesc": "«Ещё одна победа закона», — говорит [us].",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": "use",
@@ -1694,7 +1694,7 @@
   {
     "strName": "PLGAICrimeCCRELEOArrestStolenShip",
     "strTitle": "CCRE LEO начинает арест за угон корабля",
-    "strDesc": "«Тебя обвиняют в угоне корабля», — [says] [us], глядя на [them-obj]. — «Сдавайся.»",
+    "strDesc": "«Тебя обвиняют в угоне корабля», — говорит [us], глядя на [them-obj]. — «Сдавайся.»",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": null,
@@ -1716,7 +1716,7 @@
   {
     "strName": "PLGAIReportCrimeCCREArrest",
     "strTitle": "Доложить о преступлении",
-    "strDesc": "[us] [speaks] в [us-pos] PDA, глядя на [them-obj].",
+    "strDesc": "[us] говорит в [us-pos] PDA, глядя на [them-obj].",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": null,
@@ -1739,7 +1739,7 @@
   {
     "strName": "PLGAIReportCrimeCCREArrestAllow",
     "strTitle": "Доложить о преступлении: успех",
-    "strDesc": "[us] успешно [reports] о преступлении на [them-obj].",
+    "strDesc": "[us] успешно сообщает о преступлении на [them-obj].",
     "strActionGroup": "Talk",
     "nLogging": 0,
     "strTargetPoint": null,
@@ -1774,7 +1774,7 @@
   {
     "strName": "PLGAIReportCrimeCCRETrespass",
     "strTitle": "Доложить о преступлении",
-    "strDesc": "[us] [says] «Убирайся отсюда», затем говорит в [us-pos] PDA, глядя на [them-obj].",
+    "strDesc": "[us] говорит «Убирайся отсюда», затем говорит в [us-pos] PDA, глядя на [them-obj].",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": null,
@@ -1797,7 +1797,7 @@
   {
     "strName": "PLGAIReportCrimeCCRETrespassAllow",
     "strTitle": "Доложить о преступлении: успех",
-    "strDesc": "[us] успешно [reports] о преступлении на [them-obj].",
+    "strDesc": "[us] успешно сообщает о преступлении на [them-obj].",
     "strActionGroup": "Talk",
     "nLogging": 0,
     "strTargetPoint": null,
@@ -1817,7 +1817,7 @@
   {
     "strName": "PLGAIReportCrimeCCRETrespassDeny",
     "strTitle": "Доложить о преступлении: неудача",
-    "strDesc": "[us] [fails] доложить о преступлении на [them-obj].",
+    "strDesc": "[us] терпит неудачу доложить о преступлении на [them-obj].",
     "strActionGroup": "Talk",
     "nLogging": 0,
     "strTargetPoint": null,
@@ -1854,7 +1854,7 @@
   {
     "strName": "PLGAIReportCrimeCCRETrespassNPCDone",
     "strTitle": "Отменить доклад о преступлении",
-    "strDesc": "[us] больше не [собирается] докладывать о преступлении.",
+    "strDesc": "[us] больше не собирается докладывать о преступлении.",
     "strActionGroup": "Use",
     "nLogging": 0,
     "strTargetPoint": null,
@@ -1871,7 +1871,7 @@
   {
     "strName": "PLGAIReportCrimeCCREThreat",
     "strTitle": "Доложить о преступлении",
-    "strDesc": "[us] [speaks] в [us-pos] PDA, глядя на [them-obj].",
+    "strDesc": "[us] говорит в [us-pos] PDA, глядя на [them-obj].",
     "strActionGroup": "Talk",
     "nLogging": 0,
     "strTargetPoint": null,
@@ -1894,7 +1894,7 @@
   {
     "strName": "PLGAIReportCrimeCCREThreatAllow",
     "strTitle": "Доложить о преступлении: успех",
-    "strDesc": "[us] успешно [reports] о преступлении на [them-obj].",
+    "strDesc": "[us] успешно сообщает о преступлении на [them-obj].",
     "strActionGroup": "Talk",
     "nLogging": 0,
     "strTargetPoint": null,
@@ -1929,7 +1929,7 @@
   {
     "strName": "PLGAICrimeVenusLEOArrest",
     "strTitle": "Venus LEO начинает арестовывать преступника",
-    "strDesc": "«Подозреваемый замечен», — [says] [us], глядя на [them-obj].",
+    "strDesc": "«Подозреваемый замечен», — говорит [us], глядя на [them-obj].",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": null,
@@ -1966,7 +1966,7 @@
   {
     "strName": "PLGAICrimeVenusLEOArrestDo",
     "strTitle": "Арест преступника",
-    "strDesc": "«Стой! Ты арестован!» — [shouts] [us] на [them-obj].",
+    "strDesc": "«Стой! Ты арестован!» — кричит [us] на [them-obj].",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": "use",
@@ -1989,7 +1989,7 @@
   {
     "strName": "PLGAICrimeVenusLEOArrestDoAllow",
     "strTitle": "Сдаться офицеру",
-    "strDesc": "[us] [goes] мирно вместе с [them-obj].",
+    "strDesc": "[us] идёт мирно вместе с [them-obj].",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": "use",
@@ -2009,7 +2009,7 @@
   {
     "strName": "PLGAICrimeVenusLEOArrestDoDeny",
     "strTitle": "Заявить о невиновности",
-    "strDesc": "[us] [tells] [them], что [them-subj] [имеет] дело не с тем человеком.",
+    "strDesc": "[us] говорит [them], что [them-subj] имеет дело не с тем человеком.",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": "use",
@@ -2029,7 +2029,7 @@
   {
     "strName": "PLGAICrimeLEOArrestCancelScan",
     "strTitle": "Сканирование преступника",
-    "strDesc": "«Сканирую район», — [says] [us].",
+    "strDesc": "«Сканирую район», — говорит [us].",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": null,
@@ -2047,7 +2047,7 @@
   {
     "strName": "PLGAICrimeVenusLEOArrestEnd",
     "strTitle": "Venus LEO закончил арест преступника",
-    "strDesc": "«Ещё одна победа закона», — [says] [us].",
+    "strDesc": "«Ещё одна победа закона», — говорит [us].",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": "use",
@@ -2123,7 +2123,7 @@
   {
     "strName": "PLGAICrimeVenusLEOArrestStolenShip",
     "strTitle": "Venus LEO начинает арест за угон корабля",
-    "strDesc": "«Тебя обвиняют в угоне корабля», — [says] [us], глядя на [them-obj]. — «Сдавайся.»",
+    "strDesc": "«Тебя обвиняют в угоне корабля», — говорит [us], глядя на [them-obj]. — «Сдавайся.»",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": null,
@@ -2145,7 +2145,7 @@
   {
     "strName": "PLGAIReportCrimeVenusArrest",
     "strTitle": "Доложить о преступлении",
-    "strDesc": "[us] [говорит] «Только не на Венере», затем [speaks] в [us-pos] PDA, глядя на [them-obj].",
+    "strDesc": "[us] говорит «Только не на Венере», затем говорит в [us-pos] PDA, глядя на [them-obj].",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": null,
@@ -2168,7 +2168,7 @@
   {
     "strName": "PLGAIReportCrimeVenusArrestAllow",
     "strTitle": "Доложить о преступлении: успех",
-    "strDesc": "[us] успешно [reports] о преступлении на [them-obj].",
+    "strDesc": "[us] успешно сообщает о преступлении на [them-obj].",
     "strActionGroup": "Talk",
     "nLogging": 0,
     "strTargetPoint": null,
@@ -2203,7 +2203,7 @@
   {
     "strName": "PLGAIReportCrimeVenusTrespass",
     "strTitle": "Доложить о преступлении",
-    "strDesc": "[us] [says] «Убирайся отсюда», затем говорит в [us-pos] PDA, глядя на [them-obj].",
+    "strDesc": "[us] говорит «Убирайся отсюда», затем говорит в [us-pos] PDA, глядя на [them-obj].",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": null,
@@ -2226,7 +2226,7 @@
   {
     "strName": "PLGAIReportCrimeVenusTrespassAllow",
     "strTitle": "Доложить о преступлении: успех",
-    "strDesc": "[us] успешно [reports] о преступлении на [them-obj].",
+    "strDesc": "[us] успешно сообщает о преступлении на [them-obj].",
     "strActionGroup": "Talk",
     "nLogging": 0,
     "strTargetPoint": null,
@@ -2246,7 +2246,7 @@
   {
     "strName": "PLGAIReportCrimeVenusTrespassDeny",
     "strTitle": "Доложить о преступлении: неудача",
-    "strDesc": "[us] [fails] доложить о преступлении на [them-obj].",
+    "strDesc": "[us] терпит неудачу доложить о преступлении на [them-obj].",
     "strActionGroup": "Talk",
     "nLogging": 0,
     "strTargetPoint": null,
@@ -2283,7 +2283,7 @@
   {
     "strName": "PLGAIReportCrimeVenusTrespassNPCDone",
     "strTitle": "Отменить доклад о преступлении",
-    "strDesc": "[us] больше не [собирается] докладывать о преступлении.",
+    "strDesc": "[us] больше не собирается докладывать о преступлении.",
     "strActionGroup": "Use",
     "nLogging": 0,
     "strTargetPoint": null,
@@ -2300,7 +2300,7 @@
   {
     "strName": "PLGAIReportCrimeVenusThreat",
     "strTitle": "Доложить о преступлении",
-    "strDesc": "[us] [speaks] в [us-pos] PDA, глядя на [them-obj].",
+    "strDesc": "[us] говорит в [us-pos] PDA, глядя на [them-obj].",
     "strActionGroup": "Talk",
     "nLogging": 0,
     "strTargetPoint": null,
@@ -2323,7 +2323,7 @@
   {
     "strName": "PLGAIReportCrimeVenusThreatAllow",
     "strTitle": "Доложить о преступлении: успех",
-    "strDesc": "[us] успешно [reports] о преступлении на [them-obj].",
+    "strDesc": "[us] успешно сообщает о преступлении на [them-obj].",
     "strActionGroup": "Talk",
     "nLogging": 0,
     "strTargetPoint": null,
@@ -2358,7 +2358,7 @@
   {
     "strName": "PLGAIRobotDroneDecoy",
     "strTitle": "Расследование преступления",
-    "strDesc": "«Подозреваемый замечен», — [says] [us], глядя на [them-obj]. — «Обнаружены аномалии.»",
+    "strDesc": "«Подозреваемый замечен», — говорит [us], глядя на [them-obj]. — «Обнаружены аномалии.»",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": "use",
@@ -2377,7 +2377,7 @@
   {
     "strName": "PLGAIRobotDroneDecoyDo",
     "strTitle": "Арест преступника",
-    "strDesc": "«Стой! Ты арестован!» — [shouts] [us] на [them-obj].",
+    "strDesc": "«Стой! Ты арестован!» — кричит [us] на [them-obj].",
     "strActionGroup": "Talk",
     "nLogging": 1,
     "strTargetPoint": "use",
@@ -2408,7 +2408,7 @@
   {
     "strName": "PLGAIRobotDroneDecoyEnd",
     "strTitle": "Расследование преступления",
-    "strDesc": "«Аномалии больше не обнаружены», — [says] [us], глядя на [them-obj] с умеренным разочарованием.",
+    "strDesc": "«Аномалии больше не обнаружены», — говорит [us], глядя на [them-obj] с умеренным разочарованием.",
     "strActionGroup": "Talk",
     "nLogging": 2,
     "strTargetPoint": "use",
@@ -2425,7 +2425,7 @@
   {
     "strName": "PLGAIEndDecoy",
     "strTitle": "Отменить задание из-за отвлечения на дрон-приманку",
-    "strDesc": "[us] [removes] задание из-за отвлечения на дрон-приманку",
+    "strDesc": "[us] убирает задание из-за отвлечения на дрон-приманку",
     "strActionGroup": "Talk",
     "nLogging": 0,
     "strAnim": "Idle",
@@ -2440,7 +2440,7 @@
   {
     "strName": "PLGAIEndHack",
     "strTitle": "Отменить задание из-за взлома",
-    "strDesc": "[us] [removes] задание из-за хакерского вторжения",
+    "strDesc": "[us] убирает задание из-за хакерского вторжения",
     "strActionGroup": "Talk",
     "nLogging": 0,
     "strAnim": "Idle",
@@ -2455,7 +2455,7 @@
   {
     "strName": "PLGAIFreeUpSpace",
     "strTitle": "AI сбрасывает стек, чтобы освободить место",
-    "strDesc": "[us] [собирается] сбросить [them].",
+    "strDesc": "[us] собирается сбросить [them].",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
     "fTargetPointRange": 1,
@@ -2481,7 +2481,7 @@
   {
     "strName": "PLGAIFreeUpSpaceDone",
     "strTitle": "AI закончил освобождать место в инвентаре.",
-    "strDesc": "[us] [checks], закончил ли AI освобождать место в инвентаре.",
+    "strDesc": "[us] проверяет, закончил ли AI освобождать место в инвентаре.",
     "strActionGroup": "Use",
     "nLogging": 0,
     "strTargetPoint": null,
@@ -2500,7 +2500,7 @@
   {
     "strName": "PLGAIWearSuitAndHelmetFinished",
     "strTitle": "AI надевает скафандр и шлем",
-    "strDesc": "[us] [checks], закончил ли AI надевать скафандр и шлем.",
+    "strDesc": "[us] проверяет, закончил ли AI надевать скафандр и шлем.",
     "strActionGroup": "Use",
     "nLogging": 0,
     "strTargetPoint": null,
@@ -2518,7 +2518,7 @@
   {
     "strName": "PLGAIWearSuitTriggered",
     "strTitle": "AI ищет скафандр",
-    "strDesc": "[us] [ищет] скафандр и шлем.",
+    "strDesc": "[us] ищет скафандр и шлем.",
     "strActionGroup": "Use",
     "nLogging": 0,
     "strTargetPoint": null,
@@ -2555,7 +2555,7 @@
   {
     "strName": "PLGBartend",
     "strTitle": "AI за барной стойкой",
-    "strDesc": "[us] [tends] к барной стойке.",
+    "strDesc": "[us] ухаживает к барной стойке.",
     "strActionGroup": "Use",
     "nLogging": 0,
     "strTargetPoint": "work",
@@ -2571,7 +2571,7 @@
   {
     "strName": "PLGFlotillaBroker",
     "strTitle": "Продажа заложенного товара",
-    "strDesc": "[us] [hawks] заложенным товаром.",
+    "strDesc": "[us] торгует заложенным товаром.",
     "strActionGroup": "Use",
     "nLogging": 1,
     "strTargetPoint": "use",
@@ -2587,7 +2587,7 @@
   {
     "strName": "PLGFlotillaOrganizer",
     "strTitle": "Уход за растениями",
-    "strDesc": "[us] [tends] к растениям.",
+    "strDesc": "[us] ухаживает к растениям.",
     "strActionGroup": "Use",
     "nLogging": 1,
     "strTargetPoint": "use",
@@ -2604,7 +2604,7 @@
   {
     "strName": "PLGPatrolCommand",
     "strTitle": "Приказано патрулировать корабль",
-    "strDesc": "[us] [патрулирует].",
+    "strDesc": "[us] патрулирует.",
     "strActionGroup": "Use",
     "nLogging": 1,
     "strBubble": "BblAdvance",
@@ -2632,7 +2632,7 @@
   {
     "strName": "PLGDisembarkCommand",
     "strTitle": "Приказано покинуть текущий корабль",
-    "strDesc": "[us] [покидает] корабль.",
+    "strDesc": "[us] покидает корабль.",
     "strActionGroup": "Use",
     "nLogging": 1,
     "strBubble": "BblAdvance",
@@ -2676,7 +2676,7 @@
   {
     "strName": "PLGEmbarkCommand",
     "strTitle": "Приказано вернуться на корабль",
-    "strDesc": "[us] [возвращается] на корабль.",
+    "strDesc": "[us] возвращается на корабль.",
     "strActionGroup": "Use",
     "nLogging": 1,
     "strBubble": "BblAdvance",
@@ -2736,7 +2736,7 @@
   {
     "strName": "PLGFollowCommand",
     "strTitle": "Приказано следовать за ними",
-    "strDesc": "[us] [follows] за [them].",
+    "strDesc": "[us] следует за [them].",
     "strActionGroup": "Use",
     "nLogging": 1,
     "strBubble": "BblAdvance",
@@ -2780,7 +2780,7 @@
   {
     "strName": "PLGStandTable",
     "strTitle": "Стоит у стола",
-    "strDesc": "[us] [стоит] у стола.",
+    "strDesc": "[us] стоит у стола.",
     "strActionGroup": "Use",
     "nLogging": 0,
     "strTargetPoint": "use",
@@ -2797,7 +2797,7 @@
   {
     "strName": "PLGStandTerminal",
     "strTitle": "Стоит у терминала",
-    "strDesc": "[us] [стоит] у терминала.",
+    "strDesc": "[us] стоит у терминала.",
     "strActionGroup": "Use",
     "nLogging": 0,
     "strTargetPoint": "use",
@@ -2814,7 +2814,7 @@
   {
     "strName": "PLGStandTerminalBingham",
     "strTitle": "Стоит у терминала Bingham",
-    "strDesc": "[us] [стоит] у терминала.",
+    "strDesc": "[us] стоит у терминала.",
     "strActionGroup": "Use",
     "nLogging": 0,
     "strTargetPoint": "use",
@@ -2831,7 +2831,7 @@
   {
     "strName": "PLGStandTerminalPolaris",
     "strTitle": "Стоит у терминала Polaris",
-    "strDesc": "[us] [стоит] у терминала.",
+    "strDesc": "[us] стоит у терминала.",
     "strActionGroup": "Use",
     "nLogging": 0,
     "strTargetPoint": "use",
@@ -2848,7 +2848,7 @@
   {
     "strName": "PLGStandTerminalRenbao",
     "strTitle": "Стоит у терминала Renbao",
-    "strDesc": "[us] [стоит] у терминала.",
+    "strDesc": "[us] стоит у терминала.",
     "strActionGroup": "Use",
     "nLogging": 0,
     "strTargetPoint": "use",
@@ -2865,7 +2865,7 @@
   {
     "strName": "PLGStandTerminalGEC",
     "strTitle": "Стоит у терминала GEC",
-    "strDesc": "[us] [стоит] у терминала.",
+    "strDesc": "[us] стоит у терминала.",
     "strActionGroup": "Use",
     "nLogging": 0,
     "strTargetPoint": "use",
@@ -2882,7 +2882,7 @@
   {
     "strName": "PLGStandTerminalClothes",
     "strTitle": "Стоит у терминала Clothes",
-    "strDesc": "[us] [стоит] у терминала.",
+    "strDesc": "[us] стоит у терминала.",
     "strActionGroup": "Use",
     "nLogging": 0,
     "strTargetPoint": "use",
@@ -2899,7 +2899,7 @@
   {
     "strName": "PLGStandTerminalShoes",
     "strTitle": "Стоит у терминала Shoes",
-    "strDesc": "[us] [стоит] у терминала.",
+    "strDesc": "[us] стоит у терминала.",
     "strActionGroup": "Use",
     "nLogging": 0,
     "strTargetPoint": "use",
@@ -2916,7 +2916,7 @@
   {
     "strName": "PLGStandTerminalCollectiveElectric",
     "strTitle": "Стоит у терминала CollectiveElectric",
-    "strDesc": "[us] [стоит] у терминала.",
+    "strDesc": "[us] стоит у терминала.",
     "strActionGroup": "Use",
     "nLogging": 0,
     "strTargetPoint": "use",
@@ -2933,7 +2933,7 @@
   {
     "strName": "PLGStandTerminalMiura",
     "strTitle": "Стоит у терминала Miura",
-    "strDesc": "[us] [стоит] у терминала.",
+    "strDesc": "[us] стоит у терминала.",
     "strActionGroup": "Use",
     "nLogging": 0,
     "strTargetPoint": "use",
@@ -2950,7 +2950,7 @@
   {
     "strName": "PLGStandTerminalRakow",
     "strTitle": "Стоит у терминала Rakow",
-    "strDesc": "[us] [стоит] у терминала.",
+    "strDesc": "[us] стоит у терминала.",
     "strActionGroup": "Use",
     "nLogging": 0,
     "strTargetPoint": "use",
@@ -2967,7 +2967,7 @@
   {
     "strName": "PLGStandTerminalKang",
     "strTitle": "Стоит у терминала Kang",
-    "strDesc": "[us] [стоит] у терминала.",
+    "strDesc": "[us] стоит у терминала.",
     "strActionGroup": "Use",
     "nLogging": 0,
     "strTargetPoint": "use",
@@ -2984,7 +2984,7 @@
   {
     "strName": "PLGStandTerminalSulaiman",
     "strTitle": "Стоит у терминала Sulaiman",
-    "strDesc": "[us] [стоит] у терминала.",
+    "strDesc": "[us] стоит у терминала.",
     "strActionGroup": "Use",
     "nLogging": 0,
     "strTargetPoint": "use",
@@ -3001,7 +3001,7 @@
   {
     "strName": "PLGStandTerminalWeber",
     "strTitle": "Стоит у терминала Weber",
-    "strDesc": "[us] [стоит] у терминала.",
+    "strDesc": "[us] стоит у терминала.",
     "strActionGroup": "Use",
     "nLogging": 0,
     "strTargetPoint": "use",
@@ -3018,7 +3018,7 @@
   {
     "strName": "PLGStandTerminalHorang",
     "strTitle": "Стоит у терминала Horang",
-    "strDesc": "[us] [стоит] у терминала.",
+    "strDesc": "[us] стоит у терминала.",
     "strActionGroup": "Use",
     "nLogging": 0,
     "strTargetPoint": "use",
@@ -3035,7 +3035,7 @@
   {
     "strName": "PLGStandTerminalHalvorson",
     "strTitle": "Стоит у терминала Halvorson",
-    "strDesc": "[us] [стоит] у терминала.",
+    "strDesc": "[us] стоит у терминала.",
     "strActionGroup": "Use",
     "nLogging": 0,
     "strTargetPoint": "use",
@@ -3052,7 +3052,7 @@
   {
     "strName": "PLGStandTerminalBlackWing",
     "strTitle": "Стоит у терминала BlackWing",
-    "strDesc": "[us] [стоит] у терминала.",
+    "strDesc": "[us] стоит у терминала.",
     "strActionGroup": "Use",
     "nLogging": 0,
     "strTargetPoint": "use",
@@ -3069,7 +3069,7 @@
   {
     "strName": "PLGStandTerminalFutureFoods",
     "strTitle": "Стоит у терминала FutureFoods",
-    "strDesc": "[us] [стоит] у терминала.",
+    "strDesc": "[us] стоит у терминала.",
     "strActionGroup": "Use",
     "nLogging": 0,
     "strTargetPoint": "use",
@@ -3086,7 +3086,7 @@
   {
     "strName": "PLGStandTerminalGott",
     "strTitle": "Стоит у терминала Gott",
-    "strDesc": "[us] [стоит] у терминала.",
+    "strDesc": "[us] стоит у терминала.",
     "strActionGroup": "Use",
     "nLogging": 0,
     "strTargetPoint": "use",
@@ -3103,7 +3103,7 @@
   {
     "strName": "PLGStandKiosk",
     "strTitle": "Стоит у киоска",
-    "strDesc": "[us] [стоит] у киоска.",
+    "strDesc": "[us] стоит у киоска.",
     "strActionGroup": "Use",
     "nLogging": 0,
     "strTargetPoint": "use",
@@ -3120,7 +3120,7 @@
   {
     "strName": "PLGTransit",
     "strTitle": "NPC получает доступ к транзиту",
-    "strDesc": "[us] [accesses] к [them-obj].",
+    "strDesc": "[us] получает доступ к [them-obj].",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
     "fTargetPointRange": 2,
@@ -3143,7 +3143,7 @@
   {
     "strName": "PLGUseNav",
     "strTitle": "Использование навигационного пульта",
-    "strDesc": "[us] [sits] за пультом управления [them-pos].",
+    "strDesc": "[us] сидит за пультом управления [them-pos].",
     "strActionGroup": "Use",
     "fTargetPointRange": 0,
     "strIdleAnim": "Sitting",
@@ -3171,7 +3171,7 @@
   {
     "strName": "PLGUseNavAllow",
     "strTitle": "Обработка запроса на отстыковку",
-    "strDesc": "[them] [использует] [us].",
+    "strDesc": "[them] использует [us].",
     "strActionGroup": "Use",
     "fTargetPointRange": 0,
     "fRotation": 0,
@@ -3206,8 +3206,8 @@
   },
   {
     "strName": "PSPAIAICrimeCCRELEOArrestAdd",
-    "strTitle": "Добавить задание CCRE LEO Arrest",
-    "strDesc": "[us] [gains] задание CCRE LEO Arrest.",
+    "strTitle": "Добавить задание CCRE LEO: арест",
+    "strDesc": "[us] получает задание CCRE LEO: арест.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3220,8 +3220,8 @@
   },
   {
     "strName": "PSPAIAICrimeCCRELEOArrestStolenShipAdd",
-    "strTitle": "Добавить задание CCRE LEO Arrest за угон корабля",
-    "strDesc": "[us] [gains] задание CCRE LEO Arrest for Stolen Ship.",
+    "strTitle": "Добавить задание CCRE LEO: арест за угон корабля",
+    "strDesc": "[us] получает задание CCRE LEO: арест за угон корабля.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3234,8 +3234,8 @@
   },
   {
     "strName": "PSPAIAICrimeCCRELEOThreatAdd",
-    "strTitle": "Добавить задание CCRE LEO Threat",
-    "strDesc": "[us] [gains] задание CCRE LEO Threat.",
+    "strTitle": "Добавить задание CCRE LEO: угроза",
+    "strDesc": "[us] получает задание CCRE LEO: угроза.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3248,8 +3248,8 @@
   },
   {
     "strName": "PSPAIAICrimeVenusLEOArrestAdd",
-    "strTitle": "Добавить задание Venus LEO Arrest",
-    "strDesc": "[us] [gains] задание Venus LEO Arrest.",
+    "strTitle": "Добавить задание Venus LEO: арест",
+    "strDesc": "[us] получает задание Venus LEO: арест.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3262,8 +3262,8 @@
   },
   {
     "strName": "PSPAIAICrimeVenusLEOArrestStolenShipAdd",
-    "strTitle": "Добавить задание Venus LEO Arrest за угон корабля",
-    "strDesc": "[us] [gains] задание Venus LEO Arrest for Stolen Ship.",
+    "strTitle": "Добавить задание Venus LEO: арест за угон корабля",
+    "strDesc": "[us] получает задание Venus LEO: арест за угон корабля.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3276,8 +3276,8 @@
   },
   {
     "strName": "PSPAIAICrimeVenusLEOThreatAdd",
-    "strTitle": "Добавить задание Venus LEO Threat",
-    "strDesc": "[us] [gains] задание Venus LEO Threat.",
+    "strTitle": "Добавить задание Venus LEO: угроза",
+    "strDesc": "[us] получает задание Venus LEO: угроза.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3290,8 +3290,8 @@
   },
   {
     "strName": "PSPAIAICrimeOKLGLEOArrestAdd",
-    "strTitle": "Добавить задание OKLG LEO Arrest",
-    "strDesc": "[us] [gains] задание OKLG LEO Arrest.",
+    "strTitle": "Добавить задание OKLG LEO: арест",
+    "strDesc": "[us] получает задание OKLG LEO: арест.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3305,8 +3305,8 @@
   },
   {
     "strName": "PSPAIAICrimeOKLGLEOArrestStolenShipAdd",
-    "strTitle": "Добавить задание OKLG LEO Arrest за угон корабля",
-    "strDesc": "[us] [gains] задание OKLG LEO Arrest for Stolen Ship.",
+    "strTitle": "Добавить задание OKLG LEO: арест за угон корабля",
+    "strDesc": "[us] получает задание OKLG LEO: арест за угон корабля.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3320,8 +3320,8 @@
   },
   {
     "strName": "PSPAIAICrimeOKLGLEOThreatAdd",
-    "strTitle": "Добавить задание OKLG LEO Threat",
-    "strDesc": "[us] [gains] задание OKLG LEO Threat.",
+    "strTitle": "Добавить задание OKLG LEO: угроза",
+    "strDesc": "[us] получает задание OKLG LEO: угроза.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3336,7 +3336,7 @@
   {
     "strName": "PSPAIGreetCaptainAdd",
     "strTitle": "Добавить задание «Приветствовать капитана»",
-    "strDesc": "[us] [получает] задание «Приветствовать капитана».",
+    "strDesc": "[us] получает задание «Приветствовать капитана».",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3351,7 +3351,7 @@
   {
     "strName": "PSPAIGreetEnemyAdd",
     "strTitle": "Добавить задание «Приветствовать врага»",
-    "strDesc": "[us] [получает] задание «Приветствовать врага».",
+    "strDesc": "[us] получает задание «Приветствовать врага».",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3366,7 +3366,7 @@
   {
     "strName": "PSPAIGreetFriendAdd",
     "strTitle": "Добавить задание «Приветствовать друга»",
-    "strDesc": "[us] [получает] задание «Приветствовать друга».",
+    "strDesc": "[us] получает задание «Приветствовать друга».",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3381,7 +3381,7 @@
   {
     "strName": "PSPAIGreetLoverAdd",
     "strTitle": "Добавить задание «Приветствовать любовника»",
-    "strDesc": "[us] [получает] задание «Приветствовать любовника».",
+    "strDesc": "[us] получает задание «Приветствовать любовника».",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3396,7 +3396,7 @@
   {
     "strName": "PSPAIRobotDroneDecoyStartAdd",
     "strTitle": "Добавить задание «Запуск дрона-приманки»",
-    "strDesc": "[us] [gains] задание Robot Drone Decoy Start.",
+    "strDesc": "[us] получает задание Robot Drone Decoy Start.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3411,7 +3411,7 @@
   {
     "strName": "PSPAIAIFactionFightAdd",
     "strTitle": "Добавить задание «Бой с фракцией»",
-    "strDesc": "[us] [gains] задание faction fight.",
+    "strDesc": "[us] получает задание faction fight.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3426,7 +3426,7 @@
   {
     "strName": "PSPAIMaintenanceTechWorkFireExtinguishAdd",
     "strTitle": "Добавить задание «OKLG Maintenance Tech Work: пожар»",
-    "strDesc": "[us] [gains] задание OKLG Maintenance Tech Work: Fire Extinguish.",
+    "strDesc": "[us] получает задание OKLG Maintenance Tech Work: Fire Extinguish.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3441,7 +3441,7 @@
   {
     "strName": "PSPAIMaintenanceTechWorkOKLGPatchAdd",
     "strTitle": "Добавить задание «OKLG Maintenance Tech Work: пробоина»",
-    "strDesc": "[us] [gains] задание OKLG Maintenance Tech Work: Patch.",
+    "strDesc": "[us] получает задание OKLG Maintenance Tech Work: Patch.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3456,7 +3456,7 @@
   {
     "strName": "PSPAIMaintenanceTechWorkRepairAdd",
     "strTitle": "Добавить задание «OKLG Maintenance Tech Work: ремонт»",
-    "strDesc": "[us] [gains] задание OKLG Maintenance Tech Work: Repair.",
+    "strDesc": "[us] получает задание OKLG Maintenance Tech Work: Repair.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3471,7 +3471,7 @@
   {
     "strName": "PSPAIMaintenanceTechWorkReplaceCanAdd",
     "strTitle": "Добавить задание «OKLG Maintenance Tech Work: замена баллона»",
-    "strDesc": "[us] [gains] задание OKLG Maintenance Tech Work: ReplaceCan.",
+    "strDesc": "[us] получает задание OKLG Maintenance Tech Work: ReplaceCan.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3486,7 +3486,7 @@
   {
     "strName": "PSPAIMaintenanceTechWorkRestAdd",
     "strTitle": "Добавить задание «OKLG Maintenance Tech Work: отдых»",
-    "strDesc": "[us] [gains] задание OKLG Maintenance Tech Work: Rest.",
+    "strDesc": "[us] получает задание OKLG Maintenance Tech Work: Rest.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3501,7 +3501,7 @@
   {
     "strName": "PSPAIMaintenanceTechWorkOKLGRestorePriorityAdd",
     "strTitle": "Добавить задание «OKLG Maintenance Tech Work: восстановление»",
-    "strDesc": "[us] [gains] задание OKLG Maintenance Tech Work: Restore.",
+    "strDesc": "[us] получает задание OKLG Maintenance Tech Work: Restore.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3516,7 +3516,7 @@
   {
     "strName": "PSPAIMaintenanceTechWorkOKLGRestorePriority2Add",
     "strTitle": "Добавить задание «OKLG Maintenance Tech Work: восстановление»",
-    "strDesc": "[us] [gains] задание OKLG Maintenance Tech Work: Restore.",
+    "strDesc": "[us] получает задание OKLG Maintenance Tech Work: Restore.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3531,7 +3531,7 @@
   {
     "strName": "PSPAIMaintenanceTechWorkOKLGRestoreAdd",
     "strTitle": "Добавить задание «OKLG Maintenance Tech Work: восстановление»",
-    "strDesc": "[us] [gains] задание OKLG Maintenance Tech Work: Restore.",
+    "strDesc": "[us] получает задание OKLG Maintenance Tech Work: Restore.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3546,7 +3546,7 @@
   {
     "strName": "PSPAIMaintenanceTechWorkRetrieveDeadAdd",
     "strTitle": "Добавить задание «OKLG Maintenance Tech Work: забрать тело»",
-    "strDesc": "[us] [gains] задание OKLG Maintenance Tech Work: RetrieveDead.",
+    "strDesc": "[us] получает задание OKLG Maintenance Tech Work: RetrieveDead.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3561,7 +3561,7 @@
   {
     "strName": "PSPAIReplyAdd",
     "strTitle": "Добавить задание «Ответить»",
-    "strDesc": "[us] [gains] задание reply.",
+    "strDesc": "[us] получает задание reply.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3576,7 +3576,7 @@
   {
     "strName": "PSPAIRobberyOpportunity",
     "strTitle": "Добавить задание «Ограбление покинутого пирата»",
-    "strDesc": "[us] [gains] задание robbery.",
+    "strDesc": "[us] получает задание robbery.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3591,7 +3591,7 @@
   {
     "strName": "PSPAIShipRobbery",
     "strTitle": "Добавить задание «Ограбление пиратского корабля»",
-    "strDesc": "[us] [gains] задание ship robbery.",
+    "strDesc": "[us] получает задание ship robbery.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3606,7 +3606,7 @@
   {
     "strName": "PSPAISurviveCO2Add",
     "strTitle": "Добавить задание «AI выживание CO2»",
-    "strDesc": "[us] [gains] задание AI CO2 survival.",
+    "strDesc": "[us] получает задание AI CO2 survival.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3621,7 +3621,7 @@
   {
     "strName": "PSPAISurviveO2Add",
     "strTitle": "Добавить задание «AI выживание O2»",
-    "strDesc": "[us] [gains] задание AI O2 survival.",
+    "strDesc": "[us] получает задание AI O2 survival.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3636,7 +3636,7 @@
   {
     "strName": "PSPPatrolAdd",
     "strTitle": "Добавить задание «Патрулирование»",
-    "strDesc": "[us] [gains] задание patrol.",
+    "strDesc": "[us] получает задание patrol.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3651,7 +3651,7 @@
   {
     "strName": "PSPBartendAdd",
     "strTitle": "Добавить задание «Бар»",
-    "strDesc": "[us] [gains] задание bartending.",
+    "strDesc": "[us] получает задание bartending.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3666,7 +3666,7 @@
   {
     "strName": "PSPFlotillaBrokerAdd",
     "strTitle": "Добавить задание «Брокер флотилии»",
-    "strDesc": "[us] [gains] задание flotilla broker.",
+    "strDesc": "[us] получает задание flotilla broker.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3681,7 +3681,7 @@
   {
     "strName": "PSPFlotillaOrganizerAdd",
     "strTitle": "Добавить задание «Организатор флотилии»",
-    "strDesc": "[us] [gains] задание flotilla organizer.",
+    "strDesc": "[us] получает задание flotilla organizer.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3696,7 +3696,7 @@
   {
     "strName": "PSPAIEatFoodAdd",
     "strTitle": "Добавить задание «AI еда»",
-    "strDesc": "[us] [gains] задание AI eat food.",
+    "strDesc": "[us] получает задание AI eat food.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3711,7 +3711,7 @@
   {
     "strName": "PSPAIDrinkAdd",
     "strTitle": "Добавить задание «AI питьё»",
-    "strDesc": "[us] [gains] задание AI drink.",
+    "strDesc": "[us] получает задание AI drink.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3726,7 +3726,7 @@
   {
     "strName": "PSPAIFirefightAdd",
     "strTitle": "Добавить задание «AI пожар»",
-    "strDesc": "[us] [gains] задание AI firefight.",
+    "strDesc": "[us] получает задание AI firefight.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3741,7 +3741,7 @@
   {
     "strName": "PSPAIHygieneAdd",
     "strTitle": "Добавить задание «AI гигиена»",
-    "strDesc": "[us] [gains] задание AI hygiene.",
+    "strDesc": "[us] получает задание AI hygiene.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3756,7 +3756,7 @@
   {
     "strName": "PSPAIStandUp",
     "strTitle": "Добавить задание «AI встать»",
-    "strDesc": "[us] [gains] задание AI stand.",
+    "strDesc": "[us] получает задание AI stand.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3771,7 +3771,7 @@
   {
     "strName": "PSPAIUnwearSuitAdd",
     "strTitle": "Добавить задание «AI снять скафандр»",
-    "strDesc": "[us] [gains] задание AI unwearsuit.",
+    "strDesc": "[us] получает задание AI unwearsuit.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3786,7 +3786,7 @@
   {
     "strName": "PSPPoliceShakedownAdd",
     "strTitle": "Добавить задание «Полицейский обыск»",
-    "strDesc": "[us] [gains] задание police shakedown.",
+    "strDesc": "[us] получает задание police shakedown.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3801,7 +3801,7 @@
   {
     "strName": "PSPDerelictWound",
     "strTitle": "Добавить тяжёлые ранения",
-    "strDesc": "[us] [gains] тяжёлые ранения.",
+    "strDesc": "[us] получает тяжёлые ранения.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3824,7 +3824,7 @@
   {
     "strName": "PSPDerelictWound2",
     "strTitle": "Добавить ранения",
-    "strDesc": "[us] [gains] ранения.",
+    "strDesc": "[us] получает ранения.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3843,7 +3843,7 @@
   {
     "strName": "PSPDerelictWound3",
     "strTitle": "Добавить ранения",
-    "strDesc": "[us] [gains] ранения.",
+    "strDesc": "[us] получает ранения.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3862,7 +3862,7 @@
   {
     "strName": "PSPDerelictDead",
     "strTitle": "Добавить смерть",
-    "strDesc": "[us] [gains] неминуемую смерть.",
+    "strDesc": "[us] получает неминуемую смерть.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3881,7 +3881,7 @@
   {
     "strName": "PSPStandTableAdd",
     "strTitle": "Добавить задание «Стоять у стола»",
-    "strDesc": "[us] [gains] задание stand table.",
+    "strDesc": "[us] получает задание stand table.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3896,7 +3896,7 @@
   {
     "strName": "PSPStandTerminalAdd",
     "strTitle": "Добавить задание «Стоять у терминала»",
-    "strDesc": "[us] [gains] задание stand terminal.",
+    "strDesc": "[us] получает задание stand terminal.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3911,7 +3911,7 @@
   {
     "strName": "PSPStandTerminalBinghamAdd",
     "strTitle": "Добавить задание «Стоять у терминала Bingham»",
-    "strDesc": "[us] [gains] задание stand terminal.",
+    "strDesc": "[us] получает задание stand terminal.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3926,7 +3926,7 @@
   {
     "strName": "PSPStandTerminalPolarisAdd",
     "strTitle": "Добавить задание «Стоять у терминала Polaris»",
-    "strDesc": "[us] [gains] задание stand terminal.",
+    "strDesc": "[us] получает задание stand terminal.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3941,7 +3941,7 @@
   {
     "strName": "PSPStandTerminalRenbaoAdd",
     "strTitle": "Добавить задание «Стоять у терминала Renbao»",
-    "strDesc": "[us] [gains] задание stand terminal.",
+    "strDesc": "[us] получает задание stand terminal.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3956,7 +3956,7 @@
   {
     "strName": "PSPStandTerminalGECAdd",
     "strTitle": "Добавить задание «Стоять у терминала GEC»",
-    "strDesc": "[us] [gains] задание stand terminal.",
+    "strDesc": "[us] получает задание stand terminal.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3971,7 +3971,7 @@
   {
     "strName": "PSPStandTerminalClothesAdd",
     "strTitle": "Добавить задание «Стоять у терминала Clothes»",
-    "strDesc": "[us] [gains] задание stand terminal.",
+    "strDesc": "[us] получает задание stand terminal.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -3986,7 +3986,7 @@
   {
     "strName": "PSPStandTerminalShoesAdd",
     "strTitle": "Добавить задание «Стоять у терминала Shoes»",
-    "strDesc": "[us] [gains] задание stand terminal.",
+    "strDesc": "[us] получает задание stand terminal.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -4001,7 +4001,7 @@
   {
     "strName": "PSPStandTerminalCollectiveElectricAdd",
     "strTitle": "Добавить задание «Стоять у терминала CollectiveElectric»",
-    "strDesc": "[us] [gains] задание stand terminal.",
+    "strDesc": "[us] получает задание stand terminal.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -4016,7 +4016,7 @@
   {
     "strName": "PSPStandTerminalRakowAdd",
     "strTitle": "Добавить задание «Стоять у терминала Rakow»",
-    "strDesc": "[us] [gains] задание stand terminal.",
+    "strDesc": "[us] получает задание stand terminal.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -4031,7 +4031,7 @@
   {
     "strName": "PSPStandTerminalKangAdd",
     "strTitle": "Добавить задание «Стоять у терминала Kang»",
-    "strDesc": "[us] [gains] задание stand terminal.",
+    "strDesc": "[us] получает задание stand terminal.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -4046,7 +4046,7 @@
   {
     "strName": "PSPStandTerminalSulaimanAdd",
     "strTitle": "Добавить задание «Стоять у терминала Sulaiman»",
-    "strDesc": "[us] [gains] задание stand terminal.",
+    "strDesc": "[us] получает задание stand terminal.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -4061,7 +4061,7 @@
   {
     "strName": "PSPStandTerminalWeberAdd",
     "strTitle": "Добавить задание «Стоять у терминала Weber»",
-    "strDesc": "[us] [gains] задание stand terminal.",
+    "strDesc": "[us] получает задание stand terminal.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -4076,7 +4076,7 @@
   {
     "strName": "PSPStandTerminalHorangAdd",
     "strTitle": "Добавить задание «Стоять у терминала Horang»",
-    "strDesc": "[us] [gains] задание stand terminal.",
+    "strDesc": "[us] получает задание stand terminal.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -4091,7 +4091,7 @@
   {
     "strName": "PSPStandTerminalHalvorsonAdd",
     "strTitle": "Добавить задание «Стоять у терминала Halvorson»",
-    "strDesc": "[us] [gains] задание stand terminal.",
+    "strDesc": "[us] получает задание stand terminal.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -4106,7 +4106,7 @@
   {
     "strName": "PSPStandTerminalBlackWingAdd",
     "strTitle": "Добавить задание «Стоять у терминала BlackWing»",
-    "strDesc": "[us] [gains] задание stand terminal.",
+    "strDesc": "[us] получает задание stand terminal.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -4121,7 +4121,7 @@
   {
     "strName": "PSPStandTerminalFutureFoodsAdd",
     "strTitle": "Добавить задание «Стоять у терминала FutureFoods»",
-    "strDesc": "[us] [gains] задание stand terminal.",
+    "strDesc": "[us] получает задание stand terminal.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -4136,7 +4136,7 @@
   {
     "strName": "PSPStandTerminalGottAdd",
     "strTitle": "Добавить задание «Стоять у терминала Gott»",
-    "strDesc": "[us] [gains] задание stand terminal.",
+    "strDesc": "[us] получает задание stand terminal.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [],
@@ -4151,7 +4151,7 @@
   {
     "strName": "NPCAssignFundsCareer",
     "strTitle": "Добавить стартовые средства карьеры",
-    "strDesc": "[us] [gains] средства.",
+    "strDesc": "[us] получает средства.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [
@@ -4172,7 +4172,7 @@
   {
     "strName": "NPCAssignFundsStrata",
     "strTitle": "Добавить стартовые средства страты",
-    "strDesc": "[us] [gains] средства.",
+    "strDesc": "[us] получает средства.",
     "nLogging": 0,
     "strTargetPoint": null,
     "aInverse": [

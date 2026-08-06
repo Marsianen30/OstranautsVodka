@@ -236,7 +236,7 @@
   {
     "strName": "HackRobotStartSimpleDeny",
     "strTitle": "Взлом: в перезагрузке отказано",
-    "strDesc": "[them] [сопротивляется] попытке удаленной принудительной перезагрузки.",
+    "strDesc": "[them] сопротивляется попытке удаленной принудительной перезагрузки.",
     "strTargetPoint": "use",
     "fTargetPointRange": 20,
     "strColor": "Dialogue",
@@ -580,7 +580,7 @@
   {
     "strName": "HackRobotEnd",
     "strTitle": "Завершить попытку взлома",
-    "strDesc": "[us] [завершает] попытку взлома [them].",
+    "strDesc": "[us] завершает попытку взлома [them].",
     "strColor": "Dialogue",
     "strActionGroup": "Use",
     "aInverse": [],
