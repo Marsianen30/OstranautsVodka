@@ -13,6 +13,7 @@ using Ostranauts.Core.Tutorials;
 using Ostranauts.Objectives;
 using TMPro;
 using UnityEngine;
+using UnityEngine.TextCore.LowLevel;
 
 namespace OstranautsRuTranslation
 {
@@ -36,6 +37,58 @@ namespace OstranautsRuTranslation
         // где перевод обязан различать род (например "was"/"were" -> был/была/было/были)
         internal static Dictionary<string, string[]> GenderVerbForms = new Dictionary<string, string[]>(StringComparer.OrdinalIgnoreCase);
         internal static Dictionary<string, TutorialTranslation> TutorialTranslations = new Dictionary<string, TutorialTranslation>(StringComparer.OrdinalIgnoreCase);
+
+        // Montserrat Bold (OFL) TMP font asset, loaded once at startup from a TTF
+        // shipped next to the plugin DLL. Applied to dialogue + context-menu text.
+        internal static TMP_FontAsset DialogueFont;
+
+        private static void LoadDialogueFont()
+        {
+            try
+            {
+                var dir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) ?? ".";
+                var path = Path.Combine(dir, "Montserrat-Bold.ttf");
+                if (!File.Exists(path))
+                {
+                    Log?.LogWarning($"[RU] Font file not found: {path} — dialogue font unchanged");
+                    return;
+                }
+
+                DialogueFont = TMP_FontAsset.CreateFontAsset(
+                    path, 0, 90, 9, GlyphRenderMode.SDFAA, 1024, 1024);
+
+                if (DialogueFont == null)
+                {
+                    Log?.LogWarning("[RU] Failed to create Montserrat TMP_FontAsset");
+                    return;
+                }
+                DialogueFont.name = "Montserrat-Bold RU";
+                UnityEngine.Object.DontDestroyOnLoad(DialogueFont);
+                Log?.LogInfo("[RU] Dialogue font loaded (Montserrat Bold)");
+            }
+            catch (Exception ex)
+            {
+                Log?.LogError($"[RU] LoadDialogueFont failed: {ex}");
+            }
+        }
+
+        // Swap a TMP component's font to Montserrat while preserving the original
+        // as fallback so any missing glyph still renders.
+        internal static void ApplyDialogueFont(TMP_Text tmp)
+        {
+            if (tmp == null || DialogueFont == null || tmp.font == DialogueFont) return;
+            try
+            {
+                var original = tmp.font;
+                if (original != null && DialogueFont.fallbackFontAssetTable != null
+                    && !DialogueFont.fallbackFontAssetTable.Contains(original))
+                {
+                    DialogueFont.fallbackFontAssetTable.Add(original);
+                }
+                tmp.font = DialogueFont;
+            }
+            catch { }
+        }
 
         internal sealed class TutorialTranslation
         {
@@ -221,6 +274,8 @@ namespace OstranautsRuTranslation
                 LoadTutorialTranslations();
                 ReplaceGrammarDictionaries();
                 Log.LogInfo("[RU] Grammar replaced");
+
+                LoadDialogueFont();
 
                 try
                 {
@@ -679,6 +734,60 @@ namespace OstranautsRuTranslation
                 }
             }
             catch { }
+        }
+    }
+
+    // Dialogue window (social interaction panel): swap the message log, reply
+    // preview, encounter title/body and objective text to Montserrat. Init() is
+    // where GUISocialCombat2 resolves these TMP components by transform path.
+    [HarmonyPatch(typeof(GUISocialCombat2), "Init")]
+    public static class Patch_GUISocialCombat2_Init
+    {
+        static readonly string[] TextPaths = new[]
+        {
+            "pnlTextLog/Viewport/txt",
+            "pnlPreview/txt",
+            "pnlEncounter/txtTitle",
+            "pnlEncounter/pnlTxtScroll/Viewport/txt",
+            "pnlObjective/txt",
+            "pnlObjective/pnlTitle/txtTitle",
+        };
+
+        static void Postfix(GUISocialCombat2 __instance)
+        {
+            if (RuTranslation.DialogueFont == null) return;
+            try
+            {
+                foreach (var path in TextPaths)
+                {
+                    var tr = __instance.transform.Find(path);
+                    var tmp = tr?.GetComponent<TMP_Text>();
+                    if (tmp != null) RuTranslation.ApplyDialogueFont(tmp);
+                }
+            }
+            catch { }
+        }
+    }
+
+    // Context menu (radial interaction buttons): each entry's label is a public
+    // TextMeshProUGUI on RadialContextMenuObject, (re)assigned text in Setup.
+    [HarmonyPatch(typeof(RadialContextMenuObject), "Setup", new Type[] { typeof(Interaction) })]
+    public static class Patch_RadialContextMenuObject_SetupInteraction
+    {
+        static void Postfix(RadialContextMenuObject __instance)
+        {
+            if (RuTranslation.DialogueFont == null) return;
+            RuTranslation.ApplyDialogueFont(__instance.text);
+        }
+    }
+
+    [HarmonyPatch(typeof(RadialContextMenuObject), "Setup", new Type[] { typeof(CondOwner) })]
+    public static class Patch_RadialContextMenuObject_SetupCondOwner
+    {
+        static void Postfix(RadialContextMenuObject __instance)
+        {
+            if (RuTranslation.DialogueFont == null) return;
+            RuTranslation.ApplyDialogueFont(__instance.text);
         }
     }
 
