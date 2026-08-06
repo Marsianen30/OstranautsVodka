@@ -5701,7 +5701,7 @@
     "strName": "DcCOPoisoning01",
     "strNameFriendly": "Недомогание",
     "strColor": "Badish",
-    "strDesc": "[us] чувствует vaguely unwell и жар.",
+    "strDesc": "[us] чувствует лёгкое недомогание и жар.",
     "bResetTimer": false,
     "nDisplaySelf": 2,
     "nDisplayOther": 1,

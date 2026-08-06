@@ -1456,7 +1456,7 @@
   {
     "strName": "SOCFashionNoPants",
     "strTitle": "Без штанов?",
-    "strDesc": "[us] разглядывает [them] and фыркает, \"Решил, что сегодня день без штанов?\"",
+    "strDesc": "[us] разглядывает [them] и фыркает: \"Решил, что сегодня день без штанов?\"",
     "strTargetPoint": "talk",
     "strActionGroup": "Talk",
     "fTargetPointRange": 2.0,
@@ -2034,7 +2034,7 @@
   {
     "strName": "SOCBreakoutBanter",
     "strTitle": "Болтовня: Прорыв",
-    "strDesc": "[us] перешучивается with [them] о недавнем матче Breakout.",
+    "strDesc": "[us] перешучивается с [them] о недавнем матче Breakout.",
     "strTargetPoint": "talk",
     "strActionGroup": "Talk",
     "fTargetPointRange": 2.0,
@@ -2629,7 +2629,7 @@
   {
     "strName": "SOCGagShiver",
     "strTitle": "Кляп и дрожь",
-    "strDesc": "[us] давится и притворяется a shiver.",
+    "strDesc": "[us] давится и притворяется, будто вздрагивает.",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2.0,

@@ -11445,7 +11445,7 @@
   {
     "strName": "GUITradeBuyOKLGLicense",
     "strTitle": "Купить лицензию на 24 часа ($5000)",
-    "strDesc": "[us] просит a Желтую Лицензию Ayotimiwa на утилизацию.",
+    "strDesc": "[us] просит Жёлтую лицензию Ayotimiwa на утилизацию.",
     "strTooltip": "Покупает 24-часовую «Жёлтую» официальную лицензию на утилизацию.",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
@@ -11494,7 +11494,7 @@
   {
     "strName": "GUITradeBuyOKLGLicenseB",
     "strTitle": "Купить лицензию на 72 часа ($13,500)",
-    "strDesc": "[us] просит a Красную лицензию Ayotimiwa на утилизацию.",
+    "strDesc": "[us] просит Красную лицензию Ayotimiwa на утилизацию.",
     "strTooltip": "Покупает 72-часовую «Красную» официальную лицензию на утилизацию.",
     "strActionGroup": "Use",
     "strTargetPoint": "use",

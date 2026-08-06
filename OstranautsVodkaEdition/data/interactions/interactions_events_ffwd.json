@@ -1581,7 +1581,7 @@
   {
     "strName": "FFWDEventAdmiringShipParts",
     "strTitle": "Уборка корабля",
-    "strDesc": "[us] admired the [them]. Разве это не замечательно?",
+    "strDesc": "[us] любуется [them]. Разве это не замечательно?",
     "strActionGroup": "Use",
     "strColor": "Dialogue",
     "aInverse": [],
