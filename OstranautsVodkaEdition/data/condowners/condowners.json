@@ -260,7 +260,8 @@
       "SOCInviteToLoopMonoNB",
       "SOCPartnerKiss",
       "SOCBreakUp",
-      "SOCBreakUpPlayer"
+      "SOCBreakUpPlayer",
+      "ClaimBounty"
     ],
     "aStartingConds": [
       "IsAIAgent=1.0x1",
@@ -4256,7 +4257,7 @@
       "IsHandheld=1.0x1.0",
       "IsPrescription=1.0x1",
       "IsSolid=1.0x1.0",
-      "StatBasePrice=1x10000.0",
+      "StatBasePrice=1x1000000.0",
       "StatMass=1.0x0.4",
       "StatDamageMax=1.0x4",
       "IsCategoryMedical=1.0x1"
@@ -16777,7 +16778,8 @@
     "aInteractions": [
       "ACTKioskUseNPC",
       "JOBKioskPickup",
-      "GUIJobs"
+      "GUIJobs",
+      "GUIBounties"
     ],
     "aStartingConds": [
       "IsHiddenInv=1.0x1",
@@ -16819,7 +16821,8 @@
     "aInteractions": [
       "ACTKioskUseNPC",
       "JOBKioskPickup",
-      "GUIJobs"
+      "GUIJobs",
+      "GUIBounties"
     ],
     "aStartingConds": [
       "IsGigNexus=1.0x1",
@@ -29047,7 +29050,7 @@
       "IsToolWireCutter=1.0x2.0",
       "IsWeber=1.0x1",
       "StatMass=1.0x15.0",
-      "StatBasePrice=1.0x7650.0",
+      "StatBasePrice=1.0x22650.0",
       "StatDamageMax=1.0x5",
       "StatDismantleProgressMax=1.0x230",
       "IsPowerObservable=1.0x1",
@@ -29116,7 +29119,7 @@
       "IsToolWireCutter=1.0x2.0",
       "IsWeber=1.0x1",
       "StatMass=1.0x15.0",
-      "StatBasePrice=1.0x1250.0",
+      "StatBasePrice=1.0x4530.0",
       "StatDamageMax=1.0x15",
       "StatRepairProgressMax=1.0x2100",
       "IsPowerObservable=1.0x1",
@@ -30965,14 +30968,19 @@
     "strLoot": "ItmVendingMachineCoffee",
     "strType": "Item",
     "aInteractions": [
-      "Inventory"
+      "ACTKioskUseNPC",
+      "GUITradeKiosk"
     ],
     "aStartingConds": [
       "IsHiddenInv=1.0x1",
+      "IsInfiniteContainer=1.0x1",
       "IsInstalled=1.0x1",
+      "IsKiosk=1.0x1",
+      "IsKioskNPC=1.0x1",
       "IsContainer=1.0x1",
       "IsSalvageValueHigh=1.0x1.0",
       "IsSolid=1.0x1.0",
+      "IsTraderNPC=1.0x1",
       "IsWaterproof=1.0x1",
       "StatBasePrice=1.0x2485.00",
       "StatMass=1.0x31.0",
@@ -30983,7 +30991,7 @@
     "aUpdateCommands": [
       "Destructable,StatDamage,ACTTechDestroy,StatDamageMax,1.0"
     ],
-    "strContainerCT": "TIsFitContainerSolid",
+    "strContainerCT": "TIsFitContainerUnlimited",
     "mapPoints": [
       "use,24,0"
     ],
@@ -32708,8 +32716,7 @@
       "IsLiquid=1.0x1.0",
       "IsBlood=1.0x1.0",
       "IsWet=1.0x1.0",
-      "StatBasePrice=1.0x0.6",
-      "IsNotForSale=1.0x1",
+      "StatBasePrice=1.0x16.0",
       "StatMass=1.0x0.2625",
       "IsCategoryMedical=1.0x1"
     ],

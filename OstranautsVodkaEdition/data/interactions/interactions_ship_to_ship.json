@@ -209,12 +209,13 @@
     "strActionGroup": "Ship",
     "strColor": "Neutral",
     "aInverse": [
-      "them#SHIPMultiDockingStartAllow"
+      "them#SHIPDock"
     ],
     "bOpener": true,
     "fTargetPointRange": 100000000,
     "bIgnoreFeelings": true,
-    "nLogging": 1
+    "nLogging": 0,
+    "ShipTestUs": "CanDockAnywhere"
   },
   {
     "strName": "SHIPProceedToDocking",

@@ -1275,7 +1275,8 @@
     "LootCTsUs": null,
     "LootCTsThem": null,
     "CTTestUs": "TIsHumanAwake",
-    "CTTestThem": null
+    "CTTestThem": null,
+    "aInverse": []
   },
   {
     "strName": "ENCEmbassyServicesVNCAKioskTut",
@@ -1966,7 +1967,6 @@
     "strTitle": "Продолжить",
     "strDesc": "Вы возобновляете игру.",
     "strColor": "Dialogue",
-    "aInverse": [],
     "fDuration": 0.0,
     "strThemType": "Self",
     "nLogging": 0,
@@ -2076,7 +2076,8 @@
     "LootCondsUs": "CONDENCFirstDockFlotillaUs",
     "LootCTsThem": null,
     "CTTestUs": "TIsENCFirstDockFlotilla",
-    "CTTestThem": null
+    "CTTestThem": null,
+    "strAchievementUnlock": "ACH_FLOTILLA"
   },
   {
     "strName": "ENCTutorialBridge",
@@ -2134,7 +2135,8 @@
     "LootCondsUs": "CONDENCFirstDockVNCAUs",
     "LootCTsThem": null,
     "CTTestUs": "TIsENCFirstDockNewCal",
-    "CTTestThem": null
+    "CTTestThem": null,
+    "strAchievementUnlock": "ACH_VENUS"
   },
   {
     "strName": "ENCFirstDockVNCAContd",
@@ -2178,7 +2180,8 @@
     "LootCondsUs": "CONDACTTogglePowerGateVLA",
     "LootCTsThem": null,
     "CTTestUs": "TIsENCFirstDockVLA01",
-    "CTTestThem": null
+    "CTTestThem": null,
+    "strAchievementUnlock": "ACH_VENUS"
   },
   {
     "strName": "ENCFirstDockOKLG",
@@ -2298,7 +2301,7 @@
     "strDesc": "Калико-Сити приветствует вас до тех пор, пока вы не намерены задерживаться.\n\nЦерера придерживается строгой диеты, состоящей из добычи полезных ископаемых, независимости и самосуда. Население здесь амбициозное, шумное и беспокойное.\n\nВозможно, со временем посетители смогут принять участие не только в портовых и торговых мероприятиях.",
     "strColor": "Dialogue",
     "aInverse": [
-      "ENCFinish"
+      "ENCFirstDockBCERCalico"
     ],
     "fDuration": 0.0003,
     "strThemType": "Self",
@@ -2308,12 +2311,13 @@
     "nLogging": 0,
     "bHumanOnly": true,
     "bIgnoreFeelings": true,
-    "strMusic": null,
-    "bForceMusic": false,
+    "strMusic": "StationUSA",
+    "bForceMusic": true,
     "LootCondsUs": "CONDENCFirstDockBCERUs",
     "LootCTsThem": null,
     "CTTestUs": "TIsENCFirstDockBCER",
-    "CTTestThem": null
+    "CTTestThem": null,
+    "strAchievementUnlock": "ACH_CERES"
   },
   {
     "strName": "ENCFirstDockBCRS",
@@ -2321,7 +2325,7 @@
     "strDesc": "Добро пожаловать на монетный двор! Но не называйте это так на борту, иначе вы можете столкнуться с неудобствами из-за порезанной сонной артерии. CCRE утверждает, что времена пиратства прошли, но она также снимает с себя ответственность за то, каким образом жители или наемники могут решить сохранить достоинство станции.\n\n\"Станция Кольца\" работает на уважении, которое предлагается и зарабатывается, работая в самой прибыльной горнодобывающей отрасли в Системе. Колонии и корпорации Пояса отправляют руду, а Станция Кольца превращает ее в золото. Здешнее население амбициозно, шумно и неспокойно.\n\nВозможно, со временем посетители смогут принять участие не только в портовых и торговых мероприятиях.",
     "strColor": "Dialogue",
     "aInverse": [
-      "ENCFinish"
+      "ENCFirstDockBCRS1"
     ],
     "fDuration": 0.0003,
     "strThemType": "Self",
@@ -2331,12 +2335,13 @@
     "nLogging": 0,
     "bHumanOnly": true,
     "bIgnoreFeelings": true,
-    "strMusic": null,
-    "bForceMusic": false,
+    "strMusic": "StationXinhua",
+    "bForceMusic": true,
     "LootCondsUs": "CONDENCFirstDockBCRSUs",
     "LootCTsThem": null,
     "CTTestUs": "TIsENCFirstDockBCRS",
-    "CTTestThem": null
+    "CTTestThem": null,
+    "strAchievementUnlock": "ACH_CERES"
   },
   {
     "strName": "ENCFirstDockBWVN",
@@ -2359,7 +2364,8 @@
     "LootCondsUs": "CONDENCFirstDockBWVNUs",
     "LootCTsThem": null,
     "CTTestUs": "TIsENCFirstDockBWVN",
-    "CTTestThem": null
+    "CTTestThem": null,
+    "strAchievementUnlock": "ACH_WEAVERS_NEEDLE"
   },
   {
     "strName": "ENCFirstDockEJDR",
@@ -2367,18 +2373,18 @@
     "strDesc": "Добро пожаловать в Jade Rabbit! Первый дом внеземных устремлений человечества и ступенька Синьхуа к космическому господству. Теперь разрушающиеся фасады в стиле ар-деко скрывают рухнувший и, возможно, населенный призраками туристический пузырь, который отказывается умирать.\n\nСкваттеры, которые называют Джейд Рэббит своим домом, зарабатывают на производстве He-3, переживая давно минувшие славные дни и надуманные заявления о перебоях в передаче сообщений со Старой Земли. Население здесь голодное, шумное и встревоженное.\n\nВозможно, со временем посетители смогут принять участие не только в портовых и торговых мероприятиях.",
     "strColor": "Dialogue",
     "aInverse": [
-      "ENCFinish"
+      "ENCFirstDockEJDRContd"
     ],
     "fDuration": 0.0003,
     "strThemType": "Self",
     "strRaiseUI": "SocialCombat",
     "strSubUI": "Landscape01",
-    "strImage": "encounters/ENCPlanetSunrise",
+    "strImage": "encounters/ENCFirstDockEJDR",
     "nLogging": 0,
     "bHumanOnly": true,
     "bIgnoreFeelings": true,
-    "strMusic": null,
-    "bForceMusic": false,
+    "strMusic": "StationXinhua",
+    "bForceMusic": true,
     "LootCondsUs": "CONDENCFirstDockEJDRUs",
     "LootCTsThem": null,
     "CTTestUs": "TIsENCFirstDockEJDR",
@@ -2442,7 +2448,7 @@
     "strThemType": "Self",
     "strRaiseUI": "SocialCombat",
     "strSubUI": "Landscape01",
-    "strImage": "encounters/ENCPlanetSunrise",
+    "strImage": "encounters/ENCFirstDockAtlantis",
     "nLogging": 0,
     "bHumanOnly": true,
     "bIgnoreFeelings": true,
@@ -2469,8 +2475,8 @@
     "nLogging": 0,
     "bHumanOnly": true,
     "bIgnoreFeelings": true,
-    "strMusic": null,
-    "bForceMusic": false,
+    "strMusic": "StationUSA",
+    "bForceMusic": true,
     "LootCondsUs": "CONDENCFirstDockJFTSUs",
     "LootCTsThem": null,
     "CTTestUs": "TIsENCFirstDockJFTS",
@@ -2511,12 +2517,12 @@
     "strThemType": "Self",
     "strRaiseUI": "SocialCombat",
     "strSubUI": "Landscape01",
-    "strImage": "encounters/ENCPlanetSunrise",
+    "strImage": "encounters/ENCFirstDockMHNG",
     "nLogging": 0,
     "bHumanOnly": true,
     "bIgnoreFeelings": true,
-    "strMusic": null,
-    "bForceMusic": false,
+    "strMusic": "StationMHNG",
+    "bForceMusic": true,
     "LootCondsUs": "CONDENCFirstDockMHNGUs",
     "LootCTsThem": null,
     "CTTestUs": "TIsENCFirstDockMHNG",
@@ -2538,8 +2544,8 @@
     "nLogging": 0,
     "bHumanOnly": true,
     "bIgnoreFeelings": true,
-    "strMusic": null,
-    "bForceMusic": false,
+    "strMusic": "StationXinhua",
+    "bForceMusic": true,
     "LootCondsUs": "CONDENCFirstDockMLABUs",
     "LootCTsThem": null,
     "CTTestUs": "TIsENCFirstDockMLAB",
@@ -2561,8 +2567,8 @@
     "nLogging": 0,
     "bHumanOnly": true,
     "bIgnoreFeelings": true,
-    "strMusic": null,
-    "bForceMusic": false,
+    "strMusic": "StationMHNG",
+    "bForceMusic": true,
     "LootCondsUs": "CONDENCFirstDockMSUZUs",
     "LootCTsThem": null,
     "CTTestUs": "TIsENCFirstDockMSUZ",
@@ -2580,12 +2586,12 @@
     "strThemType": "Self",
     "strRaiseUI": "SocialCombat",
     "strSubUI": "Landscape01",
-    "strImage": "encounters/ENCPlanetSunrise",
+    "strImage": "encounters/ENCFirstDockTharsisLanding",
     "nLogging": 0,
     "bHumanOnly": true,
     "bIgnoreFeelings": true,
-    "strMusic": null,
-    "bForceMusic": false,
+    "strMusic": "StationXinhua",
+    "bForceMusic": true,
     "LootCondsUs": "CONDENCFirstDockMTRSUs",
     "LootCTsThem": null,
     "CTTestUs": "TIsENCFirstDockMTRS",
@@ -2607,8 +2613,8 @@
     "nLogging": 0,
     "bHumanOnly": true,
     "bIgnoreFeelings": true,
-    "strMusic": null,
-    "bForceMusic": false,
+    "strMusic": "StationXinhua",
+    "bForceMusic": true,
     "LootCondsUs": "CONDENCFirstDockMVOLUs",
     "LootCTsThem": null,
     "CTTestUs": "TIsENCFirstDockMVOL",
@@ -2626,7 +2632,7 @@
     "strThemType": "Self",
     "strRaiseUI": "SocialCombat",
     "strSubUI": "Landscape01",
-    "strImage": "encounters/ENCPlanetSunrise",
+    "strImage": "encounters/ENCFirstDockSVIR",
     "nLogging": 0,
     "bHumanOnly": true,
     "bIgnoreFeelings": true,
@@ -2658,7 +2664,8 @@
     "LootCondsUs": "CONDENCFirstDockVCBRUs",
     "LootCTsThem": null,
     "CTTestUs": "TIsENCFirstDockVCBR",
-    "CTTestThem": null
+    "CTTestThem": null,
+    "strAchievementUnlock": "ACH_VENUS"
   },
   {
     "strName": "ENCFirstDockVENC",
@@ -2681,7 +2688,8 @@
     "LootCondsUs": "CONDENCFirstDockVENCUs",
     "LootCTsThem": null,
     "CTTestUs": "TIsENCFirstDockVENC",
-    "CTTestThem": null
+    "CTTestThem": null,
+    "strAchievementUnlock": "ACH_VENUS"
   },
   {
     "strName": "ENCFirstDockVORB",
@@ -2704,7 +2712,8 @@
     "LootCondsUs": "CONDENCFirstDockVORBUs",
     "LootCTsThem": null,
     "CTTestUs": "TIsENCFirstDockVORB",
-    "CTTestThem": null
+    "CTTestThem": null,
+    "strAchievementUnlock": "ACH_VENUS"
   },
   {
     "strName": "ENCFirstInstallDerelict",
@@ -2823,7 +2832,8 @@
     "LootCTsUs": "CTENCFirstReturnOKLG",
     "LootCTsThem": null,
     "CTTestUs": "TNotTutorialNoDockedDerelictYet",
-    "CTTestThem": null
+    "CTTestThem": null,
+    "strAchievementUnlock": "ACH_RETURN"
   },
   {
     "strName": "ENCFirstUndockFees",
@@ -3619,7 +3629,8 @@
     "LootCondsThem": null,
     "CTTestUs": "TCannotNavigateVLA05",
     "CTTestThem": "TIsTransitLiftXInstalledUndamaged",
-    "ShipTestThem": "VLA05"
+    "ShipTestThem": "VLA05",
+    "strAchievementUnlock": "ACH_VLA05"
   },
   {
     "strName": "ENCVLAUnlock05Allow",
@@ -6079,7 +6090,7 @@
     "strTargetPoint": "use",
     "fTargetPointRange": 1,
     "aInverse": [
-      "ENCOKLGMedServices,[us],[us]"
+      "ENCOKLGMedServicesStart,[us],[us]"
     ],
     "fDuration": 0.0,
     "strThemType": "Other",
@@ -6093,7 +6104,8 @@
     "CTTestUs": "TIsHumanAwake",
     "CTTestThem": "TIsHealthKiosk",
     "aLootItms": [],
-    "objLootModeSwitch": null
+    "objLootModeSwitch": null,
+    "strAchievementUnlock": "ACH_AID"
   },
   {
     "strName": "ENCOKLGMedServices",
@@ -6103,7 +6115,9 @@
     "aInverse": [
       "ENCOKLGMedServiceAntiMeat",
       "ENCOKLGMedServiceNanoFirstAid",
+      "ENCMedServiceNanoFirstAidAdv",
       "ENCOKLGMedServiceRemoveChronic",
+      "ENCMedServiceAntiHypoV",
       "ENCOKLGMedServicesLeave"
     ],
     "fDuration": 0.0,
@@ -6125,6 +6139,7 @@
     "strDesc": "Стоимость: 2500 долларов\n\nЛечите травмы с помощью инъекции нанороботиков, которая стимулирует заживление ран и иммунный ответ на инфекцию и некоторые заболевания в течение нескольких часов.\n\n(Доступны только те варианты, которые вы можете себе позволить)",
     "strColor": "Dialogue",
     "aInverse": [
+      "ENCOKLGMedServiceNanoFirstAidAlready",
       "ENCOKLGMedServiceNanoFirstAidAccept",
       "ENCOKLGMedServices",
       "ENCOKLGMedServicesLeave"
@@ -6162,7 +6177,8 @@
     "bIgnoreFeelings": true,
     "LootCTsUs": "CTOKLGMedServiceNanoFirstAid",
     "strLedgerDef": "ENCOKLGMedServiceNanoFirstAid",
-    "aSocialNew": []
+    "aSocialNew": [],
+    "CTTestUs": "TNotNanoFirstAid"
   },
   {
     "strName": "ENCOKLGMedServiceAntiMeat",

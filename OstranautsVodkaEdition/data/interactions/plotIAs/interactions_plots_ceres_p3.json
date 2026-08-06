@@ -10,14 +10,13 @@
     "strAnim": "Talk",
     "strThemType": "Other",
     "nLogging": 1,
-    "LootCondsUs": "CONDPLOT_PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Mojave",
     "CTTestUs": "CTPlot_PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Mojave",
     "CTTestThem": "TIsTerminal01Installed",
     "strActionGroup": "Use",
     "aInverse": [
-      "PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Mojave_Reply"
+      "PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Mojave_Reply,[us],[them]"
     ],
-    "ShipTestThem": "BCER"
+    "ShipTestThem": "AnyShip_BCER"
   },
   {
     "strName": "PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Mojave_Reply",
@@ -29,7 +28,8 @@
     "strAnim": "Tablet",
     "strThemType": "Other",
     "nLogging": 1,
-    "bRecheckThisPlot": true
+    "strCrime": "damage",
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Mojave"
   },
   {
     "strName": "Plot_Ceres_Clandestine_Interventions_Titan_Codeword",
@@ -48,8 +48,11 @@
     ],
     "LootCondsUs": "",
     "CTTestUs": "",
-    "CTTestThem": "TIsNotPlayerAwake",
-    "strThemType": "Other"
+    "CTTestThem": "CTPlot_Ceres_Asked_Codeword",
+    "strThemType": "Other",
+    "ShipTestThem": "AnyShip_BCER",
+    "strTargetPoint": "talk",
+    "LootCondsThem": "CONDPLOT_Ceres_Asked_Codeword"
   },
   {
     "strName": "Plot_Ceres_Clandestine_Interventions_Titan_Codeword_Reply_Success",
@@ -64,7 +67,8 @@
     "nLogging": 1,
     "fForcedChance": 0.5,
     "strAnim": "Talk",
-    "CTTestUs": "TIsGalConAgent"
+    "CTTestUs": "TIsGalConAgent",
+    "strTargetPoint": "talk"
   },
   {
     "strName": "Plot_Ceres_Clandestine_Interventions_Titan_Codeword_Reply_Fail",
@@ -77,7 +81,8 @@
     "strThemType": "Other",
     "bIgnoreFeelings": true,
     "nLogging": 1,
-    "LootCondsThem": "CONDPLOT_Ceres_Titan_Codeword_Fail_Player"
+    "LootCondsThem": "CONDPLOT_Ceres_Titan_Codeword_Fail_Player",
+    "strTargetPoint": "talk"
   },
   {
     "strName": "Plot_Ceres_Clandestine_Interventions_Xinhua_Codeword",
@@ -96,7 +101,10 @@
     "bSocial": true,
     "nLogging": 1,
     "fForcedChance": 1,
-    "CTTestThem": "TIsNotPlayerAwake"
+    "CTTestThem": "CTPlot_Ceres_Asked_Codeword",
+    "ShipTestThem": "AnyShip_BCRS",
+    "strTargetPoint": "talk",
+    "LootCondsThem": "CONDPLOT_Ceres_Asked_Codeword"
   },
   {
     "strName": "Plot_Ceres_Clandestine_Interventions_Xinhua_Codeword_Reply_Fail",
@@ -108,7 +116,8 @@
     "strThemType": "Other",
     "bIgnoreFeelings": true,
     "nLogging": 1,
-    "LootCondsThem": "CONDPLOT_Ceres_Xinhua_Codeword_Fail_Player"
+    "LootCondsThem": "CONDPLOT_Ceres_Xinhua_Codeword_Fail_Player",
+    "strTargetPoint": "talk"
   },
   {
     "strName": "Plot_Ceres_Clandestine_Interventions_Xinhua_Codeword_Reply_Success",
@@ -122,7 +131,8 @@
     "bIgnoreFeelings": true,
     "nLogging": 1,
     "LootCondsUs": "CONDPLOT_Ceres_Xinhua_Agent",
-    "CTTestUs": "TIsXinhuaAgent"
+    "CTTestUs": "TIsXinhuaAgent",
+    "strTargetPoint": "talk"
   },
   {
     "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Cup",
@@ -135,8 +145,14 @@
     "bIgnoreFeelings": true,
     "CTTestThem": "CTPlot_Ceres_Cup_Dead_Drop_Xinhua",
     "aInverse": [
-      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Xinhua,Plot_Ceres_Clandestine_Interventions_Dead_Drop_Titan,[us],[us]"
-    ]
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Xinhua,[us],[us]"
+    ],
+    "strSubUI": "Landscape01",
+    "strRaiseUI": "SocialCombat",
+    "fTargetPointRange": 2,
+    "strTargetPoint": "use",
+    "CTTestUs": "CTPlot_Ceres_Xinhua_Loyalty",
+    "strImage": "encounters/ENCPlanetSunrise"
   },
   {
     "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Xinhua",
@@ -150,11 +166,14 @@
     "bIgnoreFeelings": true,
     "aInverse": [
       "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Xinhua",
-      "ENCFinish",
-      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Xinhua_Return"
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Xinhua_Return",
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Black_Hat_Xinhua",
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Black_Hat_Xinhua_Debrief",
+      "ENCFinish"
     ],
     "strDesc": "Тайников много. Какое задание ты хочешь взять?",
-    "fForcedChance": 1
+    "fForcedChance": 1,
+    "strThemType": "Self"
   },
   {
     "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Xinhua",
@@ -217,7 +236,11 @@
     "LootCondsUs": "CONDPlot_Ceres_Wetwork_Success_Xinhua",
     "CTTestUs": "CTPlot_Ceres_Dead_Drop_Wetwork_Is_Active_Xinhua",
     "strActionGroup": "Use",
-    "strThemType": "Other"
+    "strThemType": "Other",
+    "ShipTestThem": "AnyShip_BCER",
+    "fTargetPointRange": 2,
+    "strTargetPoint": "talk",
+    "strCrime": "damage"
   },
   {
     "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Xinhua_Return",
@@ -235,7 +258,10 @@
     "bPause": true,
     "bIgnoreFeelings": true,
     "CTTestUs": "CTPlot_Ceres_Dead_Drop_Wetwork_Xinhua_Success",
-    "LootCondsUs": "CONDPLOT_Ceres_Dead_Drop_Remove_Wetwork_Xinhua_Success"
+    "LootCondsUs": "CONDPLOT_Ceres_Dead_Drop_Remove_Wetwork_Xinhua_Success",
+    "fFactionScoreChangeLoot": 10,
+    "strFactionScoreChangeLoot": "TXTFactionAddBCRS",
+    "bFactionIgnoreThemPop": true
   },
   {
     "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Planter",
@@ -249,7 +275,9 @@
     "CTTestThem": "CTPlot_Ceres_Cup_Dead_Drop_Titan",
     "aInverse": [
       "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Titan,[us],[us]"
-    ]
+    ],
+    "fTargetPointRange": 2,
+    "strTargetPoint": "use"
   },
   {
     "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Titan",
@@ -264,10 +292,15 @@
     "aInverse": [
       "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Titan",
       "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Titan_Return",
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Black_Hat_Titan_Start",
+      "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Black_Hat_Titan_Debrief",
       "ENCFinish"
     ],
     "strDesc": "Тайников много. Какое задание ты хочешь взять?",
-    "fForcedChance": 1
+    "fForcedChance": 1,
+    "fTargetPointRange": 2,
+    "strTargetPoint": "use",
+    "CTTestUs": "CTPlot_Ceres_GalCon_Loyalty"
   },
   {
     "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Titan",
@@ -284,7 +317,8 @@
     "strImage": "encounters/ENCPlanetSunrise",
     "bPause": true,
     "bIgnoreFeelings": true,
-    "fForcedChance": 1
+    "fForcedChance": 1,
+    "CTTestUs": "CTPlot_Ceres_Dead_Drop_Wetwork_Is_Not_Active_Titan"
   },
   {
     "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Titan_Accept",
@@ -329,7 +363,11 @@
     "CTTestUs": "CTPlot_Ceres_Dead_Drop_Wetwork_Is_Active_Titan",
     "CTTestThem": "CTPlot_Ceres_Dead_Drop_Wetwork_Can_Poison_Titan",
     "strActionGroup": "Use",
-    "strThemType": "Other"
+    "strThemType": "Other",
+    "ShipTestThem": "AnyShip_BCRS",
+    "fTargetPointRange": 2,
+    "strTargetPoint": "talk",
+    "strCrime": "damage"
   },
   {
     "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Wet_Work_Titan_Return",
@@ -347,7 +385,10 @@
     "bPause": true,
     "bIgnoreFeelings": true,
     "CTTestUs": "CTPlot_Ceres_Dead_Drop_Wetwork_Titan_Success",
-    "LootCondsUs": "CONDPLOT_Ceres_Dead_Drop_Remove_Wetwork_Titan_Success"
+    "LootCondsUs": "CONDPLOT_Ceres_Dead_Drop_Remove_Wetwork_Titan_Success",
+    "fFactionScoreChangeLoot": 10,
+    "strFactionScoreChangeLoot": "TXTFactionAddBCER",
+    "bFactionIgnoreThemPop": true
   },
   {
     "strName": "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Black_Hat_Xinhua",

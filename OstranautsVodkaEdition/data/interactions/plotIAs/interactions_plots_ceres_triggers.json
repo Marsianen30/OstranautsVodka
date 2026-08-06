@@ -8,16 +8,13 @@
     "fDuration": 0.0,
     "strThemType": "Other",
     "strPlot": "Ceres",
-    "strSetPlotObjective": "TIsVideotape",
     "nLogging": 1,
     "strColor": "Dialogue",
     "bRecheckThisPlot": true,
     "LootCondsUs": "CONDPLOT_PLOT_Ceres_StartTrigger1_Isambard_Completed",
     "CTTestUs": "CTPlot_PLOT_Ceres_StartTrigger1_Isambard_Completed",
-    "TIsNavStation": "OKLG_Flot",
     "aSocialNew": [
-      "Plot_Ceres_Smiley_Make",
-      "Plot_Ceres_Isambard_Make"
+      "Plot_Ceres_Smiley_Make"
     ]
   },
   {
@@ -26,12 +23,12 @@
     "strDesc": "[us] вступил в дебри зеркал.",
     "strThemType": "Other",
     "strPlot": "Ceres",
-    "strSetPlotObjective": "TIsVideotape",
     "bIgnoreFeelings": true,
     "bRecheckThisPlot": true,
     "LootCondsUs": "CONDPLOT_PLOT_Ceres_The_AV_Club_Trigger_Completed",
     "CTTestUs": "CTPlot_PLOT_Ceres_The_AV_Club_Trigger_Completed",
-    "nLogging": 1
+    "nLogging": 1,
+    "strColor": "Dialogue"
   },
   {
     "strName": "PLOT_Ceres_The_Scholar_Trigger",
@@ -41,7 +38,8 @@
     "bRecheckThisPlot": true,
     "LootCondsUs": "CONDPLOT_PLOT_Ceres_The_Scholar_Trigger_Completed",
     "CTTestUs": "CTPlot_PLOT_Ceres_The_Scholar_Trigger_Completed",
-    "nLogging": 1
+    "nLogging": 1,
+    "strColor": "Dialogue"
   },
   {
     "strName": "PLOT_Ceres_Clandestine_Interventions_Trigger",
@@ -51,7 +49,8 @@
     "bRecheckThisPlot": true,
     "LootCondsUs": "CONDPLOT_PLOT_Ceres_Clandestine_Interventions_Trigger_Completed",
     "CTTestUs": "CTPlot_PLOT_Ceres_Clandestine_Interventions_Trigger_Completed",
-    "nLogging": 1
+    "nLogging": 1,
+    "strColor": "Dialogue"
   },
   {
     "strName": "PLOT_Ceres_Our_System_For_Whom_Trigger",
@@ -60,7 +59,8 @@
     "bIgnoreFeelings": true,
     "bRecheckThisPlot": true,
     "LootCondsUs": "CONDPLOT_PLOT_Ceres_Our_System_For_Whom_Trigger_Completed",
-    "CTTestUs": "CTPlot_PLOT_Ceres_Our_System_For_Whom_Trigger_Completed"
+    "CTTestUs": "CTPlot_PLOT_Ceres_Our_System_For_Whom_Trigger_Completed",
+    "strColor": "Dialogue"
   },
   {
     "strName": "PLOT_Ceres_Valkyrie_Trigger",
@@ -70,7 +70,8 @@
     "bRecheckThisPlot": true,
     "LootCondsUs": "CONDPLOT_PLOT_Ceres_Valkyrie_Trigger_Completed",
     "CTTestUs": "CTPlot_PLOT_Ceres_Valkyrie_Trigger_Completed",
-    "nLogging": 1
+    "nLogging": 1,
+    "strColor": "Dialogue"
   },
   {
     "strName": "PLOT_Ceres_Our_Strange_Denouement_Trigger",
@@ -80,6 +81,7 @@
     "bRecheckThisPlot": true,
     "LootCondsUs": "CONDPLOT_PLOT_Ceres_Our_Strange_Denouement_Trigger_Completed",
     "CTTestUs": "CTPlot_PLOT_Ceres_Our_Strange_Denouement_Trigger_Completed",
-    "nLogging": 1
+    "nLogging": 1,
+    "strColor": "Dialogue"
   }
 ]

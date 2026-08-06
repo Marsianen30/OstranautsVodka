@@ -514,7 +514,7 @@
     "strNameFriendly": "Кабель-канал (повреждён): Collective Electric «Albrite» EMT",
     "strImg": "ItmConduit02SheetDmg",
     "strImgNorm": "ItmConduit02Sheetn",
-    "strPortraitImg": "ItmConduit02SheetDmg",
+    "strPortraitImg": "ItmConduit02Dmg02",
     "strCOBase": "ItmConduit00Dmg",
     "strCondLoot": "CNDOLConduit01Dmg",
     "mapModeSwitches": [

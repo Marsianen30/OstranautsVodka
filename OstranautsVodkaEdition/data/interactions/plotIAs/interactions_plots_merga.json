@@ -104,10 +104,10 @@
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [
-      "PLOT_Merga_WhispersFoundTriggerReply,[us],[them]"
+      "PLOT_Merga_WhispersFoundTriggerReply"
     ],
     "fDuration": 0.0,
-    "strThemType": "Other",
+    "strThemType": "Self",
     "nLogging": 1,
     "strColor": "Dialogue",
     "bRecheckThisPlot": true,
@@ -127,7 +127,7 @@
     "bIgnoreFeelings": true,
     "aInverse": [],
     "fDuration": 0.0,
-    "strThemType": "Other",
+    "strThemType": "Self",
     "nLogging": 1,
     "strColor": "Dialogue",
     "LootCondsUs": null,
@@ -249,8 +249,6 @@
       "PLOT_Merga_WhispersFound01Reply"
     ],
     "fDuration": 0.0005,
-    "strThemType": "Other",
-    "nLogging": 1,
     "strColor": "Dialogue",
     "strTargetPoint": "use",
     "fTargetPointRange": 5.0,
@@ -260,7 +258,12 @@
     "LootCondsUs": null,
     "LootCondsThem": null,
     "CTTestUs": "CTPLOT_Merga_WhispersFound01Ready",
-    "CTTestThem": "TIsTV01News"
+    "CTTestThem": "TIsTV01News",
+    "strSubUI": "Landscape01",
+    "fForcedChance": 1,
+    "bPause": true,
+    "strImage": "encounters/ENCPlanetSunrise",
+    "strRaiseUI": "SocialCombat"
   },
   {
     "strName": "PLOT_Merga_WhispersFound01Reply",
@@ -268,19 +271,21 @@
     "strDesc": "Ты узнаёшь, что Camellia Middlemist, она же Miss M, пропала без следа, вызвав крупную медиа-сенсацию на Венере и вокруг неё. Её супруг, чемпион гоночной трассы Encantado, был доставлен властями на допрос.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
-    "aInverse": [],
-    "fDuration": 0.0,
-    "strThemType": "Other",
-    "nLogging": 1,
+    "aInverse": [
+      "PLOT_Merga_WhispersFound01Reply3"
+    ],
+    "strThemType": "Self",
     "strColor": "Dialogue",
-    "strTargetPoint": "use",
-    "fTargetPointRange": 5.0,
-    "strAnim": "Yes",
     "bRecheckThisPlot": true,
     "LootCondsUs": null,
     "LootCondsThem": "CONDPLOT_Merga_WhispersFound01",
     "CTTestUs": null,
-    "CTTestThem": null
+    "CTTestThem": null,
+    "strSubUI": "Landscape01",
+    "strRaiseUI": "SocialCombat",
+    "fForcedChance": 1,
+    "bPause": true,
+    "strImage": "encounters/ENCPlanetSunrise"
   },
   {
     "strName": "PLOT_Merga_WhispersFound02",
@@ -332,7 +337,6 @@
     "strDesc": "Ещё одно из тех тел нашли с чёрным отпечатком ладони, на этот раз близ Венеры. Уж не та ли пропавшая знаменитость? Чертовщина какая-то...",
     "strActionGroup": "Ship",
     "bIgnoreFeelings": true,
-    "aInverse": [],
     "bSocial": true,
     "bOpener": false,
     "nLogging": 1,
@@ -346,7 +350,6 @@
     "strDesc": "Всё не идёт из головы: Miss M пропала из своего дома на аэростате Encantado, там, на Венере. Ставлю на то, что [3rd] к этому причастен. И плевать, сколько гонок Grande Prêmio [3rd-contractHas] выиграл. Тёмная личность.",
     "strActionGroup": "Ship",
     "bIgnoreFeelings": true,
-    "aInverse": [],
     "bSocial": true,
     "bOpener": false,
     "nLogging": 1,
@@ -2170,8 +2173,8 @@
     "bHumanOnly": false,
     "LootCondsUs": "",
     "LootCondsThem": null,
-    "CTTestUs": "TIsPlot_Merga_Mogul_CluesFound00",
-    "CTTestThem": null
+    "CTTestUs": null,
+    "CTTestThem": "TIsPlot_Merga_Mogul_CluesFound00"
   },
   {
     "strName": "PLOT_Merga_Present_Evidence_Mogul_Clue1",
@@ -2192,8 +2195,8 @@
     "bHumanOnly": false,
     "LootCondsUs": "",
     "LootCondsThem": null,
-    "CTTestUs": "TIsPlot_Merga_Mogul_CluesFound01",
-    "CTTestThem": null
+    "CTTestUs": null,
+    "CTTestThem": "TIsPlot_Merga_Mogul_CluesFound01"
   },
   {
     "strName": "PLOT_Merga_Present_Evidence_Mogul_Clue2",
@@ -2472,8 +2475,8 @@
     "bHumanOnly": false,
     "LootCondsUs": "",
     "LootCondsThem": null,
-    "CTTestUs": "TIsPlot_Merga_Journalist_CluesFound00",
-    "CTTestThem": null
+    "CTTestUs": null,
+    "CTTestThem": "TIsPlot_Merga_Journalist_CluesFound00"
   },
   {
     "strName": "PLOT_Merga_Present_Evidence_Journalist_Clue1",
@@ -2494,8 +2497,8 @@
     "bHumanOnly": false,
     "LootCondsUs": "",
     "LootCondsThem": null,
-    "CTTestUs": "TIsPlot_Merga_Journalist_CluesFound01",
-    "CTTestThem": null
+    "CTTestUs": null,
+    "CTTestThem": "TIsPlot_Merga_Journalist_CluesFound01"
   },
   {
     "strName": "PLOT_Merga_Present_Evidence_Journalist_Clue2",
@@ -4547,7 +4550,8 @@
     "LootCondsUs": "CONDPLOT_Merga_EndTriggerUs",
     "LootCTsThem": null,
     "CTTestUs": null,
-    "CTTestThem": null
+    "CTTestThem": null,
+    "strAchievementUnlock": "ACH_PLOT_MERGA"
   },
   {
     "strName": "PLOT_Merga_WhispersFound01Reply3",

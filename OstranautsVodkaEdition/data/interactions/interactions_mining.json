@@ -435,7 +435,8 @@
     "aLootItms": [
       "Use,CTToolMining,true,",
       "addus,CTACTMineDepositS"
-    ]
+    ],
+    "strAchievementUnlock": "ACH_DEPOSIT"
   },
   {
     "strName": "ACTMineAllowDepositRewardC",
@@ -465,7 +466,8 @@
     "aLootItms": [
       "Use,CTToolMining,true,",
       "addus,CTACTMineDepositC"
-    ]
+    ],
+    "strAchievementUnlock": "ACH_DEPOSIT"
   },
   {
     "strName": "ACTMineAllowDepositRewardM",
@@ -495,7 +497,8 @@
     "aLootItms": [
       "Use,CTToolMining,true,",
       "addus,CTACTMineDepositM"
-    ]
+    ],
+    "strAchievementUnlock": "ACH_DEPOSIT"
   },
   {
     "strName": "ACTMineAllowDepositRewardSSkill",
@@ -525,7 +528,8 @@
     "aLootItms": [
       "Use,CTToolMining,true,",
       "addus,CTACTMineDepositS"
-    ]
+    ],
+    "strAchievementUnlock": "ACH_DEPOSIT"
   },
   {
     "strName": "ACTMineAllowDepositRewardCSkill",
@@ -555,7 +559,8 @@
     "aLootItms": [
       "Use,CTToolMining,true,",
       "addus,CTACTMineDepositC"
-    ]
+    ],
+    "strAchievementUnlock": "ACH_DEPOSIT"
   },
   {
     "strName": "ACTMineAllowDepositRewardMSkill",
@@ -585,7 +590,8 @@
     "aLootItms": [
       "Use,CTToolMining,true,",
       "addus,CTACTMineDepositM"
-    ]
+    ],
+    "strAchievementUnlock": "ACH_DEPOSIT"
   },
   {
     "strName": "ACTMineDrill02AllowDepositRewardS",
@@ -615,7 +621,8 @@
     "aLootItms": [
       "Use,CTToolMining02,true,",
       "addus,CTACTMineDepositS"
-    ]
+    ],
+    "strAchievementUnlock": "ACH_DEPOSIT"
   },
   {
     "strName": "ACTMineDrill02AllowDepositRewardC",
@@ -645,7 +652,8 @@
     "aLootItms": [
       "Use,CTToolMining02,true,",
       "addus,CTACTMineDepositC"
-    ]
+    ],
+    "strAchievementUnlock": "ACH_DEPOSIT"
   },
   {
     "strName": "ACTMineDrill02AllowDepositRewardM",
@@ -675,7 +683,8 @@
     "aLootItms": [
       "Use,CTToolMining02,true,",
       "addus,CTACTMineDepositM"
-    ]
+    ],
+    "strAchievementUnlock": "ACH_DEPOSIT"
   },
   {
     "strName": "ACTMineDrill02AllowDepositRewardSSkill",
@@ -705,7 +714,8 @@
     "aLootItms": [
       "Use,CTToolMining02,true,",
       "addus,CTACTMineDepositS"
-    ]
+    ],
+    "strAchievementUnlock": "ACH_DEPOSIT"
   },
   {
     "strName": "ACTMineDrill02AllowDepositRewardCSkill",
@@ -735,7 +745,8 @@
     "aLootItms": [
       "Use,CTToolMining02,true,",
       "addus,CTACTMineDepositC"
-    ]
+    ],
+    "strAchievementUnlock": "ACH_DEPOSIT"
   },
   {
     "strName": "ACTMineDrill02AllowDepositRewardMSkill",
@@ -765,7 +776,8 @@
     "aLootItms": [
       "Use,CTToolMining02,true,",
       "addus,CTACTMineDepositM"
-    ]
+    ],
+    "strAchievementUnlock": "ACH_DEPOSIT"
   },
   {
     "strName": "ACTMineDenyNoMining",

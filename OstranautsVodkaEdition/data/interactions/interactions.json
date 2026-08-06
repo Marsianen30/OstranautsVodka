@@ -3301,7 +3301,7 @@
     "LootCTsUs": null,
     "LootCTsThem": null,
     "CTTestUs": null,
-    "CTTestThem": "TIsAlarmContaminantsInstalledDmg",
+    "CTTestThem": "TIsAlarmSmokeInstalledDmg",
     "aLootItms": [],
     "objLootModeSwitch": null
   },
@@ -11488,7 +11488,8 @@
     "aLootItms": [
       "addus,ItmDocumentPermitOKLG01"
     ],
-    "strLedgerDef": "OKLGSalvagePermit"
+    "strLedgerDef": "OKLGSalvagePermit",
+    "strAchievementUnlock": "ACH_PERMIT"
   },
   {
     "strName": "GUITradeBuyOKLGLicenseB",
@@ -11536,7 +11537,8 @@
     "aLootItms": [
       "addus,ItmDocumentPermitOKLG01b"
     ],
-    "strLedgerDef": "OKLGSalvagePermitb"
+    "strLedgerDef": "OKLGSalvagePermitb",
+    "strAchievementUnlock": "ACH_PERMIT"
   },
   {
     "strName": "GUITradeBuyOKLGLicenseC",
@@ -11584,7 +11586,8 @@
     "aLootItms": [
       "addus,ItmDocumentPermitOKLG01c"
     ],
-    "strLedgerDef": "OKLGSalvagePermitc"
+    "strLedgerDef": "OKLGSalvagePermitc",
+    "strAchievementUnlock": "ACH_PERMIT"
   },
   {
     "strName": "GUITradeBuyOKLGLicenseD",
@@ -11632,7 +11635,8 @@
     "aLootItms": [
       "addus,ItmDocumentPermitOKLG01d"
     ],
-    "strLedgerDef": "OKLGSalvagePermitd"
+    "strLedgerDef": "OKLGSalvagePermitd",
+    "strAchievementUnlock": "ACH_PERMIT"
   },
   {
     "strName": "GUITradeBuyOKLGLicenseE",
@@ -11680,7 +11684,8 @@
     "aLootItms": [
       "addus,ItmDocumentPermitOKLG01e"
     ],
-    "strLedgerDef": "OKLGSalvagePermite"
+    "strLedgerDef": "OKLGSalvagePermite",
+    "strAchievementUnlock": "ACH_PERMIT"
   },
   {
     "strName": "GUITradeBuyOKLGLicenseDeny",
@@ -15064,7 +15069,8 @@
     "CTTestUs": "TIsHumanAwake",
     "CTTestThem": "TIsDrugAntiHypoVPresc",
     "aLootItms": [],
-    "objLootModeSwitch": null
+    "objLootModeSwitch": null,
+    "bHumanOnly": true
   },
   {
     "strName": "SeekDrugAntiHypoVPrescDirectAllow",

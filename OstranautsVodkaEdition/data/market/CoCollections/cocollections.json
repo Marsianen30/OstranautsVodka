@@ -403,7 +403,8 @@
     "aCondForbids": [
       "IsInstalled",
       "IsDamaged",
-      "IsCargo"
+      "IsCargo",
+      "IsShipWeapon"
     ]
   },
   {

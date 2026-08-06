@@ -10593,7 +10593,7 @@
     "bRecheckThisPlot": true,
     "LootCondsUs": "CONDPLOT_Stat_Lonesome_1x",
     "LootCondsThem": null,
-    "CTTestUs": "TIsReady_LonesomeTask",
+    "CTTestUs": "TIsReady_LonesomeTaskGreeted",
     "CTTestThem": "TIsValidSocialTargetNotInCombat"
   },
   {
@@ -10709,7 +10709,7 @@
     "bRecheckThisPlot": true,
     "LootCondsUs": "CONDPLOT_Stat_Lonesome_1x",
     "LootCondsThem": null,
-    "CTTestUs": "TIsReady_LonesomeTask",
+    "CTTestUs": "TIsReady_LonesomeTaskGreeted",
     "CTTestThem": "TIsHumanAwake"
   },
   {

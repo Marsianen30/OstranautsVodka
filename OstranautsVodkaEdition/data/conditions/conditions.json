@@ -1898,7 +1898,7 @@
     "aNext": [
       "TUpNanoFirstAid2"
     ],
-    "fDuration": 4.0,
+    "fDuration": 3.0,
     "aPer": [
       "CONDNanoFirstAidPer"
     ],
@@ -16450,7 +16450,6 @@
     "strDesc": "Отладочное значение, показывающее уровень страха [us] в этом бою.",
     "nDisplaySelf": 0,
     "nDisplayOther": 0,
-    "nDisplayType": 1,
     "fConversionFactor": 1.0
   },
   {

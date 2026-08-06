@@ -65,7 +65,7 @@
     "aUpdateCommands": [
       "Destructable,StatDamage,ACTDefaultDestroy,StatDamageMax,1.0"
     ],
-    "strPortraitImg": "ItmAmmo150mm",
+    "strPortraitImg": "ItmAmmoProjectile",
     "mapSlotEffects": [
       "heldL",
       "Blank",
@@ -5907,7 +5907,7 @@
       "StatInstallProgressMax=1.0x500",
       "StatUninstallProgressMax=1.0x500",
       "StatMass=1.0x20.0",
-      "StatDamageMax=1.0x30",
+      "StatDamageMax=1.0x50",
       "IsCategoryHull=1.0x1"
     ],
     "mapPoints": [
@@ -5945,7 +5945,7 @@
       "StatInstallProgressMax=1.0x500",
       "StatUninstallProgressMax=1.0x500",
       "StatMass=1.0x20.0",
-      "StatDamageMax=1.0x30",
+      "StatDamageMax=1.0x50",
       "IsCategoryHull=1.0x1"
     ],
     "mapPoints": [],

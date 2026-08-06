@@ -1929,22 +1929,19 @@
     "strNameFriendly": "Дело Цереры",
     "aPhases": [
       [
-        "Beat_Ceres_Start_Character_Add_Isambard"
+        "CeresStartPhaseAVClub"
       ],
       [
-        "Beat_Ceres_The_AV_Club"
+        "CeresEnterPhaseScholar"
       ],
       [
-        "Beat_Ceres_The_Scholar"
+        "CeresEnterPhaseClandestine"
       ],
       [
-        "Beat_Ceres_Clandestine_Interventions"
+        "CeresEnterPhaseValkyrie"
       ],
       [
-        "Beat_Ceres_Valkyrie"
-      ],
-      [
-        "Beat_Ceres_Our_Strange_Denouement"
+        "CeresEnterDenouement"
       ]
     ],
     "aPhaseTitles": [
@@ -1966,20 +1963,27 @@
         "AVClub_The_Return,[protag]"
       ],
       [
-        "Scholar_Isambard_Contact,[protag]",
         "Plot_Scholar_Flat_Enter,[protag]",
         "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE,[protag]",
-        "PLOT_Ceres_The_Scholar_Establish_Contact_BCRS,[protag]"
+        "PLOT_Ceres_The_Scholar_Establish_Contact_BCRS,[protag]",
+        "Plot_Scholar_Flat_Enter1,[protag]",
+        "PLOT_Ceres_The_Scholar_Discuss_Tradecraft,[protag]"
       ],
       [
         "PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Mojave,[protag]",
+        "PLOT_Ceres_Clandestine_Interventions_Terminal_Hack_Ring_Station,[protag]",
         "Plot_Ceres_Clandestine_Interventions_Titan_Codeword,[protag]",
         "Plot_Ceres_Clandestine_Interventions_Xinhua_Codeword,[protag]",
         "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Cup,[protag]",
         "Plot_Ceres_Clandestine_Interventions_Dead_Drop_Planter,[protag]",
         "Plot_Ceres_Clandestine_Interventions_Poison_Agent_Xinhua,[protag]",
-        "Plot_Ceres_Clandestine_Interventions_Poison_Agent_Titan,[protag]"
-      ]
+        "Plot_Ceres_Clandestine_Interventions_Poison_Agent_Titan,[protag]",
+        "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE",
+        "PLOT_Ceres_The_Scholar_Establish_Contact_BCRS",
+        "PLOT_Ceres_Ask_Prove_BCER",
+        "PLOT_Ceres_Ask_Prove_BCRS"
+      ],
+      []
     ]
   }
 ]

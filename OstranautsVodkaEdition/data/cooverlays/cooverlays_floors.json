@@ -6516,17 +6516,17 @@
     "strImgNorm": "tiles/FloorGrate13/ItmFloorWindow01n",
     "strPortraitImg": "tiles/FloorGrate13/ItmFloorWindow02",
     "strCOBase": "ItmFloorGrate01",
-    "strCondLoot": "CNDOLFloorMSSWindow01",
+    "strCondLoot": "CNDOLFloorMSSWindow02",
     "strDmgColor": "DamageTintBrownMSSLF",
     "mapModeSwitches": [
       "ItmFloorGrate01",
-      "ItmFloorMSSWindow01",
+      "ItmFloorMSSWindow02",
       "ItmFloorGrate01Patch",
-      "ItmFloorMSSWindow01Patch",
+      "ItmFloorMSSWindow02Patch",
       "ItmFloorGrate01Dmg",
-      "ItmFloorMSSWindow01Dmg",
+      "ItmFloorMSSWindow02Dmg",
       "ItmFloorGrate01Loose",
-      "ItmFloorMSSWindow01Loose"
+      "ItmFloorMSSWindow02Loose"
     ]
   },
   {

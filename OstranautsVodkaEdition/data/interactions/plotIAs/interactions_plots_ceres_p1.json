@@ -92,7 +92,7 @@
     "bPause": true,
     "bIgnoreFeelings": true,
     "bHumanOnly": true,
-    "CTTestThem": "TIsPDAHeld",
+    "CTTestThem": "TIsPDAHeldUnlocked",
     "ShipTestUs": "OKLG_MAINSTATIONS",
     "CTTestUs": "CTPlot_VideotapeOnlineResearch",
     "aInverse": [
@@ -100,7 +100,6 @@
       "ENCFinishTitleQuit"
     ],
     "strActionGroup": "Use",
-    "strThemType": "",
     "strDesc": "Нет смысла пялиться на кассету. Два немигающих окошка в её корпусе никуда не денутся. Придётся расспросить других, а друзей у тебя как-то не завелось — тех, кто разбирается в старинных домашних носителях, во всяком случае. Почему бы не глянуть, что скажет местная станционная сеть?",
     "strTooltip": "Интернет знает, что делать"
   },
@@ -210,7 +209,7 @@
     "LootCondsUs": "CONDPLOT_VideotapeOnlineResearchMakePostSurreptitious",
     "CTTestUs": "CTPlot_VideotapeOnlineResearchMakePostSurreptitious",
     "strPlot": "Ceres",
-    "strSetPlotObjective": "CTPLOT_Ceres_Is_Smiley",
+    "strSetPlotObjective": "name|The Videotape: Find 'Smiley'|ct|CTPLOT_Ceres_Is_Smiley|desc|The person known as Smiley wants to meet you on Flotilla (OKLG_FLOT).",
     "bRecheckThisPlot": true
   },
   {
@@ -266,10 +265,12 @@
     "nQabOrderPriority": 0,
     "strThemType": "Self",
     "bHumanOnly": true,
-    "CTTestUs": "TIsHumanAwake",
+    "CTTestUs": "CTPlot_VideotapeInspectFinish",
     "aInverse": [
       "ENCFinish"
-    ]
+    ],
+    "strSetPlotObjective": "name|The Videotape: Research 'VHS'|ct|TIsPDAHeldUnlocked|desc|Return to an OKLG station and search the local mesh on your PDA.|img|ItmWristPDA01",
+    "LootCondsUs": "CONDPLOT_VideotapeInspectFinish"
   },
   {
     "strName": "VideotapeDecideResearch",
@@ -413,7 +414,7 @@
     "LootCondsUs": "CONDPLOT_AVClub_Smiley_Tape3_Again",
     "CTTestUs": "CTPlot_AVClub_Smiley_Tape3_Again",
     "strPlot": "Ceres",
-    "strSetPlotObjective": "CTPLOT_Ceres_Is_Isambard",
+    "strSetPlotObjective": "name|The Videotape: Find Isambard Cruz|ct|CTPLOT_Ceres_Is_Isambard|desc|Follow Smiley's directions to Isambard's strange little store.",
     "bRecheckThisPlot": true
   },
   {
@@ -509,7 +510,7 @@
     "LootCondsUs": "CONDPLOT_Isambard_Start",
     "CTTestUs": "CTPlot_Isambard_Start",
     "aInverse": [
-      "Isambard_Start_1"
+      "Isambard_InsideShop"
     ],
     "fTargetPointRange": 3,
     "strTooltip": "Интерком наблюдает за тобой немигающим красным глазом."
@@ -565,11 +566,11 @@
     "strThemType": "Self",
     "strDesc": "Она забирает у тебя злополучный отрезок плёнки и шаркает к другой машине. Она щёлкает по её огромным клавишам. Машина — серо-стального цвета ящик с LED-дисплеем, наклонённым к ней, — с воем оживает.",
     "aInverse": [
-      "Isambard_InsideShop_End"
+      "ENCFinish"
     ],
     "LootCondsUs": "DigitalVideotape",
     "strPlot": "Ceres",
-    "strSetPlotObjective": "CTPLOT_Ceres_Is_Smiley",
+    "strSetPlotObjective": "name|The Videotape: Return to Smiley|ct|CTPLOT_Ceres_Is_Smiley|desc|Doesn't this guy have a job?",
     "bRecheckThisPlot": true
   },
   {
@@ -605,7 +606,7 @@
     "ShipTestUs": "AnyShip_OKLG",
     "CTTestThem": "CTPLOT_Ceres_Is_Smiley",
     "aInverse": [
-      "AVClub_The_Return_2"
+      "AVClub_The_Return_2,[us],[us]"
     ],
     "CTTestUs": "CT_AVClub_The_Return_Ready",
     "LootCondsUs": "CONDPLOT_AVClub_The_Return",
@@ -629,6 +630,9 @@
     "aInverse": [
       "AVClub_The_Return_Smoke",
       "AVClub_The_Return_DontSmoke"
+    ],
+    "aCustomInfos": [
+      "Ceres=EndP1"
     ]
   },
   {
@@ -966,7 +970,6 @@
     "strActionGroup": "Use",
     "strThemType": "Self",
     "strPlot": "Ceres",
-    "strSetPlotObjective": "CTPLOT_Ceres_Is_ChoongDoor",
     "strRaiseUI": "SocialCombat",
     "strSubUI": "Landscape01",
     "strImage": "encounters/ENCPlanetSunrise",
@@ -1046,7 +1049,9 @@
     "aInverse": [
       "AVClub_Smiley_Tape3",
       "AVClub_FirstWatch_Leave"
-    ]
+    ],
+    "CTTestUs": "CTPlot_AVClub_FirstWatch_Extras_FF2",
+    "LootCondsUs": "CONDPLOT_AVClub_FirstWatch_Extras_FF2"
   },
   {
     "strName": "AVClub_The_Return_Cops_MakeBreak_Keepgoing",
@@ -1063,7 +1068,9 @@
     "strDesc": "Толпа ровно стекается в заброшенный грузовой отсек шахтёрского корабля, некогда известного как <i>Primary Consumer</i>.",
     "aInverse": [
       "ENCFinish"
-    ]
+    ],
+    "bRecheckThisPlot": true,
+    "strSetPlotObjective": "name|The Videotape|ct|TIsPlayer|desc|Lay low until all of this blows over."
   },
   {
     "strName": "AVClub_The_Return_Cops_MakeBreak_TryTalk",
@@ -1124,7 +1131,10 @@
     "strImage": "encounters/ENCPlanetSunrise",
     "bPause": true,
     "bIgnoreFeelings": true,
-    "strDesc": "Ты резко ложишься, руки за голову. «Гражданин!» — орёшь ты в пол, брызги слюны отскакивают тебе в лицо. «Гражданин Azikiwe!»"
+    "strDesc": "Ты резко ложишься, руки за голову. «Гражданин!» — орёшь ты в пол, брызги слюны отскакивают тебе в лицо. «Гражданин Azikiwe!»",
+    "aInverse": [
+      "AVClub_The_Return_ShieldWallSurrenderProcessed"
+    ]
   },
   {
     "strName": "AVClub_The_ReturnRefuseSmoke",

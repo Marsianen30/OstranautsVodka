@@ -131,7 +131,8 @@
     "LootCondsUs": "CONDPLOT_Meat_EndTriggerUs",
     "LootCondsThem": null,
     "CTTestUs": "CTPLOT_Meat_EndTriggerUsReady",
-    "CTTestThem": null
+    "CTTestThem": null,
+    "strAchievementUnlock": "ACH_PLOT_MEAT"
   },
   {
     "strName": "PLOT_Meat_WhispersFound01",

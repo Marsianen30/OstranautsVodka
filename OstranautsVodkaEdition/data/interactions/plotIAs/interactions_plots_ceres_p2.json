@@ -6,14 +6,20 @@
     "LootCondsUs": "CONDPLOT_PLOT_Ceres_The_Scholar_Establish_Contact_CCRE",
     "CTTestUs": "CTPlot_PLOT_Ceres_The_Scholar_Establish_Contact_CCRE",
     "aInverse": [
-      "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply"
+      "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_Shim"
     ],
     "strActionGroup": "Talk",
     "strThemType": "Other",
-    "nLogging": 1,
-    "bRecheckThisPlot": true,
+    "nLogging": 0,
     "ShipTestThem": "BCER",
-    "fForcedChance": 0
+    "CTTestThem": "TIsProspectorBCER",
+    "strSubUI": "Landscape01",
+    "strRaiseUI": "SocialCombat",
+    "fTargetPointRange": 2,
+    "strTargetPoint": "Talk",
+    "bPause": true,
+    "strColor": "Dialogue",
+    "strImage": "encounters/ENCPlanetSunrise"
   },
   {
     "strName": "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply",
@@ -40,7 +46,6 @@
     "CTTestUs": "CTPlot_PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_Shim",
     "strTargetPoint": "Talk",
     "fTargetPointRange": 2,
-    "fDuration": 0.0005,
     "strActionGroup": "Use",
     "fForcedChance": 1,
     "strColor": "Dialogue",
@@ -52,7 +57,8 @@
       "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_GalGon_Loyalty",
       "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_Xinhua_Loyalty",
       "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_No_Loyalty"
-    ]
+    ],
+    "strThemType": "Self"
   },
   {
     "strName": "Plot_Scholar_Flat_Enter",
@@ -68,12 +74,15 @@
       "Plot_Scholar_Flat_Corner_Bed",
       "Plot_Scholar_Flat_Workbench",
       "Plot_Scholar_Flat_Kitchenette",
-      "Plot_Scholar_Flat_Racks",
-      "ENCFinish"
+      "Plot_Scholar_Flat_Racks"
     ],
     "strDesc": "Указания Isambard приводят тебя к квартире Benjamin Choong без особых сложностей. Жилище — маленькая эконом-квартирка, зажатая среди десятков таких же в относительно дорогом районе станции. Ряд одинаковых дверей не даёт тебе повода задержаться, но дверь Choong, ближе к концу, — единственная, что мигает зелёным индикатором. Ясно, что она не заперта. Ты входишь.",
     "CTTestThem": "CTPLOT_Ceres_Is_ChoongDoor",
-    "strTooltip": "На дверной панели значится Benjamin Choong"
+    "strTooltip": "На дверной панели значится Benjamin Choong",
+    "fTargetPointRange": 2,
+    "strTargetPoint": "use",
+    "CTTestUs": "CTPlot_Plot_Scholar_Flat_Enter",
+    "LootCondsUs": "CONDPLOT_Plot_Scholar_Flat_Enter"
   },
   {
     "strName": "Plot_Scholar_Flat_Corner_Bed",
@@ -92,7 +101,7 @@
       "Plot_Scholar_Flat_Workbench",
       "Plot_Scholar_Flat_Kitchenette",
       "Plot_Scholar_Flat_Racks",
-      "ENCFinish"
+      "Plot_Scholar_Flat_ContinueLooking"
     ]
   },
   {
@@ -112,7 +121,7 @@
       "Plot_Scholar_Flat_Corner_Bed",
       "Plot_Scholar_Flat_Kitchenette",
       "Plot_Scholar_Flat_Racks",
-      "ENCFinish"
+      "Plot_Scholar_Flat_ContinueLooking"
     ]
   },
   {
@@ -132,7 +141,7 @@
       "Plot_Scholar_Flat_Kitchenette_Fridge",
       "Plot_Scholar_Flat_Kitchenette_Table",
       "Plot_Scholar_Flat_Kitchenette_Ground",
-      "ENCFinish"
+      "Plot_Scholar_Flat_ContinueLooking"
     ]
   },
   {
@@ -151,7 +160,7 @@
     "aInverse": [
       "Plot_Scholar_Flat_Kitchenette_Ground",
       "Plot_Scholar_Flat_Kitchenette_Table",
-      "ENCFinish"
+      "Plot_Scholar_Flat_ContinueLooking"
     ]
   },
   {
@@ -170,7 +179,7 @@
     "aInverse": [
       "Plot_Scholar_Flat_Kitchenette_Ground",
       "Plot_Scholar_Flat_Kitchenette_Fridge",
-      "ENCFinish"
+      "Plot_Scholar_Flat_ContinueLooking"
     ]
   },
   {
@@ -189,8 +198,10 @@
     "aInverse": [
       "Plot_Scholar_Flat_Kitchenette_Fridge",
       "Plot_Scholar_Flat_Kitchenette_Table",
-      "ENCFinish"
-    ]
+      "Plot_Scholar_Flat_ContinueLooking"
+    ],
+    "CTTestUs": "CTPlot_Plot_Scholar_Flat_Kitchenette_Ground",
+    "LootCondsUs": "CONDPLOT_Plot_Scholar_Flat_Kitchenette_Ground"
   },
   {
     "strName": "Plot_Scholar_Flat_Racks",
@@ -209,7 +220,7 @@
       "Plot_Scholar_Racks_North",
       "Plot_Scholar_Racks_East",
       "Plot_Scholar_Racks_Floor",
-      "ENCFinish"
+      "Plot_Scholar_Flat_ContinueLooking"
     ]
   },
   {
@@ -227,7 +238,8 @@
     "bIgnoreFeelings": true,
     "aInverse": [
       "Plot_Scholar_Racks_East",
-      "Plot_Scholar_Racks_Floor"
+      "Plot_Scholar_Racks_Floor",
+      "Plot_Scholar_Flat_ContinueLooking"
     ]
   },
   {
@@ -245,7 +257,8 @@
     "bIgnoreFeelings": true,
     "aInverse": [
       "Plot_Scholar_Racks_North",
-      "Plot_Scholar_Racks_Floor"
+      "Plot_Scholar_Racks_Floor",
+      "Plot_Scholar_Flat_ContinueLooking"
     ]
   },
   {
@@ -264,7 +277,8 @@
     "aInverse": [
       "Plot_Scholar_Racks_Floor_Seam",
       "Plot_Scholar_Racks_East",
-      "Plot_Scholar_Racks_North"
+      "Plot_Scholar_Racks_North",
+      "Plot_Scholar_Flat_ContinueLooking"
     ]
   },
   {
@@ -282,20 +296,35 @@
     "bIgnoreFeelings": true,
     "aInverse": [
       "ENCFinish"
-    ]
+    ],
+    "aLootItms": [
+      "addus,Itm_PLOT_Plot_Scholar_Notebook"
+    ],
+    "CTTestUs": "CTPlot_Plot_Scholar_Racks_Floor_Seam",
+    "strSetPlotObjective": "name|Proxy War: Ben's List|ct|TIsProspectorBCRSorBCER|desc|Try to find one of the names from Ben's notebook.",
+    "LootCondsUs": "CONDPLOT_Plot_Scholar_Racks_Floor_Seam"
   },
   {
     "strName": "PLOT_Ceres_The_Scholar_Establish_Contact_BCRS",
     "strTitle": "Спросить о Benjamin Choong и GalCon",
     "strDesc": "[us] [спрашивает] [them] о местонахождении Benjamin Choong.",
     "strActionGroup": "Talk",
-    "strThemType": "Other",
-    "nLogging": 1,
+    "nLogging": 0,
     "bRecheckThisPlot": true,
     "ShipTestThem": "BCRS",
     "aInverse": [
-      "PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Reply"
-    ]
+      "PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_Shim"
+    ],
+    "CTTestThem": "TIsProspectorBCRS",
+    "strSubUI": "Landscape01",
+    "bIgnoreFeelings": true,
+    "strRaiseUI": "SocialCombat",
+    "fTargetPointRange": 2,
+    "strTargetPoint": "Talk",
+    "bPause": true,
+    "CTTestUs": "CTPlot_PLOT_Ceres_The_Scholar_Establish_Contact_BCRS",
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_The_Scholar_Establish_Contact_BCRS",
+    "strImage": "encounters/ENCPlanetSunrise"
   },
   {
     "strName": "PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Reply",
@@ -330,7 +359,8 @@
     "strSubUI": "Landscape01",
     "strImage": "encounters/ENCPlanetSunrise",
     "bPause": true,
-    "bIgnoreFeelings": true
+    "bIgnoreFeelings": true,
+    "strThemType": "Self"
   },
   {
     "strName": "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_GalGon_Loyalty",
@@ -340,7 +370,7 @@
     "fForcedChance": 1,
     "strColor": "Dialogue",
     "aInverse": [
-      "ENCFinish"
+      "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_GalGon_Loyalty_More"
     ],
     "strActionGroup": "Use",
     "strRaiseUI": "SocialCombat",
@@ -348,7 +378,9 @@
     "strImage": "encounters/ENCPlanetSunrise",
     "bPause": true,
     "bIgnoreFeelings": true,
-    "strDesc": "«Ну ни хрена себе, ещё один боец за хороших ребят»."
+    "strDesc": "«Ну ни хрена себе, ещё один боец за хороших ребят».",
+    "bRecheckThisPlot": true,
+    "strThemType": "Self"
   },
   {
     "strName": "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_Xinhua_Loyalty",
@@ -366,7 +398,11 @@
     "strImage": "encounters/ENCPlanetSunrise",
     "bPause": true,
     "bIgnoreFeelings": true,
-    "strDesc": "«Жаль это слышать, омбре», — говорит Wayne. «Ну, если вдруг созреешь передумать, меня можно найти, оставив записку. Знаешь посольство на этой станции? Рядом с ним киоски „корабль и дом“, а в углу кашпо. Фикус или типа того. Что бы ты туда ни оставил, я рано или поздно найду»."
+    "strDesc": "«Жаль это слышать, омбре», — говорит Wayne. «Ну, если вдруг созреешь передумать, меня можно найти, оставив записку. Знаешь посольство на этой станции? Рядом с ним киоски „корабль и дом“, а в углу кашпо. Фикус или типа того. Что бы ты туда ни оставил, я рано или поздно найду».",
+    "bRecheckThisPlot": true,
+    "strThemType": "Self",
+    "CTTestUs": "CTPlot_PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_Xinhua_Loyalty",
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_Xinhua_Loyalty"
   },
   {
     "strName": "PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_No_Loyalty",
@@ -384,7 +420,11 @@
     "strImage": "encounters/ENCPlanetSunrise",
     "bPause": true,
     "bIgnoreFeelings": true,
-    "strDesc": "«А-а, играешь на два фронта, вижу», — говорит Wayne и подмигивает тебе. «Люблю тех, кто держит варианты открытыми. Денег в этом больше. Хотя можешь и загнуться»."
+    "strDesc": "«А-а, играешь на два фронта, вижу», — говорит Wayne и подмигивает тебе. «Люблю тех, кто держит варианты открытыми. Денег в этом больше. Хотя можешь и загнуться».",
+    "bRecheckThisPlot": true,
+    "strThemType": "Self",
+    "CTTestUs": "CTPlot_PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_No_Loyalty",
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_The_Scholar_Establish_Contact_CCRE_Reply_Encounter_No_Loyalty"
   },
   {
     "strName": "PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_Xinhua_Loyalty",
@@ -402,7 +442,11 @@
     "strImage": "encounters/ENCPlanetSunrise",
     "bPause": true,
     "bIgnoreFeelings": true,
-    "strDesc": "«Это, по крайней мере, обнадёживает», — говорит он. «Пусть и не твои... агрессивные заигрывания. Но верность нужно доказать, понимаешь. Итак. Испытание»."
+    "strDesc": "«Это, по крайней мере, обнадёживает», — говорит он. «Пусть и не твои... агрессивные заигрывания. Но верность нужно доказать, понимаешь. Итак. Испытание».",
+    "bRecheckThisPlot": true,
+    "CTTestUs": "CTPlot_PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_Xinhua_Loyalty",
+    "strSetPlotObjective": "name|Proxy War: Prove Your Loyalty|ct|TIsProspectorBCRS|desc|Prove your worth with Xinhua. Maybe Ortega can help?",
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_Xinhua_Loyalty"
   },
   {
     "strName": "PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_No_Loyalty",
@@ -420,7 +464,10 @@
     "strSubUI": "Landscape01",
     "strImage": "encounters/ENCPlanetSunrise",
     "bPause": true,
-    "bIgnoreFeelings": true
+    "bIgnoreFeelings": true,
+    "bRecheckThisPlot": true,
+    "CTTestUs": "CTPlot_PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_No_Loyalty",
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_No_Loyalty"
   },
   {
     "strName": "PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_GalCon_Loyalty",
@@ -438,7 +485,10 @@
     "strImage": "encounters/ENCPlanetSunrise",
     "bPause": true,
     "bIgnoreFeelings": true,
-    "strDesc": "«А-а», — говорит он. «Какая жалость. Я так на тебя надеялся»."
+    "strDesc": "«А-а», — говорит он. «Какая жалость. Я так на тебя надеялся».",
+    "bRecheckThisPlot": true,
+    "CTTestUs": "CTPlot_PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_GalCon_Loyalty",
+    "LootCondsUs": "CONDPLOT_PLOT_Ceres_The_Scholar_Establish_Contact_BCRS_Encounter_GalCon_Loyalty"
   },
   {
     "strName": "PLOT_Ceres_Ask_Prove_BCER",

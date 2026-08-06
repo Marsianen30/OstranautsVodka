@@ -762,7 +762,7 @@
   },
   {
     "strName": "CTPLOT_Merga_VenusImmunity",
-    "strCondName": "Иммунитет Венеры",
+    "strCondName": "Venus Immunity",
     "fChance": 1.0,
     "fCount": 1.0,
     "aReqs": [
@@ -7256,7 +7256,7 @@
   },
   {
     "strName": "TIsSanDiegoTrader",
-    "strCondName": "Торговец Сан-Диего",
+    "strCondName": "Is a San Diego Trader",
     "fChance": 1.0,
     "fCount": 1.0,
     "aReqs": [
@@ -7268,7 +7268,7 @@
   },
   {
     "strName": "TIsSanDiegoTraderNoClue",
-    "strCondName": "Торговец Сан-Диего",
+    "strCondName": "Is a San Diego Trader",
     "fChance": 1.0,
     "fCount": 1.0,
     "aReqs": [
@@ -7286,7 +7286,7 @@
   },
   {
     "strName": "TIsSanDiegoTraderRenbao",
-    "strCondName": "Торговец Ренбао в Сан-Диего",
+    "strCondName": "Is a San Diego Renbao Trader",
     "fChance": 1.0,
     "fCount": 1.0,
     "aReqs": [
@@ -7298,7 +7298,7 @@
   },
   {
     "strName": "TIsSanDiegoTraderShoes",
-    "strCondName": "Торговец обувью в Сан-Диего",
+    "strCondName": "Is a San Diego Shoe Trader",
     "fChance": 1.0,
     "fCount": 1.0,
     "aReqs": [
@@ -7310,7 +7310,7 @@
   },
   {
     "strName": "TIsSanDiegoTraderClothes",
-    "strCondName": "Торговец одеждой в Сан-Диего",
+    "strCondName": "Is a San Diego Clothes Trader",
     "fChance": 1.0,
     "fCount": 1.0,
     "aReqs": [
@@ -7322,7 +7322,7 @@
   },
   {
     "strName": "TIsSanDiegoTraderCurio",
-    "strCondName": "Торговец редкостями в Сан-Диего",
+    "strCondName": "Is a San Diego Curio Trader",
     "fChance": 1.0,
     "fCount": 1.0,
     "aReqs": [
@@ -7334,7 +7334,7 @@
   },
   {
     "strName": "TIsSanDiegoTraderSulaiman",
-    "strCondName": "Торговец Сулейман в Сан-Диего",
+    "strCondName": "Is a San Diego Sulaiman Trader",
     "fChance": 1.0,
     "fCount": 1.0,
     "aReqs": [

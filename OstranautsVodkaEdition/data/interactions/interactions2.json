@@ -5253,7 +5253,8 @@
     "strLootRELChangeUsSeesThem": "RELSOCHireAllowUs",
     "PSpecTestThem": "SOCHireAllow",
     "strContextLootUs": "Default",
-    "strContextLootThem": "Default"
+    "strContextLootThem": "Default",
+    "strAchievementUnlock": "ACH_HIRE"
   },
   {
     "strName": "SOCHire2BonusAdd",
@@ -5795,7 +5796,8 @@
     "strLootRELChangeUsSeesThem": "RELSOCHireAllowUs",
     "PSpecTestThem": "SOCHireAllow",
     "strContextLootUs": "Default",
-    "strContextLootThem": "Default"
+    "strContextLootThem": "Default",
+    "strAchievementUnlock": "ACH_HIRE"
   },
   {
     "strName": "SOCHire2SalaryAdd",
