@@ -108,7 +108,7 @@
   {
     "strName": "SOCWriteHome",
     "strTitle": "Написать домой",
-    "strDesc": "Ты делаешь паузу прежде чем, написать несколько длинных строчек домой используя свой КПК.",
+    "strDesc": "[us] делает паузу, чтобы добавить несколько строк в длинное письмо домой на [us-pos] КПК.",
     "strActionGroup": "Talk",
     "strTargetPoint": null,
     "fTargetPointRange": 0,

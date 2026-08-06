@@ -301,7 +301,7 @@
   {
     "strName": "PLOT_Meat_WhispersFound05Reply",
     "strTitle": "Посмотреть новости о вечном источнике еды",
-    "strDesc": "[them] учится о провалившейся биоинженерной лаборатории под Tharsis Landing на Марсе, где Brave New World, LLC ставила опыты на козах.",
+    "strDesc": "[them] узнаёт о провалившейся биоинженерной лаборатории под Tharsis Landing на Марсе, где Brave New World, LLC ставила опыты на козах.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],

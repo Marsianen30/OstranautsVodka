@@ -2132,7 +2132,7 @@
   },
   {
     "strName": "Pneumonitis3",
-    "strNameFriendly": "Химический пневмонит",
+    "strNameFriendly": "Химический пневмонит (тяжёлый)",
     "strColor": "Bad",
     "strDesc": "У [us-obj] тяжёлая пневмония из-за вдыхания токсичного газа.",
     "nDisplaySelf": 2,
@@ -4353,7 +4353,7 @@
   },
   {
     "strName": "TraitChronicScarHuntCat",
-    "strNameFriendly": "Шрам: охота на кошек",
+    "strNameFriendly": "Шрам: травма при охоте на кошек",
     "strColor": "Badish",
     "strDesc": "У [us-obj] почти заживший шрам от серьёзной травмы, нанесённой охотничьей кошкой.",
     "bRemoveAll": true,

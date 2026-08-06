@@ -36,7 +36,7 @@
     ],
     "strThemType": "Self",
     "CTTestUs": "CTPlot_ValkyrieBorderIntro",
-    "strTooltip": "PLACEHOLDER: The player sees this by stepping on a zone trigger on BCRS_ROOF. Zone triggers have no strPlot set, so we set it manually.",
+    "strTooltip": "ЗАГЛУШКА: игрок видит это, наступив на триггер зоны BCRS_ROOF. У триггеров зон нет strPlot, поэтому задаём его вручную.",
     "strSetPlot": "Ceres"
   },
   {
@@ -56,7 +56,7 @@
     ],
     "strThemType": "Self",
     "CTTestUs": "CTPlot_ValkyrieBorderIntro",
-    "strTooltip": "PLACEHOLDER: The player sees this by stepping on a zone trigger on BCRS_ROOF. Zone triggers have no strPlot set, so we set it manually.",
+    "strTooltip": "ЗАГЛУШКА: игрок видит это, наступив на триггер зоны BCRS_ROOF. У триггеров зон нет strPlot, поэтому задаём его вручную.",
     "strSetPlot": "Ceres"
   },
   {
@@ -152,7 +152,7 @@
     "bIgnoreFeelings": true,
     "LootCondsUs": "CONDPLOT_ValkyrieInterstitialPostCrossing",
     "CTTestUs": "CTPlot_ValkyrieInterstitialPostCrossing",
-    "strTooltip": "PLACEHOLDER: The player clicks on something to begin approaching the sarcophagus, possibly a character or door or computer."
+    "strTooltip": "ЗАГЛУШКА: игрок нажимает на персонажа, дверь, компьютер или другой объект, чтобы начать приближение к саркофагу."
   },
   {
     "strName": "ValkyrieInterstitialPostCrossing2",
@@ -1023,7 +1023,7 @@
     ],
     "strThemType": "Self",
     "CTTestUs": "CTPlot_ValkyrieBorderIntro",
-    "strTooltip": "PLACEHOLDER: The player sees this by stepping on a zone trigger on BCRS_ROOF. Zone triggers have no strPlot set, so we set it manually.",
+    "strTooltip": "ЗАГЛУШКА: игрок видит это, наступив на триггер зоны BCRS_ROOF. У триггеров зон нет strPlot, поэтому задаём его вручную.",
     "strSetPlot": "Ceres"
   },
   {

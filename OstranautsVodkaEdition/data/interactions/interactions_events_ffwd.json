@@ -730,7 +730,7 @@
   {
     "strName": "FFWDEventImpatient",
     "strTitle": "Беспокойный (Нетерпеливый)",
-    "strDesc": "по поводу потраченного впустую времени и беспокойного ожидания.",
+    "strDesc": "[us] жалуется [them-obj] на зря потраченное время и необходимость беспокойно ждать.",
     "strActionGroup": "Use",
     "strColor": "Dialogue",
     "aInverse": [],
@@ -1490,7 +1490,7 @@
   {
     "strName": "FFWDEventApathetic",
     "strTitle": "Плывите по течению,",
-    "strDesc": "ориентируясь на текущий момент, ни о чем особо не беспокоясь. Que sera, сера.",
+    "strDesc": "[us] плывёт по течению, живя текущим моментом и ни о чём особо не беспокоясь. Que sera, sera.",
     "strActionGroup": "Use",
     "strColor": "Dialogue",
     "aInverse": [],

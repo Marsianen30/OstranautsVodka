@@ -251,7 +251,7 @@
   {
     "strName": "ACTChairSit",
     "strTitle": "Сидеть",
-    "strDesc": "[us] намеревается на [them-obj].",
+    "strDesc": "[us] собирается сесть на [them-obj].",
     "strTooltip": "Садится.",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
@@ -345,7 +345,7 @@
   {
     "strName": "ACTChairSitCancel",
     "strTitle": "Встать",
-    "strDesc": "[us] останавливается сидеть.",
+    "strDesc": "[us] перестаёт сидеть.",
     "strActionGroup": "Use",
     "strTargetPoint": null,
     "strTeleport": "use",
@@ -374,7 +374,7 @@
   {
     "strName": "ACTChairSitEnd",
     "strTitle": "Встать",
-    "strDesc": "[us] останавливается сидеть",
+    "strDesc": "[us] перестаёт сидеть.",
     "strActionGroup": "Use",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
@@ -405,7 +405,7 @@
   {
     "strName": "ACTChairSitSecure",
     "strTitle": "Сидеть",
-    "strDesc": "[us] намеревается надежно закрепляется на [them-obj].",
+    "strDesc": "[us] собирается надёжно закрепиться на [them-obj].",
     "strTooltip": "Садится и надёжно пристёгивается.",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
@@ -500,7 +500,7 @@
   {
     "strName": "ACTChairSitSecureCancel",
     "strTitle": "Встать",
-    "strDesc": "[us] расстёгивает и останавливается сидеть.",
+    "strDesc": "[us] отстёгивается и перестаёт сидеть.",
     "strActionGroup": "Use",
     "strTargetPoint": null,
     "strTeleport": "use",
@@ -529,7 +529,7 @@
   {
     "strName": "ACTChairSitSecureEnd",
     "strTitle": "Встать",
-    "strDesc": "[us]расстёгивает и останавливается сидеть.",
+    "strDesc": "[us] отстёгивается и перестаёт сидеть.",
     "strActionGroup": "Use",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
@@ -617,7 +617,7 @@
   {
     "strName": "ACTKioskUseNPCCancel",
     "strTitle": "Заканчивать",
-    "strDesc": "[us] останавливается использовать [them].",
+    "strDesc": "[us] перестаёт пользоваться [them].",
     "strActionGroup": "Use",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
@@ -642,7 +642,7 @@
   {
     "strName": "ACTKioskUseNPCEnd",
     "strTitle": "Заканчивать",
-    "strDesc": "[us] останавливается использовать [them].",
+    "strDesc": "[us] перестаёт пользоваться [them].",
     "strActionGroup": "Use",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
@@ -702,7 +702,7 @@
   {
     "strName": "ACTCrate01ScrapAllow",
     "strTitle": "Разрезать Ящик",
-    "strDesc": "[us] обрывает [them] открыть.",
+    "strDesc": "[us] вскрывает [them].",
     "strActionGroup": "Work",
     "strTargetPoint": null,
     "fTargetPointRange": 1,
@@ -728,7 +728,7 @@
   {
     "strName": "ACTCrate01ScrapFinish",
     "strTitle": "Завершить Вскрытие Ящика",
-    "strDesc": "[us] заканчивает вскрытие [them]",
+    "strDesc": "[us] завершает вскрытие [them].",
     "strActionGroup": "Work",
     "strTargetPoint": null,
     "fTargetPointRange": 1,
@@ -11058,7 +11058,7 @@
   {
     "strName": "GUINAVSitCancel",
     "strTitle": "Встать",
-    "strDesc": "[us] останавливается сидеть.",
+    "strDesc": "[us] перестаёт сидеть.",
     "strActionGroup": "Use",
     "strTargetPoint": null,
     "strTeleport": "use",
@@ -11084,7 +11084,7 @@
   {
     "strName": "GUINAVSitEnd",
     "strTitle": "Встать",
-    "strDesc": "[us] останавливается сидеть.",
+    "strDesc": "[us] перестаёт сидеть.",
     "strActionGroup": "Use",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
@@ -15023,7 +15023,7 @@
   {
     "strName": "SeekDrugAntiNauseaDirectAllow",
     "strTitle": "",
-    "strDesc": "Ввести медикаменты",
+    "strDesc": "[them] съедает [us].",
     "strActionGroup": "Use",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
@@ -15075,7 +15075,7 @@
   {
     "strName": "SeekDrugAntiHypoVPrescDirectAllow",
     "strTitle": "",
-    "strDesc": "Выбрасывание использованного инъектора",
+    "strDesc": "[them] вводит [us].",
     "strActionGroup": "Use",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
@@ -15143,7 +15143,7 @@
   {
     "strName": "SeekDrugAntiHypoVPrescDirectDenyCured",
     "strTitle": "",
-    "strDesc": "Вводит медикамент для снижения уровня радиации в организме.",
+    "strDesc": "[them] не нужно вводить [us]: [us] не страдает от микрогравитационной гиповолемии.",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
     "strAnim": null,
@@ -15190,7 +15190,7 @@
   {
     "strName": "SeekDrugAntiRadPrescDirectAllow",
     "strTitle": "",
-    "strDesc": "Вводит медикамент для предотвращения атрофии, хрупкости костей и других последствий для здоровья от жизни в микрогравитации.",
+    "strDesc": "[them] вводит [us].",
     "strActionGroup": "Use",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
@@ -15285,7 +15285,7 @@
   {
     "strName": "SeekDrugBoneDensityPrescDirectAllow",
     "strTitle": "",
-    "strDesc": "Съедает одну таблетку.",
+    "strDesc": "[them] вводит [us].",
     "strActionGroup": "Use",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
@@ -15430,7 +15430,7 @@
   {
     "strName": "SeekDrugPainkillerMinorDirectAllow",
     "strTitle": "",
-    "strDesc": "Пытается улучшить чувство принадлежности.",
+    "strDesc": "[them] съедает [us].",
     "strActionGroup": "Use",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
@@ -15621,7 +15621,7 @@
   {
     "strName": "SeekFoodAllowDirect",
     "strTitle": "",
-    "strDesc": "Дыхание кислородом",
+    "strDesc": "[them] ест [us].",
     "strActionGroup": "Use",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
@@ -15756,7 +15756,7 @@
   {
     "strName": "SeekOxygenAllow",
     "strTitle": "[us] заново насыщается кислородом.",
-    "strDesc": "Кокон",
+    "strDesc": "[us] заново насыщается кислородом.",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
     "strAnim": "Idle",
@@ -15929,7 +15929,7 @@
   {
     "strName": "ACTSeekSecurityChairDeny",
     "strTitle": "[us] не может расслабиться.",
-    "strDesc": "Пытается поспать здесь.",
+    "strDesc": "[us] не может расслабиться.",
     "strActionGroup": "Use",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
@@ -16043,7 +16043,7 @@
   {
     "strName": "SeekSleepSimpleDeny",
     "strTitle": "[us] с трудом засыпает.",
-    "strDesc": "Не могу уснуть в разговоре",
+    "strDesc": "[us] с трудом засыпает.",
     "strActionGroup": "Use",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
@@ -16068,7 +16068,7 @@
   {
     "strName": "SeekSleepSimpleDenySocialCombat",
     "strTitle": "[us] не может уснуть во время важного разговора.",
-    "strDesc": "Не могу уснуть в шлеме",
+    "strDesc": "[us] не может уснуть во время важного разговора.",
     "strActionGroup": "Use",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
@@ -16146,7 +16146,7 @@
   {
     "strName": "SeekSleepSimpleCancel",
     "strTitle": "",
-    "strDesc": "Пытается поспать здесь.",
+    "strDesc": "[us] просыпается.",
     "strActionGroup": "Use",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
@@ -16208,7 +16208,7 @@
   {
     "strName": "SeekSleepSimpleLieDownComfortable",
     "strTitle": "Пытается уснуть в удобном положении",
-    "strDesc": "[us] лжёт удобно ложится на [them-obj].",
+    "strDesc": "[us] удобно ложится на [them-obj].",
     "strTooltip": "Пытается поспать здесь.",
     "strActionGroup": "Use",
     "strTargetPoint": null,
@@ -16292,8 +16292,8 @@
   {
     "strName": "ACTActivateDroneDecoyAllow",
     "strTitle": "",
-    "strDesc": "Активирует «Рейв», чтобы привлечь внимание ближайших дронов. После активации приманку нельзя деактивировать или использовать позже.",
-    "strTooltip": "Активирует химические реакции, которые производят медленный, но стабильный кислород, даже в вакууме. После активации кислородную свечу нельзя деактивировать или использовать позже.",
+    "strDesc": "[us] активирует «Рейв», чтобы привлечь внимание ближайших дронов. После активации приманку нельзя деактивировать или использовать позже.",
+    "strTooltip": "Активирует «Рейв», чтобы привлечь внимание ближайших дронов. После активации приманку нельзя деактивировать или использовать позже.",
     "strActionGroup": "Use",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
@@ -16718,7 +16718,7 @@
     "strName": "SocialCombat",
     "strTitle": "Общение",
     "strDesc": "[us] получает [them-pos] внимание.",
-    "strTooltip": "Вкалывает O2 из баллона.",
+    "strTooltip": "Общается с [them].",
     "strActionGroup": "Talk",
     "strTargetPoint": "talk",
     "fTargetPointRange": 2,
@@ -16790,7 +16790,7 @@
   {
     "strName": "StripSucceed",
     "strTitle": "Внимание: более низкое давление в баллоне означает, что меньше попадёт в скафандр.",
-    "strDesc": "Вкалывает O2 из баллона.",
+    "strDesc": "[them] раздевает [us].",
     "strActionGroup": "Use",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
@@ -17033,7 +17033,7 @@
   {
     "strName": "TASKCourseCorrectionOperate",
     "strTitle": "Корректировка курса",
-    "strDesc": "Снимает надетые и носимые предметы с нереагирующей цели.",
+    "strDesc": "[us] контролирует [them].",
     "strActionGroup": "Use",
     "fTargetPointRange": 0,
     "strIdleAnim": "Sitting",
@@ -17105,7 +17105,7 @@
   {
     "strName": "UndraftAllow",
     "strTitle": "[us] раздевает [them].",
-    "strDesc": "Запретить раздеть",
+    "strDesc": "[us] соглашается.",
     "strActionGroup": "Use",
     "strAnim": "Yes",
     "aInverse": [
@@ -17520,7 +17520,7 @@
   {
     "strName": "ACTSnuffCigAllow",
     "strTitle": "Нюхать",
-    "strDesc": "Снять с черновика",
+    "strDesc": "[them] тушит [us].",
     "strActionGroup": "Use",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
@@ -17642,7 +17642,7 @@
   {
     "strName": "ACTSmokeCigViceroy02Allow",
     "strTitle": "Курить",
-    "strDesc": "Идёт в случайное место поблизости.",
+    "strDesc": "[us] курит [them].",
     "strActionGroup": "Use",
     "strTargetPoint": null,
     "fTargetPointRange": 1,

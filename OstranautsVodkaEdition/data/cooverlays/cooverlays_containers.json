@@ -886,7 +886,7 @@
   {
     "strName": "ItmStorageBinFloor1x101b",
     "strNameFriendly": "Подпольный ящик",
-    "strDesc": "Подпольные ящики серии «Vanilla» от Ракова увеличивают объем хранения за счет пространства под палубой.",
+    "strDesc": "Подпольные ящики серии «Vanilla» от Ракова увеличивают объём хранения за счёт пространства под палубой.\n\nПРЕДУПРЕЖДЕНИЕ: подпольные ящики служат герметичным полом, поэтому при демонтаже внутреннее пространство корабля окажется в вакууме.",
     "strImg": "containers/ItmStorageBinFloor1x101b",
     "strImgNorm": "containers/ItmStorageBinFloor1x101bn",
     "strPortraitImg": "containers/ItmStorageBinFloor1x101b",
@@ -906,7 +906,7 @@
   {
     "strName": "ItmStorageBinFloor1x101bLoose",
     "strNameFriendly": "Подпольный ящик (отдельно)",
-    "strDesc": "Подпольные ящики серии «Vanilla» от Ракова увеличивают объем хранения за счет пространства под палубой.",
+    "strDesc": "Подпольные ящики серии «Vanilla» от Ракова увеличивают объём хранения за счёт пространства под палубой.\n\nПРЕДУПРЕЖДЕНИЕ: подпольные ящики служат герметичным полом, поэтому при демонтаже внутреннее пространство корабля окажется в вакууме.",
     "strImg": "containers/ItmStorageBinFloor1x101bLoose",
     "strImgNorm": "containers/ItmStorageBinFloor1x101bLoosen",
     "strPortraitImg": "containers/ItmStorageBinFloor1x101bLoose",
@@ -930,7 +930,7 @@
   {
     "strName": "ItmStorageBinFloor1x101bDmg",
     "strNameFriendly": "Подпольный ящик (поврежден)",
-    "strDesc": "Подпольные ящики серии «Vanilla» от Ракова увеличивают объем хранения за счет пространства под палубой.",
+    "strDesc": "Подпольные ящики серии «Vanilla» от Ракова увеличивают объём хранения за счёт пространства под палубой.\n\nПРЕДУПРЕЖДЕНИЕ: подпольные ящики служат герметичным полом, поэтому при демонтаже внутреннее пространство корабля окажется в вакууме.",
     "strImg": "containers/ItmStorageBinFloor1x101bDmg02",
     "strImgNorm": "containers/ItmStorageBinFloor1x101Dmg02n",
     "strPortraitImg": "containers/ItmStorageBinFloor1x101bDmg02",
@@ -950,7 +950,7 @@
   {
     "strName": "ItmStorageBinFloor1x101bPatch",
     "strNameFriendly": "Подпольный ящик (с заплаткой)",
-    "strDesc": "Подпольные ящики серии «Vanilla» от Ракова увеличивают объем хранения за счет пространства под палубой.",
+    "strDesc": "Подпольные ящики серии «Vanilla» от Ракова увеличивают объём хранения за счёт пространства под палубой.\n\nПРЕДУПРЕЖДЕНИЕ: подпольные ящики служат герметичным полом, поэтому при демонтаже внутреннее пространство корабля окажется в вакууме.",
     "strImg": "containers/ItmStorageBinFloor1x101bPatch",
     "strImgNorm": "containers/ItmStorageBinFloor1x1Patchn",
     "strPortraitImg": "containers/ItmStorageBinFloor1x101bPatch",
@@ -970,7 +970,7 @@
   {
     "strName": "ItmStorageBinFloor1x102",
     "strNameFriendly": "Подпольный ящик",
-    "strDesc": "Подпольные ящики серии «Mocha» от Rakow увеличивают объем хранения за счет пространства под палубой.",
+    "strDesc": "Подпольные ящики серии «Mocha» от Rakow увеличивают объём хранения за счёт пространства под палубой.\n\nПРЕДУПРЕЖДЕНИЕ: подпольные ящики служат герметичным полом, поэтому при демонтаже внутреннее пространство корабля окажется в вакууме.",
     "strImg": "containers/ItmStorageBinFloor1x102",
     "strImgNorm": "containers/ItmStorageBinFloor1x101n",
     "strPortraitImg": "containers/ItmStorageBinFloor1x102",
@@ -990,7 +990,7 @@
   {
     "strName": "ItmStorageBinFloor1x102Loose",
     "strNameFriendly": "Подпольный ящик (отдельно)",
-    "strDesc": "Подпольные ящики серии «Mocha» от Rakow увеличивают объем хранения за счет пространства под палубой.",
+    "strDesc": "Подпольные ящики серии «Mocha» от Rakow увеличивают объём хранения за счёт пространства под палубой.\n\nПРЕДУПРЕЖДЕНИЕ: подпольные ящики служат герметичным полом, поэтому при демонтаже внутреннее пространство корабля окажется в вакууме.",
     "strImg": "containers/ItmStorageBinFloor1x102Loose",
     "strImgNorm": "containers/ItmStorageBinFloor1x101Loosen",
     "strPortraitImg": "containers/ItmStorageBinFloor1x102Loose",
@@ -1034,7 +1034,7 @@
   {
     "strName": "ItmStorageBinFloor1x102Patch",
     "strNameFriendly": "Подпольный ящик (с заплаткой)",
-    "strDesc": "Подпольные ящики серии «Mocha» от Rakow увеличивают объем хранения за счет пространства под палубой.",
+    "strDesc": "Подпольные ящики серии «Mocha» от Rakow увеличивают объём хранения за счёт пространства под палубой.\n\nПРЕДУПРЕЖДЕНИЕ: подпольные ящики служат герметичным полом, поэтому при демонтаже внутреннее пространство корабля окажется в вакууме.",
     "strImg": "containers/ItmStorageBinFloor1x102Patch",
     "strImgNorm": "containers/ItmStorageBinFloor1x1Patchn",
     "strPortraitImg": "containers/ItmStorageBinFloor1x102Patch",
@@ -1054,7 +1054,7 @@
   {
     "strName": "ItmStorageBinFloor1x102b",
     "strNameFriendly": "Подпольный ящик",
-    "strDesc": "Подпольные ящики серии «Mocha-B» от Ракова увеличивают объем хранения за счет пространства под палубой.",
+    "strDesc": "Подпольные ящики серии «Mocha-B» от Ракова увеличивают объём хранения за счёт пространства под палубой.\n\nПРЕДУПРЕЖДЕНИЕ: подпольные ящики служат герметичным полом, поэтому при демонтаже внутреннее пространство корабля окажется в вакууме.",
     "strImg": "containers/ItmStorageBinFloor1x102b",
     "strImgNorm": "containers/ItmStorageBinFloor1x102bn",
     "strPortraitImg": "containers/ItmStorageBinFloor1x102b",
@@ -1074,7 +1074,7 @@
   {
     "strName": "ItmStorageBinFloor1x102bLoose",
     "strNameFriendly": "Подпольный ящик (отдельно)",
-    "strDesc": "Подпольные ящики серии «Mocha-B» от Ракова увеличивают объем хранения за счет пространства под палубой.",
+    "strDesc": "Подпольные ящики серии «Mocha-B» от Ракова увеличивают объём хранения за счёт пространства под палубой.\n\nПРЕДУПРЕЖДЕНИЕ: подпольные ящики служат герметичным полом, поэтому при демонтаже внутреннее пространство корабля окажется в вакууме.",
     "strImg": "containers/ItmStorageBinFloor1x102bLoose",
     "strImgNorm": "containers/ItmStorageBinFloor1x102bLoosen",
     "strPortraitImg": "containers/ItmStorageBinFloor1x102bLoose",
@@ -1098,7 +1098,7 @@
   {
     "strName": "ItmStorageBinFloor1x102bDmg",
     "strNameFriendly": "Подпольный ящик (поврежден)",
-    "strDesc": "Подпольные ящики серии «Mocha-B» от Ракова увеличивают объем хранения за счет пространства под палубой.",
+    "strDesc": "Подпольные ящики серии «Mocha-B» от Ракова увеличивают объём хранения за счёт пространства под палубой.\n\nПРЕДУПРЕЖДЕНИЕ: подпольные ящики служат герметичным полом, поэтому при демонтаже внутреннее пространство корабля окажется в вакууме.",
     "strImg": "containers/ItmStorageBinFloor1x102bDmg02",
     "strImgNorm": "containers/ItmStorageBinFloor1x101Dmg02n",
     "strPortraitImg": "containers/ItmStorageBinFloor1x102bDmg02",
@@ -1118,7 +1118,7 @@
   {
     "strName": "ItmStorageBinFloor1x102bPatch",
     "strNameFriendly": "Подпольный ящик (с заплаткой)",
-    "strDesc": "Подпольные ящики серии «Mocha-B» от Ракова увеличивают объем хранения за счет пространства под палубой.",
+    "strDesc": "Подпольные ящики серии «Mocha-B» от Ракова увеличивают объём хранения за счёт пространства под палубой.\n\nПРЕДУПРЕЖДЕНИЕ: подпольные ящики служат герметичным полом, поэтому при демонтаже внутреннее пространство корабля окажется в вакууме.",
     "strImg": "containers/ItmStorageBinFloor1x102bPatch",
     "strImgNorm": "containers/ItmStorageBinFloor1x1Patchn",
     "strPortraitImg": "containers/ItmStorageBinFloor1x102bPatch",
@@ -1138,7 +1138,7 @@
   {
     "strName": "ItmStorageBinFloor1x103",
     "strNameFriendly": "Подпольный ящик",
-    "strDesc": "Линейка переборочных ящиков «Uplift» от Mobile Space System славится компактными, но элегантными неоригинальными решениями для хранения, эргономически спроектированными для удобства обычных людей.",
+    "strDesc": "Линейка переборочных ящиков «Uplift» от Mobile Space System славится компактными, но элегантными неоригинальными решениями для хранения, эргономически спроектированными для удобства обычных людей.\n\nПРЕДУПРЕЖДЕНИЕ: подпольные ящики служат герметичным полом, поэтому при демонтаже внутреннее пространство корабля окажется в вакууме.",
     "strImg": "containers/ItmStorageBinFloor1x103",
     "strImgNorm": "containers/ItmStorageBinFloor1x101n",
     "strPortraitImg": "containers/ItmStorageBinFloor1x103",
@@ -1158,7 +1158,7 @@
   {
     "strName": "ItmStorageBinFloor1x103Loose",
     "strNameFriendly": "Подпольный ящик (отдельно)",
-    "strDesc": "Линейка переборочных ящиков «Uplift» от Mobile Space System славится компактными, но элегантными неоригинальными решениями для хранения, эргономически спроектированными для удобства обычных людей.",
+    "strDesc": "Линейка переборочных ящиков «Uplift» от Mobile Space System славится компактными, но элегантными неоригинальными решениями для хранения, эргономически спроектированными для удобства обычных людей.\n\nПРЕДУПРЕЖДЕНИЕ: подпольные ящики служат герметичным полом, поэтому при демонтаже внутреннее пространство корабля окажется в вакууме.",
     "strImg": "containers/ItmStorageBinFloor1x103Loose",
     "strImgNorm": "containers/ItmStorageBinFloor1x101Loosen",
     "strPortraitImg": "containers/ItmStorageBinFloor1x103Loose",
@@ -1182,7 +1182,7 @@
   {
     "strName": "ItmStorageBinFloor1x103Dmg",
     "strNameFriendly": "Подпольный ящик (поврежден)",
-    "strDesc": "Линейка переборочных ящиков «Uplift» от Mobile Space System славится компактными, но элегантными неоригинальными решениями для хранения, эргономически спроектированными для удобства обычных людей.",
+    "strDesc": "Линейка переборочных ящиков «Uplift» от Mobile Space System славится компактными, но элегантными неоригинальными решениями для хранения, эргономически спроектированными для удобства обычных людей.\n\nПРЕДУПРЕЖДЕНИЕ: подпольные ящики служат герметичным полом, поэтому повреждение откроет внутреннее пространство корабля вакууму.",
     "strImg": "containers/ItmStorageBinFloor1x103Dmg02",
     "strImgNorm": "containers/ItmStorageBinFloor1x101Dmg02n",
     "strPortraitImg": "containers/ItmStorageBinFloor1x103Dmg02",
@@ -1266,7 +1266,7 @@
   {
     "strName": "ItmStorageBinFloor1x103bDmg",
     "strNameFriendly": "Подпольный ящик (поврежден)",
-    "strDesc": "Линейка переборочных ящиков «Uplift» от Mobile Space System славится компактными, но элегантными неоригинальными решениями для хранения, эргономически спроектированными для удобства обычных людей.",
+    "strDesc": "Линейка переборочных ящиков «Uplift» от Mobile Space System славится компактными, но элегантными неоригинальными решениями для хранения, эргономически спроектированными для удобства обычных людей.\n\nПРЕДУПРЕЖДЕНИЕ: подпольные ящики служат герметичным полом, поэтому повреждение откроет внутреннее пространство корабля вакууму.",
     "strImg": "containers/ItmStorageBinFloor1x103bDmg02",
     "strImgNorm": "containers/ItmStorageBinFloor1x101Dmg02n",
     "strPortraitImg": "containers/ItmStorageBinFloor1x103bDmg02",

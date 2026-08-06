@@ -33,7 +33,7 @@
     "strImage": "encounters/ENCPlanetSunrise",
     "bPause": true,
     "bIgnoreFeelings": true,
-    "strTooltip": "PLACEHOLDER: The player clicks on something to begin the denouement."
+    "strTooltip": "ЗАГЛУШКА: игрок нажимает на объект, чтобы начать развязку."
   },
   {
     "strName": "DenouementStart2",

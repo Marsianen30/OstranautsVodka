@@ -360,7 +360,7 @@
   {
     "strName": "PLOT_Merga_WhispersFound05",
     "strTitle": "Посмотреть новости: чемпион RCS-гонок",
-    "strDesc": "[us] наблюдает [them] повнимательнее и учится о венерианской гоночной иконе [3rd] и недавних скандалах [3rd-pos].",
+    "strDesc": "[us] внимательнее смотрит [them] и узнаёт о венерианской гоночной иконе [3rd] и недавних скандалах [3rd-pos].",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [

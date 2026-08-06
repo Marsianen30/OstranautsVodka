@@ -22,7 +22,7 @@
   {
     "strName": "InspectBraincase",
     "strTitle": "Осмотреть",
-    "strTooltip": "Handle with care.",
+    "strTooltip": "Обращаться осторожно.",
     "fForcedChance": 1,
     "strColor": "Dialogue",
     "aInverse": [
@@ -1802,7 +1802,7 @@
     "strName": "InspectBraincase2",
     "strTitle": "Связаться с мозговой оболочкой",
     "strDesc": "Ты надеваешь кибернетические принадлежности и принимаешь расслабленную позу.\n\nМедленно фоновый шум корабля заменяется белым шумом ветра и снега.\n\nДоктор Чунг поднимает взгляд от книги. «А, [us-surname]. Снова ко мне. Где мы остановились в прошлый раз?»",
-    "strTooltip": "Handle with care.",
+    "strTooltip": "Обращаться осторожно.",
     "fForcedChance": 1,
     "strColor": "Dialogue",
     "aInverse": [
@@ -1889,7 +1889,7 @@
     "strName": "InspectBraincase3",
     "strTitle": "Связаться с мозговой оболочкой",
     "strDesc": "Ты надеваешь кибернетические принадлежности и принимаешь расслабленную позу.\n\nМедленно фоновый шум корабля заменяется белым шумом ветра и снега.\n\nДоктор Чунг поднимает взгляд от книги. «А, [us-surname]. Снова ко мне. Где мы остановились в прошлый раз?»",
-    "strTooltip": "Handle with care.",
+    "strTooltip": "Обращаться осторожно.",
     "fForcedChance": 1,
     "strColor": "Dialogue",
     "aInverse": [

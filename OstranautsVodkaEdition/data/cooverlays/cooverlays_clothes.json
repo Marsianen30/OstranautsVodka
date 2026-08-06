@@ -1412,7 +1412,7 @@
   {
     "strName": "OutfitTShirt01",
     "strNameFriendly": "Футболка: Белая",
-    "strDesc": "Простая белая лёгкая, облегающая футболка.",
+    "strDesc": "Простая белая лёгкая, облегающая футболка.\n\nФутболка — один из немногих способов заявить о своём стиле под скафандром.",
     "strImg": "ItmTShirt01",
     "strImgNorm": "ItmTShirt01n",
     "strPortraitImg": "paperdoll/clothing/portTShirt01",
@@ -1430,7 +1430,7 @@
   {
     "strName": "OutfitTShirt02",
     "strNameFriendly": "Футболка: Оранжевая",
-    "strDesc": "Оранжевая лёгкая, облегающая футболка.",
+    "strDesc": "Оранжевая лёгкая, облегающая футболка.\n\nФутболка — один из немногих способов заявить о своём стиле под скафандром.",
     "strImg": "ItmTShirt02",
     "strImgNorm": "ItmTShirt01n",
     "strPortraitImg": "paperdoll/clothing/portTShirt02",
@@ -1448,7 +1448,7 @@
   {
     "strName": "OutfitTShirt03",
     "strNameFriendly": "Футболка: Европа",
-    "strDesc": "Тёмно-синяя облегающая футболка с принтом Европы.",
+    "strDesc": "Тёмно-синяя облегающая футболка с принтом Европы.\n\nФутболка — один из немногих способов заявить о своём стиле под скафандром.",
     "strImg": "ItmTShirt03",
     "strImgNorm": "ItmTShirt01n",
     "strPortraitImg": "paperdoll/clothing/portTShirt03",
@@ -1484,7 +1484,7 @@
   {
     "strName": "OutfitTShirt05",
     "strNameFriendly": "Футболка: Ayotimiwa",
-    "strDesc": "Облегающая футболка с брендингом Ayotimiwa.",
+    "strDesc": "Облегающая футболка с брендингом Ayotimiwa.\n\nФутболка — один из немногих способов заявить о своём стиле под скафандром.",
     "strImg": "ItmTShirt05",
     "strImgNorm": "ItmTShirt01n",
     "strPortraitImg": "paperdoll/clothing/portTShirt05",

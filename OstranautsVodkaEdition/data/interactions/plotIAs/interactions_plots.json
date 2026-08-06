@@ -922,7 +922,7 @@
   {
     "strName": "PLOT_Messenger_OfferTrigger",
     "strTitle": "Триггер предложения курьера",
-    "strDesc": "Игрок должен согласиться или отказаться помочь [them] с [them-pos] делом, поговорив с [3rd-obj].",
+    "strDesc": "[us] следует согласиться или отказаться помочь [them] с [them-pos] делом, поговорив с [3rd].",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -1644,7 +1644,7 @@
   {
     "strName": "PLOT_Messenger02_OfferTrigger",
     "strTitle": "Триггер предложения курьера",
-    "strDesc": "Игрок должен согласиться или отказаться помочь [them] с [them-pos] делом, поговорив с [3rd-obj].",
+    "strDesc": "[us] следует согласиться или отказаться помочь [them] с соперником [them-pos] по карьере, убедив [3rd] отступить.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -3069,7 +3069,7 @@
   {
     "strName": "PLOT_MessengerCorp_OfferTrigger",
     "strTitle": "Триггер предложения курьера",
-    "strDesc": "Игрок должен согласиться или отказаться помочь [them] с [them-pos] делом, поговорив с [3rd-obj].",
+    "strDesc": "[us] следует согласиться или отказаться помочь [them] с [them-pos] делом, поговорив с [3rd].",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -4069,7 +4069,7 @@
   {
     "strName": "PLOT_MessengerFamily_OfferTrigger",
     "strTitle": "Триггер предложения курьера",
-    "strDesc": "Игрок должен согласиться или отказаться помочь [them] с [them-pos] делом, поговорив с [3rd-obj].",
+    "strDesc": "[us] следует согласиться или отказаться помочь [them] с семейным делом [them-pos], поговорив с [3rd].",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -5200,7 +5200,7 @@
   {
     "strName": "PLOT_MessengerLegal_OfferTrigger",
     "strTitle": "Триггер предложения официального курьера",
-    "strDesc": "Игрок должен согласиться или отказаться помочь [them] с [them-pos] делом, поговорив с [3rd-obj].",
+    "strDesc": "[us] следует согласиться или отказаться помочь [them] с [them-pos] делом, поговорив с [3rd].",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -6143,7 +6143,7 @@
   {
     "strName": "PLOT_MessengerRomantic_OfferTrigger",
     "strTitle": "Триггер предложения курьера",
-    "strDesc": "Игрок должен согласиться или отказаться помочь [them] с [them-pos] делом, поговорив с [3rd-obj].",
+    "strDesc": "[us] следует согласиться или отказаться помочь [them] с [them-pos] делом, найдя подходящего партнёра, готового попробовать.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -7468,7 +7468,7 @@
   {
     "strName": "PLOT_MessengerTechnical_OfferTrigger",
     "strTitle": "Триггер предложения курьера",
-    "strDesc": "Игрок должен согласиться или отказаться помочь [them] с [them-pos] делом, поговорив с [3rd-obj].",
+    "strDesc": "[us] следует согласиться или отказаться помочь [them] с технической проблемой [them-pos], поговорив с [3rd].",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -9281,7 +9281,7 @@
   {
     "strName": "PLOTOKLGCritter05aAllow",
     "strTitle": "После игры со щенком",
-    "strDesc": "После бурных игр, сотрясающих стены, он в конце концов неохотно отступает.",
+    "strDesc": "После бурной возни, сотрясающей стены, зверёк наконец неохотно отступает.\nЕго глаза сияют надеждой, что [us] вернётся позже.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -9324,7 +9324,7 @@
   {
     "strName": "PLOTOKLGCritter05bAllow",
     "strTitle": "После игры с котиком",
-    "strDesc": "После ласок и мурлыканья, эхом отдающихся от стен, он в конце концов неохотно отступает.",
+    "strDesc": "После ласк и мурлыканья, эхом отдающихся от стен, зверёк наконец неохотно отступает.\nЕго глаза сияют надеждой, что [us] вернётся позже.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -9367,7 +9367,7 @@
   {
     "strName": "PLOTOKLGCritter05cAllow",
     "strTitle": "После игры с крысой",
-    "strDesc": "Покувыркавшись между пальцев и отвевив на слова умным писком, зверёк неохотно уходит.",
+    "strDesc": "Покувыркавшись между пальцами и отвечая на слова умным писком, зверёк неохотно уходит.\nЕго глаза сияют надеждой, что [us] вернётся позже.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],
@@ -9410,7 +9410,7 @@
   {
     "strName": "PLOTOKLGCritter05dAllow",
     "strTitle": "После игры с бородатой агамой",
-    "strDesc": "Оно издает радостные звуки в ответ на почесывания и слова, пока в конце концов неохотно не отступает.",
+    "strDesc": "Зверёк радостно откликается на почёсывания и слова, пока наконец неохотно не отступает.\nЕго глаза сияют надеждой, что [us] вернётся позже.",
     "strActionGroup": "Use",
     "bIgnoreFeelings": true,
     "aInverse": [],

@@ -2,7 +2,7 @@
   {
     "strName": "ACTMine",
     "strTitle": "Добыча",
-    "strDesc": "[us] готовит добывать [them].",
+    "strDesc": "[us] готовится добывать [them].",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
     "fTargetPointRange": 1,
@@ -33,7 +33,7 @@
   {
     "strName": "ACTMineBig",
     "strTitle": "Добыча",
-    "strDesc": "[us] готовит добывать [them].",
+    "strDesc": "[us] готовится добывать [them].",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
     "fTargetPointRange": 3,
@@ -63,7 +63,7 @@
   {
     "strName": "ACTMineDrill01",
     "strTitle": "Добыча",
-    "strDesc": "[us] готовит добывать [them].",
+    "strDesc": "[us] готовится добывать [them].",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
     "fTargetPointRange": 1,
@@ -92,7 +92,7 @@
   {
     "strName": "ACTMineDrill02",
     "strTitle": "Добыча",
-    "strDesc": "[us] готовит добывать [them] эргономично.",
+    "strDesc": "[us] готовится добывать [them] эргономично.",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
     "fTargetPointRange": 1,
@@ -173,7 +173,7 @@
   {
     "strName": "ACTDenyUnmineable",
     "strTitle": "Отказ: нельзя добывать",
-    "strDesc": "[us] останавливается добычу. Цель нельзя добыть.",
+    "strDesc": "[us] прекращает добычу: цель нельзя добыть.",
     "strTargetPoint": "use",
     "fTargetPointRange": 1,
     "strAnim": null,
@@ -316,7 +316,7 @@
   {
     "strName": "ACTMineDeposit",
     "strTitle": "Добыча залежи",
-    "strDesc": "[us] готовит добывать [them].",
+    "strDesc": "[us] готовится добывать [them].",
     "strTargetPoint": "use",
     "strActionGroup": "Use",
     "fTargetPointRange": 1,
