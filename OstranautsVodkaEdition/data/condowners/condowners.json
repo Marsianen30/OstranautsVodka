@@ -16805,7 +16805,9 @@
     "aUpdateCommands": [],
     "mapGUIPropMaps": [
       "Panel A",
-      "JobKiosk"
+      "JobKiosk",
+      "Panel Right",
+      "Bounties"
     ],
     "strPortraitImg": "ItmKioskJobs02",
     "jsonPI": null
@@ -16849,7 +16851,9 @@
     "aUpdateCommands": [],
     "mapGUIPropMaps": [
       "Panel A",
-      "JobKiosk"
+      "JobKiosk",
+      "Panel Right",
+      "Bounties"
     ],
     "strPortraitImg": "ItmKioskJobs03",
     "jsonPI": null
@@ -30990,6 +30994,14 @@
     ],
     "aUpdateCommands": [
       "Destructable,StatDamage,ACTTechDestroy,StatDamageMax,1.0"
+    ],
+    "mapGUIPropMaps": [
+      "Panel A",
+      "Trade",
+      "Trade",
+      "Trade",
+      "Trader",
+      "TraderVendingMachineCoffee"
     ],
     "strContainerCT": "TIsFitContainerUnlimited",
     "mapPoints": [

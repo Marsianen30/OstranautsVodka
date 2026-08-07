@@ -981,24 +981,6 @@
     "bRecheckThisPlot": true
   },
   {
-    "strName": "Scholar_Isambard_Contact",
-    "strTitle": "Isambard выходит на связь",
-    "fForcedChance": 1,
-    "strColor": "Dialogue",
-    "strActionGroup": "Use",
-    "strRaiseUI": "SocialCombat",
-    "strSubUI": "Landscape01",
-    "strImage": "encounters/ENCPlanetSunrise",
-    "bPause": true,
-    "bIgnoreFeelings": true,
-    "CTTestUs": "CTPlot_Scholar_Isambard_Contact",
-    "strDesc": "привет дорогуша это проверка",
-    "LootCondsUs": "CONDPLOT_Scholar_Isambard_Contact",
-    "aInverse": [
-      "ENCFinish"
-    ]
-  },
-  {
     "strName": "AVClub_FirstWatch_Extras",
     "strTitle": "Попросить комментарий из «Дополнительных материалов» Smiley",
     "fForcedChance": 1,

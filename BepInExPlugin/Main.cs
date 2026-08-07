@@ -350,14 +350,17 @@ namespace OstranautsRuTranslation
             string[] obj = { "меня", "тебя", "его", "её", "их", "его" };
             string[] refl = { "себя", "себя", "себя", "себя", "себя", "себя" };
             string[] cIs = { "я", "ты", "он", "она", "они", "оно" };
-            string[] cHas = { "я", "ты", "у него", "у неё", "у них", "у него" };
+            string[] cHas = { "у меня", "у тебя", "у него", "у неё", "у них", "у него" };
             string[] cWill = { "я", "ты", "он", "она", "они", "оно" };
+            string[] cWould = { "я бы", "ты бы", "он бы", "она бы", "они бы", "оно бы" };
             string[] SubjS = { "Я", "Ты", "Он", "Она", "Они", "Оно" };
             string[] PossS = { "Мой", "Твой", "Его", "Её", "Их", "Его" };
             string[] ObjS = { "Меня", "Тебя", "Его", "Её", "Их", "Его" };
             string[] RefS = { "Себя", "Себя", "Себя", "Себя", "Себя", "Себя" };
             string[] CIsS = { "Я", "Ты", "Он", "Она", "Они", "Оно" };
+            string[] CHasS = { "У меня", "У тебя", "У него", "У неё", "У них", "У него" };
             string[] CWillS = { "Я", "Ты", "Он", "Она", "Они", "Оно" };
+            string[] CWouldS = { "Я бы", "Ты бы", "Он бы", "Она бы", "Они бы", "Оно бы" };
 
             pos.Clear();
             posc.Clear();
@@ -368,16 +371,28 @@ namespace OstranautsRuTranslation
             pos[GrammarUtils.GrammarLUTIndex.ContractIs] = cIs;
             pos[GrammarUtils.GrammarLUTIndex.ContractHas] = cHas;
             pos[GrammarUtils.GrammarLUTIndex.ContractWill] = cWill;
+            TrySetGrammarEntry(pos, "ContractWould", cWould);
             posc[GrammarUtils.GrammarLUTIndex.Subjective] = SubjS;
             posc[GrammarUtils.GrammarLUTIndex.Possessive] = PossS;
             posc[GrammarUtils.GrammarLUTIndex.Objective] = ObjS;
             posc[GrammarUtils.GrammarLUTIndex.Reflexive] = RefS;
             posc[GrammarUtils.GrammarLUTIndex.ContractIs] = CIsS;
+            posc[GrammarUtils.GrammarLUTIndex.ContractHas] = CHasS;
             posc[GrammarUtils.GrammarLUTIndex.ContractWill] = CWillS;
+            TrySetGrammarEntry(posc, "ContractWould", CWouldS);
 
             Log?.LogInfo($"[RU] Grammar replaced: {pos.Count}/{posc.Count} entries");
 
             RegisterVerbsInDictVerbs();
+        }
+
+        private static void TrySetGrammarEntry(
+            Dictionary<GrammarUtils.GrammarLUTIndex, string[]> dictionary,
+            string enumName,
+            string[] values)
+        {
+            if (!Enum.TryParse(enumName, out GrammarUtils.GrammarLUTIndex index)) return;
+            dictionary[index] = values;
         }
     }
 

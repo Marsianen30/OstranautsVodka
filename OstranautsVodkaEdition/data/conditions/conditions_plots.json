@@ -8828,30 +8828,6 @@
     "strDesc": "[us] делает передышку между фазами 1 и 2."
   },
   {
-    "strName": "Plot_Scholar_Isambard_Contact_Completed",
-    "strDesc": "Завершено Scholar_Isambard_Contact",
-    "bResetTimer": false,
-    "nDisplaySelf": 0,
-    "nDisplayOther": 0,
-    "nDisplayType": 0,
-    "fConversionFactor": 0,
-    "bInvert": false,
-    "bFatal": false,
-    "bKO": false,
-    "bAlert": false,
-    "bRemoveAll": false,
-    "bPersists": false,
-    "bNegative": false,
-    "bRoom": false,
-    "bRemoveOnLoad": false,
-    "bQABRefresh": false,
-    "bRELOnly": false,
-    "bCondRuleTrackAlways": false,
-    "bCondRuleTrackInvert": false,
-    "fDuration": 0,
-    "fClampMax": 0
-  },
-  {
     "strName": "Plot_VideotapeDecideResearch_Completed",
     "strDesc": "Завершено VideotapeDecideResearch"
   },
