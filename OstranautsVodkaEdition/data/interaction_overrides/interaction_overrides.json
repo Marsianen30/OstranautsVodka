@@ -65,7 +65,7 @@
     "strReplace": "WrongfullyAccusedBreakerBEG",
     "aOverrideValues": [
       "strTitle|Убедить отступить",
-      "strDesc|[us] [uses] все доступные [us-pos] приёмы общения, чтобы убедить [3rd] на время оставить [them-obj] в покое.",
+      "strDesc|[us] [uses] все доступные [us-pos] приёмы общения, чтобы убедить [3rd-obj] на время оставить [them-obj] в покое.",
       "strActionGroup|Use"
     ]
   },
@@ -89,7 +89,7 @@
     "strReplace": "WrongfullyAccusedManagerBEG",
     "aOverrideValues": [
       "strTitle|Передать угрозу",
-      "strDesc|[us] [uses] все доступные [us-pos] приёмы общения, чтобы убедить [3rd] оставить [them-obj] в покое.",
+      "strDesc|[us] [uses] все доступные [us-pos] приёмы общения, чтобы убедить [3rd-obj] оставить [them-obj] в покое.",
       "strActionGroup|Use",
       "strLootRELChangeThemSeesUs|RELFriendLossJob"
     ]
@@ -166,7 +166,7 @@
     "strReplace": "WrongfullyAccusedCrimMID",
     "aOverrideValues": [
       "strTitle|Осмотреть труп",
-      "strDesc|[us] [recognizes] тело [them-pos] как того, с кем [3rd] когда-то проводил время. Бывший любовник или, по крайней мере, очень близкий друг.",
+      "strDesc|[us] [recognizes] в теле [them-pos] того, с кем [3rd-subj] когда-то проводил время. Бывший любовник или, по крайней мере, очень близкий друг.",
       "strActionGroup|Use",
       "strLootRELChange3rdSeesUs|RELFriendJob"
     ]
