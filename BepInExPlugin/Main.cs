@@ -17,7 +17,7 @@ using UnityEngine.TextCore.LowLevel;
 
 namespace OstranautsRuTranslation
 {
-    [BepInPlugin("ru.nss.ostranautsrutranslation", "OstranautsRuTranslation", "3.2.2")]
+    [BepInPlugin("ru.nss.ostranautsrutranslation", "OstranautsRuTranslation", "3.2.3")]
     public class RuTranslation : BaseUnityPlugin
     {
         internal static ManualLogSource Log;
