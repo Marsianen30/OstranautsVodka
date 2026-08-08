@@ -196,7 +196,7 @@
   {
     "strName": "ACTBashAllowStrong",
     "strTitle": "Ударить (сильно)",
-    "strDesc": "[us] лупит на [them-obj].",
+    "strDesc": "[us] сильно бьёт [them-obj].",
     "strActionGroup": "Work",
     "strTargetPoint": null,
     "fTargetPointRange": 1,
@@ -1867,8 +1867,8 @@
   },
   {
     "strName": "ACTResumeTaskThem",
-    "strTitle": "Возобновить задачу.",
-    "strDesc": "[us] возобновляет задачи на [them-obj].",
+    "strTitle": "Возобновить задачу",
+    "strDesc": "[us] возобновляет задачу для [them-obj].",
     "strActionGroup": "Use",
     "fTargetPointRange": 0,
     "fDuration": 0.0,
@@ -6115,8 +6115,8 @@
   {
     "strName": "ACTTogglePower",
     "strTitle": "Рубильник питания",
-    "strDesc": "[us] [toggles] питание на [them-obj].",
-    "strTooltip": "Переключает питание вкл/выкл.",
+    "strDesc": "[us] [toggles] питание у [them-obj].",
+    "strTooltip": "Переключает питание: включает и выключает его.",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
     "fTargetPointRange": 1,
@@ -6433,7 +6433,7 @@
   {
     "strName": "ACTTVWatchNews",
     "strTitle": "Смотреть Новости",
-    "strDesc": "[us] решает смотреть новости на [them-obj].",
+    "strDesc": "[us] смотрит новости на [them-obj].",
     "strTooltip": "Тратит время на просмотр новостей.",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
@@ -6459,7 +6459,7 @@
   {
     "strName": "ACTTVWatchNewsAllow",
     "strTitle": "Просмотр новостей",
-    "strDesc": "[us] наблюдает новости на [them-obj].",
+    "strDesc": "[us] смотрит новости на [them-obj].",
     "strTooltip": "Тратит время на просмотр новостей.",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
@@ -6490,7 +6490,7 @@
   {
     "strName": "ACTTVWatchDrama",
     "strTitle": "Смотреть Повторы Драм",
-    "strDesc": "[us] решает смотреть повторы драм на [them-obj].",
+    "strDesc": "[us] смотрит повторы драм на [them-obj].",
     "strTooltip": "Тратит время на просмотр драматических повторов.",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
@@ -6518,7 +6518,7 @@
   {
     "strName": "ACTTVWatchDramaAllow",
     "strTitle": "Просмотр Повторов Драм",
-    "strDesc": "[us] наблюдает смотреть повторы драм на [them-obj].",
+    "strDesc": "[us] смотрит повторы драм на [them-obj].",
     "strTooltip": "Тратит время на просмотр драматических повторов.",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
@@ -6813,7 +6813,7 @@
   {
     "strName": "ACTUndamageABLTEMPAllow",
     "strTitle": "Заменить сердечник ABL",
-    "strDesc": "[us] заменяет сердечник ABL на [them-obj].",
+    "strDesc": "[us] заменяет сердечник ABL в [them-obj].",
     "strActionGroup": "Work",
     "strTargetPoint": null,
     "fTargetPointRange": 1,
@@ -7153,7 +7153,7 @@
   {
     "strName": "ACTWallAeroMirror1x3SlantAllow",
     "strTitle": "Изменение на зеркальный макет",
-    "strDesc": "[us] изменяется на зеркальный макет».",
+    "strDesc": "[us] изменяется на зеркальный макет.",
     "strActionGroup": "Work",
     "strTargetPoint": null,
     "fTargetPointRange": 2,
@@ -8487,7 +8487,7 @@
   },
   {
     "strName": "CGEncRareSalvageTakeItForYourselfSuccess",
-    "strTitle": "РИСК: Забрать для себя (Patient)",
+    "strTitle": "РИСК: Забрать для себя (Терпеливый)",
     "strDesc": "Корабль твоей мечты — у тебя есть такой, не отрицай, у всех здесь есть — корабль твоей мечты оснащен регулятором Miura. Если уж мечтать, то почему бы не мечтать по-крупному? И парой лазеров зажигания Weber, реактором Zhuangzi, и все это на корпусе Titan Shipyards. Твои каперские грамоты от пяти разных планетарных LEO вывешены в столовой экипажа. Dalisay транслирует свои занятия аэробикой из твоей комнаты отдыха. Подождите, на чем мы остановились? Ах да: вы разобрали регулятор и везете его обратно в свое общежитие, по частям, смена за сменой. Вы собираетесь спрятать его и сидеть на нем, как маленькое млекопитающее в спячке. Или, может быть, как пустынный цветок, ожидающий дождя. Это не безумие. Это совершенно нормальное поведение",
     "aLootItms": [
       "addus,ItmRareSalvageTakeItForYourself"
@@ -8503,7 +8503,7 @@
   },
   {
     "strName": "CGEncRareSalvageTakeItForYourselfFail",
-    "strTitle": "РИСК: Забрать для себя (Patient)",
+    "strTitle": "РИСК: Забрать для себя (Терпеливый)",
     "strDesc": "Ваш план состоит в том, чтобы действовать медленно и осторожно, дожидаться подходящего момента и любоваться Hydra только тогда, когда вы остаетесь с ней наедине. Но к седьмому дню перерыва очарование этой детали становится просто непосильным.\n\nВ тот момент, когда ваш руководитель дает сигнал, что он уходит в туалет, вы приступаете к делу, убежденные, что сможете снять деталь и спрятать ее в безопасном месте, пока он не вернется.\n\nНо пока вы успеваете демонтировать деталь, ваш руководитель возвращается и застает вас за тем, как вы прячете ее в малоизвестном воздуховоде 448, и вы не можете ничего сказать, чтобы убедить его, что она находится там, где и должна быть.\n\nВаш руководитель сообщает о нарушении в AyoSec, и корпорация проводит ваше судебное разбирательство и выносит приговор до конца смены. Два вооруженных офицера выводят вас с территории и отправляют прямо в изолятор.\n\nАзикиве-Бриг, управляемый AyoSec, не так страшен, как Прокофьев, но и идеальным его тоже не назовешь. Вам все равно придется проявить изобретательность, если вы хотите выбраться отсюда целым и невредимым.\n\n",
     "aLootItms": [],
     "aInverse": [
@@ -10710,7 +10710,7 @@
   {
     "strName": "GUIOneSheetUserGuide",
     "strTitle": "Просмотр Руководства Пользователя",
-    "strDesc": "[us] читает уководство пользователя, размещенное на [them-obj].",
+    "strDesc": "[us] читает руководство пользователя, размещённое на [them-obj].",
     "strTooltip": "Просматривает схему предмета и метки использования.",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
@@ -11003,7 +11003,7 @@
   {
     "strName": "GUINavStationSit",
     "strTitle": "Сесть",
-    "strDesc": "[us] сидит за [them]'s панель управления.",
+    "strDesc": "[us] сидит за панелью управления [them].",
     "strActionGroup": "Use",
     "fTargetPointRange": 0,
     "strIdleAnim": "Sitting",
@@ -11640,7 +11640,7 @@
   },
   {
     "strName": "GUITradeBuyOKLGLicenseE",
-    "strTitle": "Купить лицензию на 300 дней ($1 million)",
+    "strTitle": "Купить лицензию на 300 дней ($1 миллион)",
     "strDesc": "[us] просит Черную лицензию Ayotimiwa на утилизацию.",
     "strTooltip": "Покупает 300-дневную «Чёрную» официальную лицензию на утилизацию.",
     "strActionGroup": "Use",
@@ -11860,7 +11860,7 @@
   {
     "strName": "GUITradeUIOpen",
     "strTitle": "Начать Торговлю",
-    "strDesc": "[us] [opens] UI.",
+    "strDesc": "[us] [opens] интерфейс.",
     "strActionGroup": "Use",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
@@ -12107,8 +12107,8 @@
   },
   {
     "strName": "GUITransponder",
-    "strTitle": "Панель Управленияl",
-    "strDesc": "[us] получает доступ [them-pos] панель.",
+    "strTitle": "Панель управления",
+    "strDesc": "[us] получает доступ к панели [them-pos].",
     "strTooltip": "Получает доступ к настройкам переопределения, циферблатам и переключателям панели управления цели.",
     "strActionGroup": "Use",
     "strTargetPoint": "use",
@@ -12474,7 +12474,7 @@
   {
     "strName": "JOBKioskDropoff",
     "strTitle": "Курьер — сдача в киоск",
-    "strDesc": "Доставка посылок в киоск Gig Nexus»",
+    "strDesc": "Доставка посылок в киоск Gig Nexus.",
     "strActionGroup": "Use",
     "nLogging": 0,
     "strTargetPoint": null,
