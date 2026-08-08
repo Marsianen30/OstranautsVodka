@@ -2510,7 +2510,7 @@
   {
     "strName": "ACTLockResetTEMPAllow",
     "strTitle": "Сброс к заводским настройкам TEMP",
-    "strDesc": "[us] factory [resets] [them].",
+    "strDesc": "[us] [resets] [them] к заводским настройкам.",
     "strActionGroup": "Use",
     "strTargetPoint": null,
     "fTargetPointRange": 1,
@@ -10279,7 +10279,7 @@
   },
   {
     "strName": "GUIHire",
-    "strTitle": "Нанять (debug)",
+    "strTitle": "Нанять (отладка)",
     "strDesc": "[us] хочет обсудить с [them-obj] вопросы найма.",
     "strTooltip": "Начинает переговоры о найме.",
     "strActionGroup": "Talk",
@@ -10305,7 +10305,7 @@
   },
   {
     "strName": "GUIHireFire",
-    "strTitle": "Уволить (debug)",
+    "strTitle": "Уволить (отладка)",
     "strDesc": "[us] хочет обсудить с [them-obj] вопрос о трудоустройстве.",
     "strTooltip": "Завершает трудоустройство цели в экипаже.",
     "strActionGroup": "Talk",
@@ -10379,7 +10379,7 @@
   {
     "strName": "GUIJobsAllow",
     "strTitle": "",
-    "strDesc": "[them] начинает просматривать gigs.",
+    "strDesc": "[them] начинает просматривать заказы.",
     "strActionGroup": "Use",
     "strTargetPoint": null,
     "fTargetPointRange": 0,
