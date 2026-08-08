@@ -11,28 +11,6 @@
     "PSpecTestThem": "AF_BeltPirates"
   },
   {
-    "strName": "AF_BCERLEO",
-    "strTitle": "Тест фракции: CCRE LEO",
-    "strColor": "Neutral",
-    "aInverse": [],
-    "fDuration": 0.0,
-    "strThemType": "Self",
-    "nLogging": 0,
-    "bIgnoreFeelings": true,
-    "PSpecTestThem": "AF_BCERLEO"
-  },
-  {
-    "strName": "AF_BCRSLEO",
-    "strTitle": "Тест фракции: LEO Галилейской Конфедерации",
-    "strColor": "Neutral",
-    "aInverse": [],
-    "fDuration": 0.0,
-    "strThemType": "Self",
-    "nLogging": 0,
-    "bIgnoreFeelings": true,
-    "PSpecTestThem": "AF_BCRSLEO"
-  },
-  {
     "strName": "AF_OKLGCiv",
     "strTitle": "Тест фракции: Гражданские OKLG",
     "strColor": "Neutral",
@@ -54,6 +32,7 @@
     "bIgnoreFeelings": true,
     "PSpecTestThem": "AF_OKLGCorp"
   },
+
   {
     "strName": "AF_OKLGCrim",
     "strTitle": "Тест фракции: Преступники OKLG",
